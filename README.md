@@ -1,0 +1,2 @@
+# vlibras-dictionary-repository
+
