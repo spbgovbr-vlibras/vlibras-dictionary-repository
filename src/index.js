@@ -4,6 +4,7 @@ import fs from 'fs';
 import http from 'http';
 import https from 'https';
 import app from './app/app';
+import signsSuggestorDaemon from './app/daemons/signsSuggestorDaemon'
 import { serverInfo, serverWarning, serverError } from './app/util/debugger';
 
 const getSSL = function getSSLCertificates() {
@@ -62,7 +63,7 @@ const onListening = function onListeningEvent(addr) {
   serverInfo(`Listening on ${bind}`);
 };
 
-const startHTTPServer = async function startHTTPServerListen() {
+const startHTTPServer = function startHTTPServerListen() {
   serverInfo('Starting HTTP Server');
   const httpServer = http.createServer(app);
   httpServer.listen(app.get('HTTPPort'));
@@ -74,6 +75,11 @@ const startHTTPServer = async function startHTTPServerListen() {
   httpSecureServer.listen(app.get('HTTPSPort'));
   httpSecureServer.on('error', (err) => { onError(err, app.get('HTTPSPort')); });
   httpSecureServer.on('listening', () => { onListening(httpSecureServer.address()); });
+
+  serverInfo('Starting Daemons');
+  signsSuggestorDaemon().catch((error) => {
+    console.error(error);
+  });
 };
 
 app.set('HTTPPort', normalizePort(process.env.HTTPPORT || '80'));
