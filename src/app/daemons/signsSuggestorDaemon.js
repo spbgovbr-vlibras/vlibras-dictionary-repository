@@ -1,6 +1,6 @@
 import axios from 'axios';
 import env from '../../config/environment';
-import { serverError } from '../util/debugger';
+import { daemonInfo, daemonError } from '../util/debugger';
 import {
   authenticateOnWikilibras,
   whoAmIOnWikilibras,
@@ -53,22 +53,23 @@ const suggestNewSign = async function suggestNewSignToWikilibras(sign, wikilibra
 };
 
 const signsSuggestorDaemon = async function wikilibrasSignsSuggestorDaemon() {
-  // setInterval(async () => {
-  try {
-    const bearerToken = await authenticateOnWikilibras();
-    const wikilibrasUserID = await whoAmIOnWikilibras(bearerToken);
-    const missingSigns = await getMissingSigns();
+  setInterval(async () => {
+    try {
+      daemonInfo('Suggesting new signs for Wikilibras');
+      const bearerToken = await authenticateOnWikilibras();
+      const wikilibrasUserID = await whoAmIOnWikilibras(bearerToken);
+      const missingSigns = await getMissingSigns();
 
-    const promisesList = [];
-    for (let i = 0; i < missingSigns.length; i += 1) {
-      promisesList.push(suggestNewSign(missingSigns[i], wikilibrasUserID));
+      const promisesList = [];
+      for (let i = 0; i < missingSigns.length; i += 1) {
+        promisesList.push(suggestNewSign(missingSigns[i], wikilibrasUserID));
+      }
+
+      await Promise.all(promisesList);
+    } catch (error) {
+      daemonError(error.message);
     }
-
-    await Promise.all(promisesList);
-  } catch (error) {
-    serverError(error.message);
-  }
-  // }, env.SIGNS_SUGGESTION_INTERVAL);
+  }, env.SIGNS_SUGGESTION_INTERVAL);
 };
 
 export default signsSuggestorDaemon;

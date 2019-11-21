@@ -42,7 +42,7 @@ const whoAmIOnWikilibras = async function whoAmIOnWikilibrasServer(bearerToken) 
 
 const postNewTaskOnWikilibras = async function postNewTaskOnWikilibrasServer(taskData) {
   try {
-    const response = await wikilibrasRequest.post({
+    const response = await wikilibrasRequest({
       method: 'post',
       url: env.WIKILIBRAS_NEWTASK_URL,
       data: taskData,
@@ -57,7 +57,7 @@ const postNewTaskOnWikilibras = async function postNewTaskOnWikilibrasServer(tas
 
 const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer(actionData) {
   try {
-    await wikilibrasRequest.post(env.WIKILIBRAS_NEWACTION_URL, { actionData });
+    await wikilibrasRequest.post(env.WIKILIBRAS_NEWACTION_URL, actionData);
   } catch (error) {
     throw new Error(`WikilibrasNewActionRequestError: ${error.message}`);
   }
@@ -65,7 +65,7 @@ const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer
 
 const resetTaskUserOnWikilibras = async function resetTaskUserOnWikilibrasServer(taskID) {
   try {
-    const resetTaskUserURL = new URL(taskID, env.WIKILIBRAS_TASK_USER_URL);
+    const resetTaskUserURL = `${env.WIKILIBRAS_TASK_USER_URL}/${taskID}`;
     await wikilibrasRequest.put(resetTaskUserURL, { current_user_id: null });
   } catch (error) {
     throw new Error(`WikilibrasResetTaskUserRequestError: ${error.message}`);
