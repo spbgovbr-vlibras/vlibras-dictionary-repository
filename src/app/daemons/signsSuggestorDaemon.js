@@ -1,4 +1,5 @@
 import axios from 'axios';
+import redisConnection from '../util/redisConnection';
 import env from '../../config/environment';
 import { daemonInfo, daemonError } from '../util/debugger';
 import {
@@ -28,6 +29,16 @@ const getMissingSigns = async function getMissingSignsRanking() {
   }
 };
 
+const removeAlreadySuggested = async function removeAlreadySuggestedSigns(missingSigns) {
+  try {
+    const redisClient = await redisConnection();
+    const alreadySuggestedSigns = await redisClient.keys('*');
+    return missingSigns.filter((x) => !alreadySuggestedSigns.includes(x));
+  } catch (error) {
+    throw new Error(error.message);
+  }
+};
+
 const suggestNewSign = async function suggestNewSignToWikilibras(sign, wikilibrasUserID) {
   try {
     const taskID = await postNewTaskOnWikilibras({
@@ -47,6 +58,9 @@ const suggestNewSign = async function suggestNewSignToWikilibras(sign, wikilibra
     });
 
     await resetTaskUserOnWikilibras(taskID);
+
+    const redisClient = await redisConnection();
+    redisClient.set(sign, sign);
   } catch (error) {
     throw new Error(`Failed to suggest '${sign}': ${error.message}`);
   }
@@ -59,10 +73,11 @@ const signsSuggestorDaemon = async function wikilibrasSignsSuggestorDaemon() {
       const bearerToken = await authenticateOnWikilibras();
       const wikilibrasUserID = await whoAmIOnWikilibras(bearerToken);
       const missingSigns = await getMissingSigns();
+      const signsToSuggest = await removeAlreadySuggested(missingSigns);
 
       const promisesList = [];
-      for (let i = 0; i < missingSigns.length; i += 1) {
-        promisesList.push(suggestNewSign(missingSigns[i], wikilibrasUserID));
+      for (let i = 0; i < signsToSuggest.length; i += 1) {
+        promisesList.push(suggestNewSign(signsToSuggest[i], wikilibrasUserID));
       }
 
       await Promise.all(promisesList);
