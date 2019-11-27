@@ -4,7 +4,8 @@ import fs from 'fs';
 import http from 'http';
 import https from 'https';
 import app from './app/app';
-import signsSuggestorDaemon from './app/daemons/signsSuggestorDaemon'
+import signsSuggestorDaemon from './app/daemons/signsSuggestorDaemon';
+import blendToBundleDaemon from './app/daemons/blendToBundleDaemon';
 import { serverInfo, serverWarning, serverError } from './app/util/debugger';
 
 const getSSL = function getSSLCertificates() {
@@ -77,9 +78,8 @@ const startHTTPServer = function startHTTPServerListen() {
   httpSecureServer.on('listening', () => { onListening(httpSecureServer.address()); });
 
   serverInfo('Starting Daemons');
-  signsSuggestorDaemon().catch((error) => {
-    console.error(error);
-  });
+  signsSuggestorDaemon();
+  blendToBundleDaemon();
 };
 
 app.set('HTTPPort', normalizePort(process.env.HTTPPORT || '80'));
