@@ -19,7 +19,11 @@ const blendToBundleDaemon = async function blendToBundleConversorDaemon() {
         { timeout: Number(env.SIGNS_BUILD_TIMEOUT), killSignal: 'SIGKILL' },
       );
     } catch (error) {
-      daemonError('', error.message);
+      if (error.killed) {
+        daemonError('', `${error.message} received signal ${error.signal}`);
+      } else {
+        daemonError('', `${error.message} exited with exit code ${error.code}`);
+      }
     }
   }, env.SIGNS_BUILD_INTERVAL);
 };
