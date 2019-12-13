@@ -3,12 +3,11 @@ import redisConnection from '../util/redisConnection';
 import env from '../../config/environment';
 import { daemonInfo, daemonError } from '../util/debugger';
 import {
-  authenticateOnWikilibras,
-  whoAmIOnWikilibras,
+  getSuggestorIdOnWikilibras,
   postNewTaskOnWikilibras,
   postNewActionOnWikilibras,
-  resetTaskUserOnWikilibras,
-} from '../util/wikilibrasRequests';
+  resetUserTaskOnWikilibras,
+} from '../util/wikilibrasSuggestorRequests';
 
 const dictionaryStatsRequest = axios.create({
   baseURL: env.DICTIONARY_STATS_BASE_URL,
@@ -57,7 +56,7 @@ const suggestNewSign = async function suggestNewSignToWikilibras(sign, wikilibra
       user_id: wikilibrasUserID,
     });
 
-    await resetTaskUserOnWikilibras(taskID);
+    await resetUserTaskOnWikilibras(taskID);
 
     const redisClient = await redisConnection();
     redisClient.set(sign, sign);
@@ -70,14 +69,13 @@ const signsSuggestorDaemon = async function wikilibrasSignsSuggestorDaemon() {
   setInterval(async () => {
     try {
       daemonInfo('Suggesting new signs for Wikilibras');
-      const bearerToken = await authenticateOnWikilibras();
-      const wikilibrasUserID = await whoAmIOnWikilibras(bearerToken);
+      const suggestorId = await getSuggestorIdOnWikilibras();
       const missingSigns = await getMissingSigns();
       const signsToSuggest = await removeAlreadySuggested(missingSigns);
 
       const promisesList = [];
       for (let i = 0; i < signsToSuggest.length; i += 1) {
-        promisesList.push(suggestNewSign(signsToSuggest[i], wikilibrasUserID));
+        promisesList.push(suggestNewSign(signsToSuggest[i], suggestorId));
       }
 
       await Promise.all(promisesList);
