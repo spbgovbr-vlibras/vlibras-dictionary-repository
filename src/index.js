@@ -78,7 +78,7 @@ const startHTTPServer = function startHTTPServerListen() {
   httpSecureServer.on('listening', () => { onListening(httpSecureServer.address()); });
 
   serverInfo('Starting Daemons');
-  signsSuggestorDaemon();
+  // signsSuggestorDaemon();
   blendToBundleDaemon();
 };
 
