@@ -9,9 +9,9 @@ const axiosRequest = axios.create({
 
 axiosRequest.interceptors.response.use(null, async (error) => {
   if (error.config && error.response && error.response.status === 401) {
-    const requestConfig = error.config;
-    requestConfig.headers.Authorization = await authenticateSuggestorOnWikilibras();
-    return axiosRequest.request(requestConfig);
+    const authToken = await authenticateSuggestorOnWikilibras();
+    axiosRequest.defaults.headers.common.Authorization = authToken;
+    return axiosRequest.request(error.config);
   }
   return Promise.reject(error);
 });
