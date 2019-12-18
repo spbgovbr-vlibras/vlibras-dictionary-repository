@@ -11,9 +11,9 @@ const axiosRequest = axios.create({
 
 axiosRequest.interceptors.response.use(null, async (error) => {
   if (error.config && error.response && error.response.status === 401) {
-    const requestConfig = error.config;
-    requestConfig.headers.Authorization = await authenticatePublisherOnWikilibras();
-    return axiosRequest.request(requestConfig);
+    const authToken = await authenticatePublisherOnWikilibras();
+    axiosRequest.defaults.headers.common.Authorization = authToken;
+    return axiosRequest.request(error.config);
   }
   return Promise.reject(error);
 });
@@ -75,7 +75,7 @@ const getTaskHistoryOnWikilibras = async function getTaskHistoryOnWikilibrasServ
         return action;
       }
     }
-    return {};
+    return Promise.reject(new Error('WikilibrasTaskHistoryError: no sign generation action found'));
   } catch (error) {
     throw new Error(`WikilibrasTaskHistoryError: ${error.message}`);
   }
@@ -90,15 +90,17 @@ const getObjectOnWikilibras = async function getObjectOnWikilibrasServer(actionT
   }
 };
 
-const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer(blendURLPath) {
+const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer(taskID, blendURL) {
   try {
     const response = await axiosRequest({
       method: 'get',
-      url: `${env.WIKILIBRAS_DOWNLOAD_URL}/${blendURLPath}`,
+      url: `${env.WIKILIBRAS_DOWNLOAD_URL}/${blendURL}`,
       responseType: 'stream',
     });
 
-    const localBlendFilePath = path.join(env.BLEND_FILES_TMP_DIR, path.basename(blendURLPath));
+    const filenameRegex = /filename\*?=['"]?(?:UTF-\d['"]*)?([^;\r\n"']*)['"]?;?/;
+    const blendName = filenameRegex.exec(response.data.headers['content-disposition'])[1];
+    const localBlendFilePath = path.join(env.WIKILIBRAS_TMP_DOWNLOAD_DIR, blendName);
 
     await fs.promises.mkdir(path.dirname(localBlendFilePath), { recursive: true });
 
@@ -107,7 +109,7 @@ const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer
 
     return new Promise((resolve, reject) => {
       streamWriter.on('finish', () => {
-        resolve(localBlendFilePath);
+        resolve({ id: taskID, file: localBlendFilePath });
       });
       streamWriter.on('error', (error) => {
         reject(error);
@@ -115,6 +117,23 @@ const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer
     });
   } catch (error) {
     throw new Error(`WikilibrasDownloadBlendError: ${error.message}`);
+  }
+};
+
+const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer(actionData) {
+  try {
+    await axiosRequest.post(env.WIKILIBRAS_NEWACTION_URL, actionData);
+  } catch (error) {
+    throw new Error(`WikilibrasNewActionRequestError: ${error.message}`);
+  }
+};
+
+const updateTaskStateOnWikilibras = async function updateTaskStateOnWikilibrasServer(taskID) {
+  try {
+    const updateTaskStateURL = `${env.WIKILIBRAS_TASK_STATE_URL}/${taskID}`;
+    await axiosRequest.put(updateTaskStateURL, { task_state_id: 8 });
+  } catch (error) {
+    throw new Error(`WikilibrasSetUserTaskRequestError: ${error.message}`);
   }
 };
 
@@ -126,4 +145,6 @@ export {
   getTaskHistoryOnWikilibras,
   getObjectOnWikilibras,
   downloadBlendOnWikilibras,
+  postNewActionOnWikilibras,
+  updateTaskStateOnWikilibras,
 };
