@@ -19,7 +19,9 @@
     "helmet": "^3.21.2",
     "http-errors": "~1.6.2",
     "ioredis": "^4.14.1",
-    "morgan": "~1.9.0"
+    "lodash": "^4.17.15",
+    "morgan": "~1.9.0",
+    "node-cron": "^2.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.2",
