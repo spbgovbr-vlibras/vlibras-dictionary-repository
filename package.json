@@ -8,6 +8,7 @@
   ],
   "dependencies": {
     "@babel/runtime": "^7.6.2",
+    "agenda": "^3.0.0",
     "axios": "^0.18.1",
     "compression": "^1.7.4",
     "cookie-parser": "~1.4.3",

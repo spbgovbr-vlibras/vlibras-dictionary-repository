@@ -1,18 +1,40 @@
-import { forEach } from "lodash";
-import cron from "node-cron";
+import { forEach } from 'lodash';
+import Agenda from 'agenda';
+
+const { promisify } = require('util');
+const exec = promisify(require('child_process').exec);
 
 const tasks = [];
 
-export const createNewJob = (schedule, task) => {
-  console.log(`new task added: ${schedule}`);
+const mongoConnectionString =
+  'mongodb://127.0.0.1/agenda?useUnifiedTopology=true';
 
-  tasks.push({ schedule, task });
+async function dropBeforeStart() {
+  const res = await exec('mongo agenda --eval "db.dropDatabase()" --quiet');
+  return { res };
+}
+
+export const createNewJob = (schedule, description, task) => {
+  tasks.push({ schedule, description, task });
 };
 
-export const runAllJobs = () => {
-  console.log(`Number of tasks ${tasks.length}`);
+export const runAllJobs = async () => {
+  await dropBeforeStart();
 
-  forEach(tasks, ({ schedule, task }) => {
-    cron.schedule(schedule, task);
+  const agenda = new Agenda({
+    db: { address: mongoConnectionString },
+    processEvery: '1 second',
   });
+
+  forEach(tasks, async ({ description, task }) => {
+    agenda.define(description, task);
+  });
+
+  await new Promise((resolve) => agenda.once('ready', resolve));
+
+  forEach(tasks, async ({ schedule, description }) => {
+    await agenda.every(schedule, description);
+  });
+
+  agenda.start();
 };
