@@ -119,7 +119,7 @@ const blendToBundleDaemon = async function blendToBundleConversorDaemon() {
   // setInterval(async () => {
 
   try {
-    daemonInfo("\n\n\nBuilding new signs from Wikilibras\n\n\n");
+    daemonInfo("Building new signs from Wikilibras");
     const publisherId = await getPublisherIdOnWikilibras();
     const blendObjects = await getBlendObjects(publisherId);
 

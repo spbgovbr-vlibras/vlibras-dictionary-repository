@@ -85,9 +85,14 @@ const startHTTPServer = function startHTTPServerListen() {
   serverInfo("Starting Daemons");
   createNewJob(
     process.env.CRON_SIGNS_SUGGESTION_INTERVAL,
+    "signsSuggestorDaemon",
     signsSuggestorDaemon
   );
-  createNewJob(process.env.CRON_SIGNS_BUILD_INTERVAL, blendToBundleDaemon);
+  createNewJob(
+    process.env.CRON_SIGNS_BUILD_INTERVAL,
+    "blendToBundleDaemon",
+    blendToBundleDaemon
+  );
   runAllJobs();
 };
 
