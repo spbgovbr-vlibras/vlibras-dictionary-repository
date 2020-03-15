@@ -1,43 +1,45 @@
-import { forEach } from "lodash";
-import Agenda from "agenda";
-import { daemonInfo, daemonError } from "../util/debugger";
+import Agenda from 'agenda';
+import {forEach} from 'lodash';
+import {promisify} from 'util';
 
-const { promisify } = require("util");
-const exec = promisify(require("child_process").exec);
+import {daemonError} from '../util/debugger';
 
+const exec = promisify(require('child_process').exec);
 const tasks = [];
 
-const mongoConnectionString =
-  "mongodb://127.0.0.1/agenda?useUnifiedTopology=true";
 
-async function dropBeforeStart() {
-  const res = await exec('mongo agenda --eval "db.dropDatabase()" --quiet');
-  return { res };
-}
+const connectionString =
+    process.env.MONGO_CONNECTION_STRING + process.env.DATABASE;
+
 
 export const createNewJob = (schedule, description, task) => {
-  tasks.push({ schedule, description, task });
+  tasks.push({schedule, description, task});
 };
 
 export const runAllJobs = async () => {
   try {
-    await dropBeforeStart();
+    await exec(
+        `mongo ${process.env.DATABASE} --eval "db.dropDatabase()" --quiet`);
   } catch (e) {
     daemonError(e);
   }
 
   const agenda = new Agenda({
-    db: { address: mongoConnectionString },
-    processEvery: "1 second"
+    db: {
+      address: connectionString,
+      options: {useUnifiedTopology: false},
+    },
+    processEvery: '1 second'
   });
 
-  forEach(tasks, ({ description, task }) => {
+
+  forEach(tasks, ({description, task}) => {
     agenda.define(description, task);
   });
 
-  await new Promise(resolve => agenda.once("ready", resolve));
+  await new Promise(resolve => agenda.once('ready', resolve));
 
-  forEach(tasks, async ({ schedule, description }) => {
+  forEach(tasks, async ({schedule, description}) => {
     await agenda.every(schedule, description);
   });
 
