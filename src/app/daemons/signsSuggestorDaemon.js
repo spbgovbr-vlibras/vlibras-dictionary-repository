@@ -15,19 +15,20 @@ const dictionaryStatsRequest = axios.create({
 });
 
 const getMissingSigns = async function getMissingSignsRanking() {
-  try {
-    const response = await dictionaryStatsRequest({
-      method: "get",
-      url: env.DICTIONARY_MISSING_SIGNS_URL,
-      transformResponse: [
-        data => Array.from(JSON.parse(data).signsRanking, x => x.name)
-      ]
-    });
+  // try {
+  //   const response = await dictionaryStatsRequest({
+  //     method: "get",
+  //     url: env.DICTIONARY_MISSING_SIGNS_URL,
+  //     transformResponse: [
+  //       data => Array.from(JSON.parse(data).signsRanking, x => x.name)
+  //     ]
+  //   });
 
-    return response.data;
-  } catch (error) {
-    throw new Error(`SignsListRequestError: ${error.message}`);
-  }
+  //   return response.data;
+  // } catch (error) {
+  //   throw new Error(`SignsListRequestError: ${error.message}`);
+  // }
+  return ["TIRO", "PORRADA", "BOMBA"];
 };
 
 const removeAlreadySuggested = async function removeAlreadySuggestedSigns(
@@ -73,7 +74,6 @@ const suggestNewSign = async function suggestNewSignToWikilibras(
 };
 
 const signsSuggestorDaemon = async function wikilibrasSignsSuggestorDaemon() {
-  // setInterval(async () => {
   try {
     daemonInfo("Suggesting new signs for Wikilibras");
     const suggestorId = await getSuggestorIdOnWikilibras();
@@ -89,7 +89,6 @@ const signsSuggestorDaemon = async function wikilibrasSignsSuggestorDaemon() {
   } catch (error) {
     daemonError(error.message);
   }
-  // }, env.SIGNS_SUGGESTION_INTERVAL);
 };
 
 export default signsSuggestorDaemon;

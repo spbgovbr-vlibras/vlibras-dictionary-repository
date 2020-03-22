@@ -1,13 +1,13 @@
-import axios from 'axios';
-import env from '../../config/environment';
-import { authenticateSuggestorOnWikilibras } from './wikilibrasAuthentication';
+import axios from "axios";
+import env from "../../config/environment";
+import { authenticateSuggestorOnWikilibras } from "./wikilibrasAuthentication";
 
 const axiosRequest = axios.create({
   baseURL: env.WIKILIBRAS_BASE_URL,
-  timeout: 10000,
+  timeout: 10000
 });
 
-axiosRequest.interceptors.response.use(null, async (error) => {
+axiosRequest.interceptors.response.use(null, async error => {
   if (error.config && error.response && error.response.status === 401) {
     const authToken = await authenticateSuggestorOnWikilibras();
     axiosRequest.defaults.headers.common.Authorization = authToken;
@@ -19,9 +19,9 @@ axiosRequest.interceptors.response.use(null, async (error) => {
 const getSuggestorIdOnWikilibras = async function getSuggestorIdOnWikilibrasServer() {
   try {
     const response = await axiosRequest({
-      method: 'get',
+      method: "get",
       url: env.WIKILIBRAS_WHOAMI_URL,
-      transformResponse: [(data) => JSON.parse(data).user_id],
+      transformResponse: [data => JSON.parse(data).user_id]
     });
 
     return response.data;
@@ -30,22 +30,26 @@ const getSuggestorIdOnWikilibras = async function getSuggestorIdOnWikilibrasServ
   }
 };
 
-const postNewTaskOnWikilibras = async function postNewTaskOnWikilibrasServer(taskData) {
+const postNewTaskOnWikilibras = async function postNewTaskOnWikilibrasServer(
+  taskData
+) {
   try {
     const response = await axiosRequest({
-      method: 'post',
+      method: "post",
       url: env.WIKILIBRAS_NEWTASK_URL,
       data: taskData,
-      transformResponse: [(data) => JSON.parse(data).id],
+      transformResponse: [data => JSON.parse(data).id]
     });
 
     return response.data;
   } catch (error) {
-    throw new Error(`WikilibrasNewTaskRequestError: ${error.message}`);
+    throw new Error(`WikilibrasNewTaskRequestError1: ${error.message}`);
   }
 };
 
-const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer(actionData) {
+const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer(
+  actionData
+) {
   try {
     await axiosRequest.post(env.WIKILIBRAS_NEWACTION_URL, actionData);
   } catch (error) {
@@ -53,7 +57,9 @@ const postNewActionOnWikilibras = async function postNewActionOnWikilibrasServer
   }
 };
 
-const resetUserTaskOnWikilibras = async function resetUserTaskOnWikilibrasServer(taskID) {
+const resetUserTaskOnWikilibras = async function resetUserTaskOnWikilibrasServer(
+  taskID
+) {
   try {
     const updateUserTaskURL = `${env.WIKILIBRAS_USER_TASK_URL}/${taskID}`;
     await axiosRequest.put(updateUserTaskURL, { current_user_id: null });
@@ -66,5 +72,5 @@ export {
   getSuggestorIdOnWikilibras,
   postNewTaskOnWikilibras,
   postNewActionOnWikilibras,
-  resetUserTaskOnWikilibras,
+  resetUserTaskOnWikilibras
 };
