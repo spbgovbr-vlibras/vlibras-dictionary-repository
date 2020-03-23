@@ -28,7 +28,7 @@ const getMissingSigns = async function getMissingSignsRanking() {
   // } catch (error) {
   //   throw new Error(`SignsListRequestError: ${error.message}`);
   // }
-  return ["TIRO", "PORRADA", "BOMBA"];
+  return ["TERREMOTO"];
 };
 
 const removeAlreadySuggested = async function removeAlreadySuggestedSigns(

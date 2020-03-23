@@ -5,7 +5,7 @@ import http from "http";
 import https from "https";
 import app from "./app/app";
 import signsSuggestorDaemon from "./app/daemons/signsSuggestorDaemon";
-import BlendToBundle from "./app/daemons/blendToBundleDaemon";
+import setupAndStart from "./app/daemons/blendToBundleDaemon";
 import { serverInfo, serverWarning, serverError } from "./app/util/debugger";
 import { createNewJob, runAllJobs } from "./app/cron";
 
@@ -89,9 +89,7 @@ const startHTTPServer = function startHTTPServerListen() {
     signsSuggestorDaemon
   );
 
-  const blendToBundle = new BlendToBundle();
-  blendToBundle.setupAndStart();
-
+  setupAndStart();
   runAllJobs();
 };
 

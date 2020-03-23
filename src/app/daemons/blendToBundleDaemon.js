@@ -21,10 +21,12 @@ import {
 } from "../util/wikilibrasPublisherRequests";
 
 const execp = util.promisify(exec);
+
+var agenda = null;
+var blendObjects = [];
+var publisherId = -1;
 var taskRunning = false;
 const signsToBuild = [];
-var publisherId = -1;
-var blendObjects = [];
 
 const getBlendObjects = async function getBlendObjectsFromWikilibras(
   wikilibrasUserID
@@ -121,86 +123,71 @@ const removeAlreadyQueued = function removeAlreadyQueuedSigns(
   }
 };
 
-class BlendToBundle {
-  constructor() {
-    this.agenda = null;
+const setSignsToBuild = async () => {
+  daemonInfo("Checking for BlendObjects");
+
+  publisherId = await getPublisherIdOnWikilibras();
+  blendObjects = await getBlendObjects(publisherId);
+
+  const signsQueue = removeAlreadyQueued(signsToBuild, blendObjects);
+
+  signsToBuild.push(...signsQueue);
+};
+
+const generateBundles = async () => {
+  if (taskRunning || signsToBuild.length <= 0) {
+    if (taskRunning && signsToBuild.length > 0)
+      daemonInfo(`Remaining signsToBuild ${signsToBuild.length}`);
+    return;
+  }
+  daemonInfo("Building new signs from Wikilibras");
+  taskRunning = true;
+  try {
+    daemonInfo(`Building Bundle from ${path.basename(signsToBuild[0].file)}`);
+
+    const pathToMove = path.join(
+      env.INPUT_BLEND_FOLDER,
+      path.basename(signsToBuild[0].file)
+    );
+
+    await fsPromises.rename(signsToBuild[0].file, pathToMove);
+    await buildSignFromBlend();
+    await publishResult(publisherId, signsToBuild[0].id, true);
+  } catch (error) {
+    daemonError(error.message);
+    await publishResult(publisherId, signsToBuild[0].id, false);
+  } finally {
+    signsToBuild.shift();
+    taskRunning = false;
+  }
+};
+
+const setupAndStart = async () => {
+  try {
+    await execp(
+      `mongo ${env.BLEND_TO_BUNDLE_DATABASE} --eval "db.dropDatabase()" --quiet`
+    );
+  } catch (e) {
+    daemonError(e);
   }
 
-  async setSignsToBuild() {
-    daemonInfo("Checking for BlendObjects");
+  agenda = new Agenda({
+    db: {
+      address: env.MONGO_CONNECTION_STRING + env.BLEND_TO_BUNDLE_DATABASE,
+      options: { useUnifiedTopology: false }
+    },
+    processEvery: env.PROCESS_EVERY
+  });
 
-    publisherId = await getPublisherIdOnWikilibras();
-    blendObjects = await getBlendObjects(publisherId);
+  agenda.define("setSignsToBuild", setSignsToBuild);
+  agenda.define("generateBundles", generateBundles);
 
-    const signsQueue = removeAlreadyQueued(signsToBuild, blendObjects);
+  await new Promise(resolve => agenda.once("ready", resolve));
 
-    signsToBuild.push(...signsQueue);
-  }
+  await agenda.every(env.CRON_SIGNS_BUILD_INTERVAL, "setSignsToBuild");
+  await agenda.every(env.CRON_BUILD_BUNDLES, "generateBundles");
 
-  async generateBundles() {
-    if (taskRunning || signsToBuild.length <= 0) {
-      if (taskRunning && signsToBuild.length > 0)
-        daemonInfo(`Remaining signsToBuild ${signsToBuild.length}`);
-      return;
-    }
-    daemonInfo("Building new signs from Wikilibras");
-    taskRunning = true;
-    try {
-      daemonInfo(`Building Bundle from ${path.basename(signsToBuild[0].file)}`);
+  await agenda.start();
+};
 
-      const pathToMove = path.join(
-        env.INPUT_BLEND_FOLDER,
-        path.basename(signsToBuild[0].file)
-      );
-
-      await fsPromises.rename(signsToBuild[0].file, pathToMove);
-      await buildSignFromBlend();
-      await publishResult(publisherId, signsToBuild[0].id, true);
-    } catch (error) {
-      daemonError(error.message);
-      await publishResult(publisherId, signsToBuild[0].id, false);
-    } finally {
-      signsToBuild.shift();
-      taskRunning = false;
-    }
-  }
-
-  async setupAndStart() {
-    try {
-      await execp(
-        `mongo ${env.BLEND_TO_BUNDLE_DATABASE} --eval "db.dropDatabase()" --quiet`
-      );
-    } catch (e) {
-      daemonError(e);
-    }
-
-    this.agenda = new Agenda({
-      db: {
-        address: env.MONGO_CONNECTION_STRING + env.BLEND_TO_BUNDLE_DATABASE,
-        options: { useUnifiedTopology: false }
-      },
-      processEvery: "5 second"
-    });
-
-    this.agenda.define("setSignsToBuild", this.setSignsToBuild);
-    this.agenda.define("generateBundles", this.generateBundles);
-
-    await new Promise(resolve => this.agenda.once("ready", resolve));
-
-    await this.agenda.every(env.CRON_SIGNS_BUILD_INTERVAL, "setSignsToBuild");
-    await this.agenda.every(env.CRON_BUILD_BUNDLES, "generateBundles");
-
-    await this.agenda.start();
-
-    // this.agenda.on("fail:setSignsToBuild", err => {
-    //   daemonError(err);
-    // });
-
-    // this.agenda.on("fail:generateBundles", err => {
-    //   daemonError("deu erro aqui ó");
-    //   daemonError(err);
-    // });
-  }
-}
-
-export default BlendToBundle;
+export default setupAndStart;
