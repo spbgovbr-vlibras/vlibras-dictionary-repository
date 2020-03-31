@@ -5,6 +5,7 @@ import http from "http";
 import https from "https";
 import app from "./app/app";
 import signsSuggestorDaemon from "./app/daemons/signsSuggestorDaemon";
+import translateDaemon from "./app/daemons/translateSuggestorDaemon";
 import setupAndStart from "./app/daemons/blendToBundleDaemon";
 import { serverInfo, serverWarning, serverError } from "./app/util/debugger";
 import { createNewJob, runAllJobs } from "./app/cron";
@@ -83,13 +84,15 @@ const startHTTPServer = function startHTTPServerListen() {
   });
 
   serverInfo("Starting Daemons");
-  createNewJob(
-    process.env.CRON_SIGNS_SUGGESTION_INTERVAL,
-    "signsSuggestorDaemon",
-    signsSuggestorDaemon
-  );
+  // createNewJob(
+  //   process.env.CRON_SIGNS_SUGGESTION_INTERVAL,
+  //   "signsSuggestorDaemon",
+  //   signsSuggestorDaemon
+  // );
 
-  setupAndStart();
+  createNewJob(process.env.PROCESS_EVERY, "translateDaemon", translateDaemon);
+
+  // setupAndStart();
   runAllJobs();
 };
 
