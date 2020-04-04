@@ -1,13 +1,15 @@
+import { daemonError, daemonInfo } from "../util/debugger";
 import { getTranslationsWithoutReview } from "../util/statsApiRequests";
-import { daemonError, daemonInfo } from "./debugger";
+import { postTranslations } from "../util/wikilibrasTranslateSuggestorRequests";
 
-const translateDaemon = async () => {
+const translationDaemon = async () => {
   daemonInfo("Searching for new sentences for wikilibras");
   try {
     const data = await getTranslationsWithoutReview();
+    await postTranslations(data);
   } catch (error) {
     daemonError(`TranslateDaemonError: ${error.message}`);
   }
 };
 
-export default translateDaemon;
+export default translationDaemon;
