@@ -1,11 +1,10 @@
 import axios from "axios";
 import env from "../../config/environment";
-import { map } from "lodash";
 
 const statsRequest = axios.create({
   baseURL: env.TRANSLATE_STATS_BASE_URL,
   method: "GET",
-  timeout: 10000
+  timeout: 10000,
 });
 
 const getTranslationsWithoutReview = async () => {
@@ -14,10 +13,7 @@ const getTranslationsWithoutReview = async () => {
   try {
     const response = await statsRequest({
       url: query,
-      transformResponse: [
-        data =>
-          map(JSON.parse(data).reviewRanking, element => element.translation)
-      ]
+      transformResponse: [(data) => JSON.parse(data).reviewRanking],
     });
     return response.data;
   } catch (error) {
