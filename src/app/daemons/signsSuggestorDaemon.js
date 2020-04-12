@@ -6,12 +6,12 @@ import {
   getSuggestorIdOnWikilibras,
   postNewTaskOnWikilibras,
   postNewActionOnWikilibras,
-  resetUserTaskOnWikilibras
+  resetUserTaskOnWikilibras,
 } from "../util/wikilibrasSuggestorRequests";
 
 const dictionaryStatsRequest = axios.create({
   baseURL: env.DICTIONARY_STATS_BASE_URL,
-  timeout: 10000
+  timeout: 10000,
 });
 
 const getMissingSigns = async function getMissingSignsRanking() {
@@ -37,7 +37,7 @@ const removeAlreadySuggested = async function removeAlreadySuggestedSigns(
   try {
     const redisClient = await redisConnection();
     const alreadySuggestedSigns = await redisClient.keys("*");
-    return missingSigns.filter(x => !alreadySuggestedSigns.includes(x));
+    return missingSigns.filter((x) => !alreadySuggestedSigns.includes(x));
   } catch (error) {
     throw new Error(error.message);
   }
@@ -53,7 +53,7 @@ const suggestNewSign = async function suggestNewSignToWikilibras(
       task_state_id: 1,
       code: sign,
       creation_user_id: wikilibrasUserID,
-      current_user_id: wikilibrasUserID
+      current_user_id: wikilibrasUserID,
     });
 
     await postNewActionOnWikilibras({
@@ -61,7 +61,7 @@ const suggestNewSign = async function suggestNewSignToWikilibras(
       details: "no detail",
       success: true,
       task_id: taskID,
-      user_id: wikilibrasUserID
+      user_id: wikilibrasUserID,
     });
 
     await resetUserTaskOnWikilibras(taskID);

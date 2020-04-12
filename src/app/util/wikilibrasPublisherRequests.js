@@ -6,10 +6,10 @@ import { authenticatePublisherOnWikilibras } from "./wikilibrasAuthentication";
 
 const axiosRequest = axios.create({
   baseURL: env.WIKILIBRAS_BASE_URL,
-  timeout: 10000
+  timeout: 10000,
 });
 
-axiosRequest.interceptors.response.use(null, async error => {
+axiosRequest.interceptors.response.use(null, async (error) => {
   if (error.config && error.response && error.response.status === 401) {
     const authToken = await authenticatePublisherOnWikilibras();
     axiosRequest.defaults.headers.common.Authorization = authToken;
@@ -23,7 +23,7 @@ const getPublisherIdOnWikilibras = async function getPublisherIdOnWikilibrasServ
     const response = await axiosRequest({
       method: "get",
       url: env.WIKILIBRAS_WHOAMI_URL,
-      transformResponse: [data => JSON.parse(data).user_id]
+      transformResponse: [(data) => JSON.parse(data).user_id],
     });
 
     return response.data;
@@ -39,7 +39,7 @@ const getAvailableTasksOnWikilibras = async function getAvailableTasksOnWikilibr
     const response = await axiosRequest({
       method: "get",
       url: `${env.WIKILIBRAS_AVAILABLE_TASKS_URL}/${userID}`,
-      transformResponse: [data => JSON.parse(data).data]
+      transformResponse: [(data) => JSON.parse(data).data],
     });
     return response.data;
   } catch (error) {
@@ -66,7 +66,7 @@ const getPendingTasksOnWikilibras = async function getPendingTasksOnWikilibrasSe
     const response = await axiosRequest({
       method: "get",
       url: `${env.WIKILIBRAS_PENDING_TASKS_URL}/${userID}`,
-      transformResponse: [data => JSON.parse(data).data]
+      transformResponse: [(data) => JSON.parse(data).data],
     });
     return response.data;
   } catch (error) {
@@ -115,7 +115,7 @@ const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer
     const response = await axiosRequest({
       method: "get",
       url: `${env.WIKILIBRAS_DOWNLOAD_URL}/${blendURL}`,
-      responseType: "stream"
+      responseType: "stream",
     });
 
     const filenameRegex = /filename\*?=['"]?(?:UTF-\d['"]*)?([^;\r\n"']*)['"]?;?/;
@@ -125,7 +125,7 @@ const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer
     const localBlendFilePath = path.join(env.BLEND_FILES_TMP_DIR, blendName);
 
     await fs.promises.mkdir(path.dirname(localBlendFilePath), {
-      recursive: true
+      recursive: true,
     });
 
     const streamWriter = fs.createWriteStream(localBlendFilePath);
@@ -135,7 +135,7 @@ const downloadBlendOnWikilibras = async function downloadBlendOnWikilibrasServer
       streamWriter.on("finish", () => {
         resolve({ id: taskID, file: localBlendFilePath });
       });
-      streamWriter.on("error", error => {
+      streamWriter.on("error", (error) => {
         reject(error);
       });
     });
@@ -174,5 +174,5 @@ export {
   getObjectOnWikilibras,
   downloadBlendOnWikilibras,
   postNewActionOnWikilibras,
-  updateTaskStateOnWikilibras
+  updateTaskStateOnWikilibras,
 };

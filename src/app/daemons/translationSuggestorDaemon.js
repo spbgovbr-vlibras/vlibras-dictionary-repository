@@ -1,21 +1,19 @@
 import { daemonError, daemonInfo } from "../util/debugger";
 import { getTranslationsWithoutReview } from "../util/statsApiRequests";
-import { postTranslations } from "../util/wikilibrasTranslateSuggestorRequests";
-import { differenceWith, isEqual, findIndex } from "lodash";
+import { postNewTaskOnWikilibras } from "../util/wikilibrasTranslateSuggestorRequests";
+import { find } from "lodash";
 import redisConnection from "../util/redisConnection";
-import { forEach, map } from "lodash";
+import { map } from "lodash";
+import { getSuggestorIdOnWikilibras } from "../util/wikilibrasSuggestorRequests";
 
-const removeAlreadySuggested = async (missingSentences, redisClient) => {
+const removeAlreadySuggested = async (missingSentences) => {
+  const redisClient = await redisConnection();
   const alreadySuggestedSentences = await redisClient.keys("*");
-
   const notIncluded = [];
 
   map(missingSentences, (sentence) => {
     if (
-      findIndex(
-        alreadySuggestedSentences,
-        (item) => item === sentence.translation
-      ) === -1
+      !find(alreadySuggestedSentences, (item) => item === sentence.translation)
     ) {
       notIncluded.push(sentence);
     }
@@ -24,21 +22,42 @@ const removeAlreadySuggested = async (missingSentences, redisClient) => {
   return notIncluded;
 };
 
+const suggestNewSentence = async (wikilibrasUserID, sentence) => {
+  const data = {
+    task_type_id: 3,
+    task_state_id: 13,
+    code: sentence.text,
+    description: sentence.translation,
+    example: sentence.review,
+    creation_user_id: wikilibrasUserID,
+    current_user_id: wikilibrasUserID,
+  };
+
+  if (sentence.review !== "") data.task_state_id = 14;
+
+  try {
+    await postNewTaskOnWikilibras(data);
+    const redisClient = await redisConnection();
+    redisClient.set(sentence.translation, sentence.translation);
+  } catch (error) {
+    throw new Error(
+      `Failed to suggest '${sentence.translation}': ${error.message}`
+    );
+  }
+};
+
 const translationDaemon = async () => {
   daemonInfo("Searching for new sentences for wikilibras");
   try {
-    const redisClient = await redisConnection();
     const data = await getTranslationsWithoutReview();
+    const suggestorId = await getSuggestorIdOnWikilibras();
+    const sentencesToSuggest = await removeAlreadySuggested(data);
 
-    const sentencesToSuggest = await removeAlreadySuggested(data, redisClient);
-
-    const errors = await postTranslations(sentencesToSuggest);
-
-    console.log(`Erro em: ${errors.length}`);
-
-    forEach(sentencesToSuggest, (sentence) => {
-      redisClient.set(sentence.translation, sentence.translation);
-    });
+    const promisesList = [];
+    for (let i = 0; i < sentencesToSuggest.length; i++) {
+      promisesList.push(suggestNewSentence(suggestorId, sentencesToSuggest[i]));
+    }
+    await Promise.all(promisesList);
   } catch (error) {
     daemonError(`TranslateDaemonError: ${error.message}`);
   }
