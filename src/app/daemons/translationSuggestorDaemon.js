@@ -30,7 +30,7 @@ const suggestNewSentence = async (wikilibrasUserID, sentence) => {
     description: sentence.translation,
     example: sentence.review,
     creation_user_id: wikilibrasUserID,
-    current_user_id: wikilibrasUserID,
+    current_user_id: null,
   };
 
   if (sentence.review !== "") data.task_state_id = 14;
