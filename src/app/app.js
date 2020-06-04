@@ -16,7 +16,7 @@ app.use(logger('combined'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-app.use(express.static(path.join(__dirname, '../../bundles')));
+app.use(express.static(path.join(__dirname, '../../signs')));
 
 app.get('/', (_req, res, _next) => {
   res.status(200).send('Beam me up, Scotty!');
