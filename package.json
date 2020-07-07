@@ -29,7 +29,8 @@
     "babel-preset-airbnb": "^4.0.1",
     "eslint": "^7.4.0",
     "eslint-config-airbnb-base": "^14.2.0",
-    "eslint-plugin-import": "^2.22.0"
+    "eslint-plugin-import": "^2.22.0",
+    "sequelize-cli": "^6.2.0"
   },
   "engines": {
     "node": "12.16"
