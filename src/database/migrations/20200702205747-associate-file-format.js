@@ -5,16 +5,16 @@ export async function up(queryInterface, Sequelize) {
       primaryKey: true,
       type: Sequelize.INTEGER,
       references: {
-        model: 'File',
+        model: 'Files',
         key: 'id',
       },
     },
     formatId: {
       allowNull: false,
       primaryKey: true,
-      type: Sequelize.STRING,
+      type: Sequelize.INTEGER,
       references: {
-        model: 'Format',
+        model: 'Formats',
         key: 'id',
       },
     },

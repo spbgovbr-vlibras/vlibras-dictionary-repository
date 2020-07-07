@@ -1,20 +1,20 @@
 export async function up(queryInterface, Sequelize) {
-  await queryInterface.createTable('RegionPlatforms', {
+  await queryInterface.createTable('FileRegions', {
+    fileId: {
+      allowNull: false,
+      primaryKey: true,
+      type: Sequelize.INTEGER,
+      references: {
+        model: 'Files',
+        key: 'id',
+      },
+    },
     regionId: {
       allowNull: false,
       primaryKey: true,
       type: Sequelize.INTEGER,
       references: {
-        model: 'Region',
-        key: 'id',
-      },
-    },
-    platformId: {
-      allowNull: false,
-      primaryKey: true,
-      type: Sequelize.STRING,
-      references: {
-        model: 'Platform',
+        model: 'Regions',
         key: 'id',
       },
     },
@@ -30,5 +30,5 @@ export async function up(queryInterface, Sequelize) {
 }
 
 export async function down(queryInterface, _Sequelize) {
-  await queryInterface.dropTable('RegionPlatforms');
+  await queryInterface.dropTable('FileRegions');
 }
