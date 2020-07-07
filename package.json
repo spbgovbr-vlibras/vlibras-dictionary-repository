@@ -17,6 +17,7 @@
     "helmet": "^3.21.2",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
+    "pg": "^8.2.1",
     "sequelize": "^6.2.4"
   },
   "devDependencies": {
@@ -24,13 +25,14 @@
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-runtime": "^7.6.2",
     "@babel/preset-env": "^7.6.2",
+    "@babel/register": "^7.10.4",
     "babel-preset-airbnb": "^4.0.1",
-    "eslint": "^5.16.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2"
+    "eslint": "^7.4.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0"
   },
   "engines": {
-    "node": "10.16"
+    "node": "12.16"
   },
   "scripts": {
     "build": "babel src --out-dir dist --copy-files --include-dotfiles",

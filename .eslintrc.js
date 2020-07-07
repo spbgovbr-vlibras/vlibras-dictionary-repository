@@ -1,23 +1,21 @@
 module.exports = {
-  extends: "airbnb-base",
+  env: {
+    es6: true,
+    node: true,
+  },
+  extends: [
+    'airbnb-base',
+  ],
+  parserOptions: {
+    ecmaVersion: 11,
+    sourceType: 'module',
+  },
   rules: {
-    "no-console": [
-      "error",
+    'no-unused-vars': [
+      'error',
       {
-        allow: [
-          "error"
-        ],
+        argsIgnorePattern: '^_',
       },
-    ],
-    "no-unused-vars": [
-      "error",
-      {
-        argsIgnorePattern: "^_",
-      },
-    ],
-    "no-restricted-syntax": [
-      "error",
-      "ForInStatement",
     ],
   },
 };
