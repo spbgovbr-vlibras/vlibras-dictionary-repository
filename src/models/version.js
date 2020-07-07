@@ -3,7 +3,6 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Version extends Model {
     associate(models) {
-      this.belongsToMany(models.Platform, { through: 'PlatformVersions' });
       this.belongsToMany(models.File, { through: 'FileVersions' });
     }
   }
