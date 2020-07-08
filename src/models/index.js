@@ -1,3 +1,5 @@
+/* eslint-disable import/no-dynamic-require */
+/* eslint-disable global-require */
 import { readdirSync } from 'fs';
 import { basename, join } from 'path';
 import Sequelize from 'sequelize';
@@ -10,7 +12,7 @@ readdirSync(__dirname)
     && (file !== basename(__filename))
     && (file.slice(-3) === '.js'))
   .forEach((file) => {
-    const model = sequelize.import(join(__dirname, file));
+    const model = require(join(__dirname, file)).default(sequelize, Sequelize.DataTypes);
     models[model.name] = model;
   });
 
