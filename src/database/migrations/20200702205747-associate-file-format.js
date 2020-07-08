@@ -1,6 +1,6 @@
 export async function up(queryInterface, Sequelize) {
   await queryInterface.createTable('FileFormats', {
-    fileId: {
+    FileId: {
       allowNull: false,
       primaryKey: true,
       type: Sequelize.INTEGER,
@@ -9,7 +9,7 @@ export async function up(queryInterface, Sequelize) {
         key: 'id',
       },
     },
-    formatId: {
+    FormatId: {
       allowNull: false,
       primaryKey: true,
       type: Sequelize.INTEGER,
