@@ -2,7 +2,7 @@ import { Model } from 'sequelize';
 
 export default (sequelize, DataTypes) => {
   class Region extends Model {
-    associate(models) {
+    static associate(models) {
       this.belongsToMany(models.File, { through: 'FileRegions' });
     }
   }

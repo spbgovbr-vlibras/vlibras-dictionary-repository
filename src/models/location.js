@@ -2,7 +2,7 @@ import { Model } from 'sequelize';
 
 export default (sequelize, DataTypes) => {
   class Location extends Model {
-    associate(models) {
+    static associate(models) {
       this.belongsTo(models.File);
     }
   }
