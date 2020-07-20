@@ -3,7 +3,7 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Format extends Model {
     static associate(models) {
-      this.belongsToMany(models.File, { through: 'FileFormats' });
+      this.belongsToMany(models.Sign, { through: 'SignFormats' });
     }
   }
 

@@ -1,15 +1,22 @@
 export async function up(queryInterface, Sequelize) {
-  await queryInterface.createTable('Files', {
-    id: {
+  await queryInterface.createTable('SignFormats', {
+    SignId: {
       allowNull: false,
-      autoIncrement: true,
       primaryKey: true,
       type: Sequelize.INTEGER,
+      references: {
+        model: 'Signs',
+        key: 'id',
+      },
     },
-    name: {
+    FormatId: {
       allowNull: false,
-      type: Sequelize.STRING,
-      unique: true,
+      primaryKey: true,
+      type: Sequelize.INTEGER,
+      references: {
+        model: 'Formats',
+        key: 'id',
+      },
     },
     createdAt: {
       allowNull: false,
@@ -23,5 +30,5 @@ export async function up(queryInterface, Sequelize) {
 }
 
 export async function down(queryInterface, _Sequelize) {
-  await queryInterface.dropTable('Files');
+  await queryInterface.dropTable('SignFormats');
 }

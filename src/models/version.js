@@ -3,7 +3,7 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Version extends Model {
     static associate(models) {
-      this.belongsToMany(models.File, { through: 'FileVersions' });
+      this.belongsToMany(models.Sign, { through: 'SignVersions' });
     }
   }
 

@@ -3,7 +3,7 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Platform extends Model {
     static associate(models) {
-      this.belongsToMany(models.File, { through: 'FilePlatforms' });
+      this.belongsToMany(models.Sign, { through: 'SignPlatforms' });
     }
   }
 

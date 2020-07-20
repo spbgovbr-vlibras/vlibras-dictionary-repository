@@ -1,17 +1,17 @@
 import { Model } from 'sequelize';
 
 export default (sequelize, DataTypes) => {
-  class File extends Model {
+  class Sign extends Model {
     static associate(models) {
-      this.belongsToMany(models.Version, { through: 'FileVersions' });
-      this.belongsToMany(models.Platform, { through: 'FilePlatforms' });
-      this.belongsToMany(models.Region, { through: 'FileRegions' });
-      this.belongsToMany(models.Format, { through: 'FileFormats' });
+      this.belongsToMany(models.Version, { through: 'SignVersions' });
+      this.belongsToMany(models.Platform, { through: 'SignPlatforms' });
+      this.belongsToMany(models.Region, { through: 'SignRegions' });
+      this.belongsToMany(models.Format, { through: 'SignFormats' });
       this.hasMany(models.Location);
     }
   }
 
-  File.init({
+  Sign.init({
     id: {
       allowNull: false,
       autoIncrement: true,
@@ -25,9 +25,9 @@ export default (sequelize, DataTypes) => {
     },
   }, {
     sequelize,
-    modelName: 'File',
+    modelName: 'Sign',
     timestamps: true,
   });
 
-  return File;
+  return Sign;
 };

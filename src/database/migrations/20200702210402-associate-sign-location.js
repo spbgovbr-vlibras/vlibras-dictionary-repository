@@ -1,11 +1,11 @@
 export async function up(queryInterface, Sequelize) {
   await queryInterface.addColumn(
     'Locations',
-    'fileId',
+    'signId',
     {
       type: Sequelize.INTEGER,
       references: {
-        model: 'Files',
+        model: 'Signs',
         key: 'id',
       },
       onUpdate: 'CASCADE',
@@ -15,5 +15,5 @@ export async function up(queryInterface, Sequelize) {
 }
 
 export async function down(queryInterface, _Sequelize) {
-  await queryInterface.removeColumn('Locations', 'fileId');
+  await queryInterface.removeColumn('Locations', 'signId');
 }
