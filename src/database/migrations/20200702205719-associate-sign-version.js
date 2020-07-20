@@ -1,6 +1,6 @@
 export async function up(queryInterface, Sequelize) {
   await queryInterface.createTable('SignVersions', {
-    signId: {
+    SignId: {
       allowNull: false,
       primaryKey: true,
       type: Sequelize.INTEGER,
