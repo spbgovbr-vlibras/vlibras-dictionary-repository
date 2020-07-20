@@ -3,7 +3,7 @@ import { Model } from 'sequelize';
 export default (sequelize, DataTypes) => {
   class Location extends Model {
     static associate(models) {
-      this.belongsTo(models.Sign);
+      this.belongsToMany(models.Sign, { through: 'SignLocations' });
     }
   }
 
