@@ -11,6 +11,10 @@ export async function up(queryInterface, Sequelize) {
       type: Sequelize.STRING,
       unique: true,
     },
+    extension: {
+      allowNull: true,
+      type: Sequelize.STRING,
+    },
     createdAt: {
       allowNull: false,
       type: Sequelize.DATE,

@@ -19,6 +19,10 @@ export default (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       unique: true,
     },
+    extension: {
+      allowNull: true,
+      type: DataTypes.STRING,
+    },
   }, {
     sequelize,
     modelName: 'Format',
