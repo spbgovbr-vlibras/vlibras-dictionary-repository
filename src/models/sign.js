@@ -27,6 +27,7 @@ export default (sequelize, DataTypes) => {
     sequelize,
     modelName: 'Sign',
     timestamps: true,
+    paranoid: true,
   });
 
   return Sign;
