@@ -7,7 +7,6 @@ export default (sequelize, DataTypes) => {
       this.belongsToMany(models.Platform, { through: 'SignPlatforms' });
       this.belongsToMany(models.Region, { through: 'SignRegions' });
       this.belongsToMany(models.Format, { through: 'SignFormats' });
-      this.belongsToMany(models.Location, { through: 'SignLocations' });
     }
   }
 
