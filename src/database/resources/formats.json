@@ -1,0 +1,14 @@
+[
+  {
+    "format": "BLEND",
+    "extension": ".blend"
+  },
+  {
+    "format": "BUNDLE",
+    "extension": null
+  },
+  {
+    "format": "MPEG-4",
+    "extension": ".mp4"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "platform": "ANDROID"
+  },
+  {
+    "platform": "IOS"
+  },
+  {
+    "platform": "LINUX"
+  },
+  {
+    "platform": "WEBGL"
+  },
+  {
+    "platform": "WINDOWS"
+  }
+]

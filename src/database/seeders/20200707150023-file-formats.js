@@ -1,21 +1,14 @@
+import resources from '../resources';
+
 export async function up(queryInterface, _Sequelize) {
-  await queryInterface.bulkInsert('Formats', [
-    {
-      format: 'blend',
+  await queryInterface.bulkInsert(
+    'Formats',
+    resources.formats.map((format) => ({
+      ...format,
       createdAt: new Date(),
       updatedAt: new Date(),
-    },
-    {
-      format: 'bundle',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    },
-    {
-      format: 'mp4',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    },
-  ]);
+    })),
+  );
 }
 
 export async function down(queryInterface, _Sequelize) {

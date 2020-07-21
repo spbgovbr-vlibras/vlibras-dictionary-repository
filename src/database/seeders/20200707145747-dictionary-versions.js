@@ -1,16 +1,14 @@
+import resources from '../resources';
+
 export async function up(queryInterface, _Sequelize) {
-  await queryInterface.bulkInsert('Versions', [
-    {
-      version: '2018.3.0',
+  await queryInterface.bulkInsert(
+    'Versions',
+    resources.versions.map((version) => ({
+      ...version,
       createdAt: new Date(),
       updatedAt: new Date(),
-    },
-    {
-      version: '2018.3.1',
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    },
-  ]);
+    })),
+  );
 }
 
 export async function down(queryInterface, _Sequelize) {
