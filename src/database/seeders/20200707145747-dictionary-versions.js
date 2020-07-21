@@ -1,14 +1,7 @@
 import resources from '../resources';
 
 export async function up(queryInterface, _Sequelize) {
-  await queryInterface.bulkInsert(
-    'Versions',
-    resources.versions.map((version) => ({
-      ...version,
-      createdAt: new Date(),
-      updatedAt: new Date(),
-    })),
-  );
+  await queryInterface.bulkInsert('Versions', resources.versions);
 }
 
 export async function down(queryInterface, _Sequelize) {

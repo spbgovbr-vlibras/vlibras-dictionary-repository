@@ -22,7 +22,7 @@ export default (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Version',
-    timestamps: true,
+    timestamps: false,
   });
 
   return Version;

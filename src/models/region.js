@@ -22,7 +22,7 @@ export default (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Region',
-    timestamps: true,
+    timestamps: false,
   });
 
   return Region;

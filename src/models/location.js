@@ -22,7 +22,7 @@ export default (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Location',
-    timestamps: true,
+    timestamps: false,
   });
 
   return Location;

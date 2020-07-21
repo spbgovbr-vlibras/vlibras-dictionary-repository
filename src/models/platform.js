@@ -22,7 +22,7 @@ export default (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Platform',
-    timestamps: true,
+    timestamps: false,
   });
 
   return Platform;

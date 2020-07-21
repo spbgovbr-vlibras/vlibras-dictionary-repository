@@ -26,7 +26,7 @@ export default (sequelize, DataTypes) => {
   }, {
     sequelize,
     modelName: 'Format',
-    timestamps: true,
+    timestamps: false,
   });
 
   return Format;
