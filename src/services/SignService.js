@@ -11,18 +11,18 @@ export default class SignService {
         models.Format.findOne({ where: { format: 'BUNDLE' } }),
       ]); // do not change the sequence
 
-      const bundle = await models.Sign.create({ name: signName });
+      const sign = await models.Sign.create({ name: signName });
 
       await Promise.all([
-        bundle.addVersion(version),
-        bundle.addRegion(region),
-        bundle.addFormat(format),
+        sign.addVersion(version),
+        sign.addRegion(region),
+        sign.addFormat(format),
         ...platforms.map(async (platform) => {
-          await bundle.addPlatform(platform);
+          await sign.addPlatform(platform);
         }),
       ]);
 
-      return bundle.get({ plain: true });
+      return sign.get({ plain: true });
     } catch (registerNewSignError) {
       console.error(registerNewSignError); // TODO: change to logger
       if (registerNewSignError instanceof UniqueConstraintError) {
