@@ -1,26 +1,8 @@
 #!/usr/bin/env node
 
-import fs from "fs";
-import http from "http";
-import https from "https";
-import app from "./app/app";
-import signsSuggestorDaemon from "./app/daemons/signsSuggestorDaemon";
-import translationDaemon from "./app/daemons/translationSuggestorDaemon";
-import setupAndStart from "./app/daemons/blendToBundleDaemon";
-import { serverInfo, serverWarning, serverError } from "./app/util/debugger";
-import { createNewJob, runAllJobs } from "./app/cron";
-
-const getSSL = function getSSLCertificates() {
-  try {
-    return {
-      key: fs.readFileSync(process.env.SSLKEY),
-      cert: fs.readFileSync(process.env.SSLCERT)
-    };
-  } catch (error) {
-    serverWarning("Failed to get SSL certificates:", error.message);
-    return {};
-  }
-};
+import { createServer } from 'http';
+import app from './app/app';
+import config from './config';
 
 const normalizePort = function normalizeServerPort(portValue) {
   const port = parseInt(portValue, 10);
@@ -37,19 +19,21 @@ const normalizePort = function normalizeServerPort(portValue) {
 };
 
 const onError = function onErrorEvent(error, port) {
-  if (error.syscall !== "listen") {
+  if (error.syscall !== 'listen') {
     throw error;
   }
 
-  const bind = typeof port === "string" ? `Pipe ${port}` : `Port ${port}`;
+  const bind = typeof port === 'string'
+    ? `Pipe ${port}`
+    : `Port ${port}`;
 
   switch (error.code) {
-    case "EACCES":
-      serverError(`${bind} requires elevated privileges`);
+    case 'EACCES':
+      console.error(`${bind} requires elevated privileges`);
       process.exit(1);
       break;
-    case "EADDRINUSE":
-      serverError(`${bind} is already in use`);
+    case 'EADDRINUSE':
+      console.error(`${bind} is already in use`);
       process.exit(1);
       break;
     default:
@@ -58,49 +42,24 @@ const onError = function onErrorEvent(error, port) {
 };
 
 const onListening = function onListeningEvent(addr) {
-  const bind = typeof addr === "string" ? `pipe ${addr}` : `port ${addr.port}`;
-  serverInfo(`Listening on ${bind}`);
+  const bind = typeof addr === 'string'
+    ? `pipe ${addr}`
+    : `port ${addr.port}`;
+  console.error(`Listening on ${bind}`);
 };
 
-const startHTTPServer = function startHTTPServerListen() {
-  serverInfo("Starting HTTP Server");
-  const httpServer = http.createServer(app);
-  httpServer.listen(app.get("HTTPPort"));
-  httpServer.on("error", err => {
-    onError(err, app.get("HTTPPort"));
-  });
-  httpServer.on("listening", () => {
-    onListening(httpServer.address());
-  });
-
-  serverInfo("Starting HTTPS Server");
-  const httpSecureServer = https.createServer(getSSL(), app);
-  httpSecureServer.listen(app.get("HTTPSPort"));
-  httpSecureServer.on("error", err => {
-    onError(err, app.get("HTTPSPort"));
-  });
-  httpSecureServer.on("listening", () => {
-    onListening(httpSecureServer.address());
-  });
-
-  serverInfo("Starting Daemons");
-  createNewJob(
-    process.env.CRON_SIGNS_SUGGESTION_INTERVAL,
-    "signsSuggestorDaemon",
-    signsSuggestorDaemon
-  );
-
-  createNewJob(
-    process.env.PROCESS_EVERY,
-    "translationDaemon",
-    translationDaemon
-  );
-
-  setupAndStart();
-  runAllJobs();
+const startHTTPServer = async function startHTTPServerListen() {
+  try {
+    console.error('Starting server');
+    const server = createServer(app);
+    server.listen(app.get('port'));
+    server.on('error', (err) => { onError(err, app.get('port')); });
+    server.on('listening', () => { onListening(server.address()); });
+  } catch (startHTTPServerError) {
+    console.error('', startHTTPServerError.stack);
+    process.exit(1);
+  }
 };
 
-app.set("HTTPPort", normalizePort(process.env.HTTPPORT || "80"));
-app.set("HTTPSPort", normalizePort(process.env.HTTPSPORT || "443"));
-
+app.set('port', normalizePort(config.server.ports.http));
 startHTTPServer();
