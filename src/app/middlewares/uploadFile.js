@@ -5,6 +5,7 @@ import config from '../../config';
 import constants from '../../lib/constants';
 import validator from '../../lib/validator';
 
+// TODO: implement a more robust file filter with file-type
 const upload = multer({
   dest: config.storage.fileStagingFolder,
   limits: { fileSize: config.storage.maxFileSize },
