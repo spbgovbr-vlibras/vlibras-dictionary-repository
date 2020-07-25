@@ -25,6 +25,9 @@ export default {
       format: process.env.LOGGER_FORMAT || 'combined',
     },
   },
+  api: {
+    prefix: '/api',
+  },
   database: {
     username: process.env.DATABASE_USER || 'root',
     password: process.env.DATABASE_PASS || null,
@@ -32,8 +35,11 @@ export default {
     host: process.env.DATABASE_HOST || '127.0.0.1',
     dialect: 'postgres',
   },
-  api: {
-    prefix: '/api',
+  storage: {
+    maxFileSize: 5 * 1024 * 1024,
+    fileStorageFolder: process.env.SIGNS_STORAGE || '/tmp/vlibras/dictionary-storage',
+    fileStagingFolder: process.env.SIGNS_STAGING || '/tmp/vlibras/dictionary-staging',
+    fileGarbageFolder: process.env.SIGNS_GARBAGE || '/tmp/vlibras/dictionary-garbage',
   },
   node: {
     environment: process.env.NODE_ENV,
