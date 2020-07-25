@@ -1,9 +1,9 @@
 import validateRequest from './validateRequest';
 import validationRules from './validationRules';
-import uploadFile from './uploadFile';
+import uploadFiles from './uploadFiles';
 
 export {
   validateRequest,
   validationRules,
-  uploadFile,
+  uploadFiles,
 };
