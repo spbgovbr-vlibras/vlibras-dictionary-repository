@@ -1,8 +1,8 @@
 export default Object.freeze({
-  ANDROID: 'android',
-  IOS: 'ios',
-  LINUX: 'linux',
-  WEBGL: 'webgl',
-  WIKILIBRAS: 'wikilibras',
-  WINDOWS: 'windows',
+  ANDROID: 'ANDROID',
+  IOS: 'IOS',
+  LINUX: 'LINUX',
+  WEBGL: 'WEBGL',
+  WIKILIBRAS: 'WIKILIBRAS',
+  WINDOWS: 'WINDOWS',
 });
