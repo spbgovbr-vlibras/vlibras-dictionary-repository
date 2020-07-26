@@ -3,6 +3,13 @@ import { body } from 'express-validator';
 import validator from '../../lib/validator';
 
 const addNewSignRule = [
+  body('version')
+    .isIn(validator.values.versions)
+    .withMessage(validator.errors.versionError),
+  body('region')
+    .optional()
+    .isIn(validator.values.regions)
+    .withMessage(validator.errors.regionError),
   body('android')
     .not().isEmpty()
     .withMessage(validator.errors.fileError),

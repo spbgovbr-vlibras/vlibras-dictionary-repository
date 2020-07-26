@@ -15,10 +15,12 @@
     "debug": "~2.6.9",
     "dotenv": "^6.2.0",
     "express": "~4.16.0",
+    "express-validator": "^6.6.0",
     "fs-extra": "^9.0.1",
     "helmet": "^3.21.2",
     "http-errors": "~1.6.2",
     "morgan": "~1.9.0",
+    "multer": "^1.4.2",
     "pg": "^8.2.1",
     "sequelize": "^6.2.4"
   },
@@ -38,9 +40,11 @@
     "node": "12.16"
   },
   "scripts": {
+    "migrate": "sequelize-cli db:migrate",
+    "postmigrate": "sequelize-cli db:seed:all",
+    "predev": "babel src --out-dir dist --copy-files --include-dotfiles",
+    "dev": "DEBUG=vlibras-dictionary-*:* NODE_ENV=development node dist/index.js",
     "build": "babel src --out-dir dist --copy-files --include-dotfiles",
-    "production": "DEBUG=vlibras-dictionary-*:* NODE_ENV=production node dist/index.js",
-    "dev": "npm run build && DEBUG=vlibras-dictionary-*:* NODE_ENV=dev node dist/index.js",
-    "populate": "npm run build && DEBUG=vlibras-dictionary-*:* NODE_ENV=dev node dist/scripts/populateTranslate.js"
+    "production": "node dist/index.js"
   }
 }

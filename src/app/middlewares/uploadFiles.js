@@ -6,11 +6,12 @@ import constants from '../../lib/constants';
 import validator from '../../lib/validator';
 
 // TODO: implement a more robust file filter with file-type
+// TODO: remember to change te filename to upper case
 const upload = multer({
   dest: config.storage.fileStagingFolder,
   limits: { fileSize: config.storage.maxFileSize },
   fileFilter: (req, file, cb) => {
-    if (file.fieldname === constants.PLATFORMS.WIKILIBRAS) {
+    if (file.fieldname.toUpperCase() === constants.PLATFORMS.WIKILIBRAS) {
       const mimes = new RegExp(`^${Object.values(validator.values.mimes).join('|')}$`);
       if (mimes.test(file.mimetype)) {
         req.body[file.fieldname] = file.originalname;
