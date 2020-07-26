@@ -41,8 +41,13 @@ const listSigns = async function listDictionarySigns(_req, res, next) {
 
 const removeSign = async function removeSignFromDictionary(req, res, next) {
   try {
-    const removedSign = await SignService.deleteSignRegister(req.body.sign);
-    return null;
+    const removedCount = await SignService.deleteSignRegister(req.params.sign);
+
+    if (removedCount === 0) {
+      return next(createError(404, 'sign already deleted or does not exist'));
+    }
+
+    return res.status(200).json({ name: req.params.sign, deletedAt: new Date() });
   } catch (removeSignError) {
     return next(removeSignError);
   }

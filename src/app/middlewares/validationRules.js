@@ -1,4 +1,4 @@
-import { body } from 'express-validator';
+import { body, param } from 'express-validator';
 
 import validator from '../../lib/validator';
 
@@ -31,6 +31,11 @@ const addNewSignRule = [
     .withMessage(validator.errors.fileError),
 ];
 
+const removeSignRule = param('sign')
+  .not().isEmpty()
+  .withMessage(validator.errors.emptyError);
+
 export default {
   addNewSignRule,
+  removeSignRule,
 };

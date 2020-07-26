@@ -54,7 +54,8 @@ export default class SignService {
 
   static async deleteSignRegister(signName) {
     try {
-      models.Sign.destroy({ where: { name: signName } });
+      const deletedCount = await models.Sign.destroy({ where: { name: signName } });
+      return deletedCount;
     } catch (deleteSignRegisterError) {
       console.error(deleteSignRegisterError); // TODO: change to logger
       throw new Error('an unexpected error occurred while deleting sign record');

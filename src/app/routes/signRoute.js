@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 import { validateRequest, validationRules, uploadFiles } from '../middlewares';
-import { addNewSign, listSigns } from '../controllers/signController';
+import { addNewSign, listSigns, removeSign } from '../controllers/signController';
 
 const signRoute = Router();
 
@@ -19,5 +19,12 @@ export default (router) => {
   signRoute.get(
     '/',
     listSigns,
+  );
+
+  signRoute.delete(
+    '/:sign',
+    validationRules.removeSignRule,
+    validateRequest,
+    removeSign,
   );
 };
