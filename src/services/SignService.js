@@ -36,7 +36,7 @@ export default class SignService {
     try {
       const rows = await models.Sign.findAll({
         attributes: ['name'],
-        include: [
+        include: [ // FIXME: try to remove relation table from query result
           { model: models.Version, attributes: ['version'] },
           { model: models.Platform, attributes: ['platform'] },
           { model: models.Region, attributes: ['region'] },

@@ -30,14 +30,26 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
 
 const listSigns = async function listDictionarySigns(_req, res, next) {
   try {
-    const signList = await SignService.listRegisteredSigns();
+    let signList = await SignService.listRegisteredSigns();
+    signList = signList.map((sign) => sign.name);
+
     return res.status(200).json(signList);
   } catch (listSignsError) {
     return next(listSignsError);
   }
 };
 
+const removeSign = async function removeSignFromDictionary(req, res, next) {
+  try {
+    const removedSign = await SignService.deleteSignRegister(req.body.sign);
+    return null;
+  } catch (removeSignError) {
+    return next(removeSignError);
+  }
+};
+
 export {
   addNewSign,
   listSigns,
+  removeSign,
 };

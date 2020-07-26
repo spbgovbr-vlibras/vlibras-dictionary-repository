@@ -1,7 +1,7 @@
 import { Router } from 'express';
 
 import { validateRequest, validationRules, uploadFiles } from '../middlewares';
-import { addNewSign } from '../controllers/signController';
+import { addNewSign, listSigns } from '../controllers/signController';
 
 const signRoute = Router();
 
@@ -14,5 +14,10 @@ export default (router) => {
     validationRules.addNewSignRule,
     validateRequest,
     addNewSign,
+  );
+
+  signRoute.get(
+    '/',
+    listSigns,
   );
 };
