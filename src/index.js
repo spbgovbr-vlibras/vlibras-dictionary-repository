@@ -4,20 +4,6 @@ import { createServer } from 'http';
 import app from './app/app';
 import config from './config';
 
-const normalizePort = function normalizeServerPort(portValue) {
-  const port = parseInt(portValue, 10);
-
-  if (Number.isNaN(port)) {
-    return portValue;
-  }
-
-  if (port >= 0) {
-    return port;
-  }
-
-  return false;
-};
-
 const onError = function onErrorEvent(error, port) {
   if (error.syscall !== 'listen') {
     throw error;
@@ -61,5 +47,5 @@ const startHTTPServer = async function startHTTPServerListen() {
   }
 };
 
-app.set('port', normalizePort(config.server.ports.http));
+app.set('port', config.server.ports.http);
 startHTTPServer();
