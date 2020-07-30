@@ -28,6 +28,25 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
   }
 };
 
+const getSign = async function getSignFromDictionary(req, res, next) {
+  try {
+    const sign = await SignService.getRegisteredSign(
+      req.params.sign,
+      req.params.version,
+      req.params.platform,
+      req.params.region,
+    );
+
+    if (sign === null) {
+      return next(createError(404, 'sign not found in dictionary registry'));
+    }
+
+    return res.status(200).send(sign.name);
+  } catch (getSignError) {
+    return next(getSignError);
+  }
+};
+
 const listSigns = async function listDictionarySigns(_req, res, next) {
   try {
     let signList = await SignService.listRegisteredSigns();
@@ -55,6 +74,7 @@ const removeSign = async function removeSignFromDictionary(req, res, next) {
 
 export {
   addNewSign,
+  getSign,
   listSigns,
   removeSign,
 };

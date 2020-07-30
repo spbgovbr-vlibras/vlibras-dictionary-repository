@@ -1,7 +1,10 @@
 import { Router } from 'express';
 
 import { validateRequest, validationRules, uploadFiles } from '../middlewares';
-import { addNewSign, listSigns, removeSign } from '../controllers/signController';
+
+import {
+  addNewSign, getSign, listSigns, removeSign,
+} from '../controllers/signController';
 
 const signRoute = Router();
 
@@ -14,6 +17,13 @@ export default (router) => {
     validationRules.addNewSignRule,
     validateRequest,
     addNewSign,
+  );
+
+  signRoute.get(
+    '/:version/:platform/:region?/:sign',
+    validationRules.getSignRule,
+    validateRequest,
+    getSign,
   );
 
   signRoute.get(
