@@ -13,18 +13,17 @@ const onError = function onErrorEvent(error, port) {
     ? `Pipe ${port}`
     : `Port ${port}`;
 
-  switch (error.code) {
-    case 'EACCES':
-      console.error(`${bind} requires elevated privileges`);
-      process.exit(1);
-      break;
-    case 'EADDRINUSE':
-      console.error(`${bind} is already in use`);
-      process.exit(1);
-      break;
-    default:
-      throw error;
+  if (error.code === 'EACCESS') {
+    console.error(`${bind} requires elevated privileges`);
+    process.exit(1);
   }
+
+  if (error.code === 'EADDRINUSE') {
+    console.error(`${bind} is already in use`);
+    process.exit(1);
+  }
+
+  throw error;
 };
 
 const onListening = function onListeningEvent(addr) {

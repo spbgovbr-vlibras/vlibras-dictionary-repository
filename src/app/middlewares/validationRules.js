@@ -31,11 +31,28 @@ const addNewSignRule = [
     .withMessage(validator.errors.fileError),
 ];
 
+const getSignRule = [
+  param('sign')
+    .not().isEmpty()
+    .withMessage(validator.errors.emptyError),
+  param('version')
+    .isIn(validator.values.versions)
+    .withMessage(validator.errors.versionError),
+  param('platform')
+    .isIn(validator.values.platforms)
+    .withMessage(validator.errors.platformError),
+  param('region')
+    .optional()
+    .isIn(validator.values.regions)
+    .withMessage(validator.errors.regionError),
+];
+
 const removeSignRule = param('sign')
   .not().isEmpty()
   .withMessage(validator.errors.emptyError);
 
 export default {
   addNewSignRule,
+  getSignRule,
   removeSignRule,
 };
