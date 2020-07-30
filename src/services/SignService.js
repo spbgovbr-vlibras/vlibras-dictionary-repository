@@ -32,6 +32,35 @@ export default class SignService {
     }
   }
 
+  static async getRegisteredSign(signName, signVersion, signPlatform, signRegion = 'BR') {
+    try {
+      const sign = await models.Sign.findOne({
+        where: {
+          name: signName,
+          '$Versions.version$': signVersion,
+          '$Platforms.platform$': signPlatform,
+          '$Regions.region$': signRegion,
+          '$Formats.format$': 'BUNDLE',
+        },
+        include: [
+          { model: models.Version, as: 'Versions' },
+          { model: models.Platform, as: 'Platforms' },
+          { model: models.Region, as: 'Regions' },
+          { model: models.Format, as: 'Formats' },
+        ],
+      });
+
+      if (sign !== null) {
+        return sign.get({ plain: true });
+      }
+
+      return null;
+    } catch (getRegisteredSignError) {
+      console.error(getRegisteredSignError); // TODO: change to logger
+      throw new Error('an unexpected error occurred while retrieving sign record');
+    }
+  }
+
   static async listRegisteredSigns() {
     try {
       const rows = await models.Sign.findAll({
