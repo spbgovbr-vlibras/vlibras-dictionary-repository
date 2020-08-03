@@ -1,17 +1,25 @@
+import path from 'path';
 import createError from 'http-errors';
 import multer from 'multer';
 
 import config from '../../config';
 import constants from '../../lib/constants';
+import sanitizer from '../../lib/sanitizer';
 import validator from '../../lib/validator';
 
 // TODO: implement a more robust file filter with file-type
-// TODO: remember to change te filename to upper case
 const upload = multer({
-  dest: config.storage.fileStagingFolder,
+  storage: multer.diskStorage({
+    destination: config.storage.fileStagingFolder,
+    filename: (_req, file, cb) => {
+      const extname = path.extname(file.originalname);
+      const basename = sanitizer.toUpperCase(path.basename(file.originalname, extname));
+      cb(null, `${basename}${extname}`);
+    },
+  }),
   limits: { fileSize: config.storage.maxFileSize },
   fileFilter: (req, file, cb) => {
-    if (file.fieldname.toUpperCase() === constants.PLATFORMS.WIKILIBRAS) {
+    if (sanitizer.toUpperCase(file.fieldname) === constants.PLATFORMS.WIKILIBRAS) {
       const mimes = new RegExp(`^${Object.values(validator.values.mimes).join('|')}$`);
       if (mimes.test(file.mimetype)) {
         req.body[file.fieldname] = file.originalname;
