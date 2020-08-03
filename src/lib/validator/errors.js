@@ -7,4 +7,5 @@ export default {
   mimeError: `uploaded file is not in valid formats [${Object.values(values.mimes)}]`,
   fileError: 'field must contain a file',
   emptyError: 'field cannot be empty',
+  divergenceError: 'field value diverges from the others',
 };

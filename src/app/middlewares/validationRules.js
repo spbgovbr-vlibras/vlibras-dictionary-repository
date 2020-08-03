@@ -16,39 +16,81 @@ const addNewSignRule = [
       return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [req.body.ios, req.body.linux, req.body.webgl, req.body.windows];
+      return platforms.every((element) => element === value);
+    })
+    .withMessage(validator.errors.divergenceError),
   body('ios')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.linux, req.body.webgl, req.body.windows];
       return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [req.body.android, req.body.linux, req.body.webgl, req.body.windows];
+      return platforms.every((element) => element === value);
+    })
+    .withMessage(validator.errors.divergenceError),
   body('linux')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.webgl, req.body.windows];
       return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [req.body.android, req.body.ios, req.body.webgl, req.body.windows];
+      return platforms.every((element) => element === value);
+    })
+    .withMessage(validator.errors.divergenceError),
   body('webgl')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.windows];
       return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.windows];
+      return platforms.every((element) => element === value);
+    })
+    .withMessage(validator.errors.divergenceError),
   body('windows')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.webgl];
       return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.webgl];
+      return platforms.every((element) => element === value);
+    })
+    .withMessage(validator.errors.divergenceError),
   body('wikilibras')
     .optional()
     .not().isEmpty()
-    .withMessage(validator.errors.fileError),
+    .bail()
+    .withMessage(validator.errors.fileError)
+    .custom((value, { req }) => {
+      const platforms = [
+        req.body.android,
+        req.body.ios,
+        req.body.linux,
+        req.body.webgl,
+        req.body.windows,
+      ];
+      return platforms.every((element) => !element || element === value.split('.')[0]);
+    })
+    .withMessage(validator.errors.divergenceError),
 ];
 
 const getSignRule = [
