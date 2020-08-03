@@ -13,35 +13,35 @@ const addNewSignRule = [
   body('android')
     .if((_value, { req }) => {
       const platforms = [req.body.ios, req.body.linux, req.body.webgl, req.body.windows];
-      return !req.body.wikilibras && platforms.some((element) => !element);
+      return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
     .withMessage(validator.errors.fileError),
   body('ios')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.linux, req.body.webgl, req.body.windows];
-      return !req.body.wikilibras && platforms.some((element) => !element);
+      return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
     .withMessage(validator.errors.fileError),
   body('linux')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.webgl, req.body.windows];
-      return !req.body.wikilibras && platforms.some((element) => !element);
+      return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
     .withMessage(validator.errors.fileError),
   body('webgl')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.windows];
-      return !req.body.wikilibras && platforms.some((element) => !element);
+      return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
     .withMessage(validator.errors.fileError),
   body('windows')
     .if((_value, { req }) => {
       const platforms = [req.body.android, req.body.ios, req.body.linux, req.body.webgl];
-      return !req.body.wikilibras && platforms.some((element) => !element);
+      return !req.body.wikilibras || platforms.some((element) => element);
     })
     .not().isEmpty()
     .withMessage(validator.errors.fileError),
