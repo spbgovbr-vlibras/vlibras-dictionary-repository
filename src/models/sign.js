@@ -1,5 +1,7 @@
 import { Model } from 'sequelize';
 
+import sanitizer from '../lib/sanitizer';
+
 export default (sequelize, DataTypes) => {
   class Sign extends Model {
     static associate(models) {
@@ -23,6 +25,12 @@ export default (sequelize, DataTypes) => {
       unique: true,
     },
   }, {
+    hooks: {
+      beforeCreate: (instance) => {
+        // eslint-disable-next-line no-param-reassign
+        instance.name = sanitizer.toUpperCase(instance.name);
+      },
+    },
     sequelize,
     modelName: 'Sign',
     timestamps: true,

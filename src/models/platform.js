@@ -1,5 +1,7 @@
 import { Model } from 'sequelize';
 
+import sanitizer from '../lib/sanitizer';
+
 export default (sequelize, DataTypes) => {
   class Platform extends Model {
     static associate(models) {
@@ -20,6 +22,12 @@ export default (sequelize, DataTypes) => {
       unique: true,
     },
   }, {
+    hooks: {
+      beforeCreate: (instance) => {
+        // eslint-disable-next-line no-param-reassign
+        instance.platform = sanitizer.toUpperCase(instance.platform);
+      },
+    },
     sequelize,
     modelName: 'Platform',
     timestamps: false,
