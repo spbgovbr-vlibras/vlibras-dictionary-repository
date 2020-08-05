@@ -14,7 +14,7 @@ export default (router) => {
   signRoute.post(
     '/',
     uploadFiles,
-    validationRules.addNewSignRule,
+    validationRules.addSignRule,
     validateRequest,
     addNewSign,
   );

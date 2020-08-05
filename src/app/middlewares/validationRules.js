@@ -1,13 +1,15 @@
 import { body, param } from 'express-validator';
 
+import sanitizer from '../../lib/sanitizer';
 import validator from '../../lib/validator';
 
-const addNewSignRule = [
+const addSignRule = [
   body('version')
     .isIn(validator.values.versions)
     .withMessage(validator.errors.versionError),
   body('region')
     .optional()
+    .customSanitizer(sanitizer.toUpperCase)
     .isIn(validator.values.regions)
     .withMessage(validator.errors.regionError),
   body('android')
@@ -96,25 +98,29 @@ const addNewSignRule = [
 const getSignRule = [
   param('sign')
     .not().isEmpty()
+    .customSanitizer(sanitizer.toUpperCase)
     .withMessage(validator.errors.emptyError),
   param('version')
     .isIn(validator.values.versions)
     .withMessage(validator.errors.versionError),
   param('platform')
+    .customSanitizer(sanitizer.toUpperCase)
     .isIn(validator.values.platforms)
     .withMessage(validator.errors.platformError),
   param('region')
     .optional()
+    .customSanitizer(sanitizer.toUpperCase)
     .isIn(validator.values.regions)
     .withMessage(validator.errors.regionError),
 ];
 
 const removeSignRule = param('sign')
   .not().isEmpty()
+  .customSanitizer(sanitizer.toUpperCase)
   .withMessage(validator.errors.emptyError);
 
 export default {
-  addNewSignRule,
+  addSignRule,
   getSignRule,
   removeSignRule,
 };
