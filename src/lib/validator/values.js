@@ -5,5 +5,5 @@ export default {
   platforms: Object.values(constants.PLATFORMS),
   regions: Object.values(constants.REGIONS),
   mimes: { bin: 'application/octet-stream', video: 'video/mp4' },
-  extensions: { blend: '.blend', video: '.mp4' },
+  extensions: { blend: constants.EXTENSIONS.BLEND, video: constants.EXTENSIONS.VIDEO },
 };
