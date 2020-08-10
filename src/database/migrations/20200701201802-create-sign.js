@@ -11,6 +11,15 @@ export async function up(queryInterface, Sequelize) {
       type: Sequelize.STRING,
       unique: true,
     },
+    subject: {
+      type: Sequelize.STRING,
+    },
+    wordClass: {
+      type: Sequelize.STRING,
+    },
+    nationality: {
+      type: Sequelize.STRING,
+    },
     createdAt: {
       allowNull: false,
       type: Sequelize.DATE,

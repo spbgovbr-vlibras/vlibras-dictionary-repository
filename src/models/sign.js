@@ -24,6 +24,15 @@ export default (sequelize, DataTypes) => {
       type: DataTypes.STRING,
       unique: true,
     },
+    subject: {
+      type: DataTypes.STRING,
+    },
+    wordClass: {
+      type: DataTypes.STRING,
+    },
+    nationality: {
+      type: DataTypes.STRING,
+    },
   }, {
     hooks: {
       beforeCreate: (instance) => {
