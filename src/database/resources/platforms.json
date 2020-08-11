@@ -13,5 +13,8 @@
   },
   {
     "platform": "WINDOWS"
+  },
+  {
+    "platform": "WIKILIBRAS"
   }
 ]
