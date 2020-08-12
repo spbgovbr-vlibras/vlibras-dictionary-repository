@@ -1,5 +1,6 @@
 import path from 'path';
 import createError from 'http-errors';
+import fse from 'fs-extra';
 import multer from 'multer';
 
 import config from '../../config';
@@ -10,7 +11,29 @@ import validator from '../../lib/validator';
 // TODO: implement a more robust file filter with file-type
 const upload = multer({
   storage: multer.diskStorage({
-    destination: config.storage.fileStagingFolder,
+    destination: (req, file, cb) => {
+      if (!req.body.version) {
+        return cb(createError(422, {
+          param: 'version',
+          value: req.body.version,
+          msg: validator.errors.emptyError,
+        }));
+      }
+
+      const destination = path.join(
+        config.storage.fileStagingFolder,
+        req.body.version,
+        sanitizer.toUpperCase(file.fieldname),
+        sanitizer.toUpperCase(req.body.region || constants.REGIONS.BR),
+      );
+
+      return fse.mkdirp(destination, (mkdirpError) => {
+        if (mkdirpError !== null) {
+          return cb(mkdirpError);
+        }
+        return cb(null, destination);
+      });
+    },
     filename: (_req, file, cb) => {
       const extname = path.extname(file.originalname);
       const basename = sanitizer.toUpperCase(path.basename(file.originalname, extname));
