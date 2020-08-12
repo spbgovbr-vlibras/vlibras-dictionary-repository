@@ -51,7 +51,7 @@ export default class SignService {
       });
 
       if (sign === null) {
-        return null;
+        throw new Error('no sign record in the database to associate the sign source');
       }
 
       const { Platforms, Formats } = sign.get({ plain: true });
