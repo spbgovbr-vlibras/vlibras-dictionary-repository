@@ -1,27 +1,64 @@
+import path from 'path';
 import createError from 'http-errors';
 
 import SignService from '../../services/SignService';
+import FileService from '../../services/FileService';
 
 // TODO: remove files if any step fails
 const addNewSign = async function addNewSignToDictionary(req, res, next) {
   try {
-    // TODO: handle the filename when uploading .blend and .mp4 files
-    const signFiles = Object.values(req.files)
-      .map((file) => JSON.stringify([file[0].originalname, file[0].mimetype]));
+    if (Object.keys(req.files).length === 1) {
+      const signExtension = path.extname(req.files.wikilibras[0].originalname);
+      const signName = path.basename(req.files.wikilibras[0].originalname, signExtension);
 
-    const isSameSign = signFiles.every((item, _i, array) => item === array[0]);
+      const { name, createdAt } = await SignService.registerNewSignSource(
+        signName,
+        req.body.version,
+        signExtension,
+        req.body.region,
+      );
+      // TODO: remove sign registers if file publish fails
+      await FileService.publishSignFile(
+        req.files.wikilibras[0].path,
+        req.body.version,
+        req.files.wikilibras[0].fieldname,
+        req.body.region,
+      );
 
-    if (!isSameSign) {
-      return next(createError(422, 'files do not represent the same sign'));
+      return res.status(201).json({ name, createdAt });
     }
 
-    const { name, createdAt } = await SignService.registerNewSign(
-      req.files.android[0].originalname,
+    const signName = path.basename(
+      Object.values(req.files)[0][0].originalname,
+      path.extname(Object.values(req.files)[0][0].originalname),
+    );
+
+    const { name, createdAt } = await SignService.registerNewSignBundle(
+      signName,
       req.body.version,
       req.body.region,
     );
 
-    return res.status(200).json({ name, createdAt });
+    if (Object.prototype.hasOwnProperty.call(req.files, 'wikilibras')) {
+      await SignService.registerNewSignSource(
+        signName,
+        req.body.version,
+        path.extname(req.files.wikilibras[0].originalname),
+        req.body.region,
+      );
+    }
+
+    // TODO: remove sign registers if file publish fails
+    await Promise.all(Object.values(req.files).map(async (file) => {
+      await FileService.publishSignFile(
+        file[0].path,
+        req.body.version,
+        file[0].fieldname,
+        req.body.region,
+      );
+    }));
+
+    return res.status(201).json({ name, createdAt });
   } catch (addNewSignError) {
     // TODO: handle already exist error to return 'conflict' instead 'internal error'
     return next(addNewSignError);
