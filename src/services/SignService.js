@@ -34,7 +34,7 @@ export default class SignService {
     }
   }
 
-  static async registerNewSignSource(signName, signVersion, signFormat, signRegion = 'BR') {
+  static async registerNewSignSource(signName, signVersion, signExtension, signRegion = 'BR') {
     try {
       const sign = await models.Sign.findOne({
         where: {
@@ -46,7 +46,7 @@ export default class SignService {
           { model: models.Version, as: 'Versions' },
           { model: models.Platform, attributes: ['platform'] },
           { model: models.Region, as: 'Regions' },
-          { model: models.Format, attributes: ['format'] },
+          { model: models.Format, attributes: ['extension'] },
         ],
       });
 
@@ -57,14 +57,14 @@ export default class SignService {
       const { Platforms, Formats } = sign.get({ plain: true });
       if (
         Platforms.some((platform) => platform.platform === constants.PLATFORMS.WIKILIBRAS)
-        && Formats.some((format) => format.format === signFormat)
+        && Formats.some((format) => format.extension === signExtension)
       ) {
         throw new Error('sign source already registered in the database');
       }
 
       const [platform, format] = await Promise.all([
         models.Platform.findOne({ where: { platform: constants.PLATFORMS.WIKILIBRAS } }),
-        models.Format.findOne({ where: { format: signFormat } }),
+        models.Format.findOne({ where: { extension: signExtension } }),
       ]); // do not change the sequence
 
       await Promise.all([
