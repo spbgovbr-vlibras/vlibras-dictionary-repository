@@ -1,3 +1,4 @@
+import path from 'path';
 import { Op } from 'sequelize';
 
 import models from '../models';
@@ -83,11 +84,11 @@ export default class SignService {
     try {
       const sign = await models.Sign.findOne({
         where: {
-          name: signName,
+          name: path.basename(signName, path.extname(signName)),
           '$Versions.version$': signVersion,
           '$Platforms.platform$': signPlatform,
           '$Regions.region$': signRegion,
-          '$Formats.format$': 'BUNDLE',
+          '$Formats.extension$': path.extname(signName),
         },
         include: [
           { model: models.Version, as: 'Versions' },
