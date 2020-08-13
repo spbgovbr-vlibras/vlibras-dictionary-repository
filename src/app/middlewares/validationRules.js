@@ -1,4 +1,5 @@
-import { body, param, query } from 'express-validator';
+import path from 'path';
+import { body, param } from 'express-validator';
 
 import sanitizer from '../../lib/sanitizer';
 import validator from '../../lib/validator';
@@ -99,8 +100,9 @@ const getSignRule = [
   param('sign')
     .not().isEmpty()
     .customSanitizer((value) => {
-      const [name, extension] = value.split('.');
-      return `${sanitizer.toUpperCase(name)}.${extension}`;
+      const signExtension = path.extname(value);
+      const signName = path.basename(value, signExtension);
+      return `${sanitizer.toUpperCase(signName)}${signExtension}`;
     })
     .withMessage(validator.errors.emptyError),
   param('version')

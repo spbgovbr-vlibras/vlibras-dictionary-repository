@@ -78,7 +78,18 @@ const getSign = async function getSignFromDictionary(req, res, next) {
       return next(createError(404, 'sign not found in dictionary registry'));
     }
 
-    return res.status(200).send(sign.name);
+    const signFile = await FileService.retriveSignFile(
+      req.params.sign,
+      req.params.version,
+      req.params.platform,
+      req.params.region,
+    );
+
+    if (signFile === null) {
+      return next(createError(404, 'sign file not found in dictionary storage'));
+    }
+
+    return res.status(200).sendFile(signFile);
   } catch (getSignError) {
     return next(getSignError);
   }

@@ -40,6 +40,31 @@ export default class FileService {
     }
   }
 
+  static async retriveSignFile(fileName, version, platform, region = 'BR') {
+    try {
+      const signExtension = path.extname(fileName);
+      const signName = path.basename(fileName, signExtension);
+
+      const filePath = path.join(
+        config.storage.fileStorageFolder,
+        version,
+        sanitizer.toUpperCase(platform),
+        sanitizer.toUpperCase(region),
+        `${sanitizer.toUpperCase(signName)}${signExtension}`,
+      );
+
+      const fileExists = await fse.pathExists(filePath);
+      if (fileExists) {
+        return filePath;
+      }
+
+      return null;
+    } catch (retriveSignFileError) {
+      console.error(retriveSignFileError);
+      throw new Error('an unexpected error occurred while retrieving sign file');
+    }
+  }
+
   static async removeSignFiles(sign, version, platform, region = 'BR', permanent = false) {
     // try {
     return null;
