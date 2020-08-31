@@ -17,7 +17,7 @@ export default class SignService {
       ]); // do not change the sequence
 
       // TODO: include sign metadata when create
-      const sign = await models.Sign.create({ name: signName });
+      const [sign] = await models.Sign.findCreateFind({ where: { name: signName } });
 
       await Promise.all([
         sign.addVersion(version),
