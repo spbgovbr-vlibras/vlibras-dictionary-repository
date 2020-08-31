@@ -2,8 +2,8 @@ import path from 'path';
 import fse from 'fs-extra';
 
 import config from '../config';
-import constants from '../lib/constants';
-import sanitizer from '../lib/sanitizer';
+import constants from '../util/constants';
+import sanitizer from '../util/sanitizer';
 
 export default class FileService {
   static async publishSignFile(filePath, version, platform, region = 'BR', overwrite = false) {

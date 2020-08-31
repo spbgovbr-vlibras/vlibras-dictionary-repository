@@ -2,7 +2,7 @@ import path from 'path';
 import { Op } from 'sequelize';
 
 import models from '../models';
-import constants from '../lib/constants';
+import constants from '../util/constants';
 
 export default class SignService {
   static async registerNewSignBundle(signName, signVersion, signRegion = 'BR') {

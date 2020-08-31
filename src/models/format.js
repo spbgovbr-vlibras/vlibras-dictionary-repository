@@ -1,6 +1,6 @@
 import { Model } from 'sequelize';
 
-import sanitizer from '../lib/sanitizer';
+import sanitizer from '../util/sanitizer';
 
 export default (sequelize, DataTypes) => {
   class Format extends Model {

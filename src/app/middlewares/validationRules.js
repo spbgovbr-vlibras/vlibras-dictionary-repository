@@ -1,8 +1,8 @@
 import path from 'path';
 import { body, param } from 'express-validator';
 
-import sanitizer from '../../lib/sanitizer';
-import validator from '../../lib/validator';
+import sanitizer from '../../util/sanitizer';
+import validator from '../../util/validator';
 
 const addSignRule = [
   body('version')

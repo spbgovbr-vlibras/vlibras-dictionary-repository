@@ -4,9 +4,9 @@ import fse from 'fs-extra';
 import multer from 'multer';
 
 import config from '../../config';
-import constants from '../../lib/constants';
-import sanitizer from '../../lib/sanitizer';
-import validator from '../../lib/validator';
+import constants from '../../util/constants';
+import sanitizer from '../../util/sanitizer';
+import validator from '../../util/validator';
 
 // TODO: implement a more robust file filter with file-type
 const upload = multer({
