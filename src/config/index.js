@@ -34,7 +34,7 @@ export default {
     database: process.env.DATABASE_NAME || 'vlibrasdb',
     host: process.env.DATABASE_HOST || '127.0.0.1',
     dialect: 'postgres',
-    logging: process.env.DATABASE_LOGGING === 'enable',
+    logging: false,
   },
   storage: {
     maxFileSize: 5 * 1024 * 1024,
