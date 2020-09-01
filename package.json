@@ -45,6 +45,6 @@
     "predev": "babel src --out-dir dist --copy-files --include-dotfiles",
     "dev": "DEBUG=vlibras-dictionary-*:* NODE_ENV=development node dist/index.js",
     "build": "babel src --out-dir dist --copy-files --include-dotfiles",
-    "production": "node dist/index.js"
+    "production": "NODE_ENV=production node dist/index.js"
   }
 }
