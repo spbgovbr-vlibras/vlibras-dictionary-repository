@@ -1,5 +1,5 @@
 import path from 'path';
-import { body, param } from 'express-validator';
+import { body, param, query } from 'express-validator';
 
 import sanitizer from '../../util/sanitizer';
 import validator from '../../util/validator';
@@ -119,6 +119,11 @@ const getSignRule = [
     .withMessage(validator.errors.regionError),
 ];
 
+const listSignsRule = query('version')
+  .optional()
+  .isIn(validator.values.versions)
+  .withMessage(validator.errors.versionError);
+
 const removeSignRule = param('sign')
   .not().isEmpty()
   .customSanitizer(sanitizer.toUpperCase)
@@ -127,5 +132,6 @@ const removeSignRule = param('sign')
 export default {
   addSignRule,
   getSignRule,
+  listSignsRule,
   removeSignRule,
 };

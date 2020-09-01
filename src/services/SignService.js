@@ -109,19 +109,17 @@ export default class SignService {
     }
   }
 
-  static async listRegisteredSigns() {
+  static async listRegisteredSigns(signsVersion = '2018.3.1') {
     try {
       const rows = await models.Sign.findAll({
         attributes: ['name'],
-        include: [ // FIXME: try to remove relation table from query result
-          { model: models.Version, attributes: ['version'] },
-          { model: models.Platform, attributes: ['platform'] },
-          { model: models.Region, attributes: ['region'] },
-          { model: models.Format, attributes: ['format'] },
-        ],
+        where: { '$Versions.version$': signsVersion },
+        include: [{ model: models.Version, as: 'Versions' }],
+        order: [['id', 'ASC']],
       });
 
-      const signs = rows.map((row) => row.get({ plain: true }));
+      const signs = rows.map((row) => row.get({ plain: true }).name);
+
       return signs;
     } catch (listRegisteredSignsError) {
       console.error(listRegisteredSignsError); // TODO: change to logger

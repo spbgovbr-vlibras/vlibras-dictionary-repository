@@ -95,11 +95,9 @@ const getSign = async function getSignFromDictionary(req, res, next) {
   }
 };
 
-const listSigns = async function listDictionarySigns(_req, res, next) {
+const listSigns = async function listDictionarySigns(req, res, next) {
   try {
-    let signList = await SignService.listRegisteredSigns();
-    signList = signList.map((sign) => sign.name);
-
+    const signList = await SignService.listRegisteredSigns(req.query.version);
     return res.status(200).json(signList);
   } catch (listSignsError) {
     return next(listSignsError);

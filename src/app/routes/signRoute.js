@@ -28,6 +28,7 @@ export default (router) => {
 
   signRoute.get(
     '/',
+    validationRules.listSignsRule,
     listSigns,
   );
 
