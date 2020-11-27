@@ -1,0 +1,12083 @@
+[
+  {
+    "name": "1_HORA"
+  },
+  {
+    "name": "1S_ABANDONAR_1S"
+  },
+  {
+    "name": "1S_ACAUTELAR_1S"
+  },
+  {
+    "name": "1S_ACONSELHAR_2P"
+  },
+  {
+    "name": "1S_ACUAR_1S"
+  },
+  {
+    "name": "1S_AFILIAR_1S"
+  },
+  {
+    "name": "1S_AJUDAR_2S"
+  },
+  {
+    "name": "1S_AJUDAR_3P"
+  },
+  {
+    "name": "1S_AJUDAR_3S"
+  },
+  {
+    "name": "1S_ALCOOLIZAR_1S"
+  },
+  {
+    "name": "1S_APRESENTAR_1S"
+  },
+  {
+    "name": "1S_APRESENTAR_2S"
+  },
+  {
+    "name": "1S_ARRASTAR_1S"
+  },
+  {
+    "name": "1S_AVISAR_2S"
+  },
+  {
+    "name": "1S_AVISAR_3P"
+  },
+  {
+    "name": "1S_AVISAR_3S"
+  },
+  {
+    "name": "1S_AZAR_2S"
+  },
+  {
+    "name": "1S_AZAR_3S"
+  },
+  {
+    "name": "1S_BANHAR_1S"
+  },
+  {
+    "name": "1S_CHAMAR_2S"
+  },
+  {
+    "name": "1S_CHAMAR_3S"
+  },
+  {
+    "name": "1S_CHOCAR_1S"
+  },
+  {
+    "name": "1S_COBRIR_1S"
+  },
+  {
+    "name": "1S_COMANDAR_1S"
+  },
+  {
+    "name": "1S_CONCENTRAR_1S"
+  },
+  {
+    "name": "1S_CONTAR_2S"
+  },
+  {
+    "name": "1S_CONTAR_3S"
+  },
+  {
+    "name": "1S_DAR_3P"
+  },
+  {
+    "name": "1S_DESFAZER_1S"
+  },
+  {
+    "name": "1S_DESPREZAR_3P"
+  },
+  {
+    "name": "1S_DEVOLVER_3S"
+  },
+  {
+    "name": "1S_DO_QUE_2S"
+  },
+  {
+    "name": "1S_EMBRIAGAR_1S"
+  },
+  {
+    "name": "1S_EMPENHAR_1S"
+  },
+  {
+    "name": "1S_ENCARAR_1S"
+  },
+  {
+    "name": "1S_ENGANAR_1S"
+  },
+  {
+    "name": "1S_ENROLAR_1S"
+  },
+  {
+    "name": "1S_ENSINAR_2S"
+  },
+  {
+    "name": "1S_ENSINAR_3S"
+  },
+  {
+    "name": "1S_ENTREMETER_1S"
+  },
+  {
+    "name": "1S_ESBOFETEAR_1S"
+  },
+  {
+    "name": "1S_ESCOLHER_2S"
+  },
+  {
+    "name": "1S_ESCOLHER_3P"
+  },
+  {
+    "name": "1S_FARTAR_1S"
+  },
+  {
+    "name": "1S_FORMAR_1S"
+  },
+  {
+    "name": "1S_FOTOGRAFAR_1S"
+  },
+  {
+    "name": "1S_GLORIAR_1S"
+  },
+  {
+    "name": "1S_IMPLANTAR_1S"
+  },
+  {
+    "name": "1S_INEBRIAR_1S"
+  },
+  {
+    "name": "1S_INSCREVER_1S"
+  },
+  {
+    "name": "1S_INSENTAR_1S"
+  },
+  {
+    "name": "1S_INTROMETER_1S"
+  },
+  {
+    "name": "1S_LIGAR_2P"
+  },
+  {
+    "name": "1S_LIGAR_2S"
+  },
+  {
+    "name": "1S_MANDAR_2P"
+  },
+  {
+    "name": "1S_MOSTRAR_2S"
+  },
+  {
+    "name": "1S_MOSTRAR_3P"
+  },
+  {
+    "name": "1S_MOSTRAR_3S"
+  },
+  {
+    "name": "1S_OLHAR_2S"
+  },
+  {
+    "name": "1S_OLHAR_3P"
+  },
+  {
+    "name": "1S_OLHAR_3S"
+  },
+  {
+    "name": "1S_PAGAR_2P"
+  },
+  {
+    "name": "1S_PEDIR_2P"
+  },
+  {
+    "name": "1S_PEGAR_1S"
+  },
+  {
+    "name": "1S_PERCEBER_2P"
+  },
+  {
+    "name": "1S_PERGUNTAR_2S"
+  },
+  {
+    "name": "1S_PERGUNTAR_3P"
+  },
+  {
+    "name": "1S_PERGUNTAR_3S"
+  },
+  {
+    "name": "1S_PERTENCER_1P"
+  },
+  {
+    "name": "1S_PERTENCER_1S"
+  },
+  {
+    "name": "1S_PROTEGER_2P"
+  },
+  {
+    "name": "1S_RESPEITAR_2P"
+  },
+  {
+    "name": "1S_RESPONDER_2S"
+  },
+  {
+    "name": "1S_RESPONDER_3S"
+  },
+  {
+    "name": "1S_SOCAR_2P"
+  },
+  {
+    "name": "1S_VER_2S"
+  },
+  {
+    "name": "1S_VIGIAR_2P"
+  },
+  {
+    "name": "2S_ACUSAR_1S"
+  },
+  {
+    "name": "2S_AJUDAR_1S"
+  },
+  {
+    "name": "2S_APUNHALAR_1S"
+  },
+  {
+    "name": "2S_AVISAR_1S"
+  },
+  {
+    "name": "2S_CHAMAR_1S"
+  },
+  {
+    "name": "2S_CONTAR_1S"
+  },
+  {
+    "name": "2S_CONVIDAR_1S"
+  },
+  {
+    "name": "2S_DAR_1S"
+  },
+  {
+    "name": "2S_DEMITIIR_1S"
+  },
+  {
+    "name": "2S_DESPREZAR_1S"
+  },
+  {
+    "name": "2S_DEVOLVER_1S"
+  },
+  {
+    "name": "2S_ENGANAR_1S"
+  },
+  {
+    "name": "2S_ENSINAR_1S"
+  },
+  {
+    "name": "2S_ESBOFETEAR_1S"
+  },
+  {
+    "name": "2S_ESCOLHER_1S"
+  },
+  {
+    "name": "2S_FOTOGRAFAR_1S"
+  },
+  {
+    "name": "2S_INSULTAR_1S"
+  },
+  {
+    "name": "2S_LAGAR_1S"
+  },
+  {
+    "name": "2S_OLHAR_1S"
+  },
+  {
+    "name": "2S_PAGAR_1S"
+  },
+  {
+    "name": "2S_PERGUNTAR_1S"
+  },
+  {
+    "name": "2S_RESPONDER_1S"
+  },
+  {
+    "name": "2S_SOCAR_1S"
+  },
+  {
+    "name": "3_HORAS"
+  },
+  {
+    "name": "3P_AJUDAR_1S"
+  },
+  {
+    "name": "3P_AVISAR_2S"
+  },
+  {
+    "name": "3P_DESPREZAR_1S"
+  },
+  {
+    "name": "3P_OLHAR_1S"
+  },
+  {
+    "name": "3P_VER_1S"
+  },
+  {
+    "name": "3S_AJUDAR_1S"
+  },
+  {
+    "name": "3S_CHAMAR_1S"
+  },
+  {
+    "name": "3S_CONTAR_1S"
+  },
+  {
+    "name": "3S_DAR_1S"
+  },
+  {
+    "name": "3S_DESPREZAR_1S"
+  },
+  {
+    "name": "3S_DEVOLVER_1S"
+  },
+  {
+    "name": "3S_DO_QUE_2S"
+  },
+  {
+    "name": "3S_ENSINAR_1S"
+  },
+  {
+    "name": "3S_ESCOLHER_1S"
+  },
+  {
+    "name": "3S_MOSTRAR_1S"
+  },
+  {
+    "name": "3S_OLHAR_1S"
+  },
+  {
+    "name": "3S_PERGUNTAR_1S"
+  },
+  {
+    "name": "3S_RESPONDER_1S"
+  },
+  {
+    "name": "3S_VER_1S"
+  },
+  {
+    "name": "4_HORAS"
+  },
+  {
+    "name": "5_HORAS"
+  },
+  {
+    "name": "ABA&INFORMÁTICA"
+  },
+  {
+    "name": "ABAIXAR&ORELHA"
+  },
+  {
+    "name": "ABAIXAR&RABO"
+  },
+  {
+    "name": "ABAIXAR&VOZ"
+  },
+  {
+    "name": "ABANDONO_DE_INCAPAZ"
+  },
+  {
+    "name": "ABANDONO_DE_PESSOA_INCAPAZ"
+  },
+  {
+    "name": "ABDIA"
+  },
+  {
+    "name": "ABENÇOAR_SIM"
+  },
+  {
+    "name": "ABERTO&ABRIR"
+  },
+  {
+    "name": "ABERTO&ACESSÍVEL"
+  },
+  {
+    "name": "ABERTURA&ABRIR"
+  },
+  {
+    "name": "ABÓBORA"
+  },
+  {
+    "name": "ABORTAR&FALHAR"
+  },
+  {
+    "name": "ABORTAR&GRAVIDEZ"
+  },
+  {
+    "name": "ABORTAR&INTERROMPER"
+  },
+  {
+    "name": "ABRAÇAR&DEDICAR"
+  },
+  {
+    "name": "ABRAÇAR&ENVOLVER"
+  },
+  {
+    "name": "ABRAÇAR_SIM"
+  },
+  {
+    "name": "ABRAHAM_WEINTRAUB&FAMOSO"
+  },
+  {
+    "name": "ABRIDOR&GARRAFAS"
+  },
+  {
+    "name": "ABRIDOR&LATA_AUTOMÁTICO"
+  },
+  {
+    "name": "ABRIDOR&LATA_MANUAL"
+  },
+  {
+    "name": "ABRIGO&AMPARO"
+  },
+  {
+    "name": "ABRIGO&CASA"
+  },
+  {
+    "name": "ABRIR&AFASTAR"
+  },
+  {
+    "name": "ABRIR&ARQUIVO"
+  },
+  {
+    "name": "ABRIR&COMEÇAR"
+  },
+  {
+    "name": "ABRIR&CONTA_EM_BANCO"
+  },
+  {
+    "name": "ABRIR&DESABAFAR"
+  },
+  {
+    "name": "ABRIR&GARRAFA"
+  },
+  {
+    "name": "ABRIR&GELADEIRA"
+  },
+  {
+    "name": "ABRIR&JANELA"
+  },
+  {
+    "name": "ABRIR&LATA"
+  },
+  {
+    "name": "ABRIR&MENTE"
+  },
+  {
+    "name": "ABRIR&OLHOS"
+  },
+  {
+    "name": "ABRIR&PORTA"
+  },
+  {
+    "name": "ABRIR&PORTA_MALA"
+  },
+  {
+    "name": "ABRIR&REVELAR"
+  },
+  {
+    "name": "ABRIR_SIM"
+  },
+  {
+    "name": "ABRIR&TAMPA"
+  },
+  {
+    "name": "ABRIR&TORNEIRA"
+  },
+  {
+    "name": "ABSORÇÃO"
+  },
+  {
+    "name": "ABSORVER&ÁGUA"
+  },
+  {
+    "name": "ABSORVER&CONHECIMENTO"
+  },
+  {
+    "name": "ABSORVER&EXTRAIR"
+  },
+  {
+    "name": "ABSORVER&LÍQUIDO"
+  },
+  {
+    "name": "AC"
+  },
+  {
+    "name": "ACABAR_EXPRESSÃO"
+  },
+  {
+    "name": "ACABAR&TERMINAR"
+  },
+  {
+    "name": "AÇAÍ&FRUTA"
+  },
+  {
+    "name": "ACALENTAR&BEBÊ"
+  },
+  {
+    "name": "ACALMAR_SIM"
+  },
+  {
+    "name": "AÇÃO_DE_ALIMENTOS"
+  },
+  {
+    "name": "AÇÃO_DECLARATÓRIA_DE_CONSTITUCIONALIDADE"
+  },
+  {
+    "name": "AÇÃO_DE_DESPEJO"
+  },
+  {
+    "name": "AÇÃO_DE_EXONERAÇÃO_DE_ALIMENTOS"
+  },
+  {
+    "name": "AÇÃO_DIRETA_DE_INCONSTITUCIONALIDADE"
+  },
+  {
+    "name": "AÇÃO_DIRETA_DE_INCONSTITUCIONALIDADE_POR_OMISSÃO"
+  },
+  {
+    "name": "ACAUTELAR&CUIDADO"
+  },
+  {
+    "name": "ACAUTELAR&PREVENIR"
+  },
+  {
+    "name": "ACELERAR&APRESSAR"
+  },
+  {
+    "name": "ACELERAR&VELOCIDADE"
+  },
+  {
+    "name": "ACENDER&LUZ"
+  },
+  {
+    "name": "ACENDER&VELA"
+  },
+  {
+    "name": "ACENTO&AGUDO"
+  },
+  {
+    "name": "ACENTO&CIRCUNFLEXO"
+  },
+  {
+    "name": "ACENTO&TIL"
+  },
+  {
+    "name": "A_CERCA_DE"
+  },
+  {
+    "name": "ACERTAR&COMBINAR"
+  },
+  {
+    "name": "ACERTAR&CORRETO"
+  },
+  {
+    "name": "ACERTO&COMBINAR"
+  },
+  {
+    "name": "ACERTO&CORRETO"
+  },
+  {
+    "name": "ACESSOR"
+  },
+  {
+    "name": "ACETIL_SALICÍLICO"
+  },
+  {
+    "name": "ACHAR&ENCONTRAR"
+  },
+  {
+    "name": "ACHAR&PENSAR"
+  },
+  {
+    "name": "ACHAR_SIM"
+  },
+  {
+    "name": "ACIDENTAL"
+  },
+  {
+    "name": "ACIDENTE&CARRO"
+  },
+  {
+    "name": "ACIDENTE&VASCULAR_CEREBRAL"
+  },
+  {
+    "name": "ÁCIDO_QUIMICA"
+  },
+  {
+    "name": "ACLIMATAÇÃO"
+  },
+  {
+    "name": "ACLIMATAR"
+  },
+  {
+    "name": "ACOMODAMENTE"
+  },
+  {
+    "name": "ACOMPANHAR_SIM"
+  },
+  {
+    "name": "ACONSELHAR&ADVERTIR"
+  },
+  {
+    "name": "ACONSELHAR&RECOMENDAR"
+  },
+  {
+    "name": "ACORDAR&ACORDO"
+  },
+  {
+    "name": "ACORDAR&DESPERTAR"
+  },
+  {
+    "name": "ACORDAR_SIM"
+  },
+  {
+    "name": "ACORDO_DE_LIDERANÇA"
+  },
+  {
+    "name": "ACRE&ESTADO"
+  },
+  {
+    "name": "ACROBATA&CORDA"
+  },
+  {
+    "name": "AÇUDE&BARRAGEM"
+  },
+  {
+    "name": "ACÚSTICO"
+  },
+  {
+    "name": "À_DERIVA"
+  },
+  {
+    "name": "ADIAR_SIM"
+  },
+  {
+    "name": "ADICIONAR&ACRESCENTAR"
+  },
+  {
+    "name": "ADICIONAR&LISTA"
+  },
+  {
+    "name": "ADIVINHAR_SIM"
+  },
+  {
+    "name": "ADMINISTRAÇÃO&GERENCIAR"
+  },
+  {
+    "name": "ADMINISTRAR&GERENCIAR"
+  },
+  {
+    "name": "ADMINISTRAR&REMÉDIO"
+  },
+  {
+    "name": "ADMIRAR&APRECIAR"
+  },
+  {
+    "name": "ADMIRAR&SURPRESA"
+  },
+  {
+    "name": "ADMITIR&ASSUMIR"
+  },
+  {
+    "name": "ADMITIR&CONTRATAR"
+  },
+  {
+    "name": "ADMITIR&PERMISSÃO"
+  },
+  {
+    "name": "ADMITIR_SIM"
+  },
+  {
+    "name": "A_DURAS_PENAS"
+  },
+  {
+    "name": "ADVERSIDADE"
+  },
+  {
+    "name": "ADVOCACIA_GERAL_DA_UNIÃO"
+  },
+  {
+    "name": "AERÓDROMO"
+  },
+  {
+    "name": "AERONAVE_DE_CAÇA"
+  },
+  {
+    "name": "AEROPORTUÁRIA"
+  },
+  {
+    "name": "AERÓSTATO"
+  },
+  {
+    "name": "A_ESQUERDA"
+  },
+  {
+    "name": "A_EXCEÇÃO_DE"
+  },
+  {
+    "name": "AFASTADO&DISTANTE"
+  },
+  {
+    "name": "AFASTAR&MÃO"
+  },
+  {
+    "name": "AFASTAR_SIM"
+  },
+  {
+    "name": "AFÁVEL"
+  },
+  {
+    "name": "AFEGANISTÃO&PAÍS"
+  },
+  {
+    "name": "AFERIR&PRESSÃO_ARTERIAL"
+  },
+  {
+    "name": "AFERIR&TEMPERATURA"
+  },
+  {
+    "name": "AFETADO&ESNOBE"
+  },
+  {
+    "name": "AFETADO&PREJUÍZO"
+  },
+  {
+    "name": "AFETADO&SENTIMENTO"
+  },
+  {
+    "name": "AFETADO&TÍSICO"
+  },
+  {
+    "name": "A_FRENTE"
+  },
+  {
+    "name": "ÁFRICA_DO_SUL"
+  },
+  {
+    "name": "ÁFRICA_DO_SUL&PAÍS"
+  },
+  {
+    "name": "AFROBRASILEIRO"
+  },
+  {
+    "name": "AGÊNCIA_DA_CÂMARA"
+  },
+  {
+    "name": "AGENDA&ENDEREÇO"
+  },
+  {
+    "name": "AGENDA&TELEFONE"
+  },
+  {
+    "name": "AGENTE&ADMINISTRATIVO"
+  },
+  {
+    "name": "AGENTE&ATIVO"
+  },
+  {
+    "name": "AGENTE&PASSIVO"
+  },
+  {
+    "name": "AGITAR&ESTIMULAR"
+  },
+  {
+    "name": "AGITAR&MEXER"
+  },
+  {
+    "name": "AGRESSÃO&FÍSICA"
+  },
+  {
+    "name": "AGRESSÃO&MORAL"
+  },
+  {
+    "name": "AGRICULTURADO"
+  },
+  {
+    "name": "ÁGUA(-)"
+  },
+  {
+    "name": "ÁGUA(+)"
+  },
+  {
+    "name": "ÁGUA_DE_COCO"
+  },
+  {
+    "name": "AGUARDAR_EXPRESSÃO"
+  },
+  {
+    "name": "ÁGUA_SANITARIA"
+  },
+  {
+    "name": "ÁGUAS_JURISDICIONAIS"
+  },
+  {
+    "name": "ÁGUA_VIVA"
+  },
+  {
+    "name": "AGULHA&COSTURAR"
+  },
+  {
+    "name": "AGULHA&INJEÇÃO"
+  },
+  {
+    "name": "AH_EXPRESSÃO"
+  },
+  {
+    "name": "AINDA&CONTINUAR"
+  },
+  {
+    "name": "AINDA&MOMENTO"
+  },
+  {
+    "name": "AJUDA_DE_CUSTO"
+  },
+  {
+    "name": "AL"
+  },
+  {
+    "name": "ALAGOAS&ESTADO"
+  },
+  {
+    "name": "ALBÂNIA&PAÍS"
+  },
+  {
+    "name": "ÁLBUM&FOTO"
+  },
+  {
+    "name": "ALEGRE(+)"
+  },
+  {
+    "name": "ALELUIA&IGREJA"
+  },
+  {
+    "name": "ALEMANHA&PAÍS"
+  },
+  {
+    "name": "ALFA"
+  },
+  {
+    "name": "ALIANÇA&ANEL"
+  },
+  {
+    "name": "ALIANÇA&PACTO"
+  },
+  {
+    "name": "ÁLIBI"
+  },
+  {
+    "name": "ALICATE&FERRAMENTA"
+  },
+  {
+    "name": "ALIENAÇÃO_DE_BENS"
+  },
+  {
+    "name": "ALIENAÇÃO_PARENTAL"
+  },
+  {
+    "name": "ALINHAR_A_DIREITA&INFORMÁTICA"
+  },
+  {
+    "name": "ALINHAR_A_ESQUERDA&INFORMÁTICA"
+  },
+  {
+    "name": "ALISAR&ABRANDAR"
+  },
+  {
+    "name": "ALISAR&ACARICIAR"
+  },
+  {
+    "name": "ALISTAR&INSCRIÇÃO"
+  },
+  {
+    "name": "ALISTAR&MILITAR"
+  },
+  {
+    "name": "ALTAMIRA&CIDADE"
+  },
+  {
+    "name": "ALTERNATIVO"
+  },
+  {
+    "name": "ALTO(-)"
+  },
+  {
+    "name": "ALTO(+)"
+  },
+  {
+    "name": "ALTO&DETER"
+  },
+  {
+    "name": "ALTO&ESTATURA"
+  },
+  {
+    "name": "ALTO_FALANTE"
+  },
+  {
+    "name": "ALTO&IMPORTANTE"
+  },
+  {
+    "name": "ALTO_MAR"
+  },
+  {
+    "name": "ALTO&VOLUME"
+  },
+  {
+    "name": "ALTURA&ESTATURA"
+  },
+  {
+    "name": "ALTURA&VALOR"
+  },
+  {
+    "name": "ALTURA&VOLUME"
+  },
+  {
+    "name": "ALUGAR&LOCAR"
+  },
+  {
+    "name": "ALUGAR&PERTURBAR"
+  },
+  {
+    "name": "ALUGAR_SIM"
+  },
+  {
+    "name": "ALVARÁ_DE_SOLTURA"
+  },
+  {
+    "name": "ALVO&BRANCO"
+  },
+  {
+    "name": "ALVO&MIRA"
+  },
+  {
+    "name": "ALVO&OBJETIVO"
+  },
+  {
+    "name": "ALVO&VENTRE"
+  },
+  {
+    "name": "AM"
+  },
+  {
+    "name": "AMADURECIDO&MADURO"
+  },
+  {
+    "name": "AMADURECIDO&PONDERADO"
+  },
+  {
+    "name": "AMAPÁ&ESTADO"
+  },
+  {
+    "name": "AMAR(-)"
+  },
+  {
+    "name": "AMAR(+)"
+  },
+  {
+    "name": "AMAZONAS&ESTADO"
+  },
+  {
+    "name": "AMEAÇADO_DE_EXTINÇÃO"
+  },
+  {
+    "name": "AMIGO_DE_INFÂNCIA"
+  },
+  {
+    "name": "AMIGO_ÍNTIMO"
+  },
+  {
+    "name": "AMORTIZAÇÃO_DE_EMPRÉSTIMO"
+  },
+  {
+    "name": "AMPERE"
+  },
+  {
+    "name": "AMPLIAR&AUMENTAR"
+  },
+  {
+    "name": "AMPLIAR&EXPANDIR"
+  },
+  {
+    "name": "AMPLIFICADOR_DE_INDUÇÃO_MAGNÉTICA"
+  },
+  {
+    "name": "ANAIS_DA_ASSEMBLÉIA_NACIONAL_CONSTITUINTE"
+  },
+  {
+    "name": "ANAIS_DA_CÂMARA_DOS_DEPUTADOS"
+  },
+  {
+    "name": "ANDADORES"
+  },
+  {
+    "name": "ANDAR(+)"
+  },
+  {
+    "name": "ANDAR&ANIMAL"
+  },
+  {
+    "name": "ANDAR&BICICLETA"
+  },
+  {
+    "name": "ANDAR&CAMBALEANDO"
+  },
+  {
+    "name": "ANDAR&CAMINHAR"
+  },
+  {
+    "name": "ANDAR&CARRO"
+  },
+  {
+    "name": "ANDAR&CAVALO"
+  },
+  {
+    "name": "ANDAR&CORDA_BAMBA"
+  },
+  {
+    "name": "ANDAR&EDIFÍCIL"
+  },
+  {
+    "name": "ANDAR_NAS_PONTAS_DOS_PÉS"
+  },
+  {
+    "name": "ANDAR&PRÉDIO"
+  },
+  {
+    "name": "ANDAR_SIM"
+  },
+  {
+    "name": "ANDAR&SUAVE"
+  },
+  {
+    "name": "ANDAR&SUPERIOR_EDIFÍCIO"
+  },
+  {
+    "name": "ANDRÉ_LUIZ_DE_ALMEIDA&FAMOSO"
+  },
+  {
+    "name": "ANDROID"
+  },
+  {
+    "name": "ANESTESISTA"
+  },
+  {
+    "name": "ANGIOLOGISTA"
+  },
+  {
+    "name": "ANGOLA&PAÍS"
+  },
+  {
+    "name": "ANIMADO(-)"
+  },
+  {
+    "name": "ANIMADO(+)"
+  },
+  {
+    "name": "ANIMAL&DOMÉSTICO"
+  },
+  {
+    "name": "ANIMAL&ESTIMAÇÃO"
+  },
+  {
+    "name": "ANIMAL&EXTINTO"
+  },
+  {
+    "name": "ANIMAL&SELVAGEM"
+  },
+  {
+    "name": "ANO(+)"
+  },
+  {
+    "name": "ANO&DATA"
+  },
+  {
+    "name": "ANO&IDADE"
+  },
+  {
+    "name": "ANSIEDADE&AGITAÇÃO"
+  },
+  {
+    "name": "ANSIEDADE&ANGÚSTIA"
+  },
+  {
+    "name": "ANSIOSO(-)"
+  },
+  {
+    "name": "ANSIOSO(+)"
+  },
+  {
+    "name": "ANTARTIDA"
+  },
+  {
+    "name": "ANTECEDENTES_CRIMINAIS"
+  },
+  {
+    "name": "ANTECIPAÇÃO_DE_RECEITA_ORÇAMENTÁRIA"
+  },
+  {
+    "name": "ANTENA&INSETO"
+  },
+  {
+    "name": "ANTENA&PARABÓLICA"
+  },
+  {
+    "name": "ANTENA&TV"
+  },
+  {
+    "name": "ANTES&ANTERIOR"
+  },
+  {
+    "name": "ANTES&PASSADO"
+  },
+  {
+    "name": "ANTI"
+  },
+  {
+    "name": "ANTIBIÓTICA"
+  },
+  {
+    "name": "ANTIRREGIMENTAL"
+  },
+  {
+    "name": "ANUALIDADE_DO_TRIBUTO"
+  },
+  {
+    "name": "ANULAÇÃO_DE_EMPENHO"
+  },
+  {
+    "name": "ANULAÇÃO_DE_PROVISÃO"
+  },
+  {
+    "name": "AO_VIVO"
+  },
+  {
+    "name": "AP"
+  },
+  {
+    "name": "APAGAR&EXTINGUIR"
+  },
+  {
+    "name": "APAGAR&FOGO"
+  },
+  {
+    "name": "APAGAR&LOUSA"
+  },
+  {
+    "name": "APAGAR&LUZ"
+  },
+  {
+    "name": "APAGAR&VELA"
+  },
+  {
+    "name": "APAIXONADO(-)"
+  },
+  {
+    "name": "APAIXONADO(+)"
+  },
+  {
+    "name": "APANHAR&RECOLHER"
+  },
+  {
+    "name": "APANHAR&SURRA"
+  },
+  {
+    "name": "APARECER&ATENÇÃO"
+  },
+  {
+    "name": "APARECER&COMPARECER"
+  },
+  {
+    "name": "APARECER&PESSOA"
+  },
+  {
+    "name": "APARECER&SURGIR"
+  },
+  {
+    "name": "APARECIDA_DO_NORTE&CIDADE"
+  },
+  {
+    "name": "APARECIDA_NORTE_CIDADE"
+  },
+  {
+    "name": "APARELHO_DE_SOM"
+  },
+  {
+    "name": "APERTADO(-)"
+  },
+  {
+    "name": "APERTADO(+)"
+  },
+  {
+    "name": "APERTADO&ESPAÇO"
+  },
+  {
+    "name": "APERTADO&FINANCEIRAMENTE"
+  },
+  {
+    "name": "APERTADO&ROUPA"
+  },
+  {
+    "name": "APERTAR&ABRAÇAR"
+  },
+  {
+    "name": "APERTAR&BOTÃO"
+  },
+  {
+    "name": "APERTAR&FINANCEIRO"
+  },
+  {
+    "name": "APERTAR&MÃO"
+  },
+  {
+    "name": "APERTAR&ROUPA"
+  },
+  {
+    "name": "APLICAÇÃO_FINANCEIRA"
+  },
+  {
+    "name": "APLICAR&INJEÇÃO"
+  },
+  {
+    "name": "APLICAR&MINISTRAR"
+  },
+  {
+    "name": "APLICAR&USAR"
+  },
+  {
+    "name": "APLICATIVO&INFORMÁTICA"
+  },
+  {
+    "name": "APOIAR&AJUDAR"
+  },
+  {
+    "name": "APOIAR&APROVAR"
+  },
+  {
+    "name": "APÓLICE"
+  },
+  {
+    "name": "APONTAR&AFIAR"
+  },
+  {
+    "name": "APONTAR&ALVO"
+  },
+  {
+    "name": "APONTAR_DEDO_"
+  },
+  {
+    "name": "APONTAR&INDICAR"
+  },
+  {
+    "name": "APONTAR&LÁPIS"
+  },
+  {
+    "name": "APONTAR&NOMEAR"
+  },
+  {
+    "name": "APOSENTADORIA_POR_INVALIDEZ"
+  },
+  {
+    "name": "APÓSTOLO"
+  },
+  {
+    "name": "APRECIAÇÃO_DO_VETO"
+  },
+  {
+    "name": "APREENDER&COMPREENDER"
+  },
+  {
+    "name": "APREENDER&PEGAR"
+  },
+  {
+    "name": "APREENDER&PRENDER"
+  },
+  {
+    "name": "APRESENTAÇÃO_DE_PROPOSIÇÃO"
+  },
+  {
+    "name": "APRESENTAR&COMPARECER"
+  },
+  {
+    "name": "APRESENTAR&MOSTRAR"
+  },
+  {
+    "name": "APRESENTAR_PROJETO_DE_LEI"
+  },
+  {
+    "name": "APROVAÇÃO_DE_UM_PROJETO"
+  },
+  {
+    "name": "APROVEITAR&UTILIZAR"
+  },
+  {
+    "name": "APTO&APARTAMENTO"
+  },
+  {
+    "name": "APTO&CAPAZ"
+  },
+  {
+    "name": "APURAÇÃO_DE_HAVERES"
+  },
+  {
+    "name": "AQUÁRIO&OBJETO"
+  },
+  {
+    "name": "AQUECER&COMIDA"
+  },
+  {
+    "name": "AQUECER&ESTIMULAR"
+  },
+  {
+    "name": "AQUECER&TEMPERATURA"
+  },
+  {
+    "name": "AQUI_DÁ_PÉ"
+  },
+  {
+    "name": "AQUISIÇÃO_DA_LINGUAGEM"
+  },
+  {
+    "name": "ARÁBIA&PAÍS"
+  },
+  {
+    "name": "ARACAJÚ&CIDADE"
+  },
+  {
+    "name": "ARACNÍDEO"
+  },
+  {
+    "name": "ARAPIRACA&CIDADE"
+  },
+  {
+    "name": "ARARAQUARA&CIDADE"
+  },
+  {
+    "name": "ARARIPE&CIDADE"
+  },
+  {
+    "name": "ARBITRAGEM&ESPORTE"
+  },
+  {
+    "name": "ARBITRAGEM&MEDIADOR"
+  },
+  {
+    "name": "ARCO&CABELO"
+  },
+  {
+    "name": "ARCO&FLECHA"
+  },
+  {
+    "name": "ARCO_ÍRIS"
+  },
+  {
+    "name": "AR_CONDICIONADO"
+  },
+  {
+    "name": "ARCOVERDE"
+  },
+  {
+    "name": "ÁREA_DE_APROXIMAÇÃO"
+  },
+  {
+    "name": "ÁREA_DE_DESEMBARQUE"
+  },
+  {
+    "name": "ÁREA_DE_EMBARQUE"
+  },
+  {
+    "name": "ÁREA_TEMÁTICA&ORÇAMENTO"
+  },
+  {
+    "name": "ÁREA_URBANA"
+  },
+  {
+    "name": "AREIA&PRAIA"
+  },
+  {
+    "name": "ARGENTINA&PAÍS"
+  },
+  {
+    "name": "ARMA_DE_FOGO"
+  },
+  {
+    "name": "ARMAMENTO"
+  },
+  {
+    "name": "ARMAR&INSTALAR"
+  },
+  {
+    "name": "ARMAR&REVÓLVER"
+  },
+  {
+    "name": "ARMAR&TRAMAR"
+  },
+  {
+    "name": "ARMAZENAMENTO&INFORMÁTICA"
+  },
+  {
+    "name": "ARMÊNIA&PAÍS"
+  },
+  {
+    "name": "ARQUEIRO&FLEXA"
+  },
+  {
+    "name": "ARQUIVAMENTO_DE_PROPOSIÇÃO"
+  },
+  {
+    "name": "ARRANCAR&DENTE"
+  },
+  {
+    "name": "ARRANHAR&OFENDER"
+  },
+  {
+    "name": "ARRANHAR&PESSOA"
+  },
+  {
+    "name": "ARRENDAR&CONCEDER"
+  },
+  {
+    "name": "ARRIMO_DE_FAMÍLIA"
+  },
+  {
+    "name": "ARRUMAR&CONSEGUIR"
+  },
+  {
+    "name": "ARRUMAR&PREPARAR"
+  },
+  {
+    "name": "ARRUMAR&RUMO"
+  },
+  {
+    "name": "ARTICULAÇÃO&CORPO"
+  },
+  {
+    "name": "ARTICULADO"
+  },
+  {
+    "name": "ARTIGO&OBJETO"
+  },
+  {
+    "name": "ARTIGO&TEXTO"
+  },
+  {
+    "name": "ARTIMANHA"
+  },
+  {
+    "name": "ASA&AVE"
+  },
+  {
+    "name": "ASFIXIAR&ESTRANGULAR"
+  },
+  {
+    "name": "ASFIXIAR&LIMITE"
+  },
+  {
+    "name": "ASFIXIAR&SUFOCAR"
+  },
+  {
+    "name": "ASPIRADOR_DE_PÓ"
+  },
+  {
+    "name": "ASSARÉ&CIDADE"
+  },
+  {
+    "name": "ASSEMBLEIA_NACIONAL_CONSTITUINTE"
+  },
+  {
+    "name": "ASSISTIR&AJUDAR"
+  },
+  {
+    "name": "ASSISTIR&TV"
+  },
+  {
+    "name": "ASSOCIAR&MEMBRO"
+  },
+  {
+    "name": "ASSOCIAR&RELAÇÃO"
+  },
+  {
+    "name": "ASSOCIAR&SÓCIO"
+  },
+  {
+    "name": "ASSUAR&NARIZ"
+  },
+  {
+    "name": "ASSUMIR&ADMITIR"
+  },
+  {
+    "name": "ASSUMIR&APROPRIAR"
+  },
+  {
+    "name": "ASSUSTADO(+)"
+  },
+  {
+    "name": "ATACAR&ABARROTAR"
+  },
+  {
+    "name": "ATACAR&AGREDIR"
+  },
+  {
+    "name": "ATACAR&ANIMAL"
+  },
+  {
+    "name": "ATACAR&GUERRA"
+  },
+  {
+    "name": "ATACAR&OFENDER"
+  },
+  {
+    "name": "ATALHO&INFORMÁTICA"
+  },
+  {
+    "name": "ATEAR&FOGO"
+  },
+  {
+    "name": "ATENDIMENTO_MÉDICO_DOMICILIAR"
+  },
+  {
+    "name": "ATENTADO&ATENTO"
+  },
+  {
+    "name": "ATENTADO_DE_11_DE_SETEMBRO"
+  },
+  {
+    "name": "ATENTADO&ENDIABRADO"
+  },
+  {
+    "name": "ATENTADO&TERRORISMO"
+  },
+  {
+    "name": "ATIBAIA&CIDADE"
+  },
+  {
+    "name": "ATINGIR&ALCANÇAR"
+  },
+  {
+    "name": "ATINGIR&ALVO"
+  },
+  {
+    "name": "ATINGIR&EU"
+  },
+  {
+    "name": "ATINGIR&OFENDER"
+  },
+  {
+    "name": "ATIRAR&ESPINGARDA"
+  },
+  {
+    "name": "ATIRAR&JOGAR"
+  },
+  {
+    "name": "ATIRAR&OBJETO"
+  },
+  {
+    "name": "ATIRAR&REVÓLVER"
+  },
+  {
+    "name": "ATIVAMENTE"
+  },
+  {
+    "name": "ATLANTA&CIDADE"
+  },
+  {
+    "name": "ATLÉTICO_MINEIRO&FUTEBOL"
+  },
+  {
+    "name": "ATLÉTICO_PARANAENSE&FUTEBOL"
+  },
+  {
+    "name": "ATO_DA_MESA"
+  },
+  {
+    "name": "ÁTOMO(+)"
+  },
+  {
+    "name": "ATRACAÇÃO_DE_NAVIO"
+  },
+  {
+    "name": "ATRAÇÃO&ATRAIR"
+  },
+  {
+    "name": "ATRAÇÃO&DESEJO"
+  },
+  {
+    "name": "ATRAÇÃO&ENTRETENIMENTO"
+  },
+  {
+    "name": "ATRASADO(-)"
+  },
+  {
+    "name": "ATRASADO(+)"
+  },
+  {
+    "name": "AUDIÊNCIA_EM_COMISSÃO"
+  },
+  {
+    "name": "AUGUSTO_HELENO&FAMOSO"
+  },
+  {
+    "name": "AUMENTAR&PESO"
+  },
+  {
+    "name": "AUMENTAR&TAMANHO"
+  },
+  {
+    "name": "AUMENTAR&VALOR"
+  },
+  {
+    "name": "AUMENTAR&VOLUME_SOM"
+  },
+  {
+    "name": "AUSTRÁLIA&PAÍS"
+  },
+  {
+    "name": "ÁUSTRIA&PAÍS"
+  },
+  {
+    "name": "AUTOATENDIMENTO"
+  },
+  {
+    "name": "AUTO_DE_INFRAÇÃO"
+  },
+  {
+    "name": "AUTÓDROMO_DE_INTERLAGOS"
+  },
+  {
+    "name": "AUTOEXAME_DE_MAMA"
+  },
+  {
+    "name": "AUTOMATIZADA"
+  },
+  {
+    "name": "AUTOR_DA_PROPOSIÇÃO"
+  },
+  {
+    "name": "AUTORIZAR&PERMITIR"
+  },
+  {
+    "name": "AUTORIZAR&VALIDAR"
+  },
+  {
+    "name": "AUTOS_DO_PROCESSO"
+  },
+  {
+    "name": "AUXILIAR_DE_ENFERMAGEM"
+  },
+  {
+    "name": "AVANÇAR&AGREDIR"
+  },
+  {
+    "name": "AVANÇAR&DECORRER"
+  },
+  {
+    "name": "AVANÇAR&PROGREDIR"
+  },
+  {
+    "name": "AVANÇAR&SINAL_TRÂNSITO"
+  },
+  {
+    "name": "AVARENTO(-)"
+  },
+  {
+    "name": "AVARENTO(+)"
+  },
+  {
+    "name": "AVIÃO&COMERCIAL"
+  },
+  {
+    "name": "AVIÃO&JATO"
+  },
+  {
+    "name": "À_VONTADE"
+  },
+  {
+    "name": "AZERBAJÃO&PAÍS"
+  },
+  {
+    "name": "BA"
+  },
+  {
+    "name": "BABILÔNIA&CIDADE"
+  },
+  {
+    "name": "BAGÉ&CIDADE"
+  },
+  {
+    "name": "BAHIA&ESTADO"
+  },
+  {
+    "name": "BAIÃO_DE_DOIS"
+  },
+  {
+    "name": "BAINHA&BARRA"
+  },
+  {
+    "name": "BAINHA&ROUPA"
+  },
+  {
+    "name": "BAIXO(-)"
+  },
+  {
+    "name": "BAIXO(+)"
+  },
+  {
+    "name": "BALA&DOCE"
+  },
+  {
+    "name": "BALANÇA&COMPARAR"
+  },
+  {
+    "name": "BALANÇA&PESAR"
+  },
+  {
+    "name": "BALANÇAR&CONTÁBEL"
+  },
+  {
+    "name": "BALANÇAR&DANÇAR"
+  },
+  {
+    "name": "BALANÇAR&TITUBEAR"
+  },
+  {
+    "name": "BALÃO&AERÓSTATO"
+  },
+  {
+    "name": "BALÃO&BEXICA"
+  },
+  {
+    "name": "BALÃO&BEXIGA"
+  },
+  {
+    "name": "BALÃO&SÃO_JOÃO"
+  },
+  {
+    "name": "BANALIZADO"
+  },
+  {
+    "name": "BANCA_DE_JORNAL"
+  },
+  {
+    "name": "BANCO_BRADESCO"
+  },
+  {
+    "name": "BANCO_CENTRAL"
+  },
+  {
+    "name": "BANCO&DINHEIRO"
+  },
+  {
+    "name": "BANCO_(PAGAR)"
+  },
+  {
+    "name": "BANCO&SENTAR"
+  },
+  {
+    "name": "BANDA&METADE"
+  },
+  {
+    "name": "BANDA&MÚSICA"
+  },
+  {
+    "name": "BANDEIRINHA&BANDEIRA"
+  },
+  {
+    "name": "BANDEIRINHA&FUTEBOL"
+  },
+  {
+    "name": "BANGUE_BANGUE"
+  },
+  {
+    "name": "BANHEIRA&BANHO"
+  },
+  {
+    "name": "BANHEIRO_ACESSÍVEL_CADEIRANTE"
+  },
+  {
+    "name": "BARACK_HUSSEIN_OBAMA&FAMOSO"
+  },
+  {
+    "name": "BARATO(-)"
+  },
+  {
+    "name": "BARATO(+)"
+  },
+  {
+    "name": "BARBEADOR&GILETE"
+  },
+  {
+    "name": "BARCELONA&PAÍS"
+  },
+  {
+    "name": "BARRACA&ACAMPAMENTO"
+  },
+  {
+    "name": "BARRACA&COMÉRCIO"
+  },
+  {
+    "name": "BARRA&CALÇA"
+  },
+  {
+    "name": "BARRA_DE_FERRAMENTA&INFORMÁTICA"
+  },
+  {
+    "name": "BARRA_DE_MENU&INFORMÁTICA"
+  },
+  {
+    "name": "BARRA_DE_TÍTULO&INFORMÁTICA"
+  },
+  {
+    "name": "BARRA&FERRO"
+  },
+  {
+    "name": "BARRA&ROLAGEM"
+  },
+  {
+    "name": "BARREIRA(-)"
+  },
+  {
+    "name": "BARRIGA(+)"
+  },
+  {
+    "name": "BARUERI&CIDADE"
+  },
+  {
+    "name": "BARULHENTO(-)"
+  },
+  {
+    "name": "BARULHENTO(+)"
+  },
+  {
+    "name": "BASE&CÁLCULO"
+  },
+  {
+    "name": "BASE_DE_CÁLCULO"
+  },
+  {
+    "name": "BASE&ELEITORAL"
+  },
+  {
+    "name": "BASE&INFORMÁTICA"
+  },
+  {
+    "name": "BASE&LOCAL"
+  },
+  {
+    "name": "BASE&MAQUIAGEM"
+  },
+  {
+    "name": "BASE&ORIGEM"
+  },
+  {
+    "name": "BASE&QUIMICA"
+  },
+  {
+    "name": "BASE&QUÍMICA"
+  },
+  {
+    "name": "BASE&SUPORTE"
+  },
+  {
+    "name": "BASTAR_DE_VEZ_EXPRESSÃO"
+  },
+  {
+    "name": "BASTAR_EXPRESSÃO"
+  },
+  {
+    "name": "BATER&ALCANÇAR"
+  },
+  {
+    "name": "BATER&CARRO"
+  },
+  {
+    "name": "BATER&CORAÇÃO"
+  },
+  {
+    "name": "BATER&GOLPEAR"
+  },
+  {
+    "name": "BATERIA&CARRO"
+  },
+  {
+    "name": "BATERIA&INSTRUMENTO"
+  },
+  {
+    "name": "BATER&MARTELAR"
+  },
+  {
+    "name": "BATER&PAPO"
+  },
+  {
+    "name": "BATER&PORTA"
+  },
+  {
+    "name": "BATIDA&BEBIDA"
+  },
+  {
+    "name": "BATIDA&COLISÃO"
+  },
+  {
+    "name": "BATIDA&CORAÇÃO"
+  },
+  {
+    "name": "BÊBADO(-)"
+  },
+  {
+    "name": "BÊBADO(+)"
+  },
+  {
+    "name": "BEBER(+)"
+  },
+  {
+    "name": "BEBIDA&BEBER"
+  },
+  {
+    "name": "BEIJA_FLOR"
+  },
+  {
+    "name": "BEIJAR&ROSTO"
+  },
+  {
+    "name": "BELÉM&CIDADE"
+  },
+  {
+    "name": "BELÉM_SÃO_FRANCISCO&CIDADE"
+  },
+  {
+    "name": "BÉLGICA&PAÍS"
+  },
+  {
+    "name": "BELIZE&PAÍS"
+  },
+  {
+    "name": "BELO_HORIZONTE&CIDADE"
+  },
+  {
+    "name": "BEM&AMADO"
+  },
+  {
+    "name": "BEM&BOM"
+  },
+  {
+    "name": "BEM&ESTAR"
+  },
+  {
+    "name": "BEM_FEITO_EXPRESSÃO"
+  },
+  {
+    "name": "BEM&PATRIMÔNIO"
+  },
+  {
+    "name": "BEM&SUCEDIDO"
+  },
+  {
+    "name": "BENÇÃO"
+  },
+  {
+    "name": "BENS_SEMOVENTES"
+  },
+  {
+    "name": "BENTO_COSTA_LIMA&FAMOSO"
+  },
+  {
+    "name": "BENTO_GONÇALVES&CIDADE"
+  },
+  {
+    "name": "BERLIM&CIDADE"
+  },
+  {
+    "name": "BEXIGA&BOLA"
+  },
+  {
+    "name": "BEXIGA&ÓRGÃO"
+  },
+  {
+    "name": "BÍCEPS"
+  },
+  {
+    "name": "BICHO_PAPÃO"
+  },
+  {
+    "name": "BICHO_PREGUIÇA"
+  },
+  {
+    "name": "BILHETE"
+  },
+  {
+    "name": "BINÓCULO"
+  },
+  {
+    "name": "BIQUINI"
+  },
+  {
+    "name": "BIRUTA&COMPORTAMENTO"
+  },
+  {
+    "name": "BIZARRO"
+  },
+  {
+    "name": "BLEFAR"
+  },
+  {
+    "name": "BLITZ_DE_TRÂNSITO"
+  },
+  {
+    "name": "BLOCO_DE_NOTAS&INFORMÁTICA"
+  },
+  {
+    "name": "BLOCO&GRUPO"
+  },
+  {
+    "name": "BLOCO&PEDAÇO"
+  },
+  {
+    "name": "BLOCO&PEDRA"
+  },
+  {
+    "name": "BLOCO&PRÉDIO"
+  },
+  {
+    "name": "BLUMENAU"
+  },
+  {
+    "name": "BLUMENAU&CIDADE"
+  },
+  {
+    "name": "BLUSH"
+  },
+  {
+    "name": "BOA_VISTA"
+  },
+  {
+    "name": "BOA_VISTA&CIDADE"
+  },
+  {
+    "name": "BOBO(-)"
+  },
+  {
+    "name": "BOBO(+)"
+  },
+  {
+    "name": "BOCA_DE_FUMO"
+  },
+  {
+    "name": "BOCA_DE_URNA"
+  },
+  {
+    "name": "BOFETADA&OFENDER"
+  },
+  {
+    "name": "BOFETADA&TAPA"
+  },
+  {
+    "name": "BOIA&BRAÇO"
+  },
+  {
+    "name": "BOLA&CRISTAL"
+  },
+  {
+    "name": "BOLA&OBJETO"
+  },
+  {
+    "name": "BOLA&PINGUE_PONGUE"
+  },
+  {
+    "name": "BOLA&SORVETE"
+  },
+  {
+    "name": "BOLETIM_ADMINISTRATIVO_DA_CÂMARA_DOS_DEPUTADOS"
+  },
+  {
+    "name": "BOLETIM&AVIÃO"
+  },
+  {
+    "name": "BOLETIM_DE_URNA"
+  },
+  {
+    "name": "BOLHA&GRUPO"
+  },
+  {
+    "name": "BOLHA&SABÃO"
+  },
+  {
+    "name": "BOLÍVIA&PAÍS"
+  },
+  {
+    "name": "BOLSA&ACESSÓRIO"
+  },
+  {
+    "name": "BOLSA&ATLETA"
+  },
+  {
+    "name": "BOLSA_DE_VALORES"
+  },
+  {
+    "name": "BOLSA&ESTUDO"
+  },
+  {
+    "name": "BOLSA&VALOR"
+  },
+  {
+    "name": "BOLSONARO&FAMOSO"
+  },
+  {
+    "name": "BOM(-)"
+  },
+  {
+    "name": "BOM(+)"
+  },
+  {
+    "name": "BOMBA&CHOCOLATE"
+  },
+  {
+    "name": "BOMBA&EXPLOSIVO"
+  },
+  {
+    "name": "BOMBOM&BALA"
+  },
+  {
+    "name": "BOMBOM&CHOCOLATE"
+  },
+  {
+    "name": "BOM_JESUS_DO_NORTE&CIDADE"
+  },
+  {
+    "name": "BOM_JESUS_NORTE"
+  },
+  {
+    "name": "BONITO(-)"
+  },
+  {
+    "name": "BONITO(+)"
+  },
+  {
+    "name": "BORRACHA&APAGAR"
+  },
+  {
+    "name": "BÓSNIA_HEZERGOVINA"
+  },
+  {
+    "name": "BÓSNIA_HEZERGOVINA&PAÍS"
+  },
+  {
+    "name": "BOTA&COMUM"
+  },
+  {
+    "name": "BOTÃO_DIREITO_DO_MOUSE"
+  },
+  {
+    "name": "BOTIJÃO_DE_GÁS"
+  },
+  {
+    "name": "BOTSWANA&PAÍS"
+  },
+  {
+    "name": "BRAÇO_DE_FERRO"
+  },
+  {
+    "name": "BRASÍLIA&CIDADE"
+  },
+  {
+    "name": "BRASILIENSE"
+  },
+  {
+    "name": "BRASIL&PAÍS"
+  },
+  {
+    "name": "BRAVO&PARABÉNS"
+  },
+  {
+    "name": "BRAVO&RAIVA"
+  },
+  {
+    "name": "BRECHA_NA_LEI"
+  },
+  {
+    "name": "BRIGAR&DISCUSSÃO"
+  },
+  {
+    "name": "BRIGAR&LUTAR"
+  },
+  {
+    "name": "BRINCAR&BOLINHA_GUDE"
+  },
+  {
+    "name": "BRINCAR&PEBOLIM"
+  },
+  {
+    "name": "BRINCAR&PETECA"
+  },
+  {
+    "name": "BRINCAR&PIPA"
+  },
+  {
+    "name": "BRINCAR&PULAR_CORDA"
+  },
+  {
+    "name": "BROWNIE"
+  },
+  {
+    "name": "BRUTAMONTE"
+  },
+  {
+    "name": "BRUTO&TOTAL"
+  },
+  {
+    "name": "BUENOS_AIRES&CIDADE"
+  },
+  {
+    "name": "BULGÁRIA"
+  },
+  {
+    "name": "BULGÁRIA&PAÍS"
+  },
+  {
+    "name": "BURKINA_FASO&FAMOSO"
+  },
+  {
+    "name": "BURRO&JUMENTO"
+  },
+  {
+    "name": "BURSITE&QUADRIL"
+  },
+  {
+    "name": "CABEDELO"
+  },
+  {
+    "name": "CABEDELO&CIDADE"
+  },
+  {
+    "name": "CABINE"
+  },
+  {
+    "name": "CABO_DE_SANTO_AGOSTINHO"
+  },
+  {
+    "name": "CABO_DE_SANTO_AGOSTINHO&CIDADE"
+  },
+  {
+    "name": "CABO_ELÉTRICO"
+  },
+  {
+    "name": "CABO&MILITAR"
+  },
+  {
+    "name": "CABO&OBJETO"
+  },
+  {
+    "name": "CABO&VASSOURA"
+  },
+  {
+    "name": "CACHO_DE_CABELO"
+  },
+  {
+    "name": "CACHORRO_QUENTE"
+  },
+  {
+    "name": "CADASTRO_DE_FORNECEDOR"
+  },
+  {
+    "name": "CADEIA_DE_COMANDO"
+  },
+  {
+    "name": "CADERNETA_DE_POUPANÇA"
+  },
+  {
+    "name": "CADERNETA_ESCOLAR"
+  },
+  {
+    "name": "CAFÉ_DA_MANHÃ"
+  },
+  {
+    "name": "CAIR&ÁRVORE"
+  },
+  {
+    "name": "CAIR&DIMINUIR"
+  },
+  {
+    "name": "CAIR&OBJETO"
+  },
+  {
+    "name": "CAIRO&CIDADE"
+  },
+  {
+    "name": "CAIXA_DOIS"
+  },
+  {
+    "name": "CALAR_A_BOCA"
+  },
+  {
+    "name": "CALCO_DE_OPERAÇÃO"
+  },
+  {
+    "name": "CALDO_DE_CANA"
+  },
+  {
+    "name": "CALDO_DE_PEIXE"
+  },
+  {
+    "name": "CALENDÁRIO_DE_VACINAÇÃO"
+  },
+  {
+    "name": "CALIBRE_DE_ARMA"
+  },
+  {
+    "name": "CALMO(-)"
+  },
+  {
+    "name": "CALMO(+)"
+  },
+  {
+    "name": "CALMO&PESSOA"
+  },
+  {
+    "name": "CALOR(-)"
+  },
+  {
+    "name": "CALOR(+)"
+  },
+  {
+    "name": "CAMAÇARI"
+  },
+  {
+    "name": "CAMAÇARI&CIDADE"
+  },
+  {
+    "name": "CAMADA_DE_VALÊNCIA"
+  },
+  {
+    "name": "CAMADAS&QUÍMICA"
+  },
+  {
+    "name": "CAMARA_DOS_DEPUTADOS"
+  },
+  {
+    "name": "CÂMARA_DOS_DEPUTADOS"
+  },
+  {
+    "name": "CAMARAGIBE&CIDADE"
+  },
+  {
+    "name": "CÂMARA_LEGISLATIVA_DO_DISTRITO_FEDERAL"
+  },
+  {
+    "name": "CAMDOMBLÉ"
+  },
+  {
+    "name": "CÂMERA&FOTOGRÁFICA"
+  },
+  {
+    "name": "CÂMERA&SEGURANÇA"
+  },
+  {
+    "name": "CÂMERA&VIGILÂNCIA"
+  },
+  {
+    "name": "CAMINHO&CAMINHAR"
+  },
+  {
+    "name": "CAMINHO&INTINERÁRIO"
+  },
+  {
+    "name": "CAMPINA_GRANDE&CIDADE"
+  },
+  {
+    "name": "CAMPINAS&CIDADE"
+  },
+  {
+    "name": "CAMPO_DE_BATALHA"
+  },
+  {
+    "name": "CAMPO&FUTEBOL"
+  },
+  {
+    "name": "CAMPO_GRANDE&CIDADE"
+  },
+  {
+    "name": "CAMPO_LIMPO&CIDADE"
+  },
+  {
+    "name": "CAMPO_MAGNÉTICO"
+  },
+  {
+    "name": "CAMPO_MAGNÉTICO_UNIFORME"
+  },
+  {
+    "name": "CAMPOS_DO_JORDÃO&CIDADE"
+  },
+  {
+    "name": "CANADÁ&PAÍS"
+  },
+  {
+    "name": "CANAL&ÁGUA"
+  },
+  {
+    "name": "CANAL&CAMINHO"
+  },
+  {
+    "name": "CANAL&TELEVISÃO"
+  },
+  {
+    "name": "CANDIDATAR"
+  },
+  {
+    "name": "CANGUÇÚ&CIDADE"
+  },
+  {
+    "name": "CANHOTO&CHEQUE"
+  },
+  {
+    "name": "CANHOTO&ESQUERDO"
+  },
+  {
+    "name": "CANHOTO&RECIBO"
+  },
+  {
+    "name": "CANINO&CÍNICO"
+  },
+  {
+    "name": "CANINO&DENTE"
+  },
+  {
+    "name": "CANOA_QUEBRADA&PRAIA"
+  },
+  {
+    "name": "CANO&FALTAR"
+  },
+  {
+    "name": "CANO&OBJETO"
+  },
+  {
+    "name": "CANSADO(-)"
+  },
+  {
+    "name": "CANSADO(+)"
+  },
+  {
+    "name": "CÂNTICO_DOS_CÂNTICOS"
+  },
+  {
+    "name": "CANTO&ÂNGULO"
+  },
+  {
+    "name": "CANTO&MÚSICA"
+  },
+  {
+    "name": "CANTO&PEDRA"
+  },
+  {
+    "name": "CANTO&QUINA"
+  },
+  {
+    "name": "CAÓTICO"
+  },
+  {
+    "name": "CAPA&CADERNO"
+  },
+  {
+    "name": "CAPA&CHUVA"
+  },
+  {
+    "name": "CAPA&OBJETO"
+  },
+  {
+    "name": "CAPÃO_DA_CANOA&CIDADE"
+  },
+  {
+    "name": "CAPA&ROUPA"
+  },
+  {
+    "name": "CAPELA&IGREJA"
+  },
+  {
+    "name": "CAPELA&MÚSICA"
+  },
+  {
+    "name": "CAPITAL&CIDADE"
+  },
+  {
+    "name": "CAPITAL&DINHEIRO"
+  },
+  {
+    "name": "CAPITANIA_DOS_PORTOS"
+  },
+  {
+    "name": "CAPITÃO&ESPORTE"
+  },
+  {
+    "name": "CAPITÃO&EXÉRCITO"
+  },
+  {
+    "name": "CAPITÃO_GANCHO&FAMOSO"
+  },
+  {
+    "name": "CAPITÃO&MILITAR"
+  },
+  {
+    "name": "CAPTAR&COMPREENDER"
+  },
+  {
+    "name": "CAPTAR&CONSEGUIR"
+  },
+  {
+    "name": "CAPTAR&SOM"
+  },
+  {
+    "name": "CARAGUATATUBA&CIDADE"
+  },
+  {
+    "name": "CARA&HOMEM"
+  },
+  {
+    "name": "CARAPICUÍBA_CIDADE"
+  },
+  {
+    "name": "CARA&ROSTO"
+  },
+  {
+    "name": "CARBURADOR"
+  },
+  {
+    "name": "CARETA&CONSERVADOR"
+  },
+  {
+    "name": "CARIACICA"
+  },
+  {
+    "name": "CARIACICA&CIDADE"
+  },
+  {
+    "name": "CARIBE&PRAIA"
+  },
+  {
+    "name": "CARLOS_LINEU&FAMOSO"
+  },
+  {
+    "name": "CARNAVALESCO"
+  },
+  {
+    "name": "CARNE&COMIDA"
+  },
+  {
+    "name": "CARNE&PARENTESCO"
+  },
+  {
+    "name": "CARNE&SEXUAL"
+  },
+  {
+    "name": "CARO(-)"
+  },
+  {
+    "name": "CARO(+)"
+  },
+  {
+    "name": "CARPINA&CIDADE"
+  },
+  {
+    "name": "CARREGAR&TRANSFERIR"
+  },
+  {
+    "name": "CARREGAR&TRANSPORTAR"
+  },
+  {
+    "name": "CARREIRA&CORRER"
+  },
+  {
+    "name": "CARREIRA&PROFISSÃO"
+  },
+  {
+    "name": "CARRINHO_BATE_BATE"
+  },
+  {
+    "name": "CARRINHO_BEBÊ"
+  },
+  {
+    "name": "CARRO_DE_MÃO"
+  },
+  {
+    "name": "CARRO_FLEX"
+  },
+  {
+    "name": "CARROSSEL"
+  },
+  {
+    "name": "CARRUAGEM_DE_ABÓBORA"
+  },
+  {
+    "name": "CARTA_GEOGRÁFICA"
+  },
+  {
+    "name": "CARTÃO_AMARELO"
+  },
+  {
+    "name": "CARTÃO_BLOQUEADO"
+  },
+  {
+    "name": "CARTÃO_DE_CRÉDITO"
+  },
+  {
+    "name": "CARTÃO_DE_PONTO"
+  },
+  {
+    "name": "CARTÃO_DO_BANCO"
+  },
+  {
+    "name": "CARTÃO_ELETRÔNICO"
+  },
+  {
+    "name": "CARTÃO_TELEFÔNICO"
+  },
+  {
+    "name": "CARTÃO_VERMELHO"
+  },
+  {
+    "name": "CARTEIRA&BOLSA"
+  },
+  {
+    "name": "CARTEIRA_DE_HABILITAÇÃO"
+  },
+  {
+    "name": "CARTEIRA&IDENTIDADE"
+  },
+  {
+    "name": "CARTEIRA&MESA"
+  },
+  {
+    "name": "CARTEIRA&MOTORISTA"
+  },
+  {
+    "name": "CARTEIRA&SAÚDE"
+  },
+  {
+    "name": "CARTEIRA&VACINAÇÃO"
+  },
+  {
+    "name": "CARTEIRO"
+  },
+  {
+    "name": "CARTILHA"
+  },
+  {
+    "name": "CARTOGRAFIA"
+  },
+  {
+    "name": "CARUARU&CIDADE"
+  },
+  {
+    "name": "CARURU_PARAENSE"
+  },
+  {
+    "name": "CAS"
+  },
+  {
+    "name": "CASA_CIVIL"
+  },
+  {
+    "name": "CASCAVEL"
+  },
+  {
+    "name": "CASCUDO"
+  },
+  {
+    "name": "CASPA"
+  },
+  {
+    "name": "CASSAÇÃO_DE_MANDATO"
+  },
+  {
+    "name": "CASTANHA_DO_PARÁ"
+  },
+  {
+    "name": "CASTANHOLA"
+  },
+  {
+    "name": "CASTRO_ALVES&FAMOSO"
+  },
+  {
+    "name": "CATÁLOGO_TELEFÔNICO"
+  },
+  {
+    "name": "CATAR"
+  },
+  {
+    "name": "CATEDRAL"
+  },
+  {
+    "name": "CATETO"
+  },
+  {
+    "name": "CATETO_OPOSTO"
+  },
+  {
+    "name": "CATOTA_DE_NARIZ"
+  },
+  {
+    "name": "CATU"
+  },
+  {
+    "name": "CATUABA"
+  },
+  {
+    "name": "CAUCAIA_DO_ALTO"
+  },
+  {
+    "name": "CAUCAIA_DO_ALTO&CIDADE"
+  },
+  {
+    "name": "CAULE"
+  },
+  {
+    "name": "CAVADEIRA"
+  },
+  {
+    "name": "CAVALETE"
+  },
+  {
+    "name": "CAVALINHO_DE_BALANÇO"
+  },
+  {
+    "name": "CAVALO_MARINHO"
+  },
+  {
+    "name": "CAVANHAQUE"
+  },
+  {
+    "name": "CAXAMBÚ&CIDADE"
+  },
+  {
+    "name": "CAZAQUISTÃO"
+  },
+  {
+    "name": "CAZAQUISTÃO&PAÍS"
+  },
+  {
+    "name": "CBDS"
+  },
+  {
+    "name": "CD_ROM"
+  },
+  {
+    "name": "CD_ROM_VIRGEM"
+  },
+  {
+    "name": "CE"
+  },
+  {
+    "name": "CEADA"
+  },
+  {
+    "name": "CEARÁ&ESTADO"
+  },
+  {
+    "name": "CEBOLINHA&FAMOSO"
+  },
+  {
+    "name": "CEBOLINHA&TEMPERO"
+  },
+  {
+    "name": "CEDO&CEDER"
+  },
+  {
+    "name": "CEDO&TEMPO"
+  },
+  {
+    "name": "CÉDULA"
+  },
+  {
+    "name": "CÉDULA&DINHEIRO"
+  },
+  {
+    "name": "CEIA&EUCARISTIA"
+  },
+  {
+    "name": "CEIA&REFEIÇÃO"
+  },
+  {
+    "name": "CÉLULA&COMPUTAÇÃO"
+  },
+  {
+    "name": "CENA&FINGIR"
+  },
+  {
+    "name": "CENA&TEATRO"
+  },
+  {
+    "name": "CENSURA_AO_PARLAMENTAR"
+  },
+  {
+    "name": "CENSURAR&REPREENDER"
+  },
+  {
+    "name": "CENSURAR&VETAR"
+  },
+  {
+    "name": "CENTRIFUGAÇÃO"
+  },
+  {
+    "name": "CENTRO&CIRCUNFERÊNCIA"
+  },
+  {
+    "name": "CENTRO&LOCAL"
+  },
+  {
+    "name": "CENTRO_OESTE&REGIÃO"
+  },
+  {
+    "name": "CENTRO&POSIÇÃO"
+  },
+  {
+    "name": "CERCAR&CERCA"
+  },
+  {
+    "name": "CERCAR&PERSEGUIR"
+  },
+  {
+    "name": "CERCAR&RODEAR"
+  },
+  {
+    "name": "CERTIDÃO_DE_CASAMENTO"
+  },
+  {
+    "name": "CERTIDÃO_DE_NASCIMENTO"
+  },
+  {
+    "name": "CERTIDÃO_DE_REGISTRO_DE_LICENCIAMENTO_DE_VEÍCULO"
+  },
+  {
+    "name": "CERVEJA_ANTÁRTICA"
+  },
+  {
+    "name": "CERVEJA&BEBIDA"
+  },
+  {
+    "name": "CERVEJA_BRAHMA"
+  },
+  {
+    "name": "CERVEJA_KAISER"
+  },
+  {
+    "name": "CERVEJA_SKOL"
+  },
+  {
+    "name": "CESTO_DE_LIXO"
+  },
+  {
+    "name": "CESTO_DE_PAPEL"
+  },
+  {
+    "name": "CHAMAR&CONVOCAR"
+  },
+  {
+    "name": "CHAMAR&NOMEAR"
+  },
+  {
+    "name": "CHAPADINHA"
+  },
+  {
+    "name": "CHAPEUZINHO_VERMELHO&FAMOSO"
+  },
+  {
+    "name": "CHAR"
+  },
+  {
+    "name": "CHARLES_ROBERT_DARWN&FAMOSO"
+  },
+  {
+    "name": "CHAVE&ELÉTRICA"
+  },
+  {
+    "name": "CHAVE&FENDA"
+  },
+  {
+    "name": "CHAVE&PHILIPS"
+  },
+  {
+    "name": "CHAVE&PORTA"
+  },
+  {
+    "name": "CHAVE&SEXTAVADA"
+  },
+  {
+    "name": "CHECK_IN"
+  },
+  {
+    "name": "CHECKS_AND_BALANCES"
+  },
+  {
+    "name": "CHEFE_DE_ESTADO"
+  },
+  {
+    "name": "CHEFE_DE_GOVERNO"
+  },
+  {
+    "name": "CHEGA_EXPRESSÃO"
+  },
+  {
+    "name": "CHEGUEI_EXPRESSÃO"
+  },
+  {
+    "name": "CHE_GUEVARA&FAMOSO"
+  },
+  {
+    "name": "CHEIA&CAPACIDADE"
+  },
+  {
+    "name": "CHEIA&ENCHENTE"
+  },
+  {
+    "name": "CHEIA&FARTO"
+  },
+  {
+    "name": "CHEIO&CAPACIDADE"
+  },
+  {
+    "name": "CHEIRO&CHEIRAR"
+  },
+  {
+    "name": "CHEIRO&ODOR"
+  },
+  {
+    "name": "CHEIRO&SUSPEITAR"
+  },
+  {
+    "name": "CHEQUE_SEM_FUNDO"
+  },
+  {
+    "name": "CHEQUE_SEM_PROVISÃO_DE_FUNDO"
+  },
+  {
+    "name": "CHEVETTE"
+  },
+  {
+    "name": "CHIBÉ"
+  },
+  {
+    "name": "CHICAGO&CIDADE"
+  },
+  {
+    "name": "CHILE&PAÍS"
+  },
+  {
+    "name": "CHIMARRÃO"
+  },
+  {
+    "name": "CHINA&PAÍS"
+  },
+  {
+    "name": "CHIPSET"
+  },
+  {
+    "name": "CHOCAR&COLIDIR"
+  },
+  {
+    "name": "CHOCAR&DETERIORAR"
+  },
+  {
+    "name": "CHOCAR&ESCANDALIZAR"
+  },
+  {
+    "name": "CHOCAR&OVO"
+  },
+  {
+    "name": "CHOQUE_ANAFILÁTICO"
+  },
+  {
+    "name": "CHORAR(-)"
+  },
+  {
+    "name": "CHORAR(+)"
+  },
+  {
+    "name": "CHUPAR&EMAGRECER"
+  },
+  {
+    "name": "CHUPAR&LARANJA"
+  },
+  {
+    "name": "CHUPAR&PICOLÉ"
+  },
+  {
+    "name": "CHUPAR&PIRULITO"
+  },
+  {
+    "name": "CHUPAR&SORVETE"
+  },
+  {
+    "name": "CHUTEIRA"
+  },
+  {
+    "name": "CHUVA(-)"
+  },
+  {
+    "name": "CHUVA(+)"
+  },
+  {
+    "name": "CIBERNÉTICO"
+  },
+  {
+    "name": "CIÊNCIAS_BIOLÓGICAS"
+  },
+  {
+    "name": "CIÊNCIAS_DA_COMPUTAÇÃO"
+  },
+  {
+    "name": "CIÊNCIAS_ECONÔMICAS"
+  },
+  {
+    "name": "CIFOSE"
+  },
+  {
+    "name": "CIGARRO_BRAVO"
+  },
+  {
+    "name": "CINEGRAFISTA"
+  },
+  {
+    "name": "CINGAPURA&PAÍS"
+  },
+  {
+    "name": "CINTO_DE_SEGURANÇA"
+  },
+  {
+    "name": "CINZA&COR"
+  },
+  {
+    "name": "CINZA&RESÍDUO"
+  },
+  {
+    "name": "CIRCUITO_EM_SÉRIE"
+  },
+  {
+    "name": "CIRCUITO_PARALELO"
+  },
+  {
+    "name": "CIRCUITO_TRIFÁSICO"
+  },
+  {
+    "name": "CIRCUITO_TRIFÁSICO_ESTRELA"
+  },
+  {
+    "name": "CIRCULAR&GEOMETRIA"
+  },
+  {
+    "name": "CIRCULAR&RODEAR"
+  },
+  {
+    "name": "CIRCULAR&TRANSITAR"
+  },
+  {
+    "name": "CIRCUNSCRIÇÃO_ELEITORALCIRCUNSCRIÇÃO_ELEITORAL"
+  },
+  {
+    "name": "CIRURGIA_BARIÁTRICA"
+  },
+  {
+    "name": "CIRURGIA_CRÂNIO_MAXILO_FACIAL"
+  },
+  {
+    "name": "CIRURGIA_DE_PRÓSTATA"
+  },
+  {
+    "name": "CIRURGIA_TORÁCICA"
+  },
+  {
+    "name": "CIRURGIA_VASCULAR"
+  },
+  {
+    "name": "CITOPLASMA"
+  },
+  {
+    "name": "CLAMAR&EXIGIR"
+  },
+  {
+    "name": "CLAMAR&SUPLICAR"
+  },
+  {
+    "name": "CLARABOIA"
+  },
+  {
+    "name": "CLAREAMENTO_DENTAL"
+  },
+  {
+    "name": "CLARO&AFIRMAÇÃO"
+  },
+  {
+    "name": "CLARO&CLAREZA"
+  },
+  {
+    "name": "CLARO&OPERADORA"
+  },
+  {
+    "name": "CLASSE&AULA"
+  },
+  {
+    "name": "CLASSE&GRUPO"
+  },
+  {
+    "name": "CLASSIFICADOR&LIBRAS"
+  },
+  {
+    "name": "CLICAR&BOTÃO"
+  },
+  {
+    "name": "CLICAR_SALVAR"
+  },
+  {
+    "name": "CLÍNICO_GERAL"
+  },
+  {
+    "name": "CLITES"
+  },
+  {
+    "name": "CLITÓRIS"
+  },
+  {
+    "name": "CLOSET"
+  },
+  {
+    "name": "CLUBE_NÁUTICO&FUTEBOL"
+  },
+  {
+    "name": "COADOR_DE_CAFÉ"
+  },
+  {
+    "name": "COBRIR&COBERTOR"
+  },
+  {
+    "name": "COBRIR&JORNALISMO"
+  },
+  {
+    "name": "COCA_COLA"
+  },
+  {
+    "name": "COCADA"
+  },
+  {
+    "name": "CÓCEGA"
+  },
+  {
+    "name": "CÔCO"
+  },
+  {
+    "name": "CÓDIGO&BINÁRIO"
+  },
+  {
+    "name": "CÓDIGO&ÉTICA"
+  },
+  {
+    "name": "CÓDIGO&INFORMÁTICA"
+  },
+  {
+    "name": "CÓDIGO&LEI"
+  },
+  {
+    "name": "CÓDIGO&NOME"
+  },
+  {
+    "name": "CÓDIGO&SENHA"
+  },
+  {
+    "name": "COESÃO_TEXTUAL"
+  },
+  {
+    "name": "COFAP&EMPRESA"
+  },
+  {
+    "name": "COGNIÇÃO"
+  },
+  {
+    "name": "COITO_INTERROMPIDO"
+  },
+  {
+    "name": "COLABORAR&AJUDAR"
+  },
+  {
+    "name": "COLABORAR&DINHEIRO"
+  },
+  {
+    "name": "COLAR&ACESSÓRIO"
+  },
+  {
+    "name": "COLAR&FILA"
+  },
+  {
+    "name": "COLAR&GRUDAR"
+  },
+  {
+    "name": "COLAR&INFORMÁTICA"
+  },
+  {
+    "name": "COLCHETE"
+  },
+  {
+    "name": "COLÉGIO_DE_LÍDERES"
+  },
+  {
+    "name": "COLESTEROL"
+  },
+  {
+    "name": "COLETIVO&PESSOA"
+  },
+  {
+    "name": "COLETIVO&VEÍCULO"
+  },
+  {
+    "name": "COLHER&PEDREIRO"
+  },
+  {
+    "name": "COLHER&RETIRAR"
+  },
+  {
+    "name": "COLHER&UTENSÍLIO"
+  },
+  {
+    "name": "CÓLICA"
+  },
+  {
+    "name": "CÓLICA_MENSTRUAL"
+  },
+  {
+    "name": "COLOCAR&ÁGUA"
+  },
+  {
+    "name": "COLOCAR&CHAPÉU"
+  },
+  {
+    "name": "COLOCAR&CINTO"
+  },
+  {
+    "name": "COLÓFOLO"
+  },
+  {
+    "name": "COLÔNIA&GRUPO"
+  },
+  {
+    "name": "COLONIALISMO"
+  },
+  {
+    "name": "COLÔNIA&PERFUME"
+  },
+  {
+    "name": "COLONOSCOPIA"
+  },
+  {
+    "name": "COLUNA&FILA"
+  },
+  {
+    "name": "COLUNA&PAREDE"
+  },
+  {
+    "name": "COLUNA&SEÇÃO"
+  },
+  {
+    "name": "COLUNA&VERTEBRAL"
+  },
+  {
+    "name": "COMANDO&INFORMÁTICA"
+  },
+  {
+    "name": "COMBATER&LUTAR"
+  },
+  {
+    "name": "COMBINAR&ACORDO"
+  },
+  {
+    "name": "COMBINAR&HARMONIZAR"
+  },
+  {
+    "name": "COMER(-)"
+  },
+  {
+    "name": "COMER(+)"
+  },
+  {
+    "name": "COMERCIAL&TELEVISÃO"
+  },
+  {
+    "name": "COMERCIAL&VENDER"
+  },
+  {
+    "name": "COMISSÃO_DE_MÉRITO"
+  },
+  {
+    "name": "COMISSÃO_MISTA_DO_ORÇAMENTO"
+  },
+  {
+    "name": "COMISSÃO_PARLAMENTAR_CONJUNTA_DO_MERCOSUL"
+  },
+  {
+    "name": "COMISSÃO_PARLAMENTAR_DE_INQUÉRITO"
+  },
+  {
+    "name": "COMISSÃO_REPRESENTATIVA_DO_CONGRESSO_NACIONAL"
+  },
+  {
+    "name": "COMISSÁRIA_DE_BORDO"
+  },
+  {
+    "name": "CÔMODO&ACOMODAR"
+  },
+  {
+    "name": "CÔMODO&CASA"
+  },
+  {
+    "name": "COMO_VAI_VOCÊ"
+  },
+  {
+    "name": "COMPACTAR&INFORMÁTICA"
+  },
+  {
+    "name": "COMPANHIA&ACOMPANHAR"
+  },
+  {
+    "name": "COMPANHIA&EMPRESA"
+  },
+  {
+    "name": "COMPARTIMENTO"
+  },
+  {
+    "name": "COMPATIBILIDADE"
+  },
+  {
+    "name": "COMPENSAR&BENEFÍCIO"
+  },
+  {
+    "name": "COMPENSAR&CORRIGIR"
+  },
+  {
+    "name": "COMPLICADO(-)"
+  },
+  {
+    "name": "COMPLICADO(+)"
+  },
+  {
+    "name": "COMPOR"
+  },
+  {
+    "name": "COMPOSTAGEM_DE_RESÍDUOS_ORGÂNICOS"
+  },
+  {
+    "name": "COMPRAR&DINHEIRO"
+  },
+  {
+    "name": "COMPRAR&VISTA"
+  },
+  {
+    "name": "COMPRIDO&COMPRIMENTO"
+  },
+  {
+    "name": "COMPRIDO&DURAÇÃO"
+  },
+  {
+    "name": "COMPRIMIDO&REMÉDIO"
+  },
+  {
+    "name": "COMPROBATÓRIO"
+  },
+  {
+    "name": "COMPROMISSO_SOLENE_DE_POSSE"
+  },
+  {
+    "name": "COMUNICAÇÃO_DE_LIDERANÇA"
+  },
+  {
+    "name": "COMUNICAR_EM_LIBRAS"
+  },
+  {
+    "name": "COMUNISMO"
+  },
+  {
+    "name": "CÔNCAVO"
+  },
+  {
+    "name": "CONCENTRAÇÃO&AGRUPAR"
+  },
+  {
+    "name": "CONCENTRAÇÃO&ATENÇÃO"
+  },
+  {
+    "name": "CONCENTRAÇÃO&REUNIÃO"
+  },
+  {
+    "name": "CONCURSO&COMPETIR"
+  },
+  {
+    "name": "CONCURSO&PROVA"
+  },
+  {
+    "name": "CONDOMÁCEA"
+  },
+  {
+    "name": "CONECTAR&INFORMÁTICA"
+  },
+  {
+    "name": "CONECTIVO"
+  },
+  {
+    "name": "CONEXÃO&COERÊNCIA"
+  },
+  {
+    "name": "CONEXÃO&ELÉTRICA"
+  },
+  {
+    "name": "CONEXÃO&INFORMÁTICA"
+  },
+  {
+    "name": "CONEXÃO&INTERNET"
+  },
+  {
+    "name": "CONEXÃO&VÍNCULO"
+  },
+  {
+    "name": "CONFEDERAÇÃO"
+  },
+  {
+    "name": "CONFIGURAÇÃO&INFORMÁTICA"
+  },
+  {
+    "name": "CONFIGURAÇÃO&MÃO"
+  },
+  {
+    "name": "CONFORTO&CONFORTÁVEL"
+  },
+  {
+    "name": "CONFORTO&CONSOLO"
+  },
+  {
+    "name": "CONFUSÃO&BRIGA"
+  },
+  {
+    "name": "CONFUSÃO&CONFUNDIR"
+  },
+  {
+    "name": "CONGELADO&QUÍMICA"
+  },
+  {
+    "name": "CONGELAMENTO_DE_PREÇO"
+  },
+  {
+    "name": "CONGELAMENTO_DE_SALÁRIO"
+  },
+  {
+    "name": "CONGESTÃO_NASAL"
+  },
+  {
+    "name": "CONHECER(-)"
+  },
+  {
+    "name": "CONSCIÊNCIA_FONOLÓGICA"
+  },
+  {
+    "name": "CONSCIÊNCIA_SINTÁTICA"
+  },
+  {
+    "name": "CONSELHO&ACONSELHAR"
+  },
+  {
+    "name": "CONSELHO_DE_ÉTICA_E_DECORO_PARLAMENTAR"
+  },
+  {
+    "name": "CONSELHO&GRUPO"
+  },
+  {
+    "name": "CONSENSO"
+  },
+  {
+    "name": "CONSENSUAL"
+  },
+  {
+    "name": "CONSOLIDAÇÃO_DAS_LEIS"
+  },
+  {
+    "name": "CONSTANTE&INFORMÁTICA"
+  },
+  {
+    "name": "CONSTINTUINTE_ORIGINÁRIO"
+  },
+  {
+    "name": "CONSULAR"
+  },
+  {
+    "name": "CONSULTORIA_DE_ORÇAMENTO_E_FISCALIZAÇÃO_FINANCEIRA"
+  },
+  {
+    "name": "CONSUMISTA"
+  },
+  {
+    "name": "CONTA&ÁGUA"
+  },
+  {
+    "name": "CONTA&BANCÁRIA"
+  },
+  {
+    "name": "CONTA&CORRENTE"
+  },
+  {
+    "name": "CONTADOR&NARRADOR"
+  },
+  {
+    "name": "CONTADOR&PROFISSÃO"
+  },
+  {
+    "name": "CONTAGIAR&CORROMPER"
+  },
+  {
+    "name": "CONTAGIAR&DOENÇA"
+  },
+  {
+    "name": "CONTAGIAR&SENTIMENTO"
+  },
+  {
+    "name": "CONTÁGIO&COMPARTILHAR_OBJETO"
+  },
+  {
+    "name": "CONTÁGIO&COMPARTILHAR_SERINGA"
+  },
+  {
+    "name": "CONTÁGIO&CONTATO_MUCOSA"
+  },
+  {
+    "name": "CONTÁGIO&CONTATO_PELE"
+  },
+  {
+    "name": "CONTÁGIO&MORDIDA_ANIMAL"
+  },
+  {
+    "name": "CONTÁGIO&PELO_AR"
+  },
+  {
+    "name": "CONTÁGIO&PICADA_INSETO"
+  },
+  {
+    "name": "CONTÁGIO&TRANSMISSÃO_DOENÇA"
+  },
+  {
+    "name": "CONTA&GOTA"
+  },
+  {
+    "name": "CONTA&LUZ"
+  },
+  {
+    "name": "CONTA&PAGAR"
+  },
+  {
+    "name": "CONTAR&APOIAR"
+  },
+  {
+    "name": "CONTAR&ESTÓRIA"
+  },
+  {
+    "name": "CONTAR&FALAR"
+  },
+  {
+    "name": "CONTAR&NÚMERO"
+  },
+  {
+    "name": "CONTA&TELEFONE"
+  },
+  {
+    "name": "CONTATO&COMUNICAR"
+  },
+  {
+    "name": "CONTATO&RELAÇÃO"
+  },
+  {
+    "name": "CONTATO&TELEFONE"
+  },
+  {
+    "name": "CONTATO&TOQUE"
+  },
+  {
+    "name": "CONTRA_&ADVERSÁRIO"
+  },
+  {
+    "name": "CONTRA&CONTRÁRIO"
+  },
+  {
+    "name": "CONTRA_INTELIGÊNCIA"
+  },
+  {
+    "name": "CONTRAIR&AFETAR"
+  },
+  {
+    "name": "CONTRAIR&APERTAR"
+  },
+  {
+    "name": "CONTRÁRIO&CONTRA"
+  },
+  {
+    "name": "CONTRÁRIO&OPOSTO"
+  },
+  {
+    "name": "CONTRATEXTO"
+  },
+  {
+    "name": "CONTRATRANSFERÊNCIA"
+  },
+  {
+    "name": "CONTRIBUIÇÃO&AJUDAR"
+  },
+  {
+    "name": "CONTRIBUIÇÃO&IMPOSTO"
+  },
+  {
+    "name": "CONTROLADORIA_GERAL_DA_UNIÃO"
+  },
+  {
+    "name": "CONTROLE_HORMONAL"
+  },
+  {
+    "name": "CONTROVERSO"
+  },
+  {
+    "name": "CONVÊNIO_MÉDICO"
+  },
+  {
+    "name": "CONVERSÍVEL&AUTOMÓVEL"
+  },
+  {
+    "name": "CONVERSÍVEL&CONVERTER"
+  },
+  {
+    "name": "CONVITE_TIPO_DE_LICITAÇÃO"
+  },
+  {
+    "name": "CONVULSÃO"
+  },
+  {
+    "name": "COOPERAR&AJUDAR"
+  },
+  {
+    "name": "COOPERAR&DOAÇÃO"
+  },
+  {
+    "name": "COORDENADA_GEOGRÁFICA"
+  },
+  {
+    "name": "COORDENADOR_PEDAGÓGICO"
+  },
+  {
+    "name": "COPA&BARALHO"
+  },
+  {
+    "name": "COPA&CAMPEONATO"
+  },
+  {
+    "name": "COPA&CASA"
+  },
+  {
+    "name": "COPA_DE_ÁRVORE"
+  },
+  {
+    "name": "COPA_DO_MUNDO"
+  },
+  {
+    "name": "COPIAR&COMPUTADOR"
+  },
+  {
+    "name": "COPIAR&IMITAR"
+  },
+  {
+    "name": "COPIAR&TRANSCREVER"
+  },
+  {
+    "name": "COPIENTE"
+  },
+  {
+    "name": "COPO_DE_LEITE"
+  },
+  {
+    "name": "COPO_DE_LEITE&FLOR"
+  },
+  {
+    "name": "COQUETEL_DE_FRUTAS"
+  },
+  {
+    "name": "COR_BERRANTE"
+  },
+  {
+    "name": "CORDA_BAMBA"
+  },
+  {
+    "name": "COREIA_DO_SUL"
+  },
+  {
+    "name": "CORÉIA&PAÍS"
+  },
+  {
+    "name": "CORELDRAW"
+  },
+  {
+    "name": "CORINTHIANS"
+  },
+  {
+    "name": "CORINTHIANS&FUTEBOL"
+  },
+  {
+    "name": "CORITIBA"
+  },
+  {
+    "name": "CORITIBA&FUTEBOL"
+  },
+  {
+    "name": "CORIZA"
+  },
+  {
+    "name": "COROA&OBJETO"
+  },
+  {
+    "name": "COROA&REINADO"
+  },
+  {
+    "name": "COROA&VELHO"
+  },
+  {
+    "name": "CORO&CORAL"
+  },
+  {
+    "name": "CORONAVÍRUS"
+  },
+  {
+    "name": "CORO&VERGONHA"
+  },
+  {
+    "name": "CORPO_DE_JURADOS"
+  },
+  {
+    "name": "CORREDOR&CORRIDA"
+  },
+  {
+    "name": "CORREIO_ELETRÔNICO"
+  },
+  {
+    "name": "CORRENTE&BIJUTERIA"
+  },
+  {
+    "name": "CORRENTE&FLUIR"
+  },
+  {
+    "name": "CORRENTE&GRUPO"
+  },
+  {
+    "name": "CORRER&LÍQUIDO"
+  },
+  {
+    "name": "CORRER&PERSEGUIR"
+  },
+  {
+    "name": "CORRER&PESSOA"
+  },
+  {
+    "name": "CORRETIVO&APAGAR"
+  },
+  {
+    "name": "CORRETOR_DE_IMÓVEIS"
+  },
+  {
+    "name": "CORRETOR_DE_MODA"
+  },
+  {
+    "name": "CORRETOR_DE_SEGURO"
+  },
+  {
+    "name": "CORRIDA_À_CAVALO"
+  },
+  {
+    "name": "CORRIDA_DE_CARRO"
+  },
+  {
+    "name": "CORRIDA_DE_OBSTÁCULO"
+  },
+  {
+    "name": "CORRIDA_DE_OBSTÁCULOS"
+  },
+  {
+    "name": "CORRIMÃO"
+  },
+  {
+    "name": "COR_ROSA"
+  },
+  {
+    "name": "COR_SALMÃO"
+  },
+  {
+    "name": "CORTANTE"
+  },
+  {
+    "name": "CORTAR&CABELO"
+  },
+  {
+    "name": "CORTAR&DEDO"
+  },
+  {
+    "name": "CORTAR&PAPEL"
+  },
+  {
+    "name": "CORTAR&ROUPA"
+  },
+  {
+    "name": "CORTAR&UNHA"
+  },
+  {
+    "name": "CORUJA"
+  },
+  {
+    "name": "CORURIPE"
+  },
+  {
+    "name": "CORURIPE&CIDADE"
+  },
+  {
+    "name": "COR_VERDE_CLARO"
+  },
+  {
+    "name": "COR_VERDE_ESCURO"
+  },
+  {
+    "name": "COSMÉTICO"
+  },
+  {
+    "name": "COSTA&CORPO"
+  },
+  {
+    "name": "COSTA&MAR"
+  },
+  {
+    "name": "COSTA_RICA"
+  },
+  {
+    "name": "COSTA_RICA&PAÍS"
+  },
+  {
+    "name": "COSTURAR&AGULHA"
+  },
+  {
+    "name": "COSTURAR&MÁQUINA"
+  },
+  {
+    "name": "COSTURAR&TRÂNSITO"
+  },
+  {
+    "name": "COSTUREIRA"
+  },
+  {
+    "name": "COTIA"
+  },
+  {
+    "name": "COTIA&CIDADE"
+  },
+  {
+    "name": "COTONETE"
+  },
+  {
+    "name": "COTOVELADA"
+  },
+  {
+    "name": "COUVE_FLOR"
+  },
+  {
+    "name": "COVA"
+  },
+  {
+    "name": "COVID19"
+  },
+  {
+    "name": "CPU"
+  },
+  {
+    "name": "CPU&INFORMÁTICA"
+  },
+  {
+    "name": "CRACK"
+  },
+  {
+    "name": "CRACK&DROGA"
+  },
+  {
+    "name": "CRACK&INFORMÁTICA"
+  },
+  {
+    "name": "CRATO"
+  },
+  {
+    "name": "CRATO&CIDADE"
+  },
+  {
+    "name": "CREDITAR&ACREDITAR"
+  },
+  {
+    "name": "CREDITAR&AUTORIA"
+  },
+  {
+    "name": "CREDITAR&DEPOSITAR"
+  },
+  {
+    "name": "CRÉDITO&FILME"
+  },
+  {
+    "name": "CREME&ALIMENTO"
+  },
+  {
+    "name": "CREME&CABELO"
+  },
+  {
+    "name": "CREME_CHANTILI"
+  },
+  {
+    "name": "CREME_DE_LEITE"
+  },
+  {
+    "name": "CREME&DENTAL"
+  },
+  {
+    "name": "CREME&MEDICAMENTO"
+  },
+  {
+    "name": "CRENÇA"
+  },
+  {
+    "name": "CRESCER&PLANTA"
+  },
+  {
+    "name": "CRIAÇÃO_DO_MUNDO"
+  },
+  {
+    "name": "CRIAÇÃO_DO_PERSONAGEM"
+  },
+  {
+    "name": "CRIANÇAS"
+  },
+  {
+    "name": "CRIAR&FUNDAR"
+  },
+  {
+    "name": "CRIAR&SUSTENTAR"
+  },
+  {
+    "name": "CRIME_DE_PREVARIAÇÃO"
+  },
+  {
+    "name": "CRIME_DE_RECEPTAÇÃO"
+  },
+  {
+    "name": "CRIME_DE_RESPONSABILIDADE"
+  },
+  {
+    "name": "CRIME_DO_COLARINHO_BRANCO"
+  },
+  {
+    "name": "CROÁCIA&PAÍS"
+  },
+  {
+    "name": "CRONOGRAMA_DE_DESEMBOLSO"
+  },
+  {
+    "name": "CRUSTÁCEO"
+  },
+  {
+    "name": "CRUZAR&ANIMAL"
+  },
+  {
+    "name": "CRUZAR&ATRAVESSAR"
+  },
+  {
+    "name": "CRUZAR&CARRO"
+  },
+  {
+    "name": "CRUZAR&PERNA"
+  },
+  {
+    "name": "CUBA&PAÍS"
+  },
+  {
+    "name": "CUBO_DE_GELO"
+  },
+  {
+    "name": "CUIABÁ"
+  },
+  {
+    "name": "CUIABÁ&CIDADE"
+  },
+  {
+    "name": "CUIDADOR"
+  },
+  {
+    "name": "CUIDAR&PESSOA"
+  },
+  {
+    "name": "CUIDAR&PROTEGER"
+  },
+  {
+    "name": "CULHÃO"
+  },
+  {
+    "name": "CULTO&ADJETIVO"
+  },
+  {
+    "name": "CULTO&RELIGIÃO"
+  },
+  {
+    "name": "CULTURA&CULTIVO"
+  },
+  {
+    "name": "CULTURA_GAÚCHA"
+  },
+  {
+    "name": "CULTURA_PUNK"
+  },
+  {
+    "name": "CULTURA&SOCIEDADE"
+  },
+  {
+    "name": "CUMPRIDO"
+  },
+  {
+    "name": "CUMPRIMENTO_DE_METAS"
+  },
+  {
+    "name": "CUNILÍNGUA"
+  },
+  {
+    "name": "CURATIVO"
+  },
+  {
+    "name": "CURITIBA&CIDADE"
+  },
+  {
+    "name": "CURRÍCULO&ESCOLAR"
+  },
+  {
+    "name": "CURRÍCULO&VITAE"
+  },
+  {
+    "name": "CURSO&CAMINHO"
+  },
+  {
+    "name": "CURSO&ESTUDAR"
+  },
+  {
+    "name": "CURTO_CIRCUITO"
+  },
+  {
+    "name": "CURTO&COMPRIMENTO"
+  },
+  {
+    "name": "CURVA_ACHATAMENTO"
+  },
+  {
+    "name": "DADO&COMBINAR"
+  },
+  {
+    "name": "DADO&INFORMÁTICA"
+  },
+  {
+    "name": "DADO&OBJETO"
+  },
+  {
+    "name": "DA_HORA_EXPRESSÃO"
+  },
+  {
+    "name": "DAMARES_ALVES&FAMOSO"
+  },
+  {
+    "name": "DANÇAR&AÇÃO"
+  },
+  {
+    "name": "DANÇAR&FORRÓ"
+  },
+  {
+    "name": "DANÇAR&VACILAR"
+  },
+  {
+    "name": "DAR(+)"
+  },
+  {
+    "name": "DAR_BRANCO"
+  },
+  {
+    "name": "DAR&BRONCA"
+  },
+  {
+    "name": "DAR_COM_LÍNGUA_NOS_DENTES"
+  },
+  {
+    "name": "DAR&EMPRESTADO"
+  },
+  {
+    "name": "DAR&INCENTIVO"
+  },
+  {
+    "name": "DAR&NÓ"
+  },
+  {
+    "name": "DAR_O_CANO"
+  },
+  {
+    "name": "DAR_UNS_AMASSOS"
+  },
+  {
+    "name": "DARWIN&FAMOSO"
+  },
+  {
+    "name": "DATASHOW"
+  },
+  {
+    "name": "DAY_TRADE"
+  },
+  {
+    "name": "DE_ARAQUE"
+  },
+  {
+    "name": "DEBUG&INFORMÁTICA"
+  },
+  {
+    "name": "DE_CABEÇA_FRIA"
+  },
+  {
+    "name": "DECEPAR&AMPUTAR"
+  },
+  {
+    "name": "DECEPAR&DEGOLAR"
+  },
+  {
+    "name": "DECIMAL"
+  },
+  {
+    "name": "DECLARAÇÃO_DE_VOTO"
+  },
+  {
+    "name": "DECLINAÇÃO"
+  },
+  {
+    "name": "DECORAR&DECORAÇÃO"
+  },
+  {
+    "name": "DECORAR&MEMORIZAR"
+  },
+  {
+    "name": "DECURSO_DE_PRAZO"
+  },
+  {
+    "name": "DEDAL"
+  },
+  {
+    "name": "DEDETIZAR"
+  },
+  {
+    "name": "DEDO_DA_MÃO"
+  },
+  {
+    "name": "DEDO_DO_PÉ"
+  },
+  {
+    "name": "DEDUÇÃO_DE_IMPOSTOS"
+  },
+  {
+    "name": "DEFAULT&INFORMÁTICA"
+  },
+  {
+    "name": "DEFICIÊNCIA_MÚLTIPLA"
+  },
+  {
+    "name": "DÉFICIT_DE_CAIXA"
+  },
+  {
+    "name": "DÉFICIT_DE_CAIXA_DE_TESOURO_NACIONAL"
+  },
+  {
+    "name": "DEFINHAR_PLANTA"
+  },
+  {
+    "name": "DEFLAÇÃO&VENTO"
+  },
+  {
+    "name": "DEFORMAR&OBJETO"
+  },
+  {
+    "name": "DEFORMAR&ROSTO"
+  },
+  {
+    "name": "DEIXAR_PARA_LÁ"
+  },
+  {
+    "name": "DEIXAR&PERMITIR"
+  },
+  {
+    "name": "DEIXAR&RENUNCIAR"
+  },
+  {
+    "name": "DEIXAR_SÓ"
+  },
+  {
+    "name": "DE_JEITO_NENHUM"
+  },
+  {
+    "name": "DELATADO"
+  },
+  {
+    "name": "DELEGACIA_DE_DEFESA_MULHER"
+  },
+  {
+    "name": "DELEGACIA_DE_POLÍCIA"
+  },
+  {
+    "name": "DEMOLIR&CASA"
+  },
+  {
+    "name": "DEMORAR_MUITO"
+  },
+  {
+    "name": "DE_NADA"
+  },
+  {
+    "name": "DENTE_CANINO"
+  },
+  {
+    "name": "DENTE_DE_ALHO"
+  },
+  {
+    "name": "DENTE_DE_LEITE"
+  },
+  {
+    "name": "DENTE_INCISIVO"
+  },
+  {
+    "name": "DENTE_SISO"
+  },
+  {
+    "name": "DENTRO&AÇÃO"
+  },
+  {
+    "name": "DE_PÉ"
+  },
+  {
+    "name": "DEPÓSITO&BANCO"
+  },
+  {
+    "name": "DEPÓSITO&BANCO_AUTOMÁTICO"
+  },
+  {
+    "name": "DEPÓSITO&LOCAL"
+  },
+  {
+    "name": "DEPRECIAR&DESPREZAR"
+  },
+  {
+    "name": "DEPRECIAR&MERCADORIA"
+  },
+  {
+    "name": "DEPRECIAR&VALOR"
+  },
+  {
+    "name": "DE_QUEM"
+  },
+  {
+    "name": "DE_QUE_MODO"
+  },
+  {
+    "name": "DERRAME_CEREBRAL"
+  },
+  {
+    "name": "DERRUBAR&CAIR"
+  },
+  {
+    "name": "DESABAR&CASA"
+  },
+  {
+    "name": "DESACATO"
+  },
+  {
+    "name": "DESAJEITADO"
+  },
+  {
+    "name": "DESARQUIVAMENTO_DE_PROPOSIÇÃO"
+  },
+  {
+    "name": "DESASTRADO"
+  },
+  {
+    "name": "DESCARTADO"
+  },
+  {
+    "name": "DESCARTAR&OBJETO"
+  },
+  {
+    "name": "DESCASCAR&FRUTA"
+  },
+  {
+    "name": "DESCASCAR&PELE"
+  },
+  {
+    "name": "DESCENTRALIZAÇÃO_DE_CRÉDITO_ORÇAMENTÁRIO"
+  },
+  {
+    "name": "DESCOBRIR&ENCONTRAR"
+  },
+  {
+    "name": "DESCOBRIR&INVENTAR"
+  },
+  {
+    "name": "DESCOLAR&GRANA"
+  },
+  {
+    "name": "DESCOMBINAR"
+  },
+  {
+    "name": "DESCOMPACTAR"
+  },
+  {
+    "name": "DESCOMPACTAR&INFORMÁTICA"
+  },
+  {
+    "name": "DESCOMPILADOR&INFORMÁTICA"
+  },
+  {
+    "name": "DESCONECTAR&INFORMÁTICA"
+  },
+  {
+    "name": "DESCONTEXTUALIZADO"
+  },
+  {
+    "name": "DESCONTO_EM_FOLHA"
+  },
+  {
+    "name": "DESCONTO_SALARIAL"
+  },
+  {
+    "name": "DESCONTRAÍDO"
+  },
+  {
+    "name": "DESCRIÇÃO&OBJETO"
+  },
+  {
+    "name": "DESCRIÇÃO&PESSOA"
+  },
+  {
+    "name": "DESCRIPTOGRAFIA&INFORMÁTICA"
+  },
+  {
+    "name": "DESCUPRIMENTO"
+  },
+  {
+    "name": "DESEJO_SEXUAL"
+  },
+  {
+    "name": "DESEMBARAÇAR"
+  },
+  {
+    "name": "DESEMPENHO"
+  },
+  {
+    "name": "DESENROLAR"
+  },
+  {
+    "name": "DESENRUGAR"
+  },
+  {
+    "name": "DESENTUPIR"
+  },
+  {
+    "name": "DESERTO&DESABITADO"
+  },
+  {
+    "name": "DESESTRANGEIRIZAÇÃO"
+  },
+  {
+    "name": "DESFIAR"
+  },
+  {
+    "name": "DESFRANZIR"
+  },
+  {
+    "name": "DESFRUTAR"
+  },
+  {
+    "name": "DESINSTALAR&INFORMÁTICA"
+  },
+  {
+    "name": "DESISTIR_EXPRESSÃO"
+  },
+  {
+    "name": "DESKTOP&INFORMÁTICA"
+  },
+  {
+    "name": "DESLIGAR&APARELHO"
+  },
+  {
+    "name": "DESLIGAR&ELETRÔNICO"
+  },
+  {
+    "name": "DESLIGAR&LUZ"
+  },
+  {
+    "name": "DESLIGAR&TELEFONE"
+  },
+  {
+    "name": "DESMAMAR"
+  },
+  {
+    "name": "DESMORONAR"
+  },
+  {
+    "name": "DESMORONAR&BARREIRA"
+  },
+  {
+    "name": "DESMORONAR&CASA"
+  },
+  {
+    "name": "DESODORANTE_AEROSSOL"
+  },
+  {
+    "name": "DESODORANTE_CREME"
+  },
+  {
+    "name": "DESODORANTE_ROLL_ON"
+  },
+  {
+    "name": "DESORDEM"
+  },
+  {
+    "name": "DESPACHADA"
+  },
+  {
+    "name": "DESPACHO_DE_DOCUMENTO"
+  },
+  {
+    "name": "DESPACHO_DE_PROCESSO"
+  },
+  {
+    "name": "DESPEDAÇAR"
+  },
+  {
+    "name": "DESPEDIR&DEMITIR"
+  },
+  {
+    "name": "DESPEDIR&SAUDAÇÃO"
+  },
+  {
+    "name": "DESPEJAR"
+  },
+  {
+    "name": "DESPEJAR&MORADOR"
+  },
+  {
+    "name": "DESPEJAR&ÓLEO"
+  },
+  {
+    "name": "DESPEJO"
+  },
+  {
+    "name": "DESPENCAR"
+  },
+  {
+    "name": "DESPREOCUPADO"
+  },
+  {
+    "name": "DESPROPÓSITO"
+  },
+  {
+    "name": "DESTAQUE_PARA_VOTAÇÃO_EM_SEPARADO"
+  },
+  {
+    "name": "DESTAQUE_SUPRESSIVO_SIMPLES"
+  },
+  {
+    "name": "DESTINO"
+  },
+  {
+    "name": "DESTRUIR&EXTERMINAR"
+  },
+  {
+    "name": "DESTRUIR&PREJUDICAR"
+  },
+  {
+    "name": "DESTRUIR&QUEBRAR"
+  },
+  {
+    "name": "DESUMANO"
+  },
+  {
+    "name": "DESVAIRAR"
+  },
+  {
+    "name": "DESVIAR&AUTOMÓVEL"
+  },
+  {
+    "name": "DESVIAR&OBSTÁCULO"
+  },
+  {
+    "name": "DESVIAR&PESSOA"
+  },
+  {
+    "name": "DETECTOR"
+  },
+  {
+    "name": "DETERGENTE"
+  },
+  {
+    "name": "DETERIORAR&APODRECER"
+  },
+  {
+    "name": "DETERIORAR&PREJUDICAR"
+  },
+  {
+    "name": "DETERIORAR&QUEBRAR"
+  },
+  {
+    "name": "DETER&PARAR"
+  },
+  {
+    "name": "DETER&PRENDER"
+  },
+  {
+    "name": "DEUS_ME_LIVRE_EXPRESSÃO"
+  },
+  {
+    "name": "DEVER&ATIVIDADE"
+  },
+  {
+    "name": "DEVER&DINHEIRO"
+  },
+  {
+    "name": "DEVER&OBRIGAÇÃO"
+  },
+  {
+    "name": "DEVIDO_A"
+  },
+  {
+    "name": "DEVORAR"
+  },
+  {
+    "name": "DEZ"
+  },
+  {
+    "name": "DEZENOVE"
+  },
+  {
+    "name": "DEZESSEIS"
+  },
+  {
+    "name": "DEZESSETE"
+  },
+  {
+    "name": "DEZ_MANDAMENTOS"
+  },
+  {
+    "name": "DEZOITO"
+  },
+  {
+    "name": "DF"
+  },
+  {
+    "name": "DIABETES"
+  },
+  {
+    "name": "DIABÉTICO"
+  },
+  {
+    "name": "DIACRONIA"
+  },
+  {
+    "name": "DIA_DA_ÁRVORE"
+  },
+  {
+    "name": "DIA_DA_BANDEIRA"
+  },
+  {
+    "name": "DIA_DA_CRIANÇA"
+  },
+  {
+    "name": "DIA_DA_SEMANA"
+  },
+  {
+    "name": "DIA_DAS_MÃES"
+  },
+  {
+    "name": "DIA&DATA"
+  },
+  {
+    "name": "DIA_DE_ANIVERSÁRIO"
+  },
+  {
+    "name": "DIADEMA&CIDADE"
+  },
+  {
+    "name": "DIA_DO_ÍNDIO"
+  },
+  {
+    "name": "DIA_DO_PROFESSOR"
+  },
+  {
+    "name": "DIA_DO_SOLDADO"
+  },
+  {
+    "name": "DIA_DOS_PAIS"
+  },
+  {
+    "name": "DIA_DO_TRABALHO"
+  },
+  {
+    "name": "DIAGRAMA_DE_CLASSES"
+  },
+  {
+    "name": "DIAGRAMA_DE_LINUS_PAULING"
+  },
+  {
+    "name": "DIAGRAMA&INFORMÁTICA"
+  },
+  {
+    "name": "DIALOGAR"
+  },
+  {
+    "name": "DIÁLOGO"
+  },
+  {
+    "name": "DIAMANTE&PEDRA"
+  },
+  {
+    "name": "DIARIAMANTE"
+  },
+  {
+    "name": "DIÁRIO&COTIDIANO"
+  },
+  {
+    "name": "DIÁRIO_DA_CÂMARA_DOS_DEPUTADOS"
+  },
+  {
+    "name": "DIÁRIO&LIVRO"
+  },
+  {
+    "name": "DIAS_DÁVILA&CIDADE"
+  },
+  {
+    "name": "DIA_TODO"
+  },
+  {
+    "name": "DICA"
+  },
+  {
+    "name": "DIDÁTICA"
+  },
+  {
+    "name": "DIESEL"
+  },
+  {
+    "name": "DIETA&ALIMENTAÇÃO"
+  },
+  {
+    "name": "DIETA&EMAGRECER"
+  },
+  {
+    "name": "DIFAMAÇÃO"
+  },
+  {
+    "name": "DIFAMAR"
+  },
+  {
+    "name": "DIFÍCIL(-)"
+  },
+  {
+    "name": "DIFÍCIL(+)"
+  },
+  {
+    "name": "DIFUNDIR"
+  },
+  {
+    "name": "DILATAR"
+  },
+  {
+    "name": "DIMINUIR&MATEMÁTICA"
+  },
+  {
+    "name": "DIMINUIR&VALOR"
+  },
+  {
+    "name": "DINAMARCA&PAÍS"
+  },
+  {
+    "name": "DINOSSAURO"
+  },
+  {
+    "name": "DIOCESE"
+  },
+  {
+    "name": "DIOPTRIA"
+  },
+  {
+    "name": "DIPLOMA"
+  },
+  {
+    "name": "DIPLOMÁTICO"
+  },
+  {
+    "name": "DIRECTX&INFORMÁTICA"
+  },
+  {
+    "name": "DIREITO&ADEQUADO"
+  },
+  {
+    "name": "DIREITO&ADVOCACIA"
+  },
+  {
+    "name": "DIREITO_DE_ANTENA"
+  },
+  {
+    "name": "DIREITO&DESTRO"
+  },
+  {
+    "name": "DIREITO&LEI"
+  },
+  {
+    "name": "DIRETORIA"
+  },
+  {
+    "name": "DIRETÓRIO&INFORMÁTICA"
+  },
+  {
+    "name": "DIRIGÍVEL"
+  },
+  {
+    "name": "DIRIGÍVEL&BALÃO"
+  },
+  {
+    "name": "DISCIPLINA_ESCOLAR"
+  },
+  {
+    "name": "DISCÍPULO_DE_JESUS"
+  },
+  {
+    "name": "DISCO"
+  },
+  {
+    "name": "DISGRAFIA"
+  },
+  {
+    "name": "DISPARAR"
+  },
+  {
+    "name": "DISPARAR&ACELERAR"
+  },
+  {
+    "name": "DISPARAR&ESPINGARDA"
+  },
+  {
+    "name": "DISPARAR&REVÓLVER"
+  },
+  {
+    "name": "DISPÊNDIO"
+  },
+  {
+    "name": "DISPEPSIA"
+  },
+  {
+    "name": "DISPNEIA"
+  },
+  {
+    "name": "DISPOSITIVO_INTRAUTERINO"
+  },
+  {
+    "name": "DISQUE_CÂMARA"
+  },
+  {
+    "name": "DISRITMIA"
+  },
+  {
+    "name": "DISSERTAÇÃO"
+  },
+  {
+    "name": "DISSOLVER"
+  },
+  {
+    "name": "DISTENDER"
+  },
+  {
+    "name": "DISTINGUE"
+  },
+  {
+    "name": "DISTRIBUÍDO"
+  },
+  {
+    "name": "DISTRIBUIR&DIVIDIR"
+  },
+  {
+    "name": "DISTRIBUIR&ESMOLA"
+  },
+  {
+    "name": "DISTRIBUIR&ESPALHAR"
+  },
+  {
+    "name": "DISTRIBUIR&FOLHETO"
+  },
+  {
+    "name": "DISTRITO_FEDERAL&ESTADO"
+  },
+  {
+    "name": "DITADURA_MILITAR"
+  },
+  {
+    "name": "DIU"
+  },
+  {
+    "name": "DIVERGIR"
+  },
+  {
+    "name": "DIVERTIDO"
+  },
+  {
+    "name": "DÍVIDA_FUNDADA"
+  },
+  {
+    "name": "DIVIDIR&CLASSIFICAR"
+  },
+  {
+    "name": "DIVIDIR&DEMARCAR"
+  },
+  {
+    "name": "DIVIDIR&PARTIR"
+  },
+  {
+    "name": "DIVÓRCIO&SIMPLES"
+  },
+  {
+    "name": "DIZER"
+  },
+  {
+    "name": "DIZIMAR"
+  },
+  {
+    "name": "DNA"
+  },
+  {
+    "name": "DOAR&OBJETO"
+  },
+  {
+    "name": "DOBRO"
+  },
+  {
+    "name": "DOBRO&MATEMÁTICA"
+  },
+  {
+    "name": "DOC"
+  },
+  {
+    "name": "DOCE(-)"
+  },
+  {
+    "name": "DOCE(+)"
+  },
+  {
+    "name": "DOCE_DE_LEITE"
+  },
+  {
+    "name": "DÓCIL"
+  },
+  {
+    "name": "DOCUMENTO&CARRO"
+  },
+  {
+    "name": "DOCUMENTO&IDENTIDADE"
+  },
+  {
+    "name": "DOCUMENTO&MOTORISTA"
+  },
+  {
+    "name": "DOCUMENTO&PAPEL"
+  },
+  {
+    "name": "DOENÇA_DE_PARKINSON"
+  },
+  {
+    "name": "DOENÇA_DE_PELE"
+  },
+  {
+    "name": "DOENÇA_SEXUALMENTE_TRANSMISSÍVEL"
+  },
+  {
+    "name": "DOENÇA_VENÉREA"
+  },
+  {
+    "name": "DOENTE(+)"
+  },
+  {
+    "name": "DOER(+)"
+  },
+  {
+    "name": "DOIS"
+  },
+  {
+    "name": "DOIS_PONTOS"
+  },
+  {
+    "name": "DOIS_RIACHOS"
+  },
+  {
+    "name": "DOIS_RIACHOS&CIDADE"
+  },
+  {
+    "name": "DOIS_TERÇOS&FRAÇÃO"
+  },
+  {
+    "name": "DOIS_TURNOS"
+  },
+  {
+    "name": "DOM&APTIDÃO"
+  },
+  {
+    "name": "DOMINAR&CONHECER"
+  },
+  {
+    "name": "DOMINAR&REPRIMIR"
+  },
+  {
+    "name": "DOM_PEDRITO"
+  },
+  {
+    "name": "DOM_PEDRITO&CIDADE"
+  },
+  {
+    "name": "DOM_PEDRO_I&FAMOSO"
+  },
+  {
+    "name": "DONATIVO"
+  },
+  {
+    "name": "DOPING"
+  },
+  {
+    "name": "DOPPLER"
+  },
+  {
+    "name": "DOR(-)"
+  },
+  {
+    "name": "DOR(+)"
+  },
+  {
+    "name": "DOR&ARTICULAÇÃO"
+  },
+  {
+    "name": "DOR&BARRIGA"
+  },
+  {
+    "name": "DOR&CABEÇA"
+  },
+  {
+    "name": "DOR&CORPO"
+  },
+  {
+    "name": "DOR&DENTE"
+  },
+  {
+    "name": "DOR&DOER"
+  },
+  {
+    "name": "DORMENTES"
+  },
+  {
+    "name": "DORMENTES&CIDADE"
+  },
+  {
+    "name": "DORMIR(-)"
+  },
+  {
+    "name": "DORMIR(+)"
+  },
+  {
+    "name": "DOR&NUCA"
+  },
+  {
+    "name": "DOR&OLHO"
+  },
+  {
+    "name": "DOR&OUVIDO"
+  },
+  {
+    "name": "DOURADO"
+  },
+  {
+    "name": "DOUTRINA"
+  },
+  {
+    "name": "DOZE"
+  },
+  {
+    "name": "DOZE_APÓSTOLOS"
+  },
+  {
+    "name": "DRAMA"
+  },
+  {
+    "name": "DRENAGEM_LINFÁTICA"
+  },
+  {
+    "name": "DRIBLE"
+  },
+  {
+    "name": "DROGA_ALUCINÓGENA"
+  },
+  {
+    "name": "DUBAI&CIDADE"
+  },
+  {
+    "name": "DUPLA_ARTICULAÇÃO"
+  },
+  {
+    "name": "DUPLEX&INFORMÁTICA"
+  },
+  {
+    "name": "DURO(+)"
+  },
+  {
+    "name": "DURO&DINHEIRO"
+  },
+  {
+    "name": "DURO&SÓLIDO"
+  },
+  {
+    "name": "DUVIDAR"
+  },
+  {
+    "name": "E_BOOK"
+  },
+  {
+    "name": "ECLESIASTES"
+  },
+  {
+    "name": "ECOCARDIOGRAMA"
+  },
+  {
+    "name": "E_COMMERCE"
+  },
+  {
+    "name": "ECOSSISTEMA"
+  },
+  {
+    "name": "E_DAÍ_EXPRESSÃO"
+  },
+  {
+    "name": "EDUARD_HUET&FAMOSO"
+  },
+  {
+    "name": "EDUCAÇÃO&BÁSICA"
+  },
+  {
+    "name": "EDUCAÇÃO&PESSOA"
+  },
+  {
+    "name": "EDUCAÇÃO&SUPERIOR"
+  },
+  {
+    "name": "EDUCADOR_FÍSICO"
+  },
+  {
+    "name": "EDUCATIVO"
+  },
+  {
+    "name": "EFÉSIOS"
+  },
+  {
+    "name": "EFETIVO"
+  },
+  {
+    "name": "EFICAZ(-)"
+  },
+  {
+    "name": "EFICAZ(+)"
+  },
+  {
+    "name": "EGITO&PAÍS"
+  },
+  {
+    "name": "EGOÍSMO"
+  },
+  {
+    "name": "EIXO_X"
+  },
+  {
+    "name": "ELÁSTICO&FLEXÍVEL"
+  },
+  {
+    "name": "ELÁSTICO&OBJETO"
+  },
+  {
+    "name": "ELEITOR_DE_CABRESTO"
+  },
+  {
+    "name": "ELETROCARDIOGRAMA"
+  },
+  {
+    "name": "ELETROCONVULSOTERAPIA"
+  },
+  {
+    "name": "ELETROELETRÔNICO"
+  },
+  {
+    "name": "ELETROENCEFALOGRAMA"
+  },
+  {
+    "name": "ELIMINAR&EXCLUIR"
+  },
+  {
+    "name": "ELIMINAR&MATAR"
+  },
+  {
+    "name": "EL_SALVADOR"
+  },
+  {
+    "name": "EL_SALVADOR&PAÍS"
+  },
+  {
+    "name": "ELSE&INFORMÁTICA"
+  },
+  {
+    "name": "E_MAIL"
+  },
+  {
+    "name": "EM_ALGUM_LUGAR"
+  },
+  {
+    "name": "EMANCIPAÇÃO"
+  },
+  {
+    "name": "EMANCIPAR"
+  },
+  {
+    "name": "EMBAIXADA&FUTEBOL"
+  },
+  {
+    "name": "EMBALAR"
+  },
+  {
+    "name": "EMBARAÇOSO(-)"
+  },
+  {
+    "name": "EMBARAÇOSO(+)"
+  },
+  {
+    "name": "EMBARCAR"
+  },
+  {
+    "name": "EMBARGO_DE_DECLARAÇÃO"
+  },
+  {
+    "name": "EMBORA&SAIR"
+  },
+  {
+    "name": "EMBRIOLOGIA"
+  },
+  {
+    "name": "EMBRULHAR"
+  },
+  {
+    "name": "EM_DETALHE"
+  },
+  {
+    "name": "EM_DIREÇÃO_A"
+  },
+  {
+    "name": "EMENDA_DE_COMISSÃO"
+  },
+  {
+    "name": "EMENDA_DE_PLENÁRIO"
+  },
+  {
+    "name": "EMÍLIO_GARRASTAZU_MÉDICI&FAMOSO"
+  },
+  {
+    "name": "EMIRADOS_ÁRABES"
+  },
+  {
+    "name": "EMIRADOS_ÁRABES&PAÍS"
+  },
+  {
+    "name": "EMOCIONADO(-)"
+  },
+  {
+    "name": "EMOCIONADO(+)"
+  },
+  {
+    "name": "EMPINAR&PIPA"
+  },
+  {
+    "name": "EMPOLGADO"
+  },
+  {
+    "name": "EMPREGADO&FUNCIONÁRIO"
+  },
+  {
+    "name": "EMPREGAR&TRABALHAR"
+  },
+  {
+    "name": "EMPREGAR&USAR"
+  },
+  {
+    "name": "ENCAMINHAMENTO_DE_VOTAÇÃO"
+  },
+  {
+    "name": "ENCARAR&ANALISAR"
+  },
+  {
+    "name": "ENCARAR&ENFRENTAR"
+  },
+  {
+    "name": "ENCARAR&OLHAR"
+  },
+  {
+    "name": "ENCARECER&EXAGERAR"
+  },
+  {
+    "name": "ENCARECER&VALOR"
+  },
+  {
+    "name": "ENCARGO_DA_DÍVIDA"
+  },
+  {
+    "name": "ENCARREGADO"
+  },
+  {
+    "name": "ENCERRAMENTO_DA_DISCUSSÃO"
+  },
+  {
+    "name": "ENCONSTA"
+  },
+  {
+    "name": "ENCONTRAR&OLHO"
+  },
+  {
+    "name": "ENCONTRAR&PESSOA"
+  },
+  {
+    "name": "ENCORAJAR&CORAGEM"
+  },
+  {
+    "name": "ENCORAJAR&INCENTIVAR"
+  },
+  {
+    "name": "ENDEREÇAR"
+  },
+  {
+    "name": "ENFERMEIRO_HOME_CARE"
+  },
+  {
+    "name": "ENFORCAR&CORDA"
+  },
+  {
+    "name": "ENFORCAR&ESTRANGULAR"
+  },
+  {
+    "name": "ENGENHARIA_DA_COMPUTAÇAO"
+  },
+  {
+    "name": "ENGENHEIRO_AGRÔNOMO"
+  },
+  {
+    "name": "ENGODO"
+  },
+  {
+    "name": "ENGRAVIDADO"
+  },
+  {
+    "name": "ENSACAR"
+  },
+  {
+    "name": "ENSINO_DE_PÓS_DOUTORADO"
+  },
+  {
+    "name": "ENSINO_DE_PÓS_GRADUAÇÃO"
+  },
+  {
+    "name": "ENSINO_PÓS_GRADUAÇÃO_EM_EDUCAÇÃO_ESPECIAL"
+  },
+  {
+    "name": "ENSINO_SUPERIOR"
+  },
+  {
+    "name": "ENTRADA&BILHETE"
+  },
+  {
+    "name": "ENTRADA&PORTA"
+  },
+  {
+    "name": "ENTRAR&CHOQUE"
+  },
+  {
+    "name": "ENTRAR&CONTATO"
+  },
+  {
+    "name": "ENTRAR&DENTRO"
+  },
+  {
+    "name": "ENTRAR_EM_VIGOR"
+  },
+  {
+    "name": "ENTRAR_FORÇA"
+  },
+  {
+    "name": "ENTRAR&INGRESSAR"
+  },
+  {
+    "name": "ENTRAR&PESSOA"
+  },
+  {
+    "name": "ENTRAR&VIGOR"
+  },
+  {
+    "name": "ENVERGONHADO(-)"
+  },
+  {
+    "name": "ENVERGONHADO(+)"
+  },
+  {
+    "name": "ENVIAMOS"
+  },
+  {
+    "name": "ENVOLVER&EMBRULHAR"
+  },
+  {
+    "name": "ENXUGAR"
+  },
+  {
+    "name": "ENXUGAR&CABELO"
+  },
+  {
+    "name": "ENXUGAR&CORPO"
+  },
+  {
+    "name": "ENXUGAR&LÁGRIMA"
+  },
+  {
+    "name": "ENXUGAR&LÁGRIMAS"
+  },
+  {
+    "name": "ENXUGAR&LOUÇA"
+  },
+  {
+    "name": "ENXUGAR&PRATO"
+  },
+  {
+    "name": "ENXUGAR&REDUZIR"
+  },
+  {
+    "name": "ENXUGAR&ROSTO"
+  },
+  {
+    "name": "ENXUGAR&ROUPA"
+  },
+  {
+    "name": "EQUAÇÃO"
+  },
+  {
+    "name": "EQUAÇÃO&MATEMÁTICA"
+  },
+  {
+    "name": "EQUAÇÃO&QUÍMICA"
+  },
+  {
+    "name": "EQUIPARAÇÃO"
+  },
+  {
+    "name": "EQUIPARAR"
+  },
+  {
+    "name": "EQUIVALÊNCIA"
+  },
+  {
+    "name": "ERGUER&CONSTRUIR"
+  },
+  {
+    "name": "ERGUER&LEVANTAR"
+  },
+  {
+    "name": "ERNESTO_ARAÚJO&FAMOSO"
+  },
+  {
+    "name": "ERVA_DOCE"
+  },
+  {
+    "name": "ERVA_MATE"
+  },
+  {
+    "name": "ES"
+  },
+  {
+    "name": "ESCADA&CARACOL"
+  },
+  {
+    "name": "ESCADA&ESPIRAL"
+  },
+  {
+    "name": "ESCADA&ROLANTE"
+  },
+  {
+    "name": "ESCALAR&ÁRVORE"
+  },
+  {
+    "name": "ESCALAR&ESCOLHER"
+  },
+  {
+    "name": "ESCALAR&SUBIR"
+  },
+  {
+    "name": "ESCAPAR&FUGIR"
+  },
+  {
+    "name": "ESCLARECER&EXPLICAR"
+  },
+  {
+    "name": "ESCLARECER&ILUMINAR"
+  },
+  {
+    "name": "ESCÓCIA&PAÍS"
+  },
+  {
+    "name": "ESCONDE_ESCONDE"
+  },
+  {
+    "name": "ESCOVA&CABELO"
+  },
+  {
+    "name": "ESCOVA&DENTE"
+  },
+  {
+    "name": "ESCOVAR&DENTE"
+  },
+  {
+    "name": "ESCOVA&ROUPA"
+  },
+  {
+    "name": "ESCOVA&SAPATO"
+  },
+  {
+    "name": "ESCOVA&USO_GERAL"
+  },
+  {
+    "name": "ESCREVER&DIGITAR"
+  },
+  {
+    "name": "ESCREVER&EXTENSO"
+  },
+  {
+    "name": "ESCREVER_(NO_QUADRO)"
+  },
+  {
+    "name": "ESCREVER&PAPEL"
+  },
+  {
+    "name": "ESCREVER&QUADRO"
+  },
+  {
+    "name": "ESCREVER&REDAÇÃO"
+  },
+  {
+    "name": "ESCRITURA_DE_IMÓVEL"
+  },
+  {
+    "name": "ESFORÇAR(-)"
+  },
+  {
+    "name": "ESFORÇAR(+)"
+  },
+  {
+    "name": "ESFORÇO_CONCENTRADO_NO_CONGRESSO"
+  },
+  {
+    "name": "ESGUICHAR"
+  },
+  {
+    "name": "ESLOVÁQUIA&PAÍS"
+  },
+  {
+    "name": "ESLOVÊNIA&PAÍS"
+  },
+  {
+    "name": "ESPAÇO&LOCAL"
+  },
+  {
+    "name": "ESPALHAFATOSO"
+  },
+  {
+    "name": "ESPALHAR&DISSEMINAR"
+  },
+  {
+    "name": "ESPALHAR&INFORMAÇÃO"
+  },
+  {
+    "name": "ESPANHA&PAÍS"
+  },
+  {
+    "name": "ESPERTO(-)"
+  },
+  {
+    "name": "ESPERTO(+)"
+  },
+  {
+    "name": "ESPINHA&DORSAL"
+  },
+  {
+    "name": "ESPÍRITO&CORPO"
+  },
+  {
+    "name": "ESPÍRITO_SANTO"
+  },
+  {
+    "name": "ESPÍRITO_SANTO&ESTADO"
+  },
+  {
+    "name": "ESPÍRITO_SANTO&RELIGIÃO"
+  },
+  {
+    "name": "ESPIROMETRIA"
+  },
+  {
+    "name": "ESPÓLIO"
+  },
+  {
+    "name": "ESPREMEDOR&ALHO"
+  },
+  {
+    "name": "ESPREMEDOR_DE_ALHO"
+  },
+  {
+    "name": "ESPREMER&FRUTA"
+  },
+  {
+    "name": "ESQUEMA"
+  },
+  {
+    "name": "ESQUISITO&EXCÊNTRICO"
+  },
+  {
+    "name": "ESQUISITO&INCOMUM"
+  },
+  {
+    "name": "ESSÊNCIA&PERFUME"
+  },
+  {
+    "name": "ESSÊNCIA&SENTIDO"
+  },
+  {
+    "name": "ESTABILIZADOR_DE_ENERGIA"
+  },
+  {
+    "name": "ESTABILIZADOR&ENERGIA"
+  },
+  {
+    "name": "ESTAÇÃO&RODOVIÁRIA"
+  },
+  {
+    "name": "ESTAÇÃO&SAZONAL"
+  },
+  {
+    "name": "ESTAÇÃO&TREM"
+  },
+  {
+    "name": "ESTADIA"
+  },
+  {
+    "name": "ESTÁDIO_DE_FUTEBOL"
+  },
+  {
+    "name": "ESTADO&GOVERNO"
+  },
+  {
+    "name": "ESTADOS_DO_BRASIL"
+  },
+  {
+    "name": "ESTADO&SITUAÇÃO"
+  },
+  {
+    "name": "ESTADOS_UNIDOS&PAÍS"
+  },
+  {
+    "name": "ESTÁGIOS_DA_DESPESA"
+  },
+  {
+    "name": "ESTÁGIOS_DA_RECEITA"
+  },
+  {
+    "name": "ESTAR_A_FIM"
+  },
+  {
+    "name": "ESTAR_COM_CORDA_PESCOÇO"
+  },
+  {
+    "name": "ESTAR_DE_ACORDO"
+  },
+  {
+    "name": "ESTAR_DEVEDOR"
+  },
+  {
+    "name": "ESTAR_NO_PAPO"
+  },
+  {
+    "name": "ESTAR_QUITES"
+  },
+  {
+    "name": "ESTARRECIDO"
+  },
+  {
+    "name": "ESTENDER&AMPLIAR"
+  },
+  {
+    "name": "ESTENDER&EXTENSÃO"
+  },
+  {
+    "name": "ESTENDER&TECIDO"
+  },
+  {
+    "name": "ESTOQUE"
+  },
+  {
+    "name": "ESTOURAR(+)"
+  },
+  {
+    "name": "ESTRAGAR&APODRECER"
+  },
+  {
+    "name": "ESTRAGAR&PREJUDICAR"
+  },
+  {
+    "name": "ESTRELA&CÉU"
+  },
+  {
+    "name": "ESTRELA&MAR"
+  },
+  {
+    "name": "ESTUDIOSO(-)"
+  },
+  {
+    "name": "ESTUDIOSO(+)"
+  },
+  {
+    "name": "ESTUDOS_SOCIAIS"
+  },
+  {
+    "name": "EU_ME_SINTO_SÓ_EXPRESSÃO"
+  },
+  {
+    "name": "EU_TE_AMO"
+  },
+  {
+    "name": "EXAME_CADAVÉRICO"
+  },
+  {
+    "name": "EXAME_GRAFOTÉCNICO"
+  },
+  {
+    "name": "EXAME_MÉDICO"
+  },
+  {
+    "name": "EXAME_ROTINA"
+  },
+  {
+    "name": "EXECUTAR&CANTAR"
+  },
+  {
+    "name": "EXECUTAR&FAZER"
+  },
+  {
+    "name": "EXECUTAR&INFORMÁTICA"
+  },
+  {
+    "name": "EXECUTAR&MATAR"
+  },
+  {
+    "name": "EXECUTIVO&PODER"
+  },
+  {
+    "name": "EXEMPLAR&CASTIGAR"
+  },
+  {
+    "name": "EXEMPLAR&COLEÇÃO"
+  },
+  {
+    "name": "EXEMPLAR&MODELO"
+  },
+  {
+    "name": "EXEMPLAR&VIRTUDE"
+  },
+  {
+    "name": "EXERCÍCIO&ATIVIDADE"
+  },
+  {
+    "name": "EXERCÍCIO_DE_CAMPANHA"
+  },
+  {
+    "name": "EXERCÍCIO&FÍSICO"
+  },
+  {
+    "name": "EXERCÍCIOS_ANTERIORES"
+  },
+  {
+    "name": "EXIBIR&INFORMÁTICA"
+  },
+  {
+    "name": "EX_OFÍCIO"
+  },
+  {
+    "name": "EXONERAÇÃO_DE_ALIMENTO"
+  },
+  {
+    "name": "EXPERIMENTO&QUÍMICA"
+  },
+  {
+    "name": "EXPLOSIVO"
+  },
+  {
+    "name": "EXPRESSÃO&CORPORAL"
+  },
+  {
+    "name": "EXPRESSÃO&FACIAL"
+  },
+  {
+    "name": "EXPRESSÃO&FRASE"
+  },
+  {
+    "name": "EXPRESSÃO&PENSAMENTO"
+  },
+  {
+    "name": "EXTENSÃO&ARQUIVO"
+  },
+  {
+    "name": "EXTENSÃO_DE_ARQUIVO"
+  },
+  {
+    "name": "EXTENSO&COMPRIMENTO"
+  },
+  {
+    "name": "EXTENSO&DURAÇÃO"
+  },
+  {
+    "name": "EXTRAIR&ABSORVER"
+  },
+  {
+    "name": "EXTRAIR&DENTE"
+  },
+  {
+    "name": "EXTRATO&AUDITORIA"
+  },
+  {
+    "name": "EXTRATO&BANCÁRIO"
+  },
+  {
+    "name": "FÁCIL(-)"
+  },
+  {
+    "name": "FÁCIL(+)"
+  },
+  {
+    "name": "FACÍLIMO"
+  },
+  {
+    "name": "FAGUEIRO"
+  },
+  {
+    "name": "FAIXA&MÚSICA"
+  },
+  {
+    "name": "FAIXA&OBJETO"
+  },
+  {
+    "name": "FAIXA&PEDESTRE"
+  },
+  {
+    "name": "FAIXA&RUA"
+  },
+  {
+    "name": "FALAR(-)"
+  },
+  {
+    "name": "FALAR(+)"
+  },
+  {
+    "name": "FALAR&BESTEIRA"
+  },
+  {
+    "name": "FALAR_EXPRESSÃO"
+  },
+  {
+    "name": "FALAR&MAL"
+  },
+  {
+    "name": "FALHAR&ERRAR"
+  },
+  {
+    "name": "FALHAR&QUEBRAR"
+  },
+  {
+    "name": "FALSO&FALSIFICADO"
+  },
+  {
+    "name": "FALSO&HIPOCRISIA"
+  },
+  {
+    "name": "FALSO&MENTIRA"
+  },
+  {
+    "name": "FALTA(+)"
+  },
+  {
+    "name": "FALTAR&AR"
+  },
+  {
+    "name": "FALTAR&AULA"
+  },
+  {
+    "name": "FALTAR&COISA"
+  },
+  {
+    "name": "FALTAR&ENCONTRO"
+  },
+  {
+    "name": "FAMÍLIA&PESSOA"
+  },
+  {
+    "name": "FAMÍLIA&QUÍMICA"
+  },
+  {
+    "name": "FANÁTICO"
+  },
+  {
+    "name": "FANTASIA&IMAGINAÇÃO"
+  },
+  {
+    "name": "FANTASIA&ROUPA"
+  },
+  {
+    "name": "FARINHA_DÁGUA"
+  },
+  {
+    "name": "FARINHA_DE_ROSCA"
+  },
+  {
+    "name": "FAROL&NAVEGAÇÃO"
+  },
+  {
+    "name": "FAROL&VEÍCULO"
+  },
+  {
+    "name": "FARRAPO"
+  },
+  {
+    "name": "FARTO(+)"
+  },
+  {
+    "name": "FARTO&ABUNDANTE"
+  },
+  {
+    "name": "FARTO&GORDO"
+  },
+  {
+    "name": "FARTO&LIMITE"
+  },
+  {
+    "name": "FARTO&SACIADO"
+  },
+  {
+    "name": "FASCINANTE"
+  },
+  {
+    "name": "FASE&QUÍMICA"
+  },
+  {
+    "name": "FASES_DA_SESSÃO"
+  },
+  {
+    "name": "FATOR_DE_IMPEDÂNCIA"
+  },
+  {
+    "name": "FATURA"
+  },
+  {
+    "name": "FAUSTÃO&FAMOSO"
+  },
+  {
+    "name": "FAVORÁVEL"
+  },
+  {
+    "name": "FAZENDA&PROPRIEDADE"
+  },
+  {
+    "name": "FAZENDA&TECIDO"
+  },
+  {
+    "name": "FAZER_ALGUÉM_DE_BOBO"
+  },
+  {
+    "name": "FAZER_A_MIM_DE_BOBO"
+  },
+  {
+    "name": "FAZER&BISCATE"
+  },
+  {
+    "name": "FAZER&LEITURA_LABIAL"
+  },
+  {
+    "name": "FECHAR&ARQUIVO"
+  },
+  {
+    "name": "FECHAR&BOCA"
+  },
+  {
+    "name": "FECHAR&CHAVE"
+  },
+  {
+    "name": "FECHAR&CONTA_BANCÁRIA"
+  },
+  {
+    "name": "FECHAR&CORTINA"
+  },
+  {
+    "name": "FECHAR&FALIR"
+  },
+  {
+    "name": "FECHAR&GARRAFA"
+  },
+  {
+    "name": "FECHAR&INFORMÁTICA"
+  },
+  {
+    "name": "FECHAR&LIVRO"
+  },
+  {
+    "name": "FECHAR&MENTE"
+  },
+  {
+    "name": "FECHAR&OLHO"
+  },
+  {
+    "name": "FECHAR&PORTA"
+  },
+  {
+    "name": "FECHAR&PORTA_MALA"
+  },
+  {
+    "name": "FECHAR&TAMPA"
+  },
+  {
+    "name": "FECHAR&TORNEIRA"
+  },
+  {
+    "name": "FEIO(-)"
+  },
+  {
+    "name": "FEIO(+)"
+  },
+  {
+    "name": "FEIRA_DE_LIVRO"
+  },
+  {
+    "name": "FEIRA_DE_SANTANA&CIDADE"
+  },
+  {
+    "name": "FELIZ(-)"
+  },
+  {
+    "name": "FELIZ(+)"
+  },
+  {
+    "name": "FÊMIA"
+  },
+  {
+    "name": "FERIADO_FORENSE"
+  },
+  {
+    "name": "FÉRIAS_FORENSE"
+  },
+  {
+    "name": "FÉRIAS_VENCIDAS"
+  },
+  {
+    "name": "FERNANDO_AFONSO_COLLOR_MELLO&FAMOSO"
+  },
+  {
+    "name": "FERNANDO_AZEVEDO&FAMOSO"
+  },
+  {
+    "name": "FERNANDO_CÉSAR_CAPOVILLA&FAMOSO"
+  },
+  {
+    "name": "FERNANDO_HENRIQUE_CARDOSO&FAMOSO"
+  },
+  {
+    "name": "FERNANDO_NORONHA&LOCAL"
+  },
+  {
+    "name": "FERRO&ROUPA"
+  },
+  {
+    "name": "FERRO&SOLDA"
+  },
+  {
+    "name": "FICAR&AÍ"
+  },
+  {
+    "name": "FICAR&BEM"
+  },
+  {
+    "name": "FICAR&CARA_NO_CHÃO"
+  },
+  {
+    "name": "FICAR&LÁ"
+  },
+  {
+    "name": "FICAR&NAMORAR"
+  },
+  {
+    "name": "FICAR&PERMANECER"
+  },
+  {
+    "name": "FICAR&VERMELHO"
+  },
+  {
+    "name": "FICHA&FORMULÁRIO"
+  },
+  {
+    "name": "FICHA&INFORMAÇÃO"
+  },
+  {
+    "name": "FICHA&SENHA"
+  },
+  {
+    "name": "FIDEL_CASTRO&FAMOSO"
+  },
+  {
+    "name": "FIEL&ADEPTO"
+  },
+  {
+    "name": "FIEL&FIDELIDADE"
+  },
+  {
+    "name": "FIJI&PAÍS"
+  },
+  {
+    "name": "FILHO_DA_PUTA_EXPRESSÃO"
+  },
+  {
+    "name": "FILIAÇÃO"
+  },
+  {
+    "name": "FILIPINAS&PAÍS"
+  },
+  {
+    "name": "FILME&CINEMA"
+  },
+  {
+    "name": "FILME&FOTOGRÁFICO"
+  },
+  {
+    "name": "FILTRAGEM&VÁCUO"
+  },
+  {
+    "name": "FILTRO&ÁGUA"
+  },
+  {
+    "name": "FIM_DE_SEMANA"
+  },
+  {
+    "name": "FINLÂNDIA&PAÍS"
+  },
+  {
+    "name": "FINO&EDUCAÇÃO"
+  },
+  {
+    "name": "FINO&LARGURA"
+  },
+  {
+    "name": "FINO&PROCEDÊNCIA"
+  },
+  {
+    "name": "FIO&DENTAL"
+  },
+  {
+    "name": "FIO&ELÉTRICO"
+  },
+  {
+    "name": "FIQUE_VONTADE_EXPRESSÃO"
+  },
+  {
+    "name": "FIRME&ESTÁVEL"
+  },
+  {
+    "name": "FIRME&SEGURO"
+  },
+  {
+    "name": "FISCALIZAÇÃO_PILOTO"
+  },
+  {
+    "name": "FITA&ADESIVA"
+  },
+  {
+    "name": "FITA&DENTAL"
+  },
+  {
+    "name": "FITA&FAIXA"
+  },
+  {
+    "name": "FIXAR"
+  },
+  {
+    "name": "FLAGELAR&AÇOITAR"
+  },
+  {
+    "name": "FLAMENGO&FUTEBOL"
+  },
+  {
+    "name": "FLIP_FLOP"
+  },
+  {
+    "name": "FLORIANO&CIDADE"
+  },
+  {
+    "name": "FLORIANÓPOLIS&CIDADE"
+  },
+  {
+    "name": "FOGOS_DE_ARTIFÍCIO"
+  },
+  {
+    "name": "FOLHA_CORRIDA"
+  },
+  {
+    "name": "FOLHA&PAPEL"
+  },
+  {
+    "name": "FOME(-)"
+  },
+  {
+    "name": "FOME(+)"
+  },
+  {
+    "name": "FONTE&ÁGUA"
+  },
+  {
+    "name": "FONTE&ENERGIA"
+  },
+  {
+    "name": "FONTE&LETRA"
+  },
+  {
+    "name": "FONTE&ORIGEM"
+  },
+  {
+    "name": "FONTE&RECURSO"
+  },
+  {
+    "name": "FORA&CONTEXTO"
+  },
+  {
+    "name": "FORA&EXPRESSÃO"
+  },
+  {
+    "name": "FORA&EXTERNO"
+  },
+  {
+    "name": "FORA&LUGAR"
+  },
+  {
+    "name": "FORA&SAIR"
+  },
+  {
+    "name": "FORÇA_AÉREA"
+  },
+  {
+    "name": "FORÇAR&ARROMBAR"
+  },
+  {
+    "name": "FORÇAR&OBRIGAR"
+  },
+  {
+    "name": "FORÇA_TAREFA"
+  },
+  {
+    "name": "FOR&INFORMÁTICA"
+  },
+  {
+    "name": "FORMA&FORMATO"
+  },
+  {
+    "name": "FORMA&PAGAMENTO"
+  },
+  {
+    "name": "FORMAR&DIPLOMA"
+  },
+  {
+    "name": "FORMAR&ELABORAR"
+  },
+  {
+    "name": "FORMATAR&INFORMÁTICA"
+  },
+  {
+    "name": "FÓRMULA&MÍNIMA"
+  },
+  {
+    "name": "FORNO&FOGÃO"
+  },
+  {
+    "name": "FORNO&MICROONDAS"
+  },
+  {
+    "name": "FORTALEZA&CIDADE"
+  },
+  {
+    "name": "FORTALEZA&FORÇA"
+  },
+  {
+    "name": "FORTALEZA&LOCAL"
+  },
+  {
+    "name": "FORTE&INTENSIDADE"
+  },
+  {
+    "name": "FORTE&MUSCULOSO"
+  },
+  {
+    "name": "FOSSA_NASAL"
+  },
+  {
+    "name": "FRACO(-)"
+  },
+  {
+    "name": "FRACO(+)"
+  },
+  {
+    "name": "FRÁGIL"
+  },
+  {
+    "name": "FRANÇA&PAÍS"
+  },
+  {
+    "name": "FRANKENSTEIN&FAMOSO"
+  },
+  {
+    "name": "FREIAR"
+  },
+  {
+    "name": "FREIOS_E_CONTRAPESOS"
+  },
+  {
+    "name": "FRESCO&CLIMA"
+  },
+  {
+    "name": "FRESCO&ESNOBE"
+  },
+  {
+    "name": "FREUD&FAMOSO"
+  },
+  {
+    "name": "FRIGIDO(+)"
+  },
+  {
+    "name": "FRIO(-)"
+  },
+  {
+    "name": "FRIO(+)"
+  },
+  {
+    "name": "FRIZAR"
+  },
+  {
+    "name": "FRUTA_DO_CONDE"
+  },
+  {
+    "name": "FUDER_EXPRESSÃO"
+  },
+  {
+    "name": "FUNÇÃO_DE_CONFIANÇA"
+  },
+  {
+    "name": "FUNDO_DE_PARTICIPAÇÃO"
+  },
+  {
+    "name": "FUNDO&DINHEIRO"
+  },
+  {
+    "name": "FURAR&FILA"
+  },
+  {
+    "name": "FURAR&PERFURAR"
+  },
+  {
+    "name": "FURTO_DE_FRUIÇÃO"
+  },
+  {
+    "name": "GABINETE_DE_SEGURANÇA_INSTITUCIONAL"
+  },
+  {
+    "name": "GABINETE&INFORMÁTICA"
+  },
+  {
+    "name": "GALERIAS&CÂMARA"
+  },
+  {
+    "name": "GALPÃO"
+  },
+  {
+    "name": "GARRAFA&PLÁSTICO"
+  },
+  {
+    "name": "GELO&ÁGUA"
+  },
+  {
+    "name": "GELO&FRIO"
+  },
+  {
+    "name": "GENÉRICO&GÊNERO"
+  },
+  {
+    "name": "GENÉRICO&GERAL"
+  },
+  {
+    "name": "GENÉRICO&REMÉDIO"
+  },
+  {
+    "name": "GETÚLIO_VARGAS&FAMOSO"
+  },
+  {
+    "name": "GNT"
+  },
+  {
+    "name": "GO"
+  },
+  {
+    "name": "GOIANA&CIDADE"
+  },
+  {
+    "name": "GOIÂNIA&CIDADE"
+  },
+  {
+    "name": "GOIÁS&ESTADO"
+  },
+  {
+    "name": "GOLF"
+  },
+  {
+    "name": "GOLIAS&FAMOSO"
+  },
+  {
+    "name": "GOLPE&BATER"
+  },
+  {
+    "name": "GOLPE&ESTADO"
+  },
+  {
+    "name": "GOMA"
+  },
+  {
+    "name": "GOMA_DE_MASCAR"
+  },
+  {
+    "name": "GOMA&MASCAR"
+  },
+  {
+    "name": "GORDO(-)"
+  },
+  {
+    "name": "GORDO(+)"
+  },
+  {
+    "name": "GOSTAR(-)"
+  },
+  {
+    "name": "GOSTAR(+)"
+  },
+  {
+    "name": "GOVERNISTA"
+  },
+  {
+    "name": "GOZAR&DEBOCHAR"
+  },
+  {
+    "name": "GOZAR&DESFRUTAR"
+  },
+  {
+    "name": "GOZAR&ORGASMO"
+  },
+  {
+    "name": "GRAÇA&ABENÇOAR"
+  },
+  {
+    "name": "GRAÇA&AGRADECER"
+  },
+  {
+    "name": "GRAÇA&ENGRAÇADO"
+  },
+  {
+    "name": "GRAÇA&VALOR"
+  },
+  {
+    "name": "GRADE&BARRA"
+  },
+  {
+    "name": "GRADE&CURRICULAR"
+  },
+  {
+    "name": "GRADE&FERRO"
+  },
+  {
+    "name": "GRÁFICO&COMPUTAÇÃO"
+  },
+  {
+    "name": "GRANDE(-)"
+  },
+  {
+    "name": "GRANDE(+)"
+  },
+  {
+    "name": "GRAU&ÂNGULO"
+  },
+  {
+    "name": "GRAU&CELSIUS"
+  },
+  {
+    "name": "GRAU&LETRAS"
+  },
+  {
+    "name": "GRAU&ÓCULOS"
+  },
+  {
+    "name": "GRAU&PARENTESCO"
+  },
+  {
+    "name": "GRAU&TEMPERATURA"
+  },
+  {
+    "name": "GRAVAR&COMPUTAÇÃO"
+  },
+  {
+    "name": "GRAVATÁ&CIDADE"
+  },
+  {
+    "name": "GRAVATA&TRADICIONAL"
+  },
+  {
+    "name": "GRÉCIA&PAÍS"
+  },
+  {
+    "name": "GRÊMIO&ESTUDANTIL"
+  },
+  {
+    "name": "GRIPAR"
+  },
+  {
+    "name": "GRUPO_DE_TRABALHO"
+  },
+  {
+    "name": "GRUPO&QUÍMICA"
+  },
+  {
+    "name": "GUADALAJARA&CIDADE"
+  },
+  {
+    "name": "GUAÍBA&CIDADE"
+  },
+  {
+    "name": "GUARDA_CHUVA"
+  },
+  {
+    "name": "GUARDA_COMPARTILHADA"
+  },
+  {
+    "name": "GUARDA_DE_TRÂNSITO"
+  },
+  {
+    "name": "GUARDA_PROVISÓRIA"
+  },
+  {
+    "name": "GUARDAR&CONSERVAR"
+  },
+  {
+    "name": "GUARDA_ROUPA"
+  },
+  {
+    "name": "GUARDAR&VIGIAR"
+  },
+  {
+    "name": "GUARDA_SOL"
+  },
+  {
+    "name": "GUARUJÁ&CIDADE"
+  },
+  {
+    "name": "GUARULHOS&CIDADE"
+  },
+  {
+    "name": "GUATEMALA&PAÍS"
+  },
+  {
+    "name": "GUERRA_DO_GOLFO"
+  },
+  {
+    "name": "GUERRA_DO_PARAGUAI"
+  },
+  {
+    "name": "GUERRA_DOS_FARRAPOS"
+  },
+  {
+    "name": "GUERRA_DO_VIETNÃ"
+  },
+  {
+    "name": "GUGU&FAMOSO"
+  },
+  {
+    "name": "GUIA_DE_BALIZAMENTO"
+  },
+  {
+    "name": "GUIANA&PAÍS"
+  },
+  {
+    "name": "GUSTAVO_CANUTO&FAMOSO"
+  },
+  {
+    "name": "HABITE_SE"
+  },
+  {
+    "name": "HAITI&PAÍS"
+  },
+  {
+    "name": "HAMILTON_MOURÃO&FAMOSO"
+  },
+  {
+    "name": "HAVAÍ&ESTADO"
+  },
+  {
+    "name": "HELEN_KELLER&FAMOSO"
+  },
+  {
+    "name": "HEMOCENTRO"
+  },
+  {
+    "name": "HERMENÊUTICA"
+  },
+  {
+    "name": "HERODES&FAMOSO"
+  },
+  {
+    "name": "HERODIAS&FAMOSO"
+  },
+  {
+    "name": "HERÓICA"
+  },
+  {
+    "name": "HIGIENE&LIMPEZA"
+  },
+  {
+    "name": "HIPERATIVO"
+  },
+  {
+    "name": "HIPERTENSÃO"
+  },
+  {
+    "name": "HOLANDA&PAÍS"
+  },
+  {
+    "name": "HOME_CARE"
+  },
+  {
+    "name": "HONDURAS&PAÍS"
+  },
+  {
+    "name": "HORA_DE_PICO"
+  },
+  {
+    "name": "HORÁRIO_POLÍTICO"
+  },
+  {
+    "name": "HOSPITAL_DE_CAMPANHA"
+  },
+  {
+    "name": "HUMBERTO_ALENCAR_CASTELO_BRANCO&FAMOSO"
+  },
+  {
+    "name": "HUMILDE(-)"
+  },
+  {
+    "name": "HUMILDE(+)"
+  },
+  {
+    "name": "HUMILHANTE"
+  },
+  {
+    "name": "HÚNGARO"
+  },
+  {
+    "name": "HUNGRIA&PAÍS"
+  },
+  {
+    "name": "ICASA&FUTEBOL"
+  },
+  {
+    "name": "IDADE_CONTEMPORÂNEA"
+  },
+  {
+    "name": "IDENTIDADE&DOCUMENTO"
+  },
+  {
+    "name": "IDENTIDADE&GÊNERO"
+  },
+  {
+    "name": "ÍDOLO"
+  },
+  {
+    "name": "IDONEIDADE"
+  },
+  {
+    "name": "IF&COMPUTAÇÃO"
+  },
+  {
+    "name": "ILHÉUS"
+  },
+  {
+    "name": "ILHÉUS&CIDADE"
+  },
+  {
+    "name": "IMAGEM&ILUSTRAÇÃO"
+  },
+  {
+    "name": "IMAGEM&REPRESENTAÇÃO"
+  },
+  {
+    "name": "IMAGEM&SATÉLITE"
+  },
+  {
+    "name": "IMOBILIZAÇÃO&FIXAÇÃO"
+  },
+  {
+    "name": "IMOBILIZAÇÃO&GESSO"
+  },
+  {
+    "name": "IMOBILIZAÇÃO&TALA"
+  },
+  {
+    "name": "IMOBILIZAÇÃO&TIPOIA"
+  },
+  {
+    "name": "IMODESTO"
+  },
+  {
+    "name": "IMPERATRIZ"
+  },
+  {
+    "name": "IMPLANTOU_SE"
+  },
+  {
+    "name": "IMPLORAR_A_DEUS"
+  },
+  {
+    "name": "IMPORTAR&COMPRAR"
+  },
+  {
+    "name": "IMPORTAR&IMPORTÂNCIA"
+  },
+  {
+    "name": "IMPORTUNAR"
+  },
+  {
+    "name": "IMPOSTO_DE_RENDA"
+  },
+  {
+    "name": "IMPOSTO&RENDA"
+  },
+  {
+    "name": "IMPOTÊNCIA&SEXUAL"
+  },
+  {
+    "name": "IMPRESCRITIBILIDADE"
+  },
+  {
+    "name": "IMPRESCRITÍVEL"
+  },
+  {
+    "name": "IMPRESSÃO&DACTILOSCÓPICA"
+  },
+  {
+    "name": "IMPRESSÃO&DIGITAL"
+  },
+  {
+    "name": "IMPRESSÃO&LITERÁRIA"
+  },
+  {
+    "name": "IMPRESSÃO&OPINIÃO"
+  },
+  {
+    "name": "IMPRESSÃO&PAPEL"
+  },
+  {
+    "name": "IMPRESSÃO&PLANTAR"
+  },
+  {
+    "name": "IMPRUDENTE"
+  },
+  {
+    "name": "IMPURO"
+  },
+  {
+    "name": "IMUNIDADE_PARLAMENTAR"
+  },
+  {
+    "name": "IMUNOALERGOLOGIA"
+  },
+  {
+    "name": "INADIMPLÊNCIA"
+  },
+  {
+    "name": "INADIMPLENTE"
+  },
+  {
+    "name": "INATO"
+  },
+  {
+    "name": "INCHAÇO"
+  },
+  {
+    "name": "INCOMPLETO"
+  },
+  {
+    "name": "INCOMUM"
+  },
+  {
+    "name": "INCOR"
+  },
+  {
+    "name": "INCORPORADO"
+  },
+  {
+    "name": "INDECIFRÁVEL"
+  },
+  {
+    "name": "INDECISO"
+  },
+  {
+    "name": "INDEPENDÊNCIA_DO_BRASIL"
+  },
+  {
+    "name": "ÍNDIA&PAÍS"
+  },
+  {
+    "name": "INDICAR&MENCIONAR"
+  },
+  {
+    "name": "INDICAR&MOSTRAR"
+  },
+  {
+    "name": "INDICAR&RECOMENDAR"
+  },
+  {
+    "name": "ÍNDICE&DEDO"
+  },
+  {
+    "name": "ÍNDICE&ESTATÍSTICA"
+  },
+  {
+    "name": "ÍNDICE&LISTA"
+  },
+  {
+    "name": "ÍNDICE_PLUVIOMÉTRICO"
+  },
+  {
+    "name": "INDONÉSIA"
+  },
+  {
+    "name": "INDONÉSIA&PAÍS"
+  },
+  {
+    "name": "INFARTO"
+  },
+  {
+    "name": "INFECÇÃO_URINÁRIA"
+  },
+  {
+    "name": "INFLAMÁVEL"
+  },
+  {
+    "name": "INFORMAL"
+  },
+  {
+    "name": "INFORTÚNIO"
+  },
+  {
+    "name": "INGÁ_CIPÓ"
+  },
+  {
+    "name": "INGERIR_LÍQUIDO"
+  },
+  {
+    "name": "INGLATERRA&PAÍS"
+  },
+  {
+    "name": "INGRESSO&BILHETE"
+  },
+  {
+    "name": "INGRESSO&ENTRADA"
+  },
+  {
+    "name": "INHAME"
+  },
+  {
+    "name": "INICIAÇÃO_CRISTÃ"
+  },
+  {
+    "name": "INSATISFAÇÃO"
+  },
+  {
+    "name": "INSENTAR"
+  },
+  {
+    "name": "INSERIR&INFORMÁTICA"
+  },
+  {
+    "name": "INSIGMA"
+  },
+  {
+    "name": "INSOLAÇÃO"
+  },
+  {
+    "name": "INSOLENTE"
+  },
+  {
+    "name": "INSTAGRAM"
+  },
+  {
+    "name": "INSTALAÇÃO_ELÉTRICA"
+  },
+  {
+    "name": "INSTÁVEL"
+  },
+  {
+    "name": "INSTITUTO_BUTANTAN"
+  },
+  {
+    "name": "INSTITUTO_TRANSFORMAR"
+  },
+  {
+    "name": "INSTRUMENTO_MUSICAL"
+  },
+  {
+    "name": "INSUSTENTÁVEL"
+  },
+  {
+    "name": "ÍNTEGRA_DA_SESSÃO"
+  },
+  {
+    "name": "INTELIGÊNCIA_ARTIFICIAL"
+  },
+  {
+    "name": "INTER"
+  },
+  {
+    "name": "INTERATIVO_(TROCA)"
+  },
+  {
+    "name": "INTERATIVO&TROCA"
+  },
+  {
+    "name": "INTERIOR&CIDADE"
+  },
+  {
+    "name": "INTERIOR&DENTRO"
+  },
+  {
+    "name": "INTERLAGOS"
+  },
+  {
+    "name": "INTERMÉDIO"
+  },
+  {
+    "name": "INTERNACIONAL&EXTERIOR"
+  },
+  {
+    "name": "INTERNET_EXPLORER"
+  },
+  {
+    "name": "INTERRUPTOR_HORÁRIO"
+  },
+  {
+    "name": "INTERRUPTOR_SIMPLES_EXTERNO"
+  },
+  {
+    "name": "INTESTINO_DELGADO"
+  },
+  {
+    "name": "INTOLERÂNCIA"
+  },
+  {
+    "name": "INTOXICAÇÃO"
+  },
+  {
+    "name": "INVEJOSO"
+  },
+  {
+    "name": "INVERSÃO_DE_PAUTA"
+  },
+  {
+    "name": "INVIABILIZAR"
+  },
+  {
+    "name": "INVIABILIZAREM"
+  },
+  {
+    "name": "IPHONE"
+  },
+  {
+    "name": "IPIAÚ"
+  },
+  {
+    "name": "IPIAÚ&CIDADE"
+  },
+  {
+    "name": "IPIRANGA"
+  },
+  {
+    "name": "IPIRANGA&CIDADE"
+  },
+  {
+    "name": "IRÃ&PAÍS"
+  },
+  {
+    "name": "IRAQUE&PAÍS"
+  },
+  {
+    "name": "IRLANDA_DO_NORTE"
+  },
+  {
+    "name": "IRLANDA_DO_NORTE&PAÍS"
+  },
+  {
+    "name": "IRLANDA&PAÍS"
+  },
+  {
+    "name": "IRPF"
+  },
+  {
+    "name": "ISAC_NEWTON&FAMOSO"
+  },
+  {
+    "name": "ISENÇÃO&FISCAL"
+  },
+  {
+    "name": "ISLÂNDIA"
+  },
+  {
+    "name": "ISLÂNDIA&PAÍS"
+  },
+  {
+    "name": "ISÓTOPO"
+  },
+  {
+    "name": "ISRAEL&PAÍS"
+  },
+  {
+    "name": "ISSO_MESMO_EXPRESSÃO"
+  },
+  {
+    "name": "ITALIANA"
+  },
+  {
+    "name": "ITÁLIA&PAÍS"
+  },
+  {
+    "name": "ITAMARACÁ"
+  },
+  {
+    "name": "ITAMARACÁ&CIDADE"
+  },
+  {
+    "name": "ITAMAR_AUGUSTO_CAUTIERO_FRANCO&FAMOSO"
+  },
+  {
+    "name": "ITAPECURU_MIRIM"
+  },
+  {
+    "name": "ITAPECURU_MIRIM&CIDADE"
+  },
+  {
+    "name": "ITAPEVI"
+  },
+  {
+    "name": "ITAPEVI&CIDADE"
+  },
+  {
+    "name": "ITAQUAQUECETUBA"
+  },
+  {
+    "name": "ITAQUAQUECETUBA&CIDADE"
+  },
+  {
+    "name": "ITAQUERA"
+  },
+  {
+    "name": "ITAQUERA&CIDADE"
+  },
+  {
+    "name": "ITAQUERÃO"
+  },
+  {
+    "name": "ITAQUERÃO&CIDADE"
+  },
+  {
+    "name": "IUGOSLÁVIA"
+  },
+  {
+    "name": "IUGOSLÁVIA&PAÍS"
+  },
+  {
+    "name": "JABOATÃO_DOS_GUARARAPES"
+  },
+  {
+    "name": "JABOATÃO_DOS_GUARARAPES&CIDADE"
+  },
+  {
+    "name": "JABOTICABAL"
+  },
+  {
+    "name": "JABOTICABAL&CIDADE"
+  },
+  {
+    "name": "JABUTICABA"
+  },
+  {
+    "name": "JACQUES_LACAN&FAMOSO"
+  },
+  {
+    "name": "JAGUARÃO"
+  },
+  {
+    "name": "JAGUARÃO&CIDADE"
+  },
+  {
+    "name": "JAIR_MESSIAS_BOLSONARO&FAMOSO"
+  },
+  {
+    "name": "JAMBU"
+  },
+  {
+    "name": "JANELA&INFORMÁTICA"
+  },
+  {
+    "name": "JANELA&LOCAL"
+  },
+  {
+    "name": "JANELA&TAMANHO"
+  },
+  {
+    "name": "JANICE_TEMOTEO&FAMOSO"
+  },
+  {
+    "name": "JÂNIO_DA_SILVA_QUADROS&FAMOSO"
+  },
+  {
+    "name": "JÂNIO_QUADROS&FAMOSO"
+  },
+  {
+    "name": "JAPÃO&PAÍS"
+  },
+  {
+    "name": "JARDIM_DA_INFÂNCIA"
+  },
+  {
+    "name": "JARRINHA&PLANTA"
+  },
+  {
+    "name": "JAÚ"
+  },
+  {
+    "name": "JAÚ&CIDADE"
+  },
+  {
+    "name": "JEITO&FORMATO"
+  },
+  {
+    "name": "JENIPAPO"
+  },
+  {
+    "name": "JEQUIÉ"
+  },
+  {
+    "name": "JEQUIÉ&CIDADE"
+  },
+  {
+    "name": "JERICOACOARA"
+  },
+  {
+    "name": "JERICOACOARA&CIDADE"
+  },
+  {
+    "name": "JIU_JITSU"
+  },
+  {
+    "name": "JOÃO_BATISTA_DE_OLIVEIRA_FIGUEIREDO&FAMOSO"
+  },
+  {
+    "name": "JOÃO_BELCHIOR_MARQUES_GOULART&FAMOSO"
+  },
+  {
+    "name": "JOÃO_FERNANDES_CAMPOS_CAFÉ_FILHO&FAMOSO"
+  },
+  {
+    "name": "JOÃO_PESSOA&CIDADE"
+  },
+  {
+    "name": "JOGAR&ARREMESSAR"
+  },
+  {
+    "name": "JOGAR&BARALHO"
+  },
+  {
+    "name": "JOGAR&BASQUETE"
+  },
+  {
+    "name": "JOGAR&BEISEBOL"
+  },
+  {
+    "name": "JOGAR&BILHAR"
+  },
+  {
+    "name": "JOGAR&BOLA"
+  },
+  {
+    "name": "JOGAR&BOLICHE"
+  },
+  {
+    "name": "JOGAR&BOLINHA_DE_GUDE"
+  },
+  {
+    "name": "JOGAR&DAMA"
+  },
+  {
+    "name": "JOGAR&FORA"
+  },
+  {
+    "name": "JOGAR&FUTEBOL"
+  },
+  {
+    "name": "JOGAR&FUTEBOL_DE_SALÃO"
+  },
+  {
+    "name": "JOGAR&JOGO"
+  },
+  {
+    "name": "JOGAR&PEBOLIM"
+  },
+  {
+    "name": "JOGAR&PETECA"
+  },
+  {
+    "name": "JOGAR&PINGUE_PONGUE"
+  },
+  {
+    "name": "JOGAR&TÊNIS"
+  },
+  {
+    "name": "JOGAR&VOLEIBOL"
+  },
+  {
+    "name": "JOGAR&XADREZ"
+  },
+  {
+    "name": "JOGO_DA_VELHA"
+  },
+  {
+    "name": "JORDÂNIA"
+  },
+  {
+    "name": "JORDÂNIA&PAÍS"
+  },
+  {
+    "name": "JORGE_AMADO&FAMOSO"
+  },
+  {
+    "name": "JORGE_OLIVEIRA&FAMOSO"
+  },
+  {
+    "name": "JORNADA_DE_TRABALHO"
+  },
+  {
+    "name": "JORNAL_DA_CÂMARA"
+  },
+  {
+    "name": "JORNAL_DIÁRIO_DE_PERNAMBUCO"
+  },
+  {
+    "name": "JORNALISMO"
+  },
+  {
+    "name": "JOSÉ_RIBAMAR_FERREIRA_ARAÚJO_DA_COSTA_SARNEY&FAMOSO"
+  },
+  {
+    "name": "JOYSTICK"
+  },
+  {
+    "name": "JUAZEIRO"
+  },
+  {
+    "name": "JUAZEIRO&CIDADE"
+  },
+  {
+    "name": "JUAZEIRO_DO_NORTE"
+  },
+  {
+    "name": "JUAZEIRO_DO_NORTE&CIDADE"
+  },
+  {
+    "name": "JUÇARA"
+  },
+  {
+    "name": "JUDICIÁRIO&PODER"
+  },
+  {
+    "name": "JÚLIO_PRESTES_DE_ALBUQUERQUE&FAMOSO"
+  },
+  {
+    "name": "JÚLIO_PRESTES&FAMOSO"
+  },
+  {
+    "name": "JUNDIAÍ"
+  },
+  {
+    "name": "JUNDIAÍ&CIDADE"
+  },
+  {
+    "name": "JUNTA_COMERCIAL"
+  },
+  {
+    "name": "JUNTA_MILITAR"
+  },
+  {
+    "name": "JUNTAR&GRUPO"
+  },
+  {
+    "name": "JUNTAR&PESSOA"
+  },
+  {
+    "name": "JUNTAR&RECONCILIAR"
+  },
+  {
+    "name": "JUNTAR&UNIR"
+  },
+  {
+    "name": "JUREMA_PRETA"
+  },
+  {
+    "name": "JUROS&BANCÁRIO"
+  },
+  {
+    "name": "JUSANTE"
+  },
+  {
+    "name": "JUSCELINO_KUBITSCHEK_DE_OLIVEIRA&FAMOSO"
+  },
+  {
+    "name": "JUSCELINO_KUBITSCHEK&FAMOSO"
+  },
+  {
+    "name": "JUSTO&APERTADO"
+  },
+  {
+    "name": "JUSTO&JUSTIÇA"
+  },
+  {
+    "name": "KAMIKAZE_BRINQUEDO"
+  },
+  {
+    "name": "KOSOVO"
+  },
+  {
+    "name": "KOSOVO&PAÍS"
+  },
+  {
+    "name": "LACTANTE"
+  },
+  {
+    "name": "LAGOA_GRANDE"
+  },
+  {
+    "name": "LAGOA_GRANDE&CIDADE"
+  },
+  {
+    "name": "LAGOA_SECA"
+  },
+  {
+    "name": "LAGOA_SECA&CIDADE"
+  },
+  {
+    "name": "LÂMINA&ESTILETE"
+  },
+  {
+    "name": "LÂMINA&GILETE"
+  },
+  {
+    "name": "LAMPIÃO&FAMOSO"
+  },
+  {
+    "name": "LAMPIÃO&OBJETO"
+  },
+  {
+    "name": "LANÇA_PERFUME"
+  },
+  {
+    "name": "LANÇAR&JOGAR"
+  },
+  {
+    "name": "LANÇAR&PUBLICAR"
+  },
+  {
+    "name": "LAN_HOUSE"
+  },
+  {
+    "name": "LÁPIS_DE_COR"
+  },
+  {
+    "name": "LAQUEADURA_DE_TROMPAS"
+  },
+  {
+    "name": "LARANJA&COR"
+  },
+  {
+    "name": "LARANJA_CRAVO"
+  },
+  {
+    "name": "LARANJA&FRUTA"
+  },
+  {
+    "name": "LARANJA&PESSOA"
+  },
+  {
+    "name": "LARGADA&ESPORTE"
+  },
+  {
+    "name": "LARGAR&ABANDONAR"
+  },
+  {
+    "name": "LARGAR&DERRUBAR"
+  },
+  {
+    "name": "LASANHA"
+  },
+  {
+    "name": "LASCA"
+  },
+  {
+    "name": "LATINO_AMERICANO"
+  },
+  {
+    "name": "LAURO_DE_FREITAS&FAMOSO"
+  },
+  {
+    "name": "LAVAGEM_DE_DINHEIRO"
+  },
+  {
+    "name": "LAVAGEM&DINHEIRO"
+  },
+  {
+    "name": "LAVAR&CABELO"
+  },
+  {
+    "name": "LAVAR&CARRO"
+  },
+  {
+    "name": "LAVAR&CORPO"
+  },
+  {
+    "name": "LAVAR&MÃO"
+  },
+  {
+    "name": "LAVAR&MÃO_EXPRESSÃO"
+  },
+  {
+    "name": "LAVAR&PRATO"
+  },
+  {
+    "name": "LAVATÓRIO"
+  },
+  {
+    "name": "LAVOURA"
+  },
+  {
+    "name": "LEGAL(+)"
+  },
+  {
+    "name": "LEGAL&BOM"
+  },
+  {
+    "name": "LEGAL_EXPRESSÃO"
+  },
+  {
+    "name": "LEGAL&LEI"
+  },
+  {
+    "name": "LEGISLAÇÃO_TRABALHISTA"
+  },
+  {
+    "name": "LEGISLATIVO&PODER"
+  },
+  {
+    "name": "LEGUME"
+  },
+  {
+    "name": "LEI_DA_FICHA_LIMPA"
+  },
+  {
+    "name": "LEI_DE_DIRETRIZES_ORÇAMENTÁRIAS"
+  },
+  {
+    "name": "LEI_DE_OHM"
+  },
+  {
+    "name": "LEI_DE_PATENTE"
+  },
+  {
+    "name": "LEI_DE_RESPONSABILIDADE_FISCAL"
+  },
+  {
+    "name": "LEILÃO&LICITAÇÃO"
+  },
+  {
+    "name": "LEITE_DE_COCO"
+  },
+  {
+    "name": "LENÇO&PAPEL"
+  },
+  {
+    "name": "LENTE_DE_CONTATO"
+  },
+  {
+    "name": "LEOA"
+  },
+  {
+    "name": "LEPTOSPIROSE"
+  },
+  {
+    "name": "LER(-)"
+  },
+  {
+    "name": "LER(+)"
+  },
+  {
+    "name": "LETÔNIA"
+  },
+  {
+    "name": "LETÔNIA&PAÍS"
+  },
+  {
+    "name": "LETRA_DE_CÂMBIO"
+  },
+  {
+    "name": "LETRA_MAIÚSCULA"
+  },
+  {
+    "name": "LETRA_MINÚSCULA"
+  },
+  {
+    "name": "LETRAS_LIBRAS"
+  },
+  {
+    "name": "LEUCEMIA"
+  },
+  {
+    "name": "LEVANTAMENTO_DA_SESSÃO"
+  },
+  {
+    "name": "LEVANTAR&CABEÇA"
+  },
+  {
+    "name": "LEVAR&CANO_EXPRESSÃO"
+  },
+  {
+    "name": "LEVAR&PAPEL"
+  },
+  {
+    "name": "LEVAR&PESSOA"
+  },
+  {
+    "name": "LEVAR&TRANSPORTE"
+  },
+  {
+    "name": "LEXICOGRAFIA"
+  },
+  {
+    "name": "LÍBIA&PAÍS"
+  },
+  {
+    "name": "LIBRAS_GOV"
+  },
+  {
+    "name": "LICENÇA&DOCUMENTO"
+  },
+  {
+    "name": "LICENÇA_PARA_INVESTIDURA_EM_CARGO_PÚBLICO"
+  },
+  {
+    "name": "LICENÇA&PERMISSÃO"
+  },
+  {
+    "name": "LICENÇA_PRÊMIO"
+  },
+  {
+    "name": "LIDERANÇA_DE_GOVERNO"
+  },
+  {
+    "name": "LIDERANÇA_DE_PARTIDO"
+  },
+  {
+    "name": "LÍDER_DA_MINORIA"
+  },
+  {
+    "name": "LÍDER_DE_PARTIDO"
+  },
+  {
+    "name": "LÍDER_DO_GOVERNO"
+  },
+  {
+    "name": "LÍDER_DOS_PARTIDOS"
+  },
+  {
+    "name": "LIGAÇÃO_IÔNICA"
+  },
+  {
+    "name": "LIGAÇÃO_ÍONICA"
+  },
+  {
+    "name": "LIGAÇÃO&RELAÇÃO"
+  },
+  {
+    "name": "LIGAÇÃO&TELEFONE"
+  },
+  {
+    "name": "LIGAÇÃO_TRIPLA"
+  },
+  {
+    "name": "LIGADURA&TROMPA"
+  },
+  {
+    "name": "LIGA&ELÁSTICO"
+  },
+  {
+    "name": "LIGA&GRUPO"
+  },
+  {
+    "name": "LIGA&METÁLICA"
+  },
+  {
+    "name": "LIGAR&CARRO"
+  },
+  {
+    "name": "LIGAR&LUZ"
+  },
+  {
+    "name": "LIGAR&TELEFONAR"
+  },
+  {
+    "name": "LIGAR&TV"
+  },
+  {
+    "name": "LIGEIRO"
+  },
+  {
+    "name": "LIMEIRA"
+  },
+  {
+    "name": "LIMEIRA&CIDADE"
+  },
+  {
+    "name": "LIMITE_DE_SAQUE"
+  },
+  {
+    "name": "LIMITE&PACIÊNCIA"
+  },
+  {
+    "name": "LIMPAR&INFORMÁTICA"
+  },
+  {
+    "name": "LINDO(-)"
+  },
+  {
+    "name": "LINDO(+)"
+  },
+  {
+    "name": "LINGUAGEM_DE_PROGRAMAÇÃO"
+  },
+  {
+    "name": "LÍNGUA&LÍNGUAGEM"
+  },
+  {
+    "name": "LÍNGUA&MATERNA"
+  },
+  {
+    "name": "LÍNGUA&ORGÃO"
+  },
+  {
+    "name": "LÍNGUA&SINAIS"
+  },
+  {
+    "name": "LINGUÍSTICA_APLICADA"
+  },
+  {
+    "name": "LINHA&EQUADOR"
+  },
+  {
+    "name": "LINHA&GREENWISH"
+  },
+  {
+    "name": "LINHA&IMAGINÁRIA"
+  },
+  {
+    "name": "LINHA&INFORMÁTICA"
+  },
+  {
+    "name": "LINHA&LIMITE"
+  },
+  {
+    "name": "LINHA&METRÔ"
+  },
+  {
+    "name": "LINHA&TREM"
+  },
+  {
+    "name": "LIQUIDAÇÃO_DA_DESPESA"
+  },
+  {
+    "name": "LÍQUIDO&QUIMICA"
+  },
+  {
+    "name": "LIQUID_PAPER"
+  },
+  {
+    "name": "LISO&DINHEIRO"
+  },
+  {
+    "name": "LISO&ESCORREGADIO"
+  },
+  {
+    "name": "LISTA_DE_ENDEREÇOS"
+  },
+  {
+    "name": "LISTA_TELEFÔNICA"
+  },
+  {
+    "name": "LITERATURA_DE_CORDEL"
+  },
+  {
+    "name": "LITERATURA_VISUAL"
+  },
+  {
+    "name": "LITORAL"
+  },
+  {
+    "name": "LITUÂNIA"
+  },
+  {
+    "name": "LITUÂNIA&PAÍS"
+  },
+  {
+    "name": "LIXÃO_A_CÉU_ABERTO"
+  },
+  {
+    "name": "LIXO&OBJETO"
+  },
+  {
+    "name": "LOBO_GUARÁ"
+  },
+  {
+    "name": "LOCALIZAR"
+  },
+  {
+    "name": "LOCOMOÇÃO"
+  },
+  {
+    "name": "LOGO&BREVEMENTE"
+  },
+  {
+    "name": "LOGO&LUGAR"
+  },
+  {
+    "name": "LOGO&PORTANTO"
+  },
+  {
+    "name": "LOGOTIPO"
+  },
+  {
+    "name": "LOJA_MAGAZINE_LUIZA"
+  },
+  {
+    "name": "LOJA_PERNAMBUCANAS"
+  },
+  {
+    "name": "LOJA_RIACHUELO"
+  },
+  {
+    "name": "LOJAS_AMERICANAS"
+  },
+  {
+    "name": "LONDRES&CIDADE"
+  },
+  {
+    "name": "LONGA"
+  },
+  {
+    "name": "LONGE(-)"
+  },
+  {
+    "name": "LONGE(+)"
+  },
+  {
+    "name": "LONGO&COMPRIMENTO"
+  },
+  {
+    "name": "LONGO&DURAÇÃO"
+  },
+  {
+    "name": "LOOP&INFORMÁTICA"
+  },
+  {
+    "name": "LOUSA"
+  },
+  {
+    "name": "LUA_CHEIA"
+  },
+  {
+    "name": "LUA_DE_MEL"
+  },
+  {
+    "name": "LUA_NOVA"
+  },
+  {
+    "name": "LUA_QUARTO_CRESCENTE"
+  },
+  {
+    "name": "LUA_QUARTO_MINGUANTE"
+  },
+  {
+    "name": "LUCIANO_HUCK&FAMOSO"
+  },
+  {
+    "name": "LUIZ_EDUARDO_RAMOS&FAMOSO"
+  },
+  {
+    "name": "LUIZ_HENRIQUE_MANDETTA&FAMOSO"
+  },
+  {
+    "name": "LULA&ANIMAL"
+  },
+  {
+    "name": "LULA&FAMOSO"
+  },
+  {
+    "name": "LUNETA"
+  },
+  {
+    "name": "LUSTRAR&SAPATO"
+  },
+  {
+    "name": "LUSTRE"
+  },
+  {
+    "name": "LUTAR&COMBATER"
+  },
+  {
+    "name": "LUTAR&ESFORÇO"
+  },
+  {
+    "name": "LUTERANO"
+  },
+  {
+    "name": "LUXAR&PÉ"
+  },
+  {
+    "name": "LUXEMBURGO&CIDADE"
+  },
+  {
+    "name": "MA"
+  },
+  {
+    "name": "MACA"
+  },
+  {
+    "name": "MACACÃO&ROUPA"
+  },
+  {
+    "name": "MACACO&BARRIGUDO"
+  },
+  {
+    "name": "MACACO&CHIMPANZÉ"
+  },
+  {
+    "name": "MACACO&MANDRIL"
+  },
+  {
+    "name": "MACACO&MECÂNICO"
+  },
+  {
+    "name": "MACACO&MICO_CHEIRO"
+  },
+  {
+    "name": "MACACO&MICO_LEÃO_DOURADO"
+  },
+  {
+    "name": "MACACO&MONO_CARVOEIRO"
+  },
+  {
+    "name": "MACACO&ORANGOTANGO"
+  },
+  {
+    "name": "MACACO&SAGUI"
+  },
+  {
+    "name": "MAÇANETA"
+  },
+  {
+    "name": "MACAPÁ"
+  },
+  {
+    "name": "MACAPÁ&CIDADE"
+  },
+  {
+    "name": "MACEDÔNIA&PAÍS"
+  },
+  {
+    "name": "MACEIÓ&CIDADE"
+  },
+  {
+    "name": "MACHADO"
+  },
+  {
+    "name": "MACHISTA"
+  },
+  {
+    "name": "MAÇO&CIGARRO"
+  },
+  {
+    "name": "MAÇONARIA"
+  },
+  {
+    "name": "MACUMBA"
+  },
+  {
+    "name": "MADRID&CIDADE"
+  },
+  {
+    "name": "MADURA"
+  },
+  {
+    "name": "MADURO&FRUTA"
+  },
+  {
+    "name": "MADURO&PESSOA"
+  },
+  {
+    "name": "MAGALI&FAMOSO"
+  },
+  {
+    "name": "MAGAZINE_LUIZA&LOJA"
+  },
+  {
+    "name": "MAGISTÉRIO"
+  },
+  {
+    "name": "MAGRO(-)"
+  },
+  {
+    "name": "MAGRO(+)"
+  },
+  {
+    "name": "MAIORIDADE"
+  },
+  {
+    "name": "MAIOR&IDADE"
+  },
+  {
+    "name": "MAIOR&MATEMÁTICA"
+  },
+  {
+    "name": "MAIOR&MELHOR"
+  },
+  {
+    "name": "MAIOR&TAMANHO"
+  },
+  {
+    "name": "MAIS&ADIÇÃO"
+  },
+  {
+    "name": "MAIS&AUMENTAR"
+  },
+  {
+    "name": "MAIS_OU_MENOS"
+  },
+  {
+    "name": "MAIS&QUANTIDADE"
+  },
+  {
+    "name": "MAIS&SÍMBOLO"
+  },
+  {
+    "name": "MAIS&SOMAR"
+  },
+  {
+    "name": "MAL(-)"
+  },
+  {
+    "name": "MAL(+)"
+  },
+  {
+    "name": "MALÁSIA&PAÍS"
+  },
+  {
+    "name": "MAL_DE_ALZHEIMER"
+  },
+  {
+    "name": "MAL_DE_HANSEN"
+  },
+  {
+    "name": "MAL_EDUCADO"
+  },
+  {
+    "name": "MAL_ESTAR"
+  },
+  {
+    "name": "MALHADA&CURRAL"
+  },
+  {
+    "name": "MALHADA&RAÇA"
+  },
+  {
+    "name": "MALTA"
+  },
+  {
+    "name": "MALTA&PAÍS"
+  },
+  {
+    "name": "MALTRATAR"
+  },
+  {
+    "name": "MAMADEIRA"
+  },
+  {
+    "name": "MAMOGRAFIA"
+  },
+  {
+    "name": "MANAUS&CIDADE"
+  },
+  {
+    "name": "MANCAR&COXEAR"
+  },
+  {
+    "name": "MANCHA&BATOM"
+  },
+  {
+    "name": "MANDACARU"
+  },
+  {
+    "name": "MANDAMENTO"
+  },
+  {
+    "name": "MANDAR&EMAIL"
+  },
+  {
+    "name": "MANGABA"
+  },
+  {
+    "name": "MANGA&FRUTA"
+  },
+  {
+    "name": "MANGA&ROUPA"
+  },
+  {
+    "name": "MANGUEIRA"
+  },
+  {
+    "name": "MANGUEIRA&ÁRVORE"
+  },
+  {
+    "name": "MANGUEIRA&OBJETO"
+  },
+  {
+    "name": "MANIA"
+  },
+  {
+    "name": "MANÍACO"
+  },
+  {
+    "name": "MANIÇOBA"
+  },
+  {
+    "name": "MANICURE"
+  },
+  {
+    "name": "MANIFESTAÇÃO_POLÍTICA"
+  },
+  {
+    "name": "MANIPULAÇÃO_POLÍTICA"
+  },
+  {
+    "name": "MANIPULAR"
+  },
+  {
+    "name": "MANIPULAR&INFLUENCIAR"
+  },
+  {
+    "name": "MANIPULAR&MANUSEAR"
+  },
+  {
+    "name": "MANIPULAR&MISTURAR"
+  },
+  {
+    "name": "MANOBRA_POLÍTICA"
+  },
+  {
+    "name": "MANOBRAR&CARRO"
+  },
+  {
+    "name": "MANÔMETRO"
+  },
+  {
+    "name": "MANTEIGA_DA_TERRA"
+  },
+  {
+    "name": "MANUAL&LIVRO"
+  },
+  {
+    "name": "MANUEL_DEODORO_DA_FONSECA&FAMOSO"
+  },
+  {
+    "name": "MANUEL_FERRAZ_DE_CAMPOS_SALLES&FAMOSO"
+  },
+  {
+    "name": "MÃO_DIREITA"
+  },
+  {
+    "name": "MÃO_ESQUERDA"
+  },
+  {
+    "name": "MAPA_DO_BRASIL"
+  },
+  {
+    "name": "MAQUIAGEM"
+  },
+  {
+    "name": "MÁQUINA&CAÇA_NÍQUEL"
+  },
+  {
+    "name": "MÁQUINA&COSTURA"
+  },
+  {
+    "name": "MÁQUINA&ESCREVER"
+  },
+  {
+    "name": "MÁQUINA&FOTOGRÁFICA"
+  },
+  {
+    "name": "MÁQUINA&LAVAR_ROUPA"
+  },
+  {
+    "name": "MÁQUINA&MOER_CANA"
+  },
+  {
+    "name": "MÁQUINA&REGISTRADORA"
+  },
+  {
+    "name": "MARAGATO"
+  },
+  {
+    "name": "MARANHÃO&ESTADO"
+  },
+  {
+    "name": "MARAVILHADO"
+  },
+  {
+    "name": "MARCA&EMPRESA"
+  },
+  {
+    "name": "MARCA&LIMITE"
+  },
+  {
+    "name": "MARCAPASSO"
+  },
+  {
+    "name": "MARCAR"
+  },
+  {
+    "name": "MARCAR&AGENDAR"
+  },
+  {
+    "name": "MARCAR&COMBINAR"
+  },
+  {
+    "name": "MARCA_REGISTRADORA"
+  },
+  {
+    "name": "MARCAR&PELE"
+  },
+  {
+    "name": "MARCAR&REGISTRAR"
+  },
+  {
+    "name": "MARCAR&TEXTO"
+  },
+  {
+    "name": "MARCA&SINAL"
+  },
+  {
+    "name": "MARCA_TEXTO"
+  },
+  {
+    "name": "MARCELO_ÁLVARO_ANTÔNIO&FAMOSO"
+  },
+  {
+    "name": "MARCO&LOCAL"
+  },
+  {
+    "name": "MARCOS_PONTES&FAMOSO"
+  },
+  {
+    "name": "MARÉ_ALTA"
+  },
+  {
+    "name": "MARÉ_BAIXA"
+  },
+  {
+    "name": "MARECHAL_DEODORO"
+  },
+  {
+    "name": "MARECHAL_DEODORO&CIDADE"
+  },
+  {
+    "name": "MAREMOTO"
+  },
+  {
+    "name": "MARGEM_APERTADA_DE_VOTOS"
+  },
+  {
+    "name": "MARGEM&LIMITE"
+  },
+  {
+    "name": "MARGEM&PAPEL"
+  },
+  {
+    "name": "MARGEM&PRETEXTO"
+  },
+  {
+    "name": "MARGINALIDADE"
+  },
+  {
+    "name": "MARIA_BONITA&FAMOSA"
+  },
+  {
+    "name": "MARIA_CHIQUINHA"
+  },
+  {
+    "name": "MARÍLIA&CIDADE"
+  },
+  {
+    "name": "MARINGÁ"
+  },
+  {
+    "name": "MARINGÁ&CIDADE"
+  },
+  {
+    "name": "MARISQUEIRA"
+  },
+  {
+    "name": "MARTINHO_LUTERO&FAMOSO"
+  },
+  {
+    "name": "MÁSCARA_FACIAL"
+  },
+  {
+    "name": "MÁSCARA&NATAÇÃO"
+  },
+  {
+    "name": "MASSA&QUÍMICA"
+  },
+  {
+    "name": "MÁSSIA"
+  },
+  {
+    "name": "MASTUBAR&FEMININO"
+  },
+  {
+    "name": "MASTUBAR&MASCULINO"
+  },
+  {
+    "name": "MATÃO"
+  },
+  {
+    "name": "MATÃO&CIDADE"
+  },
+  {
+    "name": "MATE&CHÁ"
+  },
+  {
+    "name": "MATE&DOCE"
+  },
+  {
+    "name": "MATE&ERVA"
+  },
+  {
+    "name": "MATÉRIA&DISCIPLINA"
+  },
+  {
+    "name": "MATERIAL_DE_CONSUMO"
+  },
+  {
+    "name": "MATERIAL_DE_EXPEDIENTE"
+  },
+  {
+    "name": "MATERIAL_TÊXTIL"
+  },
+  {
+    "name": "MATÉRIA&PUBLICAÇÃO"
+  },
+  {
+    "name": "MATÉRIA&SUBSTÂNCIA"
+  },
+  {
+    "name": "MATO_GROSSO_DO_SUL"
+  },
+  {
+    "name": "MATO_GROSSO_DO_SUL&ESTADO"
+  },
+  {
+    "name": "MATO_GROSSO&ESTADO"
+  },
+  {
+    "name": "MATRIZ&INFORMÁTICA"
+  },
+  {
+    "name": "MATUTO"
+  },
+  {
+    "name": "MAUÁ"
+  },
+  {
+    "name": "MAUÁ&CIDADE"
+  },
+  {
+    "name": "MAUS_TRATOS"
+  },
+  {
+    "name": "MCDONALDS"
+  },
+  {
+    "name": "MÉDIA&AVALIAÇÃO"
+  },
+  {
+    "name": "MÉDIA&NÍVEL"
+  },
+  {
+    "name": "MÉDIA&POSIÇÃO"
+  },
+  {
+    "name": "MEDIÇÃO"
+  },
+  {
+    "name": "MEDICINA_ALOPÁTICA"
+  },
+  {
+    "name": "MEDICINA_HOMEOPÁTICA"
+  },
+  {
+    "name": "MEDIDA&AÇÃO"
+  },
+  {
+    "name": "MEDIDA&MEDIR"
+  },
+  {
+    "name": "MEDIR&TEMPERATURA"
+  },
+  {
+    "name": "MEDO(-)"
+  },
+  {
+    "name": "MEDO(+)"
+  },
+  {
+    "name": "MEDONHO"
+  },
+  {
+    "name": "MEIA&METADE"
+  },
+  {
+    "name": "MEIA_NOITE"
+  },
+  {
+    "name": "MEIA&ROUPA"
+  },
+  {
+    "name": "MEIO&AMBIENTE"
+  },
+  {
+    "name": "MEIO&COMUNICAÇÃO"
+  },
+  {
+    "name": "MEIO_DE_COMUNICAÇÃO"
+  },
+  {
+    "name": "MEIO&DENTRO"
+  },
+  {
+    "name": "MEIO_DE_TRANSPORTE"
+  },
+  {
+    "name": "MEIO_DIA"
+  },
+  {
+    "name": "MEIO&DIA"
+  },
+  {
+    "name": "MEIO&METADE"
+  },
+  {
+    "name": "MEIO&TRANSPORTE"
+  },
+  {
+    "name": "MELANIE_KLEIN_REIZES&FAMOSA"
+  },
+  {
+    "name": "MELHOR_SAÚDE_EXPRESSÃO"
+  },
+  {
+    "name": "MELUÍ"
+  },
+  {
+    "name": "MEMBRANA_PLASMÁTICA"
+  },
+  {
+    "name": "MEMBRO&BRAÇO"
+  },
+  {
+    "name": "MEMBRO&GRUPO"
+  },
+  {
+    "name": "MEMBRO&PERNA"
+  },
+  {
+    "name": "MEMORALIDADE"
+  },
+  {
+    "name": "MEMÓRIA&INFORMÁTICA"
+  },
+  {
+    "name": "MEMORIAL_DA_AMÉRICA_LATINA"
+  },
+  {
+    "name": "MEMORIAL_JK"
+  },
+  {
+    "name": "MENOR_DE_IDADE"
+  },
+  {
+    "name": "MENOR&MATEMÁTICA"
+  },
+  {
+    "name": "MENOR&TAMANHO"
+  },
+  {
+    "name": "MENTE_FECHADA_EXPRESSÃO"
+  },
+  {
+    "name": "MENTIRA(-)"
+  },
+  {
+    "name": "MENTIROSO(+)"
+  },
+  {
+    "name": "MENU&INFORMÁTICA"
+  },
+  {
+    "name": "MERCADO_MUNICIPAL&SÃO_PAULO"
+  },
+  {
+    "name": "MERCANTILISMO"
+  },
+  {
+    "name": "MERCATOR"
+  },
+  {
+    "name": "MERCEDES_BENZ"
+  },
+  {
+    "name": "MERCOSUL"
+  },
+  {
+    "name": "MERDA_EXPRESSÃO"
+  },
+  {
+    "name": "MERGULHO"
+  },
+  {
+    "name": "MERIDIANO"
+  },
+  {
+    "name": "MERIDIANO_GREENWICH"
+  },
+  {
+    "name": "MESES_DO_ANO"
+  },
+  {
+    "name": "MESMO"
+  },
+  {
+    "name": "MESSIAS"
+  },
+  {
+    "name": "MESSIAS&CIDADE"
+  },
+  {
+    "name": "METÁFORA"
+  },
+  {
+    "name": "METAIS"
+  },
+  {
+    "name": "METAL&OBJETO"
+  },
+  {
+    "name": "METAPLEURA"
+  },
+  {
+    "name": "METICULOSO"
+  },
+  {
+    "name": "METIDO(-)"
+  },
+  {
+    "name": "METIDO(+)"
+  },
+  {
+    "name": "MÉTODO"
+  },
+  {
+    "name": "METRALHADORA"
+  },
+  {
+    "name": "METRO"
+  },
+  {
+    "name": "MEU_NOME"
+  },
+  {
+    "name": "MEU_SINAL"
+  },
+  {
+    "name": "MÉXICO&PAÍS"
+  },
+  {
+    "name": "MG"
+  },
+  {
+    "name": "MICHELLE_BOLSONARO&FAMOSO"
+  },
+  {
+    "name": "MICHEL_TEMER&FAMOSO"
+  },
+  {
+    "name": "MICROFONE"
+  },
+  {
+    "name": "MICROÔNIBUS"
+  },
+  {
+    "name": "MICROSOFT_EXCEL"
+  },
+  {
+    "name": "MICROSOFT_OFFICE"
+  },
+  {
+    "name": "MICROSOFT_POWER_POINT"
+  },
+  {
+    "name": "MICROSOFT_WINDOWS"
+  },
+  {
+    "name": "MICROSOFT_WINDOWS_VISTA"
+  },
+  {
+    "name": "MICROSOFT_WORD"
+  },
+  {
+    "name": "MIDIATECA"
+  },
+  {
+    "name": "MIGUEL_FALABELLA&FAMOSO"
+  },
+  {
+    "name": "MILAGRE"
+  },
+  {
+    "name": "MILI"
+  },
+  {
+    "name": "MILITANTE"
+  },
+  {
+    "name": "MILITAR"
+  },
+  {
+    "name": "MIMADO"
+  },
+  {
+    "name": "MINA&ÁGUA"
+  },
+  {
+    "name": "MINA&ESCAVAÇÃO"
+  },
+  {
+    "name": "MINA&MEDIÇÃO"
+  },
+  {
+    "name": "MINA&MILITAR"
+  },
+  {
+    "name": "MINA&MINÉRIO"
+  },
+  {
+    "name": "MINA&ORIGEM"
+  },
+  {
+    "name": "MINAS_GERAIS&ESTADO"
+  },
+  {
+    "name": "MINGAU"
+  },
+  {
+    "name": "MINISTÉRIO_DA_AGRICULTURA"
+  },
+  {
+    "name": "MINISTÉRIO_DA_AGRICULTURA_PECUÁRIA_E_ABASTECIMENTO"
+  },
+  {
+    "name": "MINISTÉRIO_DA_CIDADE"
+  },
+  {
+    "name": "MINISTÉRIO_DA_CIÊNCIA_TECNOLOGIA_E_INOVAÇÃO"
+  },
+  {
+    "name": "MINISTÉRIO_DA_CIÊNCIA_TECNOLOGIA_INOVAÇÕES_E_COMUNICAÇÃO"
+  },
+  {
+    "name": "MINISTÉRIO_DA_COMUNICAÇÃO"
+  },
+  {
+    "name": "MINISTÉRIO_DA_CULTURA"
+  },
+  {
+    "name": "MINISTÉRIO_DA_DEFESA"
+  },
+  {
+    "name": "MINISTÉRIO_DA_ECONOMIA"
+  },
+  {
+    "name": "MINISTÉRIO_DA_JUSTIÇA_E_SEGURANÇA_PÚBLICA"
+  },
+  {
+    "name": "MINISTÉRIO_DA_MULHER_DA_FAMÍLIA_E_DOS_DIREITOS_HUMANOS"
+  },
+  {
+    "name": "MINISTÉRIO_DAS_MINAS_E_ENERGIA"
+  },
+  {
+    "name": "MINISTÉRIO_DAS_RELAÇÕES_EXTERIORES"
+  },
+  {
+    "name": "MINISTÉRIO_DO_DESENVOLVIMENTO_REGIONAL"
+  },
+  {
+    "name": "MINISTÉRIO_DO_ESPORTE"
+  },
+  {
+    "name": "MINISTÉRIO_DO_MEIO_AMBIENTE"
+  },
+  {
+    "name": "MINISTÉRIO_DO_TRANSPORTE"
+  },
+  {
+    "name": "MINISTÉRIO_EDUCAÇÃO"
+  },
+  {
+    "name": "MINISTRO_DE_ESTADO"
+  },
+  {
+    "name": "MINUCIOSAMENTE"
+  },
+  {
+    "name": "MIOMA_UTERINO"
+  },
+  {
+    "name": "MIRITI"
+  },
+  {
+    "name": "MISÉRIA"
+  },
+  {
+    "name": "MISERICORDIA"
+  },
+  {
+    "name": "MISERICORDIOSO"
+  },
+  {
+    "name": "MISSA"
+  },
+  {
+    "name": "MISSIONÁRIO"
+  },
+  {
+    "name": "MISTÉRIO"
+  },
+  {
+    "name": "MISTO_QUENTE"
+  },
+  {
+    "name": "MISTURA_SOLUÇÃO"
+  },
+  {
+    "name": "MOBÍLIA"
+  },
+  {
+    "name": "MODA"
+  },
+  {
+    "name": "MODELAR"
+  },
+  {
+    "name": "MODERNISMO"
+  },
+  {
+    "name": "MOEDA"
+  },
+  {
+    "name": "MOENDA"
+  },
+  {
+    "name": "MOENDA&CANA"
+  },
+  {
+    "name": "MOGIR_CRUZES"
+  },
+  {
+    "name": "MOGIR_CRUZES&CIDADE"
+  },
+  {
+    "name": "MOINHO"
+  },
+  {
+    "name": "MOLA"
+  },
+  {
+    "name": "MOLE&EXPRESSÃO"
+  },
+  {
+    "name": "MOLE&FÁCIL"
+  },
+  {
+    "name": "MOLE&MOLENGA"
+  },
+  {
+    "name": "MOLHO&CALDO"
+  },
+  {
+    "name": "MOLHO&MOLHAR"
+  },
+  {
+    "name": "MOLHO&PENCA"
+  },
+  {
+    "name": "MONGAGUÁ"
+  },
+  {
+    "name": "MONGAGUÁ&CIDADE"
+  },
+  {
+    "name": "MONGÓLIA"
+  },
+  {
+    "name": "MONGÓLIA&PAÍS"
+  },
+  {
+    "name": "MÔNICA&FAMOSO"
+  },
+  {
+    "name": "MONITOR&ASSISTENTE"
+  },
+  {
+    "name": "MONITOR&INFORMÁTICA"
+  },
+  {
+    "name": "MONSTRO"
+  },
+  {
+    "name": "MONTANHA&RUSSA"
+  },
+  {
+    "name": "MONTANTE&DINHEIRO"
+  },
+  {
+    "name": "MONTANTE&HIDROGRAFIA"
+  },
+  {
+    "name": "MONTAR&CAVALGAR"
+  },
+  {
+    "name": "MONTAR&ENCAIXAR"
+  },
+  {
+    "name": "MONTAR&INSTALAR"
+  },
+  {
+    "name": "MORAR_ONDE"
+  },
+  {
+    "name": "MORDER&LÍNGUA"
+  },
+  {
+    "name": "MORDIDA"
+  },
+  {
+    "name": "MORENO&CIDADE"
+  },
+  {
+    "name": "MORFEMA"
+  },
+  {
+    "name": "MÓRMON"
+  },
+  {
+    "name": "MORRO&MONTE"
+  },
+  {
+    "name": "MORRO_REDONDO"
+  },
+  {
+    "name": "MORRO_REDONDO&CIDADE"
+  },
+  {
+    "name": "MORROS&CIDADE"
+  },
+  {
+    "name": "MOSTRAR&CARTEIRA"
+  },
+  {
+    "name": "MOTIVOS_DO_VETO"
+  },
+  {
+    "name": "MOTOR&ELÉTRICO"
+  },
+  {
+    "name": "MOTO_TÁXI"
+  },
+  {
+    "name": "MOVER&PESSOA"
+  },
+  {
+    "name": "MOVIMENTAÇÃO"
+  },
+  {
+    "name": "MS"
+  },
+  {
+    "name": "MT"
+  },
+  {
+    "name": "MUÇULMANO"
+  },
+  {
+    "name": "MUDAR&APARÊNCIA"
+  },
+  {
+    "name": "MUDAR&APARÊNCIA)"
+  },
+  {
+    "name": "MUDAR&ASSUNTO"
+  },
+  {
+    "name": "MUDAR&CASA"
+  },
+  {
+    "name": "MUDAR&HUMOR"
+  },
+  {
+    "name": "MUDAR&OPINIÃO"
+  },
+  {
+    "name": "MUDAR&TRASNFERIR_LOCAL"
+  },
+  {
+    "name": "MULTIDÃO"
+  },
+  {
+    "name": "MULTIPLICAR&MATEMÁTICA"
+  },
+  {
+    "name": "MUNIÇÃO&BALA_ARMA"
+  },
+  {
+    "name": "MUNIÇÃO&FESTIM"
+  },
+  {
+    "name": "NADA_A_VER_EXPRESSÃO"
+  },
+  {
+    "name": "NAIS"
+  },
+  {
+    "name": "NAMÍBIA"
+  },
+  {
+    "name": "NAMÍBIA&PAÍS"
+  },
+  {
+    "name": "NÃO_ACALMAR"
+  },
+  {
+    "name": "NÃO_ACOMPANHAR"
+  },
+  {
+    "name": "NÃO_ACUSAR"
+  },
+  {
+    "name": "NÃO_ADIAR"
+  },
+  {
+    "name": "NÃO_ADMITIR"
+  },
+  {
+    "name": "NÃO_AFASTAR"
+  },
+  {
+    "name": "NÃO_ALUGAR"
+  },
+  {
+    "name": "NÃO_AMANHACER"
+  },
+  {
+    "name": "NÃO_AQUI"
+  },
+  {
+    "name": "NÃO_ATIRAR"
+  },
+  {
+    "name": "NÃO_BOM"
+  },
+  {
+    "name": "NÃO_CAGAR"
+  },
+  {
+    "name": "NÃO_CHORAR"
+  },
+  {
+    "name": "NÃO_COMBINAR"
+  },
+  {
+    "name": "NÃO_COMPREENDER"
+  },
+  {
+    "name": "NÃO_CONCORDAR"
+  },
+  {
+    "name": "NÃO_CONHECER_NADA"
+  },
+  {
+    "name": "NÃO_CONQUISTAR"
+  },
+  {
+    "name": "NÃO_CURTIR"
+  },
+  {
+    "name": "NÃO_DAR_ATENÇÃO"
+  },
+  {
+    "name": "NÃO_DAR_CERTO"
+  },
+  {
+    "name": "NÃO_É_DA_SUA_CONTA"
+  },
+  {
+    "name": "NÃO_EMPURRAR"
+  },
+  {
+    "name": "NÃO_ENCARAR"
+  },
+  {
+    "name": "NÃO_ENTENDER(+)"
+  },
+  {
+    "name": "NÃO_GOSTAR"
+  },
+  {
+    "name": "NÃO_IMPORTAR"
+  },
+  {
+    "name": "NÃO_INGERIR_BEBIDA_ALCOÓLICA"
+  },
+  {
+    "name": "NÃO_LIGAR_PARA_O_QUE_OUVIU"
+  },
+  {
+    "name": "NÃO_LIGAR_PARA_O_QUE_VIU"
+  },
+  {
+    "name": "NÃO_MENTIR"
+  },
+  {
+    "name": "NÃO_MOVER"
+  },
+  {
+    "name": "NÃO_NEGAR"
+  },
+  {
+    "name": "NÃO_NOTAR"
+  },
+  {
+    "name": "NÃO_PENSAR"
+  },
+  {
+    "name": "NÃO_PERECÍVEL"
+  },
+  {
+    "name": "NÃO_PODER"
+  },
+  {
+    "name": "NÃO_QUERER_SABER_EXPRESSÃO"
+  },
+  {
+    "name": "NÃO_RECLAMAR"
+  },
+  {
+    "name": "NÃO_RESOLVER"
+  },
+  {
+    "name": "NÃO_TE_INTERESSA"
+  },
+  {
+    "name": "NÃO_TER_GRAÇA_EXPRESSÃO"
+  },
+  {
+    "name": "NÃO_TER_JEITO_EXPRESSÃO"
+  },
+  {
+    "name": "NÃO_USAR_DROGA_EXPRESSÃO"
+  },
+  {
+    "name": "NÃO_VENDER"
+  },
+  {
+    "name": "NARIZ_EMPINADO_EXPRESSÃO"
+  },
+  {
+    "name": "NASCER&DIA"
+  },
+  {
+    "name": "NASCER&PESSOA"
+  },
+  {
+    "name": "NASCER&SOL"
+  },
+  {
+    "name": "NATAL&CIDADE"
+  },
+  {
+    "name": "NATIMORTO"
+  },
+  {
+    "name": "NATURA&EMPRESA"
+  },
+  {
+    "name": "NAUFRAGAR"
+  },
+  {
+    "name": "NÁUTICO&FUTEBOL"
+  },
+  {
+    "name": "NAVALHA"
+  },
+  {
+    "name": "NAVE"
+  },
+  {
+    "name": "NAVE&EMBARCAÇÃO"
+  },
+  {
+    "name": "NAVE&ESPACIAL"
+  },
+  {
+    "name": "NAVEGAR"
+  },
+  {
+    "name": "NAVEGAR&WEB"
+  },
+  {
+    "name": "NAVE&IGREJA"
+  },
+  {
+    "name": "NAZARÉ_DA_MATA"
+  },
+  {
+    "name": "NAZARÉ_DA_MATA&CIDADE"
+  },
+  {
+    "name": "NEGATIVO&MENOS"
+  },
+  {
+    "name": "NEGATIVO&NEGAÇÃO"
+  },
+  {
+    "name": "NEGATIVO&PREJUDICAR"
+  },
+  {
+    "name": "NEGATIVO&TEMPERATURA"
+  },
+  {
+    "name": "NEGRO&COR"
+  },
+  {
+    "name": "NEGRO&ETNIA"
+  },
+  {
+    "name": "NEREU_DE_OLIVEIRA_RAMOS&FAMOSO"
+  },
+  {
+    "name": "NERVO"
+  },
+  {
+    "name": "NERVOSO(-)"
+  },
+  {
+    "name": "NERVOSO(+)"
+  },
+  {
+    "name": "NESTLÉ&EMPRESA"
+  },
+  {
+    "name": "NEUROLOGISTA"
+  },
+  {
+    "name": "NEURÔNIO"
+  },
+  {
+    "name": "NEUROPEDIATRA"
+  },
+  {
+    "name": "NEUROPSICOLINGUÍSTICA"
+  },
+  {
+    "name": "NEUROPSICOLOGIA"
+  },
+  {
+    "name": "NEURÓTICO"
+  },
+  {
+    "name": "NEVOEIRO"
+  },
+  {
+    "name": "NEWTON&FAMOSO"
+  },
+  {
+    "name": "NICARÁGUA"
+  },
+  {
+    "name": "NICARÁGUA&PAÍS"
+  },
+  {
+    "name": "NIGÉRIA&PAÍS"
+  },
+  {
+    "name": "NILO_PROCÓPIO_PEÇANHA&FAMOSO"
+  },
+  {
+    "name": "NITERÓI&CIDADE"
+  },
+  {
+    "name": "NÓ"
+  },
+  {
+    "name": "NOBRE&DIGNO"
+  },
+  {
+    "name": "NOIVO"
+  },
+  {
+    "name": "NOMINAL"
+  },
+  {
+    "name": "NORA"
+  },
+  {
+    "name": "NOROESTE&REGIÃO"
+  },
+  {
+    "name": "NORTE&REGIÃO"
+  },
+  {
+    "name": "NORTUNO"
+  },
+  {
+    "name": "NORUEGA"
+  },
+  {
+    "name": "NORUEGA&PAÍS"
+  },
+  {
+    "name": "NÓS_2"
+  },
+  {
+    "name": "NÓS_3"
+  },
+  {
+    "name": "NÓS_4"
+  },
+  {
+    "name": "NOSSA_EXPRESSÃO"
+  },
+  {
+    "name": "NOSTALGISTA"
+  },
+  {
+    "name": "NÓS_TODOS"
+  },
+  {
+    "name": "NOTA&AVALIAR"
+  },
+  {
+    "name": "NOTA_DE_AVALIAÇÃO"
+  },
+  {
+    "name": "NOTA_DE_EMPENHO"
+  },
+  {
+    "name": "NOTA_DE_LANÇAMENTO"
+  },
+  {
+    "name": "NOTA&FISCAL"
+  },
+  {
+    "name": "NOTA&MENSAGEM"
+  },
+  {
+    "name": "NOTA&MUSICAL"
+  },
+  {
+    "name": "NOTEBOOK"
+  },
+  {
+    "name": "NOTICIÁRIO&TV"
+  },
+  {
+    "name": "NOVA_IORQUE"
+  },
+  {
+    "name": "NOVA_IORQUE&PAÍS"
+  },
+  {
+    "name": "NOVA_ODESSA"
+  },
+  {
+    "name": "NOVA_ODESSA&CIDADE"
+  },
+  {
+    "name": "NOVA_ZELÂNDIA"
+  },
+  {
+    "name": "NOVA_ZELÂNDIA&PAÍS"
+  },
+  {
+    "name": "NOVO&IDADE"
+  },
+  {
+    "name": "NOVO&RECENTE"
+  },
+  {
+    "name": "NOVO_TESTAMENTO"
+  },
+  {
+    "name": "NOZ_MOSCADA"
+  },
+  {
+    "name": "NUCA"
+  },
+  {
+    "name": "NÚCLEO&CENTRO"
+  },
+  {
+    "name": "NÚCLEO&TERRA"
+  },
+  {
+    "name": "NULO"
+  },
+  {
+    "name": "NUNCA_MAIS_EXPRESSÃO"
+  },
+  {
+    "name": "NUTRIÇÃO"
+  },
+  {
+    "name": "NUVEM"
+  },
+  {
+    "name": "OBA_EXPRESSÃO"
+  },
+  {
+    "name": "OBESO"
+  },
+  {
+    "name": "OBITUÁRIO"
+  },
+  {
+    "name": "OBJETO_VOADOR_NÃO_IDENTIFICADO"
+  },
+  {
+    "name": "OBRA&ARTE"
+  },
+  {
+    "name": "OBRA&CONSTRUÇÃO"
+  },
+  {
+    "name": "OBRA&LITERÁRIA"
+  },
+  {
+    "name": "OBRIGADO&AGRADECIMENTO"
+  },
+  {
+    "name": "OBRIGADO&FORÇAR"
+  },
+  {
+    "name": "OBSCENO"
+  },
+  {
+    "name": "OBSERVATÓRIO"
+  },
+  {
+    "name": "OBSTETRA"
+  },
+  {
+    "name": "OBTURAÇÃO_AMÁLGAMA"
+  },
+  {
+    "name": "OBTURAÇÃO_RESINA"
+  },
+  {
+    "name": "ÓBVIO"
+  },
+  {
+    "name": "OCA"
+  },
+  {
+    "name": "OCUPADO(-)"
+  },
+  {
+    "name": "OCUPADO(+)"
+  },
+  {
+    "name": "OFEGANTE"
+  },
+  {
+    "name": "OFERTA&IGREJA"
+  },
+  {
+    "name": "OFERTA&VALOR"
+  },
+  {
+    "name": "OFFICE_BOY"
+  },
+  {
+    "name": "OFICIAL_DE_JUSTIÇA"
+  },
+  {
+    "name": "OFICIAL&LEGAL"
+  },
+  {
+    "name": "OFICIALMENTE"
+  },
+  {
+    "name": "OFICINA&CURSO"
+  },
+  {
+    "name": "OFICINA&ESTUDO"
+  },
+  {
+    "name": "OFICINA&GRÁFICA"
+  },
+  {
+    "name": "OFICINA&MECÂNICA"
+  },
+  {
+    "name": "OFTALMOLOGISTA"
+  },
+  {
+    "name": "OITAVA"
+  },
+  {
+    "name": "OITEIRO&CIDADE"
+  },
+  {
+    "name": "OLHAR_AO_REDOR"
+  },
+  {
+    "name": "OLHAR&CUIDAR"
+  },
+  {
+    "name": "OLHAR_PARA_TRÁS"
+  },
+  {
+    "name": "OLHAR&VER"
+  },
+  {
+    "name": "OLINDA&CIDADE"
+  },
+  {
+    "name": "ONCOLOGIA"
+  },
+  {
+    "name": "ONCOLOGISTA"
+  },
+  {
+    "name": "ÔNIBUS_ARTICULADO"
+  },
+  {
+    "name": "ÔNIBUS_ELÉTRICO"
+  },
+  {
+    "name": "ÔNIBUS_FRETADO"
+  },
+  {
+    "name": "ONYX_LORENZONI&FAMOSO"
+  },
+  {
+    "name": "OPERAÇÃO&CIRURGIA"
+  },
+  {
+    "name": "OPERAÇÃO&MATEMÁTICA"
+  },
+  {
+    "name": "ORÇAMENTO_DA_UNIÃO"
+  },
+  {
+    "name": "ORDEM&BANCÁRIA"
+  },
+  {
+    "name": "ORDEM_DO_DIA&FASE"
+  },
+  {
+    "name": "ORDEM_DO_DIA&PAUTA"
+  },
+  {
+    "name": "ORDEM&ORDENAR"
+  },
+  {
+    "name": "ORDEM&ORGANIZAR"
+  },
+  {
+    "name": "ORDEM&SACRAMENTO"
+  },
+  {
+    "name": "ORDENADO&DINHEIRO"
+  },
+  {
+    "name": "ORDENADO_MENSAL"
+  },
+  {
+    "name": "ORDENADOR_DE_DESPESA"
+  },
+  {
+    "name": "ORDENAR"
+  },
+  {
+    "name": "ORELHA"
+  },
+  {
+    "name": "ORELHÃO&CAXUMBA"
+  },
+  {
+    "name": "ORELHÃO&ORELHUDO"
+  },
+  {
+    "name": "ORELHÃO&TELEFONE"
+  },
+  {
+    "name": "ORGANIZADOR"
+  },
+  {
+    "name": "ÓRGÃO&CORPO"
+  },
+  {
+    "name": "ÓRGÃO&INSTITUIÇÃO"
+  },
+  {
+    "name": "ÓRGÃO&INSTRUMENTO"
+  },
+  {
+    "name": "ORGASMO"
+  },
+  {
+    "name": "ORIENTAÇÃO_DE_BANCADA"
+  },
+  {
+    "name": "ORÓS"
+  },
+  {
+    "name": "ORÓS&CIDADE"
+  },
+  {
+    "name": "ORTOPEDISTA"
+  },
+  {
+    "name": "OSASCO"
+  },
+  {
+    "name": "OSASCO&CIDADE"
+  },
+  {
+    "name": "OSMAR_TERRA&FAMOSO"
+  },
+  {
+    "name": "OTÁVIO_RÊGO_BARROS&FAMOSO"
+  },
+  {
+    "name": "OTORRINOLARINGOLOGISTA"
+  },
+  {
+    "name": "OURICURI"
+  },
+  {
+    "name": "OURICURI&CIDADE"
+  },
+  {
+    "name": "OUTLOOK_EXPRESS"
+  },
+  {
+    "name": "OUVIDOR_GERAL"
+  },
+  {
+    "name": "OUVIDORIA"
+  },
+  {
+    "name": "ÓXIDO_ÁCIDO"
+  },
+  {
+    "name": "PA"
+  },
+  {
+    "name": "PACIENTE&CALMO"
+  },
+  {
+    "name": "PACIENTE&DOENTE"
+  },
+  {
+    "name": "PAGEM"
+  },
+  {
+    "name": "PAISAGEM&INFORMÁTICA"
+  },
+  {
+    "name": "PALÁCIO_DO_CONGRESSO_NACIONAL"
+  },
+  {
+    "name": "PALAVRAS_DE_ORDEM"
+  },
+  {
+    "name": "PALITO&DENTE"
+  },
+  {
+    "name": "PALMAS&CIDADE"
+  },
+  {
+    "name": "PANCADA&COLISÃO"
+  },
+  {
+    "name": "PANCADA&CONTUSÃO"
+  },
+  {
+    "name": "PANCADA&SOCO"
+  },
+  {
+    "name": "PANDEMIA"
+  },
+  {
+    "name": "PÃO_DOCE"
+  },
+  {
+    "name": "PÃO_DURO&PESSOA"
+  },
+  {
+    "name": "PAPAGAIO&AVE"
+  },
+  {
+    "name": "PAPAGAIO&PIPA"
+  },
+  {
+    "name": "PAPELARIA_OFICIAL_DO_CONGRESSO"
+  },
+  {
+    "name": "PAPEL&ESCREVER"
+  },
+  {
+    "name": "PAPEL&HIGIÊNICO"
+  },
+  {
+    "name": "PAQUISTÃO&PAÍS"
+  },
+  {
+    "name": "PARÁ"
+  },
+  {
+    "name": "PARADA&MUSICAL"
+  },
+  {
+    "name": "PARADA&ÔNIBUS"
+  },
+  {
+    "name": "PARÁ&ESTADO"
+  },
+  {
+    "name": "PARAGUAI&PAÍS"
+  },
+  {
+    "name": "PARAÍBA&ESTADO"
+  },
+  {
+    "name": "PARALISIA_CEREBRAL"
+  },
+  {
+    "name": "PARALISIA_FACIAL"
+  },
+  {
+    "name": "PARANÁ&ESTADO"
+  },
+  {
+    "name": "PARAR&ENCERRAR"
+  },
+  {
+    "name": "PARAR&INTERROMPER"
+  },
+  {
+    "name": "PARA_SOL"
+  },
+  {
+    "name": "PARATINGA&CIDADE"
+  },
+  {
+    "name": "PARECER_DA_COMISSÃO"
+  },
+  {
+    "name": "PARECER_DE_MÉRITO"
+  },
+  {
+    "name": "PAREDE_TEM_OUVIDO"
+  },
+  {
+    "name": "PARIS&CIDADE"
+  },
+  {
+    "name": "PARLAMENTAR&PESSOA"
+  },
+  {
+    "name": "PARQUE_DE_DIVERSÕES"
+  },
+  {
+    "name": "PARTIDA&PEDAÇO"
+  },
+  {
+    "name": "PARTIDA&SAÍDA"
+  },
+  {
+    "name": "PARTIR&COMEÇAR"
+  },
+  {
+    "name": "PARTIR&CORTAR"
+  },
+  {
+    "name": "PARTIR&SAIR"
+  },
+  {
+    "name": "PASSAGEM_DE_PEDESTRE"
+  },
+  {
+    "name": "PASSAGEM&LOCAL"
+  },
+  {
+    "name": "PASSAGEM&MUDAR"
+  },
+  {
+    "name": "PASSAGEM&VIAGEM"
+  },
+  {
+    "name": "PASSAR&CARRO"
+  },
+  {
+    "name": "PASSAR&CONSEGUIR"
+  },
+  {
+    "name": "PASSAR_PESSOA_"
+  },
+  {
+    "name": "PASSAR&TEMPO"
+  },
+  {
+    "name": "PASSE_LIVRE"
+  },
+  {
+    "name": "PASSO&ANDAR"
+  },
+  {
+    "name": "PASSO&CENA"
+  },
+  {
+    "name": "PASTA&DENTE"
+  },
+  {
+    "name": "PASTA&DOCUMENTO"
+  },
+  {
+    "name": "PASTA&MALETA"
+  },
+  {
+    "name": "PASTA&MASSA"
+  },
+  {
+    "name": "PATA&ANIMAL"
+  },
+  {
+    "name": "PATATIVA_DO_ASSARÉ&FAMOSO"
+  },
+  {
+    "name": "PATENTE&CARGO"
+  },
+  {
+    "name": "PATENTE&INVENÇÃO"
+  },
+  {
+    "name": "PATO_AO_TUCUPÍ"
+  },
+  {
+    "name": "PATRIMÔNIO_LÍQUIDO"
+  },
+  {
+    "name": "PATROCÍNIO"
+  },
+  {
+    "name": "PAULA_MOURÃO&FAMOSO"
+  },
+  {
+    "name": "PAULO_GUEDES&FAMOSO"
+  },
+  {
+    "name": "PB"
+  },
+  {
+    "name": "PE"
+  },
+  {
+    "name": "PEÇA"
+  },
+  {
+    "name": "PEÇA&MÚSICA"
+  },
+  {
+    "name": "PEÇA&OBJETO"
+  },
+  {
+    "name": "PEÇA&TEATRO"
+  },
+  {
+    "name": "PÉ_DE_PATO"
+  },
+  {
+    "name": "PEDIDO&PEDIR"
+  },
+  {
+    "name": "PEDIR&DEMISSÃO"
+  },
+  {
+    "name": "PEDRA&RIM"
+  },
+  {
+    "name": "PEDRA&ROCHA"
+  },
+  {
+    "name": "PEGAR&CAPTURAR"
+  },
+  {
+    "name": "PEGAR&OBJETO"
+  },
+  {
+    "name": "PEGAR&PESSOA"
+  },
+  {
+    "name": "PENA&COMPAIXÃO"
+  },
+  {
+    "name": "PENA&PENALIDADE"
+  },
+  {
+    "name": "PEN_DRIVE"
+  },
+  {
+    "name": "PENSÃO&AUXÍLIO"
+  },
+  {
+    "name": "PENSÃO&LOCAL"
+  },
+  {
+    "name": "PENTACAMPEÃO"
+  },
+  {
+    "name": "PEQUENO(-)"
+  },
+  {
+    "name": "PEQUENO(+)"
+  },
+  {
+    "name": "PEQUIM&CIDADE"
+  },
+  {
+    "name": "PERA"
+  },
+  {
+    "name": "PERFIL&TRAÇO"
+  },
+  {
+    "name": "PERFORMANCE"
+  },
+  {
+    "name": "PERÍCIA"
+  },
+  {
+    "name": "PERIGOSO(-)"
+  },
+  {
+    "name": "PERIGOSO(+)"
+  },
+  {
+    "name": "PERÍODO&QUÍMICA"
+  },
+  {
+    "name": "PERMANENTE"
+  },
+  {
+    "name": "PERMITIR&LIBERAR"
+  },
+  {
+    "name": "PERNAMBUCANAS&LOJA"
+  },
+  {
+    "name": "PERNAMBUCO&ESTADO"
+  },
+  {
+    "name": "PERNILONGO"
+  },
+  {
+    "name": "PERNOITE"
+  },
+  {
+    "name": "PERSIANA"
+  },
+  {
+    "name": "PERSONALIZADO(+)"
+  },
+  {
+    "name": "PERTENCER_ME"
+  },
+  {
+    "name": "PERTENCER_NOS"
+  },
+  {
+    "name": "PERU"
+  },
+  {
+    "name": "PERU&ANIMAL"
+  },
+  {
+    "name": "PERU&PAÍS"
+  },
+  {
+    "name": "PESAR&OPRIMIR"
+  },
+  {
+    "name": "PESAR&TRISTEZA"
+  },
+  {
+    "name": "PESCOÇO"
+  },
+  {
+    "name": "PESO&CORPORAL"
+  },
+  {
+    "name": "PESO&OBJETO"
+  },
+  {
+    "name": "PESO&OPRESSÃO"
+  },
+  {
+    "name": "PESQUISA_DE_BOCA_DE_URNA"
+  },
+  {
+    "name": "PESSOAL&GRUPO"
+  },
+  {
+    "name": "PESSOAL&PARTICULAR"
+  },
+  {
+    "name": "PETECA"
+  },
+  {
+    "name": "PI"
+  },
+  {
+    "name": "PIA_DE_BANHEIRO"
+  },
+  {
+    "name": "PIANO"
+  },
+  {
+    "name": "PIAUÍ"
+  },
+  {
+    "name": "PIAUÍ&ESTADO"
+  },
+  {
+    "name": "PICA_PAU"
+  },
+  {
+    "name": "PIJAMA"
+  },
+  {
+    "name": "PILHA&AMONTOAR"
+  },
+  {
+    "name": "PILHA&OBJETO"
+  },
+  {
+    "name": "PILHA&ROUBAR"
+  },
+  {
+    "name": "PIMENTA"
+  },
+  {
+    "name": "PIMENTA_DO_REINO"
+  },
+  {
+    "name": "PIMENTÃO"
+  },
+  {
+    "name": "PINGUE_PONGUE"
+  },
+  {
+    "name": "PINGUIM"
+  },
+  {
+    "name": "PINTOR"
+  },
+  {
+    "name": "PIRANHA&PEIXE"
+  },
+  {
+    "name": "PIRANHA&VULGAR"
+  },
+  {
+    "name": "PIRULITO"
+  },
+  {
+    "name": "PISO(+)"
+  },
+  {
+    "name": "PISO&CHÃO"
+  },
+  {
+    "name": "PISO&PISADA"
+  },
+  {
+    "name": "PISO&PRÉDIO"
+  },
+  {
+    "name": "PISO&TAXA"
+  },
+  {
+    "name": "PISTA&RUA"
+  },
+  {
+    "name": "PISTA&VESTÍGIO"
+  },
+  {
+    "name": "PIVÔ&MOTIVO"
+  },
+  {
+    "name": "PLACA&INFORMÁTICA"
+  },
+  {
+    "name": "PLÁGIO"
+  },
+  {
+    "name": "PLANILHA&INFORMÁTICA"
+  },
+  {
+    "name": "PLANO_CARTESIANO"
+  },
+  {
+    "name": "PLANO&LISO"
+  },
+  {
+    "name": "PLANO&PROJETO"
+  },
+  {
+    "name": "PLANTA&CONSTRUÇÃO"
+  },
+  {
+    "name": "PLANTA&VEGETAL"
+  },
+  {
+    "name": "PLENÁRIO_DA_CÂMARA"
+  },
+  {
+    "name": "PLENÁRIO&PESSOAS"
+  },
+  {
+    "name": "PNEUMOLOGISTA"
+  },
+  {
+    "name": "PODER_AQUISITIVO"
+  },
+  {
+    "name": "PODER_BEIJAR"
+  },
+  {
+    "name": "PODER&DOM"
+  },
+  {
+    "name": "PODER&INFLUÊNCIA"
+  },
+  {
+    "name": "PODER&POSSIBILIDADE"
+  },
+  {
+    "name": "PODER&POTÊNCIA"
+  },
+  {
+    "name": "POLO&CAMISA"
+  },
+  {
+    "name": "POLO_DE_CONFECÇÃO"
+  },
+  {
+    "name": "POLO&ESPORTE"
+  },
+  {
+    "name": "POLO&LOCAL"
+  },
+  {
+    "name": "POLÔNIA&PAÍS"
+  },
+  {
+    "name": "POLO&TERRESTRE"
+  },
+  {
+    "name": "POLVO"
+  },
+  {
+    "name": "POMBO"
+  },
+  {
+    "name": "PONERA"
+  },
+  {
+    "name": "PONTE_DE_HIDROGÊNIO"
+  },
+  {
+    "name": "PONTEIRO&BÚSSOLA"
+  },
+  {
+    "name": "PONTEIRO&RELÓGIO"
+  },
+  {
+    "name": "PONTO&COSTURAR"
+  },
+  {
+    "name": "PONTO&GRAMÁTICA"
+  },
+  {
+    "name": "PONTO&LOCAL"
+  },
+  {
+    "name": "PÔR&ANOTAR"
+  },
+  {
+    "name": "PORCO"
+  },
+  {
+    "name": "PORCO&ANIMAL"
+  },
+  {
+    "name": "PORCO_ESPINHO"
+  },
+  {
+    "name": "PORCO&SUJO"
+  },
+  {
+    "name": "PÔR_DO_SOL"
+  },
+  {
+    "name": "PÔR&ENFEITAR"
+  },
+  {
+    "name": "PORTA_COPO"
+  },
+  {
+    "name": "PORTA_MALA"
+  },
+  {
+    "name": "PORTA_RETRATO"
+  },
+  {
+    "name": "PORTARIA&PORTÃO"
+  },
+  {
+    "name": "PORTA_VOZ_DA_PRESIDÊNCIA"
+  },
+  {
+    "name": "PORTE&COMPORTAMENTO"
+  },
+  {
+    "name": "PORTE_DE_ARMA"
+  },
+  {
+    "name": "PORTE&TRANSPORTAR"
+  },
+  {
+    "name": "PORTO_ALEGRE"
+  },
+  {
+    "name": "PORTO_ALEGRE&CIDADE"
+  },
+  {
+    "name": "PORTO&CIDADE"
+  },
+  {
+    "name": "PORTO&MAR"
+  },
+  {
+    "name": "PORTO_VELHO&CIDADE"
+  },
+  {
+    "name": "PORTO&VINHO"
+  },
+  {
+    "name": "PORTUGAL&PAÍS"
+  },
+  {
+    "name": "PÓS_DOUTORADO"
+  },
+  {
+    "name": "PÓS_GRADUAÇÃO"
+  },
+  {
+    "name": "POSSAMOS"
+  },
+  {
+    "name": "POSSE_NO_CARGO"
+  },
+  {
+    "name": "POSTO&CARGO"
+  },
+  {
+    "name": "POSTO&COLOCAR"
+  },
+  {
+    "name": "POSTO&GASOLINA"
+  },
+  {
+    "name": "POSTO&LOCAL"
+  },
+  {
+    "name": "POSTO&SAÚDE"
+  },
+  {
+    "name": "POTÊNCIA&PODER"
+  },
+  {
+    "name": "POTENTE"
+  },
+  {
+    "name": "PR"
+  },
+  {
+    "name": "PRA_MIM"
+  },
+  {
+    "name": "PRÁTICO"
+  },
+  {
+    "name": "PRÁTICO&PROFISSÃO"
+  },
+  {
+    "name": "PRAZER&DIVERSÃO"
+  },
+  {
+    "name": "PRAZER_EM_CONHECER"
+  },
+  {
+    "name": "PRAZER&SATISFAÇÃO"
+  },
+  {
+    "name": "PRAZO&PRESTAÇÃO"
+  },
+  {
+    "name": "PRAZO&TEMPO"
+  },
+  {
+    "name": "PRECISÃO&EXATIDÃO"
+  },
+  {
+    "name": "PRECISÃO&PRECISAR"
+  },
+  {
+    "name": "PRÉ_ESCOLA"
+  },
+  {
+    "name": "PREGADOR&ORADOR"
+  },
+  {
+    "name": "PREGADOR&PRENDER"
+  },
+  {
+    "name": "PREGAR&FIXAR"
+  },
+  {
+    "name": "PREGIÇOSA"
+  },
+  {
+    "name": "PREGUIÇA&ÓCIO"
+  },
+  {
+    "name": "PREMIAÇÃO"
+  },
+  {
+    "name": "PRÉ_NATAL"
+  },
+  {
+    "name": "PREPARAÇÃO"
+  },
+  {
+    "name": "PREPARATIVO"
+  },
+  {
+    "name": "PRESENTE&OBJETO"
+  },
+  {
+    "name": "PRESENTE&PRESENÇA"
+  },
+  {
+    "name": "PRESENTE&TEMPO"
+  },
+  {
+    "name": "PRESIDENTE_DA_CÂMARA"
+  },
+  {
+    "name": "PRESIDENTE_DA_REPÚBLICA"
+  },
+  {
+    "name": "PRESIDENTE_DA_SESSÃO"
+  },
+  {
+    "name": "PRESIDENTE_DE_COMISSÃO"
+  },
+  {
+    "name": "PRESSÃO&COAÇÃO"
+  },
+  {
+    "name": "PRESSÃO&COMPRIMIR"
+  },
+  {
+    "name": "PRESSÃO&PARCIAL"
+  },
+  {
+    "name": "PRESTAÇÃO_DE_CONTA"
+  },
+  {
+    "name": "PRESTAÇÃO_DE_CONTAS"
+  },
+  {
+    "name": "PRESUNTO"
+  },
+  {
+    "name": "PRETERIÇÃO"
+  },
+  {
+    "name": "PRETO&COR"
+  },
+  {
+    "name": "PRETO&ESCURO"
+  },
+  {
+    "name": "PRETO&ETNIA"
+  },
+  {
+    "name": "PRIMAVERA"
+  },
+  {
+    "name": "PRIMEIRA_DAMA"
+  },
+  {
+    "name": "PRIMEIRA_SECRETÁRIA"
+  },
+  {
+    "name": "PRIMEIRA_VICE_PRESIDENTE"
+  },
+  {
+    "name": "PRIMEIRO&INICIAR"
+  },
+  {
+    "name": "PRIMEIRO&ORDINAL"
+  },
+  {
+    "name": "PRIMEIRO_SECRETÁRIO"
+  },
+  {
+    "name": "PRIMEIRO&SEQUÊNCIA"
+  },
+  {
+    "name": "PRIMEIRO_VICE_PRESIDENTE"
+  },
+  {
+    "name": "PRINCÍPIO_DA_IMPESSOALIDADE"
+  },
+  {
+    "name": "PRINCÍPIO_DA_MORALIDADE"
+  },
+  {
+    "name": "PRINCÍPIO_DA_PROPORCIONALIDADE_PARTIDÁRIA"
+  },
+  {
+    "name": "PRINCÍPIO_DA_PUBLICIDADE"
+  },
+  {
+    "name": "PRISIONEIRO"
+  },
+  {
+    "name": "PRIVADA&PARTICULAR"
+  },
+  {
+    "name": "PRIVADA&SANITÁRIO"
+  },
+  {
+    "name": "PRIVILEGIA"
+  },
+  {
+    "name": "PROCESSADOR&INFORMÁTICA"
+  },
+  {
+    "name": "PROCESSAMENTO&INFORMÁTICA"
+  },
+  {
+    "name": "PROCESSO_JUDICIAL"
+  },
+  {
+    "name": "PROCLAMAS_DE_CASAMENTO"
+  },
+  {
+    "name": "PROCURADORIA_PARLAMENTAR"
+  },
+  {
+    "name": "PROFESSORES"
+  },
+  {
+    "name": "PROGRAMA&DISCIPLINA"
+  },
+  {
+    "name": "PROGRAMA&INFORMÁTICA"
+  },
+  {
+    "name": "PROGRAMA&LAZER"
+  },
+  {
+    "name": "PROGRAMA&PROJETO"
+  },
+  {
+    "name": "PROGRAMA&TELEVISÃO"
+  },
+  {
+    "name": "PROJÉTIL"
+  },
+  {
+    "name": "PROJETO&CÓDIGO"
+  },
+  {
+    "name": "PROJETO_DE_LEI_COMPLEMENTAR"
+  },
+  {
+    "name": "PROJETO_DE_LEI_ORDINÁRIA"
+  },
+  {
+    "name": "PROJETO&DOCUMENTO"
+  },
+  {
+    "name": "PROJETO&EXECUTIVO"
+  },
+  {
+    "name": "PROJETOR_DE_SLIDES"
+  },
+  {
+    "name": "PROMOVER&ANUNCIAR"
+  },
+  {
+    "name": "PROMOVER&CAUSAR"
+  },
+  {
+    "name": "PROMULGAÇÃO_DE_LEI"
+  },
+  {
+    "name": "PROPAGANDA_DE_BOCA_DE_URNA"
+  },
+  {
+    "name": "PROPAGANDA_ELEITORAL"
+  },
+  {
+    "name": "PROPORCIONALIDADE_DO_IMPOSTO"
+  },
+  {
+    "name": "PROPOSTA_DE_EMENDA_À_CONSTITUIÇÃO"
+  },
+  {
+    "name": "PROPOSTA_DE_FISCALIZAÇÃO_E_CONTROLE"
+  },
+  {
+    "name": "PROS_E_CONTRAS"
+  },
+  {
+    "name": "PROTETOR_FACIAL"
+  },
+  {
+    "name": "PRÓTON"
+  },
+  {
+    "name": "PROVA&AVALIAÇÃO"
+  },
+  {
+    "name": "PROVA&COMPETIÇÃO"
+  },
+  {
+    "name": "PROVAR&COMIDA"
+  },
+  {
+    "name": "PROVAR&COMPROVAR"
+  },
+  {
+    "name": "PROVAR&EXPERIMENTAR"
+  },
+  {
+    "name": "PROVAR&ROUPA"
+  },
+  {
+    "name": "PROVAR&SAPATO"
+  },
+  {
+    "name": "PROVIDENCIAR"
+  },
+  {
+    "name": "PROVOCAR&CAUSA"
+  },
+  {
+    "name": "PROVOCAR&IRRITAR"
+  },
+  {
+    "name": "PRÓXIMO&PERTO"
+  },
+  {
+    "name": "PRÓXIMO&SEGUINTE"
+  },
+  {
+    "name": "PUBLICAR&DIVULGAR"
+  },
+  {
+    "name": "PUBLICAR&LIVRO"
+  },
+  {
+    "name": "PÚBLICO&GOVERNO"
+  },
+  {
+    "name": "PÚBLICO&PESSOA"
+  },
+  {
+    "name": "PUDIM"
+  },
+  {
+    "name": "PUXADOR_DE_VOTO"
+  },
+  {
+    "name": "QUADRADO&GEOMETRIA"
+  },
+  {
+    "name": "QUADRADO&IGNORANTE"
+  },
+  {
+    "name": "QUADRADO&PIPA"
+  },
+  {
+    "name": "QUADRA&ESPORTE"
+  },
+  {
+    "name": "QUADRA&QUATRO"
+  },
+  {
+    "name": "QUADRO_DE_DETALHAMENTO_DA_EMPRESA"
+  },
+  {
+    "name": "QUADRO&GRUPO"
+  },
+  {
+    "name": "QUADRO&MOLDURA"
+  },
+  {
+    "name": "QUADRO_NEGRO"
+  },
+  {
+    "name": "QUADRO&OBJETO"
+  },
+  {
+    "name": "QUADRO&SITUAÇÃO"
+  },
+  {
+    "name": "QUADRO&TABELA"
+  },
+  {
+    "name": "QUANTO&QUANTIDADE"
+  },
+  {
+    "name": "QUANTO&VALOR"
+  },
+  {
+    "name": "QUARTAS_DE_FINAL"
+  },
+  {
+    "name": "QUARTA_SECRETÁRIA"
+  },
+  {
+    "name": "QUARTO_DE_PLENÁRIO"
+  },
+  {
+    "name": "QUARTO&ORDINAL"
+  },
+  {
+    "name": "QUARTO_SECRETÁRIO"
+  },
+  {
+    "name": "QUARTO_SEQUENCIA"
+  },
+  {
+    "name": "QUATAR&PAÍS"
+  },
+  {
+    "name": "QUEBRA_CABEÇA"
+  },
+  {
+    "name": "QUEBRA_MOLA"
+  },
+  {
+    "name": "QUEBRA_QUEIXO"
+  },
+  {
+    "name": "QUEBRAR&DESTRUIR"
+  },
+  {
+    "name": "QUEBRAR&FALIR"
+  },
+  {
+    "name": "QUEDA_DÁGUA"
+  },
+  {
+    "name": "QUENTE(-)"
+  },
+  {
+    "name": "QUENTE(+)"
+  },
+  {
+    "name": "QUESTÃO_DE_GÊNERO"
+  },
+  {
+    "name": "QUESTÃO_DE_ORDEM"
+  },
+  {
+    "name": "QUINTAL"
+  },
+  {
+    "name": "QUINTO&ORDINAL"
+  },
+  {
+    "name": "QUINTO&SEQUÊNCIA"
+  },
+  {
+    "name": "QUITE"
+  },
+  {
+    "name": "QUÓRUM_DE_ABERTURA_DA_SESSÃO"
+  },
+  {
+    "name": "QUÓRUM_DE_APROVAÇÃO"
+  },
+  {
+    "name": "QUÓRUM_DE_DELIBERAÇÃO"
+  },
+  {
+    "name": "RÃ"
+  },
+  {
+    "name": "RAIO_ATÔMICO"
+  },
+  {
+    "name": "RAMALHETE"
+  },
+  {
+    "name": "RAMO&ÁREA"
+  },
+  {
+    "name": "RAMO&BUQUÊ"
+  },
+  {
+    "name": "RAMO&GALHO"
+  },
+  {
+    "name": "RÁPIDO(-)"
+  },
+  {
+    "name": "RÁPIDO(+)"
+  },
+  {
+    "name": "RAPOSA"
+  },
+  {
+    "name": "RASTEJAR&COBRA"
+  },
+  {
+    "name": "RÉ"
+  },
+  {
+    "name": "REAÇÃO_DE_DESLOCALMENTO"
+  },
+  {
+    "name": "REAÇÃO_DE_DUPLA_TROCA"
+  },
+  {
+    "name": "REAÇÃO_DE_SIMPLES_TROCA"
+  },
+  {
+    "name": "REAÇÃO_FÍSICA"
+  },
+  {
+    "name": "REAÇÃO_QUÍMICA"
+  },
+  {
+    "name": "REACOMODAÇÃO"
+  },
+  {
+    "name": "REACOMODAR"
+  },
+  {
+    "name": "REAFIRMAR"
+  },
+  {
+    "name": "REALISTA"
+  },
+  {
+    "name": "REAL&MOEDA"
+  },
+  {
+    "name": "REAL&POVOADO"
+  },
+  {
+    "name": "REAL&VERDADE"
+  },
+  {
+    "name": "REBOCAR&CIMENTAR"
+  },
+  {
+    "name": "REBOCAR&GUINCHAR"
+  },
+  {
+    "name": "REBOQUE"
+  },
+  {
+    "name": "RECADO&ESCRITO"
+  },
+  {
+    "name": "RECADO_(VERBAL)"
+  },
+  {
+    "name": "RECADO&VERBAL"
+  },
+  {
+    "name": "RECEBER&EMAIL"
+  },
+  {
+    "name": "RECEITA&CULINÁRIA"
+  },
+  {
+    "name": "RECEITA_DE_TRANSFERÊNCIA"
+  },
+  {
+    "name": "RECEITA&DINHEIRO"
+  },
+  {
+    "name": "RECEITA&MÉDICA"
+  },
+  {
+    "name": "RECEITA&MONETÁRIA"
+  },
+  {
+    "name": "RECEITA_POR_FONTE"
+  },
+  {
+    "name": "RECEITA&PREPARAR"
+  },
+  {
+    "name": "RECEITA&PRESCRIÇÃO"
+  },
+  {
+    "name": "RECIFE"
+  },
+  {
+    "name": "RECIFE&CIDADE"
+  },
+  {
+    "name": "RECONHECIMENTO"
+  },
+  {
+    "name": "RECORDE"
+  },
+  {
+    "name": "RECORTAR&INFORMÁTICA"
+  },
+  {
+    "name": "RECUPERAÇÃO"
+  },
+  {
+    "name": "RECUPERAÇÃO&ESCOLAR"
+  },
+  {
+    "name": "RECURSOS_PÚBLICOS"
+  },
+  {
+    "name": "REDE&BALANÇO"
+  },
+  {
+    "name": "REDE&GRUPO"
+  },
+  {
+    "name": "REDE&INFORMÁTICA"
+  },
+  {
+    "name": "REFE"
+  },
+  {
+    "name": "REFINADO&EDUCAÇÃO"
+  },
+  {
+    "name": "REFINADO&FINO"
+  },
+  {
+    "name": "REFORÇO"
+  },
+  {
+    "name": "REFORÇO&ESCOLAR"
+  },
+  {
+    "name": "REFRIGERANTE"
+  },
+  {
+    "name": "REFRIGERANTE&LATA"
+  },
+  {
+    "name": "REGIME&DIETA"
+  },
+  {
+    "name": "REGISTRO_DE_VOTO"
+  },
+  {
+    "name": "REGRA_DE_MERCADO"
+  },
+  {
+    "name": "REGULAÇÃO"
+  },
+  {
+    "name": "REGULADO"
+  },
+  {
+    "name": "REGULAR"
+  },
+  {
+    "name": "RELAÇÃO&RELATAR"
+  },
+  {
+    "name": "RELAÇÃO&VÍNCULO"
+  },
+  {
+    "name": "RELAXADO"
+  },
+  {
+    "name": "RELAXAMENTO_DE_PRISÃO"
+  },
+  {
+    "name": "RELAXAR"
+  },
+  {
+    "name": "RELÓGIO&PAREDE"
+  },
+  {
+    "name": "RELÓGIO&PULSO"
+  },
+  {
+    "name": "REMARCAR"
+  },
+  {
+    "name": "REMETIDAMENTE"
+  },
+  {
+    "name": "REMIÇÃO_DE_PENA"
+  },
+  {
+    "name": "REMOVER&OBJETO"
+  },
+  {
+    "name": "RENDA&DINHEIRO"
+  },
+  {
+    "name": "RENDIÇÃO_DE_GUERRA"
+  },
+  {
+    "name": "RENDIÇÃO&GUERRA"
+  },
+  {
+    "name": "REPARAÇÃO_DE_DANO_JURÍDICO"
+  },
+  {
+    "name": "REPARAR&CONSERTAR"
+  },
+  {
+    "name": "REPARAR&OBSERVAR"
+  },
+  {
+    "name": "REPOLHO"
+  },
+  {
+    "name": "REPRESÁLIA"
+  },
+  {
+    "name": "REPRESENTANTE&REMÉDIO"
+  },
+  {
+    "name": "REQUERIMENTO_DE_VERIFICAÇÃO_DE_VOTAÇÃO"
+  },
+  {
+    "name": "RESERVA_DE_CONTINGÊNCIA"
+  },
+  {
+    "name": "RESISTIR"
+  },
+  {
+    "name": "RESMUNGAR"
+  },
+  {
+    "name": "RESOLUÇÃO&NORMA"
+  },
+  {
+    "name": "RESPEITO&ASSUNTO"
+  },
+  {
+    "name": "RESPEITO&RESPEITAR"
+  },
+  {
+    "name": "RESSONÂNCIA_MAGNÉTICA"
+  },
+  {
+    "name": "RESTANTE"
+  },
+  {
+    "name": "RESTAURAR&INFORMÁTICA"
+  },
+  {
+    "name": "RETA"
+  },
+  {
+    "name": "RETORNAR"
+  },
+  {
+    "name": "RETRATO&INFORMÁTICA"
+  },
+  {
+    "name": "REUNIÃO_DE_COMISSÃO"
+  },
+  {
+    "name": "REVELAR&FOTO"
+  },
+  {
+    "name": "REVELAR&MOSTRAR"
+  },
+  {
+    "name": "REVISTA&INSPEÇÃO"
+  },
+  {
+    "name": "REVISTA&LEITURA"
+  },
+  {
+    "name": "REVISTA&PUBLICAÇÃO"
+  },
+  {
+    "name": "RIACHUELO&LOJA"
+  },
+  {
+    "name": "RICARDO_SALLES&FAMOSO"
+  },
+  {
+    "name": "RIL"
+  },
+  {
+    "name": "RIO_BRANCO&CIDADE"
+  },
+  {
+    "name": "RIO_DE_JANEIRO"
+  },
+  {
+    "name": "RIO_DE_JANEIRO&CIDADE"
+  },
+  {
+    "name": "RIO_GRANDE_DO_SUL"
+  },
+  {
+    "name": "RIO_GRANDE_DO_SUL&ESTADO"
+  },
+  {
+    "name": "RIO_GRANDE_NORTE"
+  },
+  {
+    "name": "RIO_GRANDE_NORTE&ESTADO"
+  },
+  {
+    "name": "RISCO&LINHA"
+  },
+  {
+    "name": "RISCO&PERIGO"
+  },
+  {
+    "name": "RIVAL&ADVERSÁRIO"
+  },
+  {
+    "name": "RIVAL&INIMIGO"
+  },
+  {
+    "name": "RJ"
+  },
+  {
+    "name": "RN"
+  },
+  {
+    "name": "RO"
+  },
+  {
+    "name": "ROBERTO_CAMPOS_NETO&FAMOSO"
+  },
+  {
+    "name": "RODAPÉ&INFORMÁTICA"
+  },
+  {
+    "name": "RODÍZIO_DE_CARRO"
+  },
+  {
+    "name": "ROLETA&CATRACA"
+  },
+  {
+    "name": "ROLETA&JOGO"
+  },
+  {
+    "name": "ROLO&MASSA"
+  },
+  {
+    "name": "ROMA"
+  },
+  {
+    "name": "ROMÊNIA&PAÍS"
+  },
+  {
+    "name": "RONDÔNIA&ESTADO"
+  },
+  {
+    "name": "RONRONAR"
+  },
+  {
+    "name": "RORAIMA&ESTADO"
+  },
+  {
+    "name": "ROSA&COR"
+  },
+  {
+    "name": "ROSA&FLOR"
+  },
+  {
+    "name": "RR"
+  },
+  {
+    "name": "RS"
+  },
+  {
+    "name": "RUIM(+)"
+  },
+  {
+    "name": "RÚSSIA&PAÍS"
+  },
+  {
+    "name": "SABÃO&SABEDORIA"
+  },
+  {
+    "name": "SACA_ROLHAS"
+  },
+  {
+    "name": "SAIA&ROUPA"
+  },
+  {
+    "name": "SAÍDA&PORTA"
+  },
+  {
+    "name": "SALA&AULA"
+  },
+  {
+    "name": "SALA&CIRURGIA"
+  },
+  {
+    "name": "SALADA_DE_FRUTAS"
+  },
+  {
+    "name": "SALA_DE_DESEMBRAQUE"
+  },
+  {
+    "name": "SALA_DE_EMBARQUE"
+  },
+  {
+    "name": "SALA_DE_JANTAR"
+  },
+  {
+    "name": "SALA_DE_TV"
+  },
+  {
+    "name": "SALA_DE_VISITA"
+  },
+  {
+    "name": "SALA&ESPERA"
+  },
+  {
+    "name": "SALÃO_DE_FESTA"
+  },
+  {
+    "name": "SALA&PROFESSOR"
+  },
+  {
+    "name": "SALÁRIO_DE_MILITAR"
+  },
+  {
+    "name": "SALA&TRIAGEM"
+  },
+  {
+    "name": "SALA&VÍDEO"
+  },
+  {
+    "name": "SALVADOR&SALVAR"
+  },
+  {
+    "name": "SALVAR&ARQUIVO"
+  },
+  {
+    "name": "SALVAR_COMO&INFORMÁTICA"
+  },
+  {
+    "name": "SALVAR&INFORMÁTICA"
+  },
+  {
+    "name": "SALVAR&RESGATAR"
+  },
+  {
+    "name": "SALVAR&SALVAÇÃO"
+  },
+  {
+    "name": "SALVA_VIDAS"
+  },
+  {
+    "name": "SANDÁLIA_DE_DEDO"
+  },
+  {
+    "name": "SANTA_CATARINA&ESTADO"
+  },
+  {
+    "name": "SANTIAGO&CIDADE"
+  },
+  {
+    "name": "SANTO(+)"
+  },
+  {
+    "name": "SÃO_LUÍS"
+  },
+  {
+    "name": "SÃO_LUÍS&CIDADE"
+  },
+  {
+    "name": "SÃO_PAULO&CIDADE"
+  },
+  {
+    "name": "SÃO&SANTO"
+  },
+  {
+    "name": "SÃO&SAUDÁVEL"
+  },
+  {
+    "name": "SAPATO_DE_SALTO"
+  },
+  {
+    "name": "SARAMPO"
+  },
+  {
+    "name": "SARNA"
+  },
+  {
+    "name": "SARNEY&FAMOSO"
+  },
+  {
+    "name": "SARS"
+  },
+  {
+    "name": "SC"
+  },
+  {
+    "name": "SE"
+  },
+  {
+    "name": "SECADOR_DE_CABELO"
+  },
+  {
+    "name": "SECRETARIA_DA_COMUNICAÇÃO"
+  },
+  {
+    "name": "SECRETARIA_DO_GOVERNO"
+  },
+  {
+    "name": "SECRETARIA_GERAL"
+  },
+  {
+    "name": "SECRETÁRIO_GERAL_DA_MESA"
+  },
+  {
+    "name": "SEDE&BEBER"
+  },
+  {
+    "name": "SEDE&LOCAL"
+  },
+  {
+    "name": "SEGUNDA_DAMA"
+  },
+  {
+    "name": "SEGUNDA_SECRETÁRIA"
+  },
+  {
+    "name": "SEGUNDA_VICE_PRESIDENTE"
+  },
+  {
+    "name": "SEGUNDO&OPINIÃO"
+  },
+  {
+    "name": "SEGUNDO&ORDINAL"
+  },
+  {
+    "name": "SEGUNDO_SECRETÁRIO"
+  },
+  {
+    "name": "SEGUNDO_SEQUÊNCIA"
+  },
+  {
+    "name": "SEGUNDO_VICE_PRESIDENTE"
+  },
+  {
+    "name": "SEGURANÇA&PROFISSÃO"
+  },
+  {
+    "name": "SEGURANÇA&SEGURO"
+  },
+  {
+    "name": "SEGURO&PROTEGIDO"
+  },
+  {
+    "name": "SEIO&FEMININO"
+  },
+  {
+    "name": "SELECIONAR&INFORMÁTICA"
+  },
+  {
+    "name": "SELECIONAR_TUDO&INFORMÁTICA"
+  },
+  {
+    "name": "SELETIVA"
+  },
+  {
+    "name": "SEMINÁRIO&APRESENTAÇÃO"
+  },
+  {
+    "name": "SEMINÁRIO&RELIGIÃO"
+  },
+  {
+    "name": "SENO"
+  },
+  {
+    "name": "SENTENÇA&FRASE"
+  },
+  {
+    "name": "SENTENÇA&VEREDITO"
+  },
+  {
+    "name": "SENTIDO&DIREÇÃO"
+  },
+  {
+    "name": "SENTIDO&LÓGICA"
+  },
+  {
+    "name": "SENTIDO&SENTIR"
+  },
+  {
+    "name": "SENTIR(+)"
+  },
+  {
+    "name": "SÉRGIO_MORO&FAMOSO"
+  },
+  {
+    "name": "SERGIPE&ESTADO"
+  },
+  {
+    "name": "SÉRIE&ESCOLA"
+  },
+  {
+    "name": "SÉRIE&SEQUÊNCIA"
+  },
+  {
+    "name": "SÉRIE&TELEVISÃO"
+  },
+  {
+    "name": "SERRA&CORTAR"
+  },
+  {
+    "name": "SERRA&MONTE"
+  },
+  {
+    "name": "SERVENTE&DOMÉSTICO"
+  },
+  {
+    "name": "SERVENTE&PEDREIRO"
+  },
+  {
+    "name": "SÉRVIA&PAÍS"
+  },
+  {
+    "name": "SERVIDOR&INFORMÁTICA"
+  },
+  {
+    "name": "SERVIDOR&TRABALHAR"
+  },
+  {
+    "name": "SERVIR&ADEQUAR"
+  },
+  {
+    "name": "SERVIR&ENTREGAR"
+  },
+  {
+    "name": "SERVIR&UTILIZAR"
+  },
+  {
+    "name": "SESSÃO_DE_ABERTURA"
+  },
+  {
+    "name": "SESSÃO_DO_CONGRESSO_NACIONAL"
+  },
+  {
+    "name": "SEUL&CIDADE"
+  },
+  {
+    "name": "SEU_NOME"
+  },
+  {
+    "name": "SEU_SINAL"
+  },
+  {
+    "name": "SEVERO(-)"
+  },
+  {
+    "name": "SEVERO(+)"
+  },
+  {
+    "name": "SHALOM_COMUNIDADE"
+  },
+  {
+    "name": "SILÊNCIO_EXPRESSÃO"
+  },
+  {
+    "name": "SIMPÁTICO(-)"
+  },
+  {
+    "name": "SIMPÁTICO(+)"
+  },
+  {
+    "name": "SIMPLES&FÁCIL"
+  },
+  {
+    "name": "SIMPLES&MODESTO"
+  },
+  {
+    "name": "SINAL&LIBRAS"
+  },
+  {
+    "name": "SINAL&SEMÁFORO"
+  },
+  {
+    "name": "SINAL&VESTÍGIO"
+  },
+  {
+    "name": "SÍNDROME_DE_DOWN"
+  },
+  {
+    "name": "SÍNDROME_USHER"
+  },
+  {
+    "name": "SINUSITE"
+  },
+  {
+    "name": "SLOT"
+  },
+  {
+    "name": "SÓ&APENAS"
+  },
+  {
+    "name": "SOBERBA&ARROGÂNCIA"
+  },
+  {
+    "name": "SOBRE&ASSUNTO"
+  },
+  {
+    "name": "SOBRE&CIMA"
+  },
+  {
+    "name": "SOBRETUDO&CASACO"
+  },
+  {
+    "name": "SOBRETUDO&PRINCIPALMENTE"
+  },
+  {
+    "name": "SOCIÁVEL"
+  },
+  {
+    "name": "SOFÁ_DE_MADEIRA"
+  },
+  {
+    "name": "SOLAR&DURO"
+  },
+  {
+    "name": "SOLAR&LOCAL"
+  },
+  {
+    "name": "SOLAR&MÚSICA"
+  },
+  {
+    "name": "SOLAR&SAPATO"
+  },
+  {
+    "name": "SOLAR&SOL"
+  },
+  {
+    "name": "SÓLIDO&ESTÁVEL"
+  },
+  {
+    "name": "SÓLIDO&MATÉRIA"
+  },
+  {
+    "name": "SOLO&CARTEADO"
+  },
+  {
+    "name": "SOLO&MÚSICA"
+  },
+  {
+    "name": "SOLO&TERRA"
+  },
+  {
+    "name": "SOLTAR&BRAÇO"
+  },
+  {
+    "name": "SOLTAR&FILHO"
+  },
+  {
+    "name": "SOLUÇÃO&CONCLUSÃO"
+  },
+  {
+    "name": "SOLUÇÃO&QUÍMICA"
+  },
+  {
+    "name": "SONHAR(-)"
+  },
+  {
+    "name": "SONHAR(+)"
+  },
+  {
+    "name": "SONO(+)"
+  },
+  {
+    "name": "SOROCABA&CIDADE"
+  },
+  {
+    "name": "SORRATEIRO"
+  },
+  {
+    "name": "SORTUDO(-)"
+  },
+  {
+    "name": "SORTUDO(+)"
+  },
+  {
+    "name": "SÓ&SOZINHO"
+  },
+  {
+    "name": "SP"
+  },
+  {
+    "name": "SUA_IDADE"
+  },
+  {
+    "name": "SUBCHEFE"
+  },
+  {
+    "name": "SUBCOORDENADOR"
+  },
+  {
+    "name": "SUBIR&ARVORE"
+  },
+  {
+    "name": "SUBIR&ELEVADOR"
+  },
+  {
+    "name": "SUBIR&ESCADA"
+  },
+  {
+    "name": "SUBIR&RAMPA"
+  },
+  {
+    "name": "SUDESTE&REGIÃO"
+  },
+  {
+    "name": "SUÉCIA&PAÍS"
+  },
+  {
+    "name": "SUFORCAR"
+  },
+  {
+    "name": "SUÍÇA&PAÍS"
+  },
+  {
+    "name": "SUJO(-)"
+  },
+  {
+    "name": "SUJO(+)"
+  },
+  {
+    "name": "SUL&REGIÃO"
+  },
+  {
+    "name": "SUPER_HOMEM"
+  },
+  {
+    "name": "SUPERIOR_TRIBUNAL_DE_JUSTIÇA"
+  },
+  {
+    "name": "SUPLENTE_DE_COMISSÃO"
+  },
+  {
+    "name": "SURINAME&PAÍS"
+  },
+  {
+    "name": "SUSPENDER&ERGUER"
+  },
+  {
+    "name": "SUSPENDER&INTERROMPER"
+  },
+  {
+    "name": "TAÇA"
+  },
+  {
+    "name": "TAMANHO(-)"
+  },
+  {
+    "name": "TANGENTE"
+  },
+  {
+    "name": "TANQUE&ROUPA"
+  },
+  {
+    "name": "TARCÍSIO_GOMES_DE_FREITAS&FAMOSO"
+  },
+  {
+    "name": "TARDE(+)"
+  },
+  {
+    "name": "TARIFA"
+  },
+  {
+    "name": "TÁRTARO"
+  },
+  {
+    "name": "TAXA_DE_CÂMBIO"
+  },
+  {
+    "name": "TAXA_DE_CONDOMÍNIO"
+  },
+  {
+    "name": "TAXA_DE_RETORNO"
+  },
+  {
+    "name": "TAXA&PORCETAGEM"
+  },
+  {
+    "name": "TAXA&PREÇO"
+  },
+  {
+    "name": "TELEFONE_PARA_SURDOS"
+  },
+  {
+    "name": "TEMPO(-)"
+  },
+  {
+    "name": "TEMPO(+)"
+  },
+  {
+    "name": "TEMPO&ÉPOCA"
+  },
+  {
+    "name": "TEMPO&HORA"
+  },
+  {
+    "name": "TEMPO&METEOROLOGIA"
+  },
+  {
+    "name": "TEMPO&PAUSA"
+  },
+  {
+    "name": "TEMPORAL&CHUVA"
+  },
+  {
+    "name": "TEMPORAL&TEMPO"
+  },
+  {
+    "name": "TEMPOROFACIALIDADE"
+  },
+  {
+    "name": "TÊNIS&JOGO"
+  },
+  {
+    "name": "TÊNIS&SAPATO"
+  },
+  {
+    "name": "TENTAÇÃO&INSTIGAR"
+  },
+  {
+    "name": "TENTAÇÃO&PROVOCAÇÃO"
+  },
+  {
+    "name": "TENTAÇÃO&SEDUÇÃO"
+  },
+  {
+    "name": "TEORIA"
+  },
+  {
+    "name": "TERCEIRA_SECRETÁRIA"
+  },
+  {
+    "name": "TERCEIRO&JURÍDICO"
+  },
+  {
+    "name": "TERCEIRO&ORDINAL"
+  },
+  {
+    "name": "TERCEIRO_SECRETÁRIO"
+  },
+  {
+    "name": "TERCEIRO&SEQUÊNCIA"
+  },
+  {
+    "name": "TERESINA&CIDADE"
+  },
+  {
+    "name": "TEREZA_CRISTINA_CORRÊA_DA_COSTA_DIAS&FAMOSO"
+  },
+  {
+    "name": "TERMINAL_DE_DESEMBRAQUE"
+  },
+  {
+    "name": "TERMINAL_DE_EMBARQUE"
+  },
+  {
+    "name": "TERMINAR_EXPRESSÃO"
+  },
+  {
+    "name": "TERNO&AFETO"
+  },
+  {
+    "name": "TERNO&ROUPA"
+  },
+  {
+    "name": "TERRA&AREIA"
+  },
+  {
+    "name": "TERRA&LOCAL"
+  },
+  {
+    "name": "TERRA&PLANETA"
+  },
+  {
+    "name": "TERRÍVEL"
+  },
+  {
+    "name": "TESTA_DE_FERRO"
+  },
+  {
+    "name": "TESTE_DO_PEZINHO"
+  },
+  {
+    "name": "TESTE_DRIVE"
+  },
+  {
+    "name": "TESTEMUNHA_DE_JEOVÁ"
+  },
+  {
+    "name": "TÉTIS"
+  },
+  {
+    "name": "TÍMIDO(-)"
+  },
+  {
+    "name": "TÍMIDO(+)"
+  },
+  {
+    "name": "TÍNEA"
+  },
+  {
+    "name": "TIPO&CARACTERÍSTICA"
+  },
+  {
+    "name": "TIPO&EXEMPLO"
+  },
+  {
+    "name": "TÍQUETE&INGRESSO"
+  },
+  {
+    "name": "TIRAR&CHAPÉU"
+  },
+  {
+    "name": "TIRAR&ROUPA"
+  },
+  {
+    "name": "TÍTULO&CERTIFICADO"
+  },
+  {
+    "name": "TÍTULO&ELEITOR"
+  },
+  {
+    "name": "TÍTULO&TEXTO"
+  },
+  {
+    "name": "TO"
+  },
+  {
+    "name": "TOALHA_DE_ROSTO"
+  },
+  {
+    "name": "TOCANTINS&ESTADO"
+  },
+  {
+    "name": "TOCAR&ATABAQUE"
+  },
+  {
+    "name": "TOCAR&BATERIA"
+  },
+  {
+    "name": "TOCAR&FLAUTA"
+  },
+  {
+    "name": "TOCAR&GAITA"
+  },
+  {
+    "name": "TOCAR&GUITARRA"
+  },
+  {
+    "name": "TOCAR&HARPA"
+  },
+  {
+    "name": "TOCAR&MÚSICA"
+  },
+  {
+    "name": "TOCAR&PANDEIRO"
+  },
+  {
+    "name": "TOCAR&PIANO"
+  },
+  {
+    "name": "TOCAR&PRATOS"
+  },
+  {
+    "name": "TOCAR&SAX"
+  },
+  {
+    "name": "TOCAR&TATO"
+  },
+  {
+    "name": "TOCAR&TROMPETE"
+  },
+  {
+    "name": "TOCAR&VIOLÃO"
+  },
+  {
+    "name": "TOCAR&VIOLINO"
+  },
+  {
+    "name": "TODO_ANO"
+  },
+  {
+    "name": "TOMADA_DE_CONTAS"
+  },
+  {
+    "name": "TOMAR&ÁGUA"
+  },
+  {
+    "name": "TOMARA_QUE_CAIA"
+  },
+  {
+    "name": "TOMAR&BEBER"
+  },
+  {
+    "name": "TOMAR&PEGAR"
+  },
+  {
+    "name": "TOPAR&ACEITAR"
+  },
+  {
+    "name": "TOPAR&ENCONTRAR"
+  },
+  {
+    "name": "TÓQUIO&CIDADE"
+  },
+  {
+    "name": "TORÇÃO"
+  },
+  {
+    "name": "TORCEDOR"
+  },
+  {
+    "name": "TORCER&ESPREMER"
+  },
+  {
+    "name": "TORCER&TORCIDA"
+  },
+  {
+    "name": "TORONTO&CIDADE"
+  },
+  {
+    "name": "TORRADA"
+  },
+  {
+    "name": "TOSSE"
+  },
+  {
+    "name": "TOTALMENTE"
+  },
+  {
+    "name": "TOTEM"
+  },
+  {
+    "name": "TRABALHADOR"
+  },
+  {
+    "name": "TRABALHAR(-)"
+  },
+  {
+    "name": "TRABALHAR(+)"
+  },
+  {
+    "name": "TRÁGICO"
+  },
+  {
+    "name": "TRAIR&FALSO"
+  },
+  {
+    "name": "TRAIR&RELACIONAMENTO"
+  },
+  {
+    "name": "TRAMAR&PLANEJAR"
+  },
+  {
+    "name": "TRANSFERIR"
+  },
+  {
+    "name": "TRANSFERIR&DINHEIRO"
+  },
+  {
+    "name": "TRANSFERIR&PESSOA"
+  },
+  {
+    "name": "TRANSFORMAÇÃO_FÍSICA"
+  },
+  {
+    "name": "TRANSFORMAÇÃO_QUÍMICA"
+  },
+  {
+    "name": "TRANSITADA_EM_JULGADO"
+  },
+  {
+    "name": "TRANSITAR"
+  },
+  {
+    "name": "TRÂNSITO_EM_JULGADO"
+  },
+  {
+    "name": "TRANSMITIR&COMUNICAR"
+  },
+  {
+    "name": "TRANSMITIR&PROPAGAR"
+  },
+  {
+    "name": "TRANSPIRAR(-)"
+  },
+  {
+    "name": "TRANSPIRAR(+)"
+  },
+  {
+    "name": "TRAQUINA"
+  },
+  {
+    "name": "TRATAR&ASSUNTO"
+  },
+  {
+    "name": "TRATAR&CUIDAR"
+  },
+  {
+    "name": "TRAVESSA&PRATO"
+  },
+  {
+    "name": "TRAVESSA&RUA"
+  },
+  {
+    "name": "TREVA&ESCURIDÃO"
+  },
+  {
+    "name": "TRIÂNGULO&GEOMETRIA"
+  },
+  {
+    "name": "TRIÂNGULO&INSTRUMENTO_MUSICAL"
+  },
+  {
+    "name": "TRIBUNAL_DE_CONTAS_DA_UNIÃO"
+  },
+  {
+    "name": "TRISTE(-)"
+  },
+  {
+    "name": "TRISTE(+)"
+  },
+  {
+    "name": "TRONCO&ÁRVORE"
+  },
+  {
+    "name": "TRONCO&CORPO"
+  },
+  {
+    "name": "TUNÍSIA&PAÍS"
+  },
+  {
+    "name": "TURQUIA&PAÍS"
+  },
+  {
+    "name": "UCRÂNIA&PAÍS"
+  },
+  {
+    "name": "UGANDA&PAÍS"
+  },
+  {
+    "name": "ULTRASSONOGRAFIA_ABDOMINAL"
+  },
+  {
+    "name": "ULTRASSONOGRAFIA_DOPPLER"
+  },
+  {
+    "name": "ULTRASSONOGRAFIA_MAMA"
+  },
+  {
+    "name": "ULTRASSONOGRAFIA_TRANSVAGINAL"
+  },
+  {
+    "name": "UNANIMIDADE"
+  },
+  {
+    "name": "UNIDADES_DE_FEDERAÇÃO"
+  },
+  {
+    "name": "UNIFORME&FARDAMENTO"
+  },
+  {
+    "name": "UNIFORME&HOMOGÊNEO"
+  },
+  {
+    "name": "URNA_DE_CONTINGÊNCIA"
+  },
+  {
+    "name": "URNA&ELETRÔNICA"
+  },
+  {
+    "name": "URNA&OBJETO"
+  },
+  {
+    "name": "UROCULTURA"
+  },
+  {
+    "name": "UROLOGISTA"
+  },
+  {
+    "name": "URSO_PANDA"
+  },
+  {
+    "name": "URUGUAI&PAÍS"
+  },
+  {
+    "name": "UXI"
+  },
+  {
+    "name": "VACÂNCIA"
+  },
+  {
+    "name": "VAGA&EMPREGO"
+  },
+  {
+    "name": "VAGA&ESTACIONAMENTO"
+  },
+  {
+    "name": "VAI_E_VÉM"
+  },
+  {
+    "name": "VALE&MONTANHA"
+  },
+  {
+    "name": "VALE&RECIBO"
+  },
+  {
+    "name": "VALE&VALOR"
+  },
+  {
+    "name": "VARRER(+)"
+  },
+  {
+    "name": "VASO&JARRO"
+  },
+  {
+    "name": "VASO&SANGUÍNEO"
+  },
+  {
+    "name": "VASO&SANITÁRIO"
+  },
+  {
+    "name": "VELA&LUZ"
+  },
+  {
+    "name": "VELHO(-)"
+  },
+  {
+    "name": "VELHO(+)"
+  },
+  {
+    "name": "VENDA_A_ATACADO"
+  },
+  {
+    "name": "VENDA_POR_ATACADO"
+  },
+  {
+    "name": "VENDA_POR_GROSSO"
+  },
+  {
+    "name": "VENEZUELA&PAÍS"
+  },
+  {
+    "name": "VENHA"
+  },
+  {
+    "name": "VENTAR(-)"
+  },
+  {
+    "name": "VENTAR(+)"
+  },
+  {
+    "name": "VERBA_DE_GABINETE"
+  },
+  {
+    "name": "VERBA_DE_REPRESENTAÇÃO"
+  },
+  {
+    "name": "VERGONHA(-)"
+  },
+  {
+    "name": "VERGONHA(+)"
+  },
+  {
+    "name": "VERSÁTIL"
+  },
+  {
+    "name": "VESTIR&JAQUETA"
+  },
+  {
+    "name": "VESTIR&ROUPA"
+  },
+  {
+    "name": "VETORIAL"
+  },
+  {
+    "name": "VEZES(+)"
+  },
+  {
+    "name": "VIAGEM_DOMÉSTICA"
+  },
+  {
+    "name": "VICE_PRESIDENTE_DA_REPÚBLICA"
+  },
+  {
+    "name": "VIGOTSKY&FAMOSO"
+  },
+  {
+    "name": "VÍNCULO"
+  },
+  {
+    "name": "VINHO&BEBIDA"
+  },
+  {
+    "name": "VINHO&COR"
+  },
+  {
+    "name": "VIOLENTO(+)"
+  },
+  {
+    "name": "VIOLETA&FLOR"
+  },
+  {
+    "name": "VIRA_LATA"
+  },
+  {
+    "name": "VIRAR&DIREÇÃO"
+  },
+  {
+    "name": "VIRAR&MUDAR"
+  },
+  {
+    "name": "VIRAR&VERTER"
+  },
+  {
+    "name": "[VÍRGULA]"
+  },
+  {
+    "name": "VÍRUS&INFORMÁTICA"
+  },
+  {
+    "name": "VÍRUS&SAÚDE"
+  },
+  {
+    "name": "VISÃO_SUBNORMAL"
+  },
+  {
+    "name": "VISTA&OLHO"
+  },
+  {
+    "name": "VISTA&PANORAMA"
+  },
+  {
+    "name": "VISTO&PASSAPORTE"
+  },
+  {
+    "name": "VISTO&VER"
+  },
+  {
+    "name": "VITAMINA&BEBIDA"
+  },
+  {
+    "name": "VITAMINA&REMÉDIO"
+  },
+  {
+    "name": "VITÓRIA&CIDADE"
+  },
+  {
+    "name": "VITÓRIA&VENCER"
+  },
+  {
+    "name": "VIVER&MORAR"
+  },
+  {
+    "name": "VIVER&VIDA"
+  },
+  {
+    "name": "VOCÊS_2"
+  },
+  {
+    "name": "VOCÊS_3"
+  },
+  {
+    "name": "VOCÊS_4"
+  },
+  {
+    "name": "VÔLEI_DE_PRAIA"
+  },
+  {
+    "name": "VOLTADAS&DIRETO"
+  },
+  {
+    "name": "VOLUME&GÁS"
+  },
+  {
+    "name": "VOLUME&LÍQUIDO"
+  },
+  {
+    "name": "VOLUME&SOM"
+  },
+  {
+    "name": "VÔMITO"
+  },
+  {
+    "name": "VOTAÇÃO_EM_BLOCO"
+  },
+  {
+    "name": "VOTAÇÃO_EM_GLOBO"
+  },
+  {
+    "name": "VOTO_DE_CABRESTO"
+  },
+  {
+    "name": "VOTO_DE_LEGENDA"
+  },
+  {
+    "name": "VOTO_DE_MINERVA"
+  },
+  {
+    "name": "VOTO_EM_TRÂNSITO"
+  },
+  {
+    "name": "VOZ(-)"
+  },
+  {
+    "name": "WAGNER_ROSÁRIO&FAMOSO"
+  },
+  {
+    "name": "XADREZ&JOGO"
+  },
+  {
+    "name": "XAROPE&DOCE"
+  },
+  {
+    "name": "XAROPE&REMÉDIO"
+  },
+  {
+    "name": "XEROCAR(+)"
+  },
+  {
+    "name": "ZANGADO(-)"
+  },
+  {
+    "name": "ZANGADO(+)"
+  },
+  {
+    "name": "ZERO_A_ZERO"
+  }
+]
