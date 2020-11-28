@@ -1,11 +1,7 @@
 import models from '../../models';
 
 export async function up(queryInterface, _Sequelize) {
-  const signs = await models.Sign.findAll({
-    attributes: ['id'],
-    include: [{ model: models.Version }],
-    where: { '$Versions.version$': null },
-  });
+  const signs = await models.Sign.findAll({ attributes: ['id'] });
   const version = await models.Version.findOne({
     attributes: ['id'],
     where: { version: '2018.3.1' },
