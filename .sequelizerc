@@ -1,10 +1,21 @@
-require('@babel/register');
+// configuration for development
+// TODO: make it dynamic
+// require('@babel/register');
+
+// const path = require('path');
+
+// module.exports = {
+//   'config': path.resolve('src', 'database', 'cli', 'config.js'),
+//   'models-path': path.resolve('src', 'models'),
+//   'seeders-path': path.resolve('src', 'database', 'seeders'),
+//   'migrations-path': path.resolve('src', 'database', 'migrations'),
+// };
 
 const path = require('path');
 
 module.exports = {
-  'config': path.resolve('src', 'database', 'cli', 'config.js'),
-  'models-path': path.resolve('src', 'models'),
-  'seeders-path': path.resolve('src', 'database', 'seeders'),
-  'migrations-path': path.resolve('src', 'database', 'migrations'),
+  'config': path.resolve('dist', 'database', 'cli', 'config.js'),
+  'models-path': path.resolve('dist', 'models'),
+  'seeders-path': path.resolve('dist', 'database', 'seeders'),
+  'migrations-path': path.resolve('dist', 'database', 'migrations'),
 };

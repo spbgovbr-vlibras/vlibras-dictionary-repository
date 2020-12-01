@@ -1,0 +1,44 @@
+#Do not change the version
+version: '2'
+
+services:
+  vlibras-dictionary-api:
+    build: .
+    image: vlibras_dictionary/repository:1.0.2
+    ports:
+      - "8080:8080"
+    networks:
+      - postgres-net
+    environment:
+      HTTP_PORT: 8080
+      # HTTPS_PORT: 443
+      # SSL_KEY: null
+      # SSL_CERT: null
+      DATABASE_HOST: postgres
+      DATABASE_NAME: vlibras-db
+      DATABASE_USER: root
+      DATABASE_PASS: pswd
+      SIGNS_STORAGE: /tmp/vlibras/dictionary-storage
+      SIGNS_STAGING: /tmp/vlibras/dictionary-staging
+      SIGNS_GARBAGE: /tmp/vlibras/dictionary-garbage
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:12-alpine
+    ports:
+      - "15432:5432"
+    networks:
+      postgres-net:
+    environment:
+      POSTGRES_DB: vlibras-db
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: pswd
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+
+networks:
+  postgres-net:
+
+volumes:
+  postgres-data:
