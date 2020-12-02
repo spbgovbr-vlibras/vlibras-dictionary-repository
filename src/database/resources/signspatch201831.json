@@ -504,9 +504,6 @@
     "name": "ABSORVER&LÍQUIDO"
   },
   {
-    "name": "AC"
-  },
-  {
     "name": "ACABAR_EXPRESSÃO"
   },
   {
@@ -798,10 +795,10 @@
     "name": "AGRICULTURADO"
   },
   {
-    "name": "ÁGUA(-)"
+    "name": "ÁGUA(+)"
   },
   {
-    "name": "ÁGUA(+)"
+    "name": "ÁGUA(-)"
   },
   {
     "name": "ÁGUA_DE_COCO"
@@ -835,9 +832,6 @@
   },
   {
     "name": "AJUDA_DE_CUSTO"
-  },
-  {
-    "name": "AL"
   },
   {
     "name": "ALAGOAS&ESTADO"
@@ -903,10 +897,10 @@
     "name": "ALTERNATIVO"
   },
   {
-    "name": "ALTO(-)"
+    "name": "ALTO(+)"
   },
   {
-    "name": "ALTO(+)"
+    "name": "ALTO(-)"
   },
   {
     "name": "ALTO&DETER"
@@ -960,9 +954,6 @@
     "name": "ALVO&VENTRE"
   },
   {
-    "name": "AM"
-  },
-  {
     "name": "AMADURECIDO&MADURO"
   },
   {
@@ -972,10 +963,10 @@
     "name": "AMAPÁ&ESTADO"
   },
   {
-    "name": "AMAR(-)"
+    "name": "AMAR(+)"
   },
   {
-    "name": "AMAR(+)"
+    "name": "AMAR(-)"
   },
   {
     "name": "AMAZONAS&ESTADO"
@@ -1071,10 +1062,10 @@
     "name": "ANGOLA&PAÍS"
   },
   {
-    "name": "ANIMADO(-)"
+    "name": "ANIMADO(+)"
   },
   {
-    "name": "ANIMADO(+)"
+    "name": "ANIMADO(-)"
   },
   {
     "name": "ANIMAL&DOMÉSTICO"
@@ -1104,10 +1095,10 @@
     "name": "ANSIEDADE&ANGÚSTIA"
   },
   {
-    "name": "ANSIOSO(-)"
+    "name": "ANSIOSO(+)"
   },
   {
-    "name": "ANSIOSO(+)"
+    "name": "ANSIOSO(-)"
   },
   {
     "name": "ANTARTIDA"
@@ -1155,9 +1146,6 @@
     "name": "AO_VIVO"
   },
   {
-    "name": "AP"
-  },
-  {
     "name": "APAGAR&EXTINGUIR"
   },
   {
@@ -1173,10 +1161,10 @@
     "name": "APAGAR&VELA"
   },
   {
-    "name": "APAIXONADO(-)"
+    "name": "APAIXONADO(+)"
   },
   {
-    "name": "APAIXONADO(+)"
+    "name": "APAIXONADO(-)"
   },
   {
     "name": "APANHAR&RECOLHER"
@@ -1206,10 +1194,10 @@
     "name": "APARELHO_DE_SOM"
   },
   {
-    "name": "APERTADO(-)"
+    "name": "APERTADO(+)"
   },
   {
-    "name": "APERTADO(+)"
+    "name": "APERTADO(-)"
   },
   {
     "name": "APERTADO&ESPAÇO"
@@ -1608,10 +1596,10 @@
     "name": "ATRAÇÃO&ENTRETENIMENTO"
   },
   {
-    "name": "ATRASADO(-)"
+    "name": "ATRASADO(+)"
   },
   {
-    "name": "ATRASADO(+)"
+    "name": "ATRASADO(-)"
   },
   {
     "name": "AUDIÊNCIA_EM_COMISSÃO"
@@ -1680,10 +1668,10 @@
     "name": "AVANÇAR&SINAL_TRÂNSITO"
   },
   {
-    "name": "AVARENTO(-)"
+    "name": "AVARENTO(+)"
   },
   {
-    "name": "AVARENTO(+)"
+    "name": "AVARENTO(-)"
   },
   {
     "name": "AVIÃO&COMERCIAL"
@@ -1696,9 +1684,6 @@
   },
   {
     "name": "AZERBAJÃO&PAÍS"
-  },
-  {
-    "name": "BA"
   },
   {
     "name": "BABILÔNIA&CIDADE"
@@ -1719,10 +1704,10 @@
     "name": "BAINHA&ROUPA"
   },
   {
-    "name": "BAIXO(-)"
+    "name": "BAIXO(+)"
   },
   {
-    "name": "BAIXO(+)"
+    "name": "BAIXO(-)"
   },
   {
     "name": "BALA&DOCE"
@@ -1800,10 +1785,10 @@
     "name": "BARACK_HUSSEIN_OBAMA&FAMOSO"
   },
   {
-    "name": "BARATO(-)"
+    "name": "BARATO(+)"
   },
   {
-    "name": "BARATO(+)"
+    "name": "BARATO(-)"
   },
   {
     "name": "BARBEADOR&GILETE"
@@ -1845,10 +1830,10 @@
     "name": "BARUERI&CIDADE"
   },
   {
-    "name": "BARULHENTO(-)"
+    "name": "BARULHENTO(+)"
   },
   {
-    "name": "BARULHENTO(+)"
+    "name": "BARULHENTO(-)"
   },
   {
     "name": "BASE&CÁLCULO"
@@ -1923,10 +1908,10 @@
     "name": "BATIDA&CORAÇÃO"
   },
   {
-    "name": "BÊBADO(-)"
+    "name": "BÊBADO(+)"
   },
   {
-    "name": "BÊBADO(+)"
+    "name": "BÊBADO(-)"
   },
   {
     "name": "BEBER(+)"
@@ -2055,10 +2040,10 @@
     "name": "BOA_VISTA&CIDADE"
   },
   {
-    "name": "BOBO(-)"
+    "name": "BOBO(+)"
   },
   {
-    "name": "BOBO(+)"
+    "name": "BOBO(-)"
   },
   {
     "name": "BOCA_DE_FUMO"
@@ -2124,10 +2109,10 @@
     "name": "BOLSONARO&FAMOSO"
   },
   {
-    "name": "BOM(-)"
+    "name": "BOM(+)"
   },
   {
-    "name": "BOM(+)"
+    "name": "BOM(-)"
   },
   {
     "name": "BOMBA&CHOCOLATE"
@@ -2148,10 +2133,10 @@
     "name": "BOM_JESUS_NORTE"
   },
   {
-    "name": "BONITO(-)"
+    "name": "BONITO(+)"
   },
   {
-    "name": "BONITO(+)"
+    "name": "BONITO(-)"
   },
   {
     "name": "BORRACHA&APAGAR"
@@ -2325,19 +2310,19 @@
     "name": "CALIBRE_DE_ARMA"
   },
   {
-    "name": "CALMO(-)"
+    "name": "CALMO(+)"
   },
   {
-    "name": "CALMO(+)"
+    "name": "CALMO(-)"
   },
   {
     "name": "CALMO&PESSOA"
   },
   {
-    "name": "CALOR(-)"
+    "name": "CALOR(+)"
   },
   {
-    "name": "CALOR(+)"
+    "name": "CALOR(-)"
   },
   {
     "name": "CAMAÇARI"
@@ -2451,10 +2436,10 @@
     "name": "CANO&OBJETO"
   },
   {
-    "name": "CANSADO(-)"
+    "name": "CANSADO(+)"
   },
   {
-    "name": "CANSADO(+)"
+    "name": "CANSADO(-)"
   },
   {
     "name": "CÂNTICO_DOS_CÂNTICOS"
@@ -2568,10 +2553,10 @@
     "name": "CARNE&SEXUAL"
   },
   {
-    "name": "CARO(-)"
+    "name": "CARO(+)"
   },
   {
-    "name": "CARO(+)"
+    "name": "CARO(-)"
   },
   {
     "name": "CARPINA&CIDADE"
@@ -2761,9 +2746,6 @@
   },
   {
     "name": "CD_ROM_VIRGEM"
-  },
-  {
-    "name": "CE"
   },
   {
     "name": "CEADA"
@@ -2985,10 +2967,10 @@
     "name": "CHOQUE_ANAFILÁTICO"
   },
   {
-    "name": "CHORAR(-)"
+    "name": "CHORAR(+)"
   },
   {
-    "name": "CHORAR(+)"
+    "name": "CHORAR(-)"
   },
   {
     "name": "CHUPAR&EMAGRECER"
@@ -3009,10 +2991,10 @@
     "name": "CHUTEIRA"
   },
   {
-    "name": "CHUVA(-)"
+    "name": "CHUVA(+)"
   },
   {
-    "name": "CHUVA(+)"
+    "name": "CHUVA(-)"
   },
   {
     "name": "CIBERNÉTICO"
@@ -3288,10 +3270,10 @@
     "name": "COMBINAR&HARMONIZAR"
   },
   {
-    "name": "COMER(-)"
+    "name": "COMER(+)"
   },
   {
-    "name": "COMER(+)"
+    "name": "COMER(-)"
   },
   {
     "name": "COMERCIAL&TELEVISÃO"
@@ -3348,10 +3330,10 @@
     "name": "COMPENSAR&CORRIGIR"
   },
   {
-    "name": "COMPLICADO(-)"
+    "name": "COMPLICADO(+)"
   },
   {
-    "name": "COMPLICADO(+)"
+    "name": "COMPLICADO(-)"
   },
   {
     "name": "COMPOR"
@@ -4569,9 +4551,6 @@
     "name": "DEZOITO"
   },
   {
-    "name": "DF"
-  },
-  {
     "name": "DIABETES"
   },
   {
@@ -4677,10 +4656,10 @@
     "name": "DIFAMAR"
   },
   {
-    "name": "DIFÍCIL(-)"
+    "name": "DIFÍCIL(+)"
   },
   {
-    "name": "DIFÍCIL(+)"
+    "name": "DIFÍCIL(-)"
   },
   {
     "name": "DIFUNDIR"
@@ -4863,10 +4842,10 @@
     "name": "DOC"
   },
   {
-    "name": "DOCE(-)"
+    "name": "DOCE(+)"
   },
   {
-    "name": "DOCE(+)"
+    "name": "DOCE(-)"
   },
   {
     "name": "DOCE_DE_LEITE"
@@ -4950,10 +4929,10 @@
     "name": "DOPPLER"
   },
   {
-    "name": "DOR(-)"
+    "name": "DOR(+)"
   },
   {
-    "name": "DOR(+)"
+    "name": "DOR(-)"
   },
   {
     "name": "DOR&ARTICULAÇÃO"
@@ -4980,10 +4959,10 @@
     "name": "DORMENTES&CIDADE"
   },
   {
-    "name": "DORMIR(-)"
+    "name": "DORMIR(+)"
   },
   {
-    "name": "DORMIR(+)"
+    "name": "DORMIR(-)"
   },
   {
     "name": "DOR&NUCA"
@@ -5082,10 +5061,10 @@
     "name": "EFETIVO"
   },
   {
-    "name": "EFICAZ(-)"
+    "name": "EFICAZ(+)"
   },
   {
-    "name": "EFICAZ(+)"
+    "name": "EFICAZ(-)"
   },
   {
     "name": "EGITO&PAÍS"
@@ -5151,10 +5130,10 @@
     "name": "EMBALAR"
   },
   {
-    "name": "EMBARAÇOSO(-)"
+    "name": "EMBARAÇOSO(+)"
   },
   {
-    "name": "EMBARAÇOSO(+)"
+    "name": "EMBARAÇOSO(-)"
   },
   {
     "name": "EMBARCAR"
@@ -5193,10 +5172,10 @@
     "name": "EMIRADOS_ÁRABES&PAÍS"
   },
   {
-    "name": "EMOCIONADO(-)"
+    "name": "EMOCIONADO(+)"
   },
   {
-    "name": "EMOCIONADO(+)"
+    "name": "EMOCIONADO(-)"
   },
   {
     "name": "EMPINAR&PIPA"
@@ -5325,10 +5304,10 @@
     "name": "ENTRAR&VIGOR"
   },
   {
-    "name": "ENVERGONHADO(-)"
+    "name": "ENVERGONHADO(+)"
   },
   {
-    "name": "ENVERGONHADO(+)"
+    "name": "ENVERGONHADO(-)"
   },
   {
     "name": "ENVIAMOS"
@@ -5398,9 +5377,6 @@
   },
   {
     "name": "ERVA_MATE"
-  },
-  {
-    "name": "ES"
   },
   {
     "name": "ESCADA&CARACOL"
@@ -5475,10 +5451,10 @@
     "name": "ESCRITURA_DE_IMÓVEL"
   },
   {
-    "name": "ESFORÇAR(-)"
+    "name": "ESFORÇAR(+)"
   },
   {
-    "name": "ESFORÇAR(+)"
+    "name": "ESFORÇAR(-)"
   },
   {
     "name": "ESFORÇO_CONCENTRADO_NO_CONGRESSO"
@@ -5508,10 +5484,10 @@
     "name": "ESPANHA&PAÍS"
   },
   {
-    "name": "ESPERTO(-)"
+    "name": "ESPERTO(+)"
   },
   {
-    "name": "ESPERTO(+)"
+    "name": "ESPERTO(-)"
   },
   {
     "name": "ESPINHA&DORSAL"
@@ -5646,10 +5622,10 @@
     "name": "ESTRELA&MAR"
   },
   {
-    "name": "ESTUDIOSO(-)"
+    "name": "ESTUDIOSO(+)"
   },
   {
-    "name": "ESTUDIOSO(+)"
+    "name": "ESTUDIOSO(-)"
   },
   {
     "name": "ESTUDOS_SOCIAIS"
@@ -5763,10 +5739,10 @@
     "name": "EXTRATO&BANCÁRIO"
   },
   {
-    "name": "FÁCIL(-)"
+    "name": "FÁCIL(+)"
   },
   {
-    "name": "FÁCIL(+)"
+    "name": "FÁCIL(-)"
   },
   {
     "name": "FACÍLIMO"
@@ -5787,10 +5763,10 @@
     "name": "FAIXA&RUA"
   },
   {
-    "name": "FALAR(-)"
+    "name": "FALAR(+)"
   },
   {
-    "name": "FALAR(+)"
+    "name": "FALAR(-)"
   },
   {
     "name": "FALAR&BESTEIRA"
@@ -5961,10 +5937,10 @@
     "name": "FECHAR&TORNEIRA"
   },
   {
-    "name": "FEIO(-)"
+    "name": "FEIO(+)"
   },
   {
-    "name": "FEIO(+)"
+    "name": "FEIO(-)"
   },
   {
     "name": "FEIRA_DE_LIVRO"
@@ -5973,10 +5949,10 @@
     "name": "FEIRA_DE_SANTANA&CIDADE"
   },
   {
-    "name": "FELIZ(-)"
+    "name": "FELIZ(+)"
   },
   {
-    "name": "FELIZ(+)"
+    "name": "FELIZ(-)"
   },
   {
     "name": "FÊMIA"
@@ -6144,10 +6120,10 @@
     "name": "FOLHA&PAPEL"
   },
   {
-    "name": "FOME(-)"
+    "name": "FOME(+)"
   },
   {
-    "name": "FOME(+)"
+    "name": "FOME(-)"
   },
   {
     "name": "FONTE&ÁGUA"
@@ -6237,10 +6213,10 @@
     "name": "FOSSA_NASAL"
   },
   {
-    "name": "FRACO(-)"
+    "name": "FRACO(+)"
   },
   {
-    "name": "FRACO(+)"
+    "name": "FRACO(-)"
   },
   {
     "name": "FRÁGIL"
@@ -6270,10 +6246,10 @@
     "name": "FRIGIDO(+)"
   },
   {
-    "name": "FRIO(-)"
+    "name": "FRIO(+)"
   },
   {
-    "name": "FRIO(+)"
+    "name": "FRIO(-)"
   },
   {
     "name": "FRIZAR"
@@ -6339,9 +6315,6 @@
     "name": "GNT"
   },
   {
-    "name": "GO"
-  },
-  {
     "name": "GOIANA&CIDADE"
   },
   {
@@ -6372,16 +6345,16 @@
     "name": "GOMA&MASCAR"
   },
   {
-    "name": "GORDO(-)"
-  },
-  {
     "name": "GORDO(+)"
   },
   {
-    "name": "GOSTAR(-)"
+    "name": "GORDO(-)"
   },
   {
     "name": "GOSTAR(+)"
+  },
+  {
+    "name": "GOSTAR(-)"
   },
   {
     "name": "GOVERNISTA"
@@ -6420,10 +6393,10 @@
     "name": "GRÁFICO&COMPUTAÇÃO"
   },
   {
-    "name": "GRANDE(-)"
+    "name": "GRANDE(+)"
   },
   {
-    "name": "GRANDE(+)"
+    "name": "GRANDE(-)"
   },
   {
     "name": "GRAU&ÂNGULO"
@@ -6591,10 +6564,10 @@
     "name": "HUMBERTO_ALENCAR_CASTELO_BRANCO&FAMOSO"
   },
   {
-    "name": "HUMILDE(-)"
+    "name": "HUMILDE(+)"
   },
   {
-    "name": "HUMILDE(+)"
+    "name": "HUMILDE(-)"
   },
   {
     "name": "HUMILHANTE"
@@ -6867,10 +6840,10 @@
     "name": "INTER"
   },
   {
-    "name": "INTERATIVO_(TROCA)"
+    "name": "INTERATIVO&TROCA"
   },
   {
-    "name": "INTERATIVO&TROCA"
+    "name": "INTERATIVO_(TROCA)"
   },
   {
     "name": "INTERIOR&CIDADE"
@@ -7449,10 +7422,10 @@
     "name": "LEPTOSPIROSE"
   },
   {
-    "name": "LER(-)"
+    "name": "LER(+)"
   },
   {
-    "name": "LER(+)"
+    "name": "LER(-)"
   },
   {
     "name": "LETÔNIA"
@@ -7590,10 +7563,10 @@
     "name": "LIMPAR&INFORMÁTICA"
   },
   {
-    "name": "LINDO(-)"
+    "name": "LINDO(+)"
   },
   {
-    "name": "LINDO(+)"
+    "name": "LINDO(-)"
   },
   {
     "name": "LINGUAGEM_DE_PROGRAMAÇÃO"
@@ -7716,10 +7689,10 @@
     "name": "LONGA"
   },
   {
-    "name": "LONGE(-)"
+    "name": "LONGE(+)"
   },
   {
-    "name": "LONGE(+)"
+    "name": "LONGE(-)"
   },
   {
     "name": "LONGO&COMPRIMENTO"
@@ -7786,9 +7759,6 @@
   },
   {
     "name": "LUXEMBURGO&CIDADE"
-  },
-  {
-    "name": "MA"
   },
   {
     "name": "MACA"
@@ -7875,16 +7845,16 @@
     "name": "MAGISTÉRIO"
   },
   {
-    "name": "MAGRO(-)"
-  },
-  {
     "name": "MAGRO(+)"
   },
   {
-    "name": "MAIORIDADE"
+    "name": "MAGRO(-)"
   },
   {
     "name": "MAIOR&IDADE"
+  },
+  {
+    "name": "MAIORIDADE"
   },
   {
     "name": "MAIOR&MATEMÁTICA"
@@ -7914,10 +7884,10 @@
     "name": "MAIS&SOMAR"
   },
   {
-    "name": "MAL(-)"
+    "name": "MAL(+)"
   },
   {
-    "name": "MAL(+)"
+    "name": "MAL(-)"
   },
   {
     "name": "MALÁSIA&PAÍS"
@@ -8286,10 +8256,10 @@
     "name": "MEDIR&TEMPERATURA"
   },
   {
-    "name": "MEDO(-)"
+    "name": "MEDO(+)"
   },
   {
-    "name": "MEDO(+)"
+    "name": "MEDO(-)"
   },
   {
     "name": "MEDONHO"
@@ -8319,10 +8289,10 @@
     "name": "MEIO_DE_TRANSPORTE"
   },
   {
-    "name": "MEIO_DIA"
+    "name": "MEIO&DIA"
   },
   {
-    "name": "MEIO&DIA"
+    "name": "MEIO_DIA"
   },
   {
     "name": "MEIO&METADE"
@@ -8439,10 +8409,10 @@
     "name": "METICULOSO"
   },
   {
-    "name": "METIDO(-)"
+    "name": "METIDO(+)"
   },
   {
-    "name": "METIDO(+)"
+    "name": "METIDO(-)"
   },
   {
     "name": "MÉTODO"
@@ -8461,9 +8431,6 @@
   },
   {
     "name": "MÉXICO&PAÍS"
-  },
-  {
-    "name": "MG"
   },
   {
     "name": "MICHELLE_BOLSONARO&FAMOSO"
@@ -8772,12 +8739,6 @@
     "name": "MOVIMENTAÇÃO"
   },
   {
-    "name": "MS"
-  },
-  {
-    "name": "MT"
-  },
-  {
     "name": "MUÇULMANO"
   },
   {
@@ -9039,10 +9000,10 @@
     "name": "NERVO"
   },
   {
-    "name": "NERVOSO(-)"
+    "name": "NERVOSO(+)"
   },
   {
-    "name": "NERVOSO(+)"
+    "name": "NERVOSO(-)"
   },
   {
     "name": "NESTLÉ&EMPRESA"
@@ -9261,10 +9222,10 @@
     "name": "OCA"
   },
   {
-    "name": "OCUPADO(-)"
+    "name": "OCUPADO(+)"
   },
   {
-    "name": "OCUPADO(+)"
+    "name": "OCUPADO(-)"
   },
   {
     "name": "OFEGANTE"
@@ -9451,9 +9412,6 @@
   },
   {
     "name": "ÓXIDO_ÁCIDO"
-  },
-  {
-    "name": "PA"
   },
   {
     "name": "PACIENTE&CALMO"
@@ -9660,12 +9618,6 @@
     "name": "PAULO_GUEDES&FAMOSO"
   },
   {
-    "name": "PB"
-  },
-  {
-    "name": "PE"
-  },
-  {
     "name": "PEÇA"
   },
   {
@@ -9720,10 +9672,10 @@
     "name": "PENTACAMPEÃO"
   },
   {
-    "name": "PEQUENO(-)"
+    "name": "PEQUENO(+)"
   },
   {
-    "name": "PEQUENO(+)"
+    "name": "PEQUENO(-)"
   },
   {
     "name": "PEQUIM&CIDADE"
@@ -9741,10 +9693,10 @@
     "name": "PERÍCIA"
   },
   {
-    "name": "PERIGOSO(-)"
+    "name": "PERIGOSO(+)"
   },
   {
-    "name": "PERIGOSO(+)"
+    "name": "PERIGOSO(-)"
   },
   {
     "name": "PERÍODO&QUÍMICA"
@@ -9817,9 +9769,6 @@
   },
   {
     "name": "PETECA"
-  },
-  {
-    "name": "PI"
   },
   {
     "name": "PIA_DE_BANHEIRO"
@@ -10093,9 +10042,6 @@
   },
   {
     "name": "POTENTE"
-  },
-  {
-    "name": "PR"
   },
   {
     "name": "PRA_MIM"
@@ -10482,10 +10428,10 @@
     "name": "QUEDA_DÁGUA"
   },
   {
-    "name": "QUENTE(-)"
+    "name": "QUENTE(+)"
   },
   {
-    "name": "QUENTE(+)"
+    "name": "QUENTE(-)"
   },
   {
     "name": "QUESTÃO_DE_GÊNERO"
@@ -10533,10 +10479,10 @@
     "name": "RAMO&GALHO"
   },
   {
-    "name": "RÁPIDO(-)"
+    "name": "RÁPIDO(+)"
   },
   {
-    "name": "RÁPIDO(+)"
+    "name": "RÁPIDO(-)"
   },
   {
     "name": "RAPOSA"
@@ -10596,10 +10542,10 @@
     "name": "RECADO&ESCRITO"
   },
   {
-    "name": "RECADO_(VERBAL)"
+    "name": "RECADO&VERBAL"
   },
   {
-    "name": "RECADO&VERBAL"
+    "name": "RECADO_(VERBAL)"
   },
   {
     "name": "RECEBER&EMAIL"
@@ -10860,15 +10806,6 @@
     "name": "RIVAL&INIMIGO"
   },
   {
-    "name": "RJ"
-  },
-  {
-    "name": "RN"
-  },
-  {
-    "name": "RO"
-  },
-  {
     "name": "ROBERTO_CAMPOS_NETO&FAMOSO"
   },
   {
@@ -10906,12 +10843,6 @@
   },
   {
     "name": "ROSA&FLOR"
-  },
-  {
-    "name": "RR"
-  },
-  {
-    "name": "RS"
   },
   {
     "name": "RUIM(+)"
@@ -11035,9 +10966,6 @@
   },
   {
     "name": "SARS"
-  },
-  {
-    "name": "SC"
   },
   {
     "name": "SE"
@@ -11196,10 +11124,10 @@
     "name": "SEU_SINAL"
   },
   {
-    "name": "SEVERO(-)"
+    "name": "SEVERO(+)"
   },
   {
-    "name": "SEVERO(+)"
+    "name": "SEVERO(-)"
   },
   {
     "name": "SHALOM_COMUNIDADE"
@@ -11208,10 +11136,10 @@
     "name": "SILÊNCIO_EXPRESSÃO"
   },
   {
-    "name": "SIMPÁTICO(-)"
+    "name": "SIMPÁTICO(+)"
   },
   {
-    "name": "SIMPÁTICO(+)"
+    "name": "SIMPÁTICO(-)"
   },
   {
     "name": "SIMPLES&FÁCIL"
@@ -11307,10 +11235,10 @@
     "name": "SOLUÇÃO&QUÍMICA"
   },
   {
-    "name": "SONHAR(-)"
+    "name": "SONHAR(+)"
   },
   {
-    "name": "SONHAR(+)"
+    "name": "SONHAR(-)"
   },
   {
     "name": "SONO(+)"
@@ -11322,16 +11250,13 @@
     "name": "SORRATEIRO"
   },
   {
-    "name": "SORTUDO(-)"
-  },
-  {
     "name": "SORTUDO(+)"
   },
   {
-    "name": "SÓ&SOZINHO"
+    "name": "SORTUDO(-)"
   },
   {
-    "name": "SP"
+    "name": "SÓ&SOZINHO"
   },
   {
     "name": "SUA_IDADE"
@@ -11367,10 +11292,10 @@
     "name": "SUÍÇA&PAÍS"
   },
   {
-    "name": "SUJO(-)"
+    "name": "SUJO(+)"
   },
   {
-    "name": "SUJO(+)"
+    "name": "SUJO(-)"
   },
   {
     "name": "SUL&REGIÃO"
@@ -11436,10 +11361,10 @@
     "name": "TELEFONE_PARA_SURDOS"
   },
   {
-    "name": "TEMPO(-)"
+    "name": "TEMPO(+)"
   },
   {
-    "name": "TEMPO(+)"
+    "name": "TEMPO(-)"
   },
   {
     "name": "TEMPO&ÉPOCA"
@@ -11544,10 +11469,10 @@
     "name": "TÉTIS"
   },
   {
-    "name": "TÍMIDO(-)"
+    "name": "TÍMIDO(+)"
   },
   {
-    "name": "TÍMIDO(+)"
+    "name": "TÍMIDO(-)"
   },
   {
     "name": "TÍNEA"
@@ -11575,9 +11500,6 @@
   },
   {
     "name": "TÍTULO&TEXTO"
-  },
-  {
-    "name": "TO"
   },
   {
     "name": "TOALHA_DE_ROSTO"
@@ -11688,10 +11610,10 @@
     "name": "TRABALHADOR"
   },
   {
-    "name": "TRABALHAR(-)"
+    "name": "TRABALHAR(+)"
   },
   {
-    "name": "TRABALHAR(+)"
+    "name": "TRABALHAR(-)"
   },
   {
     "name": "TRÁGICO"
@@ -11736,10 +11658,10 @@
     "name": "TRANSMITIR&PROPAGAR"
   },
   {
-    "name": "TRANSPIRAR(-)"
+    "name": "TRANSPIRAR(+)"
   },
   {
-    "name": "TRANSPIRAR(+)"
+    "name": "TRANSPIRAR(-)"
   },
   {
     "name": "TRAQUINA"
@@ -11769,10 +11691,10 @@
     "name": "TRIBUNAL_DE_CONTAS_DA_UNIÃO"
   },
   {
-    "name": "TRISTE(-)"
+    "name": "TRISTE(+)"
   },
   {
-    "name": "TRISTE(+)"
+    "name": "TRISTE(-)"
   },
   {
     "name": "TRONCO&ÁRVORE"
@@ -11877,10 +11799,10 @@
     "name": "VELA&LUZ"
   },
   {
-    "name": "VELHO(-)"
+    "name": "VELHO(+)"
   },
   {
-    "name": "VELHO(+)"
+    "name": "VELHO(-)"
   },
   {
     "name": "VENDA_A_ATACADO"
@@ -11898,10 +11820,10 @@
     "name": "VENHA"
   },
   {
-    "name": "VENTAR(-)"
+    "name": "VENTAR(+)"
   },
   {
-    "name": "VENTAR(+)"
+    "name": "VENTAR(-)"
   },
   {
     "name": "VERBA_DE_GABINETE"
@@ -11910,10 +11832,10 @@
     "name": "VERBA_DE_REPRESENTAÇÃO"
   },
   {
-    "name": "VERGONHA(-)"
+    "name": "VERGONHA(+)"
   },
   {
-    "name": "VERGONHA(+)"
+    "name": "VERGONHA(-)"
   },
   {
     "name": "VERSÁTIL"
@@ -12072,10 +11994,10 @@
     "name": "XEROCAR(+)"
   },
   {
-    "name": "ZANGADO(-)"
+    "name": "ZANGADO(+)"
   },
   {
-    "name": "ZANGADO(+)"
+    "name": "ZANGADO(-)"
   },
   {
     "name": "ZERO_A_ZERO"
