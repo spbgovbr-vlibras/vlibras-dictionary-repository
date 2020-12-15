@@ -20,6 +20,10 @@ export async function up(queryInterface, Sequelize) {
     nationality: {
       type: Sequelize.STRING,
     },
+    patch: {
+      allowNull: false,
+      type: Sequelize.STRING,
+    },
     createdAt: {
       allowNull: false,
       type: Sequelize.DATE,

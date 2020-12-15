@@ -33,6 +33,10 @@ export default (sequelize, DataTypes) => {
     nationality: {
       type: DataTypes.STRING,
     },
+    patch: {
+      allowNull: false,
+      type: DataTypes.STRING,
+    },
   }, {
     hooks: {
       beforeCreate: (instance) => {
