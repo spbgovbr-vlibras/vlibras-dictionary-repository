@@ -65,11 +65,10 @@ export default class FileService {
     }
   }
 
-  static async removeSignFiles(sign, version, platform, region = 'BR', permanent = false) {
-    // try {
+  static async removeSignFiles(sign, version = '2018.3.1', region = 'BR', permanent = false) {
     return null;
+    // try {
     // } catch (removeSignFilesError) {
-    //   console.error(removeSignFilesError);
     //   throw new Error('an unexpected error occurred while removing sign files');
     // }
   }
