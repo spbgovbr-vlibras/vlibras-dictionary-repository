@@ -17,7 +17,14 @@ export default class SignService {
       ]); // do not change the sequence
 
       // TODO: include sign metadata when create
-      const [sign] = await models.Sign.findCreateFind({ where: { name: signName } });
+      const [sign] = await models.Sign.findCreateFind({
+        where: { name: signName, patch: '201831' },
+        paranoid: false,
+      });
+
+      if (sign.dataValues.deletedAt !== null) {
+        await sign.restore();
+      }
 
       await Promise.all([
         sign.addVersion(version),
