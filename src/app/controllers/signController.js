@@ -23,6 +23,7 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
         req.body.version,
         req.files.wikilibras[0].fieldname,
         req.body.region,
+        true, // overwrite
       );
 
       return res.status(201).json({ name, createdAt });
@@ -55,6 +56,7 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
         req.body.version,
         file[0].fieldname,
         req.body.region,
+        true, // overwrite
       );
     }));
 
