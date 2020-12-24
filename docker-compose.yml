@@ -4,7 +4,7 @@ version: '2'
 services:
   vlibras-dictionary-api:
     build: .
-    image: vlibras_dictionary/repository:1.0.2
+    image: vlibras_dictionary/repository:2.0.0
     ports:
       - "8080:8080"
     networks:

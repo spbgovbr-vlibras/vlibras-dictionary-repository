@@ -1,7 +1,7 @@
 {
   "name": "vlibras-dictionary-repository",
   "description": "A simple repository to serve bundles",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "private": true,
   "contributors": [
     "Wesnydy Ribeiro <wesnydy@lavid.ufpb.br>"
