@@ -1,3 +1,5 @@
+const util = require('util');
+
 import path from 'path';
 import createError from 'http-errors';
 
@@ -6,6 +8,7 @@ import FileService from '../../services/FileService';
 
 // TODO: remove files if any step fails
 const addNewSign = async function addNewSignToDictionary(req, res, next) {
+  console.log("addNewSign", (util.inspect(__filename, false, null, true)));
   try {
     if (Object.keys(req.files).length === 1) {
       const signExtension = path.extname(req.files.wikilibras[0].originalname);
@@ -17,6 +20,11 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
         signExtension,
         req.body.region,
       );
+      console.log("name", (util.inspect(name, false, null, true)));
+      console.log("createdAt", (util.inspect(createdAt, false, null, true)));
+      // console.log("req", (util.inspect(req, false, null, true)));
+      // console.log("req", (util.inspect(res, false, null, true)));
+
       // TODO: remove sign registers if file publish fails
       await FileService.publishSignFile(
         req.files.wikilibras[0].path,
@@ -69,12 +77,14 @@ const addNewSign = async function addNewSignToDictionary(req, res, next) {
 
 const getSign = async function getSignFromDictionary(req, res, next) {
   try {
+    console.log("getSign", (util.inspect(__filename, false, null, true)));
     const sign = await SignService.getRegisteredSign(
       req.params.sign,
       req.params.version,
       req.params.platform,
       req.params.region,
     );
+    console.log("sign", (util.inspect(sign, false, null, true)));
 
     if (sign === null) {
       return next(createError(404, 'sign not found in dictionary registry'));
@@ -86,6 +96,7 @@ const getSign = async function getSignFromDictionary(req, res, next) {
       req.params.platform,
       req.params.region,
     );
+    console.log("signFile", (util.inspect(signFile, false, null, true)));
 
     if (signFile === null) {
       return next(createError(404, 'sign file not found in dictionary storage'));
@@ -93,6 +104,7 @@ const getSign = async function getSignFromDictionary(req, res, next) {
 
     return res.status(200).sendFile(signFile);
   } catch (getSignError) {
+    console.log("getSignError", (util.inspect(getSignError, false, null, true)));
     return next(getSignError);
   }
 };
@@ -100,6 +112,7 @@ const getSign = async function getSignFromDictionary(req, res, next) {
 const listSigns = async function listDictionarySigns(req, res, next) {
   try {
     const signList = await SignService.listRegisteredSigns(req.query.version);
+    console.log("signList", (util.inspect(signList, false, null, true)));
     return res.status(200).json(signList);
   } catch (listSignsError) {
     return next(listSignsError);

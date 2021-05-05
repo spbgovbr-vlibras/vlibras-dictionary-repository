@@ -1,3 +1,4 @@
+const util = require('util');
 import path from 'path';
 import fse from 'fs-extra';
 
@@ -8,6 +9,12 @@ import sanitizer from '../util/sanitizer';
 export default class FileService {
   static async publishSignFile(filePath, version, platform, region = 'BR', overwrite = false) {
     try {
+      console.log("FileService::publishSignFile", (util.inspect(__filename, false, null, true)));
+      console.log("filePath", (util.inspect(filePath, false, null, true)));
+      console.log("version", (util.inspect(version, false, null, true)));
+      console.log("platform", (util.inspect(platform, false, null, true)));
+      console.log("region", (util.inspect(region, false, null, true)));
+      console.log("overwrite", (util.inspect(overwrite, false, null, true)));
       if (
         sanitizer.toUpperCase(platform) === constants.PLATFORMS.WIKILIBRAS
         && !(
@@ -54,12 +61,14 @@ export default class FileService {
       );
 
       const fileExists = await fse.pathExists(filePath);
+      console.log("fileExists", (util.inspect(fileExists, false, null, true)));
       if (fileExists) {
         return filePath;
       }
 
       return null;
     } catch (retriveSignFileError) {
+      console.log("retriveSignFileError", (util.inspect(retriveSignFileError, false, null, true)));
       console.error(retriveSignFileError);
       throw new Error('an unexpected error occurred while retrieving sign file');
     }

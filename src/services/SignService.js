@@ -1,3 +1,4 @@
+const util = require('util');
 import path from 'path';
 import { Op } from 'sequelize';
 
@@ -7,6 +8,8 @@ import constants from '../util/constants';
 export default class SignService {
   static async registerNewSignBundle(signName, signVersion, signRegion = 'BR') {
     try {
+      console.log("registerNewSignBundle", (util.inspect(__filename, false, null, true)));
+
       const [version, platforms, region, format] = await Promise.all([
         models.Version.findOne({ where: { version: signVersion } }),
         models.Platform.findAll({
@@ -15,6 +18,11 @@ export default class SignService {
         models.Region.findOne({ where: { region: signRegion } }),
         models.Format.findOne({ where: { format: constants.FORMATS.BUNDLE } }),
       ]); // do not change the sequence
+
+      console.log("version", (util.inspect(version, false, null, true)));
+      console.log("platforms", (util.inspect(platforms, false, null, true)));
+      console.log("region", (util.inspect(region, false, null, true)));
+      console.log("format", (util.inspect(format, false, null, true)));
 
       // TODO: include sign metadata when create
       const [sign] = await models.Sign.findCreateFind({
@@ -44,6 +52,7 @@ export default class SignService {
 
   static async registerNewSignSource(signName, signVersion, signExtension, signRegion = 'BR') {
     try {
+      console.log("registerNewSignSource", (util.inspect(__filename, false, null, true)));
       const sign = await models.Sign.findOne({
         where: {
           name: signName,
@@ -57,6 +66,8 @@ export default class SignService {
           { model: models.Format, attributes: ['extension'] },
         ],
       });
+
+      console.log("sign", (util.inspect(sign, false, null, true)));
 
       if (sign === null) {
         throw new Error('no sign record in the database to associate the sign source');
@@ -118,17 +129,22 @@ export default class SignService {
 
   static async listRegisteredSigns(signsVersion = '2018.3.1') {
     try {
+      console.log("listRegisteredSigns", (util.inspect(__filename, false, null, true)));
+      console.log("signsVersion", (util.inspect(signsVersion, false, null, true)));
       const rows = await models.Sign.findAll({
         attributes: ['name'],
         where: { '$Versions.version$': signsVersion },
         include: [{ model: models.Version, as: 'Versions' }],
         order: [['id', 'ASC']],
       });
+      // console.log("rows", (util.inspect(rows, false, null, true)));
 
       const signs = rows.map((row) => row.get({ plain: true }).name);
+      // console.log("signs", (util.inspect(signs, false, null, true)));
 
       return signs;
     } catch (listRegisteredSignsError) {
+      // console.log("listRegisteredSignsError", (util.inspect(listRegisteredSignsError, false, null, true)));
       console.error(listRegisteredSignsError); // TODO: change to logger
       throw new Error('an unexpected error occurred while fetching the sign list');
     }
@@ -137,8 +153,10 @@ export default class SignService {
   static async deleteSignRegister(signName) {
     try {
       const deletedCount = await models.Sign.destroy({ where: { name: signName } });
+      console.log("deletedCount", (util.inspect(deletedCount, false, null, true)));
       return deletedCount;
     } catch (deleteSignRegisterError) {
+      console.log("deleteSignRegisterError", (util.inspect(deleteSignRegisterError, false, null, true)));
       console.error(deleteSignRegisterError); // TODO: change to logger
       throw new Error('an unexpected error occurred while deleting sign record');
     }
